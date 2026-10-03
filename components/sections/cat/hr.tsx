@@ -8,5 +8,6 @@ import { DEFS as HR_B2 } from "../hr-b2";
 import { DEFS as HR_B3 } from "../hr-b3";
 import { DEFS as HR_B4 } from "../hr-b4";
 import { DEFS as HR_B5 } from "../hr-b5";
+import { DEFS as HR_B6 } from "../hr-b6";
 
-export const DEFS: SectionDef[] = ([...HERO, ...HR_B1, ...HR_B2, ...HR_B3, ...HR_B4, ...HR_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...HERO, ...HR_B1, ...HR_B2, ...HR_B3, ...HR_B4, ...HR_B5, ...HR_B6] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

@@ -43,6 +43,7 @@ const PAGES: Record<string, ComponentType> = {
   b3: dynamic(() => import("@/components/sections/cat/b3").then((m) => function L() { return <LabShell slug="b3" defs={m.DEFS} />; })),
   b4: dynamic(() => import("@/components/sections/cat/b4").then((m) => function L() { return <LabShell slug="b4" defs={m.DEFS} />; })),
   b5: dynamic(() => import("@/components/sections/cat/b5").then((m) => function L() { return <LabShell slug="b5" defs={m.DEFS} />; })),
+  b6: dynamic(() => import("@/components/sections/cat/b6").then((m) => function L() { return <LabShell slug="b6" defs={m.DEFS} />; })),
 };
 
 export default function CategoryLab({ slug }: { slug: string }) {

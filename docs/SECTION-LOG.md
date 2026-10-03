@@ -4,37 +4,37 @@ Every layout in `docs/SECTION-MENU.md`, where its idea came from, and every cand
 Source of truth: `docs/section-log.json` → `node scripts/section-log.mjs` writes this file and `docs/section-log.csv`.
 No code was copied from any source; "inspired" = layout idea rebuilt from scratch (see `docs/SOURCES.md` for licences).
 
-**340 layouts · 1003 skipped**
+**390 layouts · 1003 skipped**
 
 | Category | Layouts |
 |---|---|
-| Hero | 38 |
-| Gallery | 26 |
-| Features | 23 |
-| Navbar / menu | 22 |
-| Product showcase | 20 |
-| Social proof | 18 |
-| Story / about | 14 |
-| Stats / ingredients | 13 |
-| Footer | 13 |
-| Pricing / shop | 12 |
-| Bento | 11 |
-| FAQ | 11 |
-| CTA band | 11 |
-| Journal / blog | 11 |
-| Team | 10 |
-| Video feature | 10 |
-| Contact | 10 |
-| Logos / press | 9 |
-| Locations / map | 9 |
-| Booking / reservation | 7 |
-| Process / steps | 6 |
-| Menu / price list | 6 |
-| Events / schedule | 6 |
+| Hero | 43 |
+| Gallery | 31 |
+| Features | 26 |
+| Navbar / menu | 26 |
+| Product showcase | 22 |
+| Social proof | 21 |
+| Story / about | 16 |
+| Stats / ingredients | 15 |
+| Footer | 15 |
+| Pricing / shop | 13 |
+| Journal / blog | 13 |
+| Bento | 12 |
+| FAQ | 12 |
+| CTA band | 12 |
+| Team | 12 |
+| Video feature | 12 |
+| Contact | 12 |
+| Locations / map | 11 |
+| Logos / press | 10 |
+| Process / steps | 8 |
+| Booking / reservation | 8 |
+| Menu / price list | 7 |
+| Events / schedule | 7 |
+| App download | 6 |
 | Newsletter | 5 |
-| App download | 5 |
+| Listings / rooms / property | 5 |
 | Comparison / before-after | 4 |
-| Listings / rooms / property | 4 |
 | Announcement / promo bar | 3 |
 | Poll / vote | 1 |
 | Error / 404 | 1 |
@@ -48,6 +48,7 @@ No code was copied from any source; "inspired" = layout idea rebuilt from scratc
 | 3 | 50 |
 | 4 | 50 |
 | 5 | 50 |
+| 6 | 50 |
 
 ## Layouts
 
@@ -393,6 +394,56 @@ No code was copied from any source; "inspired" = layout idea rebuilt from scratc
 | CT10 | CTA band | Four action tiles on a band | Awwwards (Délice) | [link](https://delice.ca/en/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 5 | 2026-10-04 |
 | CT11 | CTA band | Dark CTA card with cropped corner globe | Aceternity UI | [link](https://ui.aceternity.com/components/3d-globe) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 5 | 2026-10-04 |
 | FO13 | Footer | Hairline grid footer with ticket card | 21st.dev | [link](https://21st.dev/@kedhareswer/components/ticket-stub-footer.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 5 | 2026-10-04 |
+| NV23 | Navbar / menu | Menu row to content grid | Codrops (MenuToGrid) | [link](https://github.com/codrops/MenuToGrid) | inspired, no code copied (source: MIT © 2009-2021 Codrops) | 6 | 2026-10-04 |
+| NV24 | Navbar / menu | Curved side drawer menu | 21st.dev | [link](https://21st.dev/@ishamsu/components/curved-menu.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 6 | 2026-10-04 |
+| NV25 | Navbar / menu | Pill that expands into a menu panel | 21st.dev | [link](https://21st.dev/@aayush-duhan/components/liquid-morph-floating-menu.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 6 | 2026-10-04 |
+| NV26 | Navbar / menu | Floating segmented notch | Aceternity UI | [link](https://ui.aceternity.com/components/notch) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 6 | 2026-10-04 |
+| PD07 | Process / steps | Big-number ledger steps | Mamba UI | [link](https://raw.githubusercontent.com/Microwawe/mamba-ui/master/src/app/components/steps/steps1/steps1.component.html) | inspired, no code copied (source: MIT © 2020 Mamba UI) | 6 | 2026-10-04 |
+| PD08 | Process / steps | Vertical numbered step rail | 21st.dev | [link](https://21st.dev/@ln-dev7/components/how-it-works-02.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 6 | 2026-10-04 |
+| TM11 | Team | Horizontal profile cards (2-up) | Flowbite | [link](https://flowbite.com/blocks/marketing/team/#cards-2) | inspired, no code copied (source: MIT © 2023 Bergside Inc. — free blocks only) | 6 | 2026-10-04 |
+| TM12 | Team | Intro half + duo portraits | Meraki UI | [link](https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/teams/SideBySide.html) | inspired, no code copied (source: MIT © 2021 Khatab Wedaa) | 6 | 2026-10-04 |
+| LG10 | Logos / press | Labelled logo row with divider | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/logo-cloud/four.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 6 | 2026-10-04 |
+| MN07 | Menu / price list | Weekly specials + cook's note | Awwwards (Da Maria) | [link](https://damaria-roma.webflow.io/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| BK08 | Booking / reservation | Plan-your-stay enquiry beside a half image | Awwwards (Omai) | [link](https://omaivillas.com/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| LS05 | Listings / rooms / property | Seasonal rate table | Awwwards (Tengile Malamala) | [link](https://tengilemalamala.com/accommodation/tengile-river-lodge) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| MP10 | Locations / map | Terroir region map | Awwwards (Map, Klimt Wine) | [link](https://www.awwwards.com/inspiration/map-klimt-wine-product-website) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| MP11 | Locations / map | Location card that expands into a map | 21st.dev | [link](https://21st.dev/@dev.shejanmahamud/components/expanded-map/expanded-map-zoom.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 6 | 2026-10-04 |
+| EV07 | Events / schedule | Quarter columns roadmap | 21st.dev | [link](https://21st.dev/@olewandowski1/components/roadmap-4.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT-0) | 6 | 2026-10-04 |
+| VD11 | Video feature | Video index + lightbox player | Awwwards (Videos page and player, Matt Jinn) | [link](https://www.awwwards.com/elements/video/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| VD12 | Video feature | Video then feature grid | Meraki UI | [link](https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/features/Media.html) | inspired, no code copied (source: MIT © 2021 Khatab Wedaa) | 6 | 2026-10-04 |
+| AP06 | App download | Scan-to-get narrow QR card | shadcn/ui blocks | [link](https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/bases/radix/blocks/preview-02/cards/qr-connect.tsx) | inspired, no code copied (source: MIT © 2023 shadcn (inspired only, no code copied)) | 6 | 2026-10-04 |
+| JR12 | Journal / blog | Archive index table | Awwwards (Digital Archive, Sinedogma) | [link](https://www.awwwards.com/elements/blog/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| JR13 | Journal / blog | Long-read column with a tracing scroll beam | Aceternity UI | [link](https://ui.aceternity.com/components/tracing-beam) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 6 | 2026-10-04 |
+| CC11 | Contact | People grid with vCard overlay | Awwwards (Contact Page vCard Overlay, MOREMEDIA) | [link](https://www.awwwards.com/elements/contact/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| CC12 | Contact | Voice-note contact | Awwwards (Voice message contact form, Byotone) | [link](https://www.awwwards.com/elements/contact/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| HR39 | Hero | Form-in-hero with edge-bleeding photo | Preline UI | [link](https://preline.co/blocks/marketing/hero-forms/#split-hero-with-image-and-form) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 6 | 2026-10-04 |
+| HR40 | Hero | Filmstrip hero, focused card unfurls | 21st.dev | [link](https://21st.dev/@crafterui/components/hero-carousel.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 6 | 2026-10-04 |
+| HR41 | Hero | Search-bar hero over fading architecture | 21st.dev | [link](https://21st.dev/@felipemenezes098/components/hero-09.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 6 | 2026-10-04 |
+| HR42 | Hero | Full-screen crossfading slideshow | Aceternity UI | [link](https://ui.aceternity.com/components/images-slider) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 6 | 2026-10-04 |
+| HR43 | Hero | Small vignette image above a narrow title | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/hero-section/five.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 6 | 2026-10-04 |
+| FT24 | Features | Intro column + icon grid | Preline UI | [link](https://preline.co/blocks/marketing/icon-blocks/#feature-description-with-icon-grid) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 6 | 2026-10-04 |
+| FT25 | Features | Icon trio over a photo strip | Preline UI | [link](https://preline.co/blocks/marketing/feature-sections/#centered-feature-section-with-four-images-and-icon-blocks) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 6 | 2026-10-04 |
+| FT26 | Features | Portrait image + stacked icon rows | Preline UI | [link](https://preline.co/blocks/marketing/feature-sections/#feature-section-with-image-and-icon-blocks) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 6 | 2026-10-04 |
+| BN12 | Bento | Oversized canvas cropped by the viewport | shadcn/ui blocks | [link](https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/bases/radix/blocks/preview/index.tsx) | inspired, no code copied (source: MIT © 2023 shadcn (inspired only, no code copied)) | 6 | 2026-10-04 |
+| PS21 | Product showcase | Filter dropdown bar + product grid | HyperUI | [link](https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/product-collections/3.html) | inspired, no code copied (source: MIT © Mark Mead) | 6 | 2026-10-04 |
+| PS22 | Product showcase | Category tile wall (many small tiles) | Flowbite | [link](https://flowbite.com/blocks/e-commerce/product-categories/#default) | inspired, no code copied (source: MIT © 2023 Bergside Inc. — free blocks only) | 6 | 2026-10-04 |
+| ST14 | Stats / ingredients | Split headline + metric card grid | 21st.dev | [link](https://21st.dev/@shadcnstore/components/statistic-2.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 6 | 2026-10-04 |
+| ST15 | Stats / ingredients | Chip rails (network lines) | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/integrations/one.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 6 | 2026-10-04 |
+| SY15 | Story / about | Logo-led expandable history | Magic UI Portfolio template | [link](https://portfolio-magicui.vercel.app/) | inspired, no code copied (source: MIT, Copyright (c) 2024 Dillion Verma (magicuidesign/portfolio LICENSE)) | 6 | 2026-10-04 |
+| SY16 | Story / about | Vertical timeline with logo markers | Preline UI | [link](https://preline.co/blocks/data-display/timelines/#career-timeline-with-logo-markers) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 6 | 2026-10-04 |
+| GL27 | Gallery | Formation switcher gallery | 21st.dev | [link](https://21st.dev/@uicapsule/components/formation.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 6 | 2026-10-04 |
+| GL28 | Gallery | Helix column carousel | 21st.dev | [link](https://21st.dev/@crafterui/components/dither-helix-carousel.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 6 | 2026-10-04 |
+| GL29 | Gallery | Tabbed photo sets | Awwwards (Gallery, Tengile Malamala) | [link](https://tengilemalamala.com/accommodation/tengile-river-lodge) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| GL30 | Gallery | Filter-chip gallery with lightbox | 21st.dev | [link](https://21st.dev/@moumensoliman/components/gallery-grid-block-shadcnui.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 6 | 2026-10-04 |
+| GL31 | Gallery | Centre-point image tunnel | 21st.dev | [link](https://21st.dev/@ruixen.ui/components/scroll-image-tunnel.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 6 | 2026-10-04 |
+| SP19 | Social proof | Video testimonial cards | Awwwards (Client Case Study Cards With Video Testimonials, Digital Darts) | [link](https://www.awwwards.com/elements/video/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 6 | 2026-10-04 |
+| SP20 | Social proof | Overlapping slider card on a colour column | Meraki UI | [link](https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/testimonials/FullPage.html) | inspired, no code copied (source: MIT © 2021 Khatab Wedaa) | 6 | 2026-10-04 |
+| SP21 | Social proof | Quote + 2x2 stat grid | Preline UI | [link](https://preline.co/blocks/marketing/testimonials/#testimonial-section-with-stats) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 6 | 2026-10-04 |
+| PR13 | Pricing / shop | Offer card + billing FAQ split | 21st.dev | [link](https://21st.dev/@diarmuradi/components/pricing-1.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 6 | 2026-10-04 |
+| FQ12 | FAQ | Topic cards with question lists | Mamba UI | [link](https://raw.githubusercontent.com/Microwawe/mamba-ui/master/src/app/components/faq/faq6/faq6.component.html) | inspired, no code copied (source: MIT © 2020 Mamba UI) | 6 | 2026-10-04 |
+| CT12 | CTA band | CTA block + 2x2 image quad | HyperUI | [link](https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/ctas/4.html) | inspired, no code copied (source: MIT © Mark Mead) | 6 | 2026-10-04 |
+| FO14 | Footer | Image-side footer | HyperUI | [link](https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/footers/5.html) | inspired, no code copied (source: MIT © Mark Mead) | 6 | 2026-10-04 |
+| FO15 | Footer | Centred stacked footer | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/footer/one.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 6 | 2026-10-04 |
 
 ## Skipped
 

@@ -3399,6 +3399,506 @@
    "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
    "batch": "5",
    "date": "2026-10-04"
+  },
+  {
+   "code": "NV23",
+   "category": "Navbar / menu",
+   "name": "Menu row to content grid",
+   "source_site": "Codrops (MenuToGrid)",
+   "source_url": "https://github.com/codrops/MenuToGrid",
+   "type": "inspired, no code copied (source: MIT \u00a9 2009-2021 Codrops)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV24",
+   "category": "Navbar / menu",
+   "name": "Curved side drawer menu",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ishamsu/components/curved-menu.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV25",
+   "category": "Navbar / menu",
+   "name": "Pill that expands into a menu panel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@aayush-duhan/components/liquid-morph-floating-menu.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV26",
+   "category": "Navbar / menu",
+   "name": "Floating segmented notch",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/notch",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PD07",
+   "category": "Process / steps",
+   "name": "Big-number ledger steps",
+   "source_site": "Mamba UI",
+   "source_url": "https://raw.githubusercontent.com/Microwawe/mamba-ui/master/src/app/components/steps/steps1/steps1.component.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2020 Mamba UI)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PD08",
+   "category": "Process / steps",
+   "name": "Vertical numbered step rail",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ln-dev7/components/how-it-works-02.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM11",
+   "category": "Team",
+   "name": "Horizontal profile cards (2-up)",
+   "source_site": "Flowbite",
+   "source_url": "https://flowbite.com/blocks/marketing/team/#cards-2",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 Bergside Inc. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM12",
+   "category": "Team",
+   "name": "Intro half + duo portraits",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/teams/SideBySide.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LG10",
+   "category": "Logos / press",
+   "name": "Labelled logo row with divider",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/logo-cloud/four.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MN07",
+   "category": "Menu / price list",
+   "name": "Weekly specials + cook's note",
+   "source_site": "Awwwards (Da Maria)",
+   "source_url": "https://damaria-roma.webflow.io/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "BK08",
+   "category": "Booking / reservation",
+   "name": "Plan-your-stay enquiry beside a half image",
+   "source_site": "Awwwards (Omai)",
+   "source_url": "https://omaivillas.com/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LS05",
+   "category": "Listings / rooms / property",
+   "name": "Seasonal rate table",
+   "source_site": "Awwwards (Tengile Malamala)",
+   "source_url": "https://tengilemalamala.com/accommodation/tengile-river-lodge",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MP10",
+   "category": "Locations / map",
+   "name": "Terroir region map",
+   "source_site": "Awwwards (Map, Klimt Wine)",
+   "source_url": "https://www.awwwards.com/inspiration/map-klimt-wine-product-website",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MP11",
+   "category": "Locations / map",
+   "name": "Location card that expands into a map",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@dev.shejanmahamud/components/expanded-map/expanded-map-zoom.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "EV07",
+   "category": "Events / schedule",
+   "name": "Quarter columns roadmap",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@olewandowski1/components/roadmap-4.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT-0)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "VD11",
+   "category": "Video feature",
+   "name": "Video index + lightbox player",
+   "source_site": "Awwwards (Videos page and player, Matt Jinn)",
+   "source_url": "https://www.awwwards.com/elements/video/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "VD12",
+   "category": "Video feature",
+   "name": "Video then feature grid",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/features/Media.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "AP06",
+   "category": "App download",
+   "name": "Scan-to-get narrow QR card",
+   "source_site": "shadcn/ui blocks",
+   "source_url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/bases/radix/blocks/preview-02/cards/qr-connect.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 shadcn (inspired only, no code copied))",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR12",
+   "category": "Journal / blog",
+   "name": "Archive index table",
+   "source_site": "Awwwards (Digital Archive, Sinedogma)",
+   "source_url": "https://www.awwwards.com/elements/blog/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR13",
+   "category": "Journal / blog",
+   "name": "Long-read column with a tracing scroll beam",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/tracing-beam",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC11",
+   "category": "Contact",
+   "name": "People grid with vCard overlay",
+   "source_site": "Awwwards (Contact Page vCard Overlay, MOREMEDIA)",
+   "source_url": "https://www.awwwards.com/elements/contact/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC12",
+   "category": "Contact",
+   "name": "Voice-note contact",
+   "source_site": "Awwwards (Voice message contact form, Byotone)",
+   "source_url": "https://www.awwwards.com/elements/contact/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR39",
+   "category": "Hero",
+   "name": "Form-in-hero with edge-bleeding photo",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/hero-forms/#split-hero-with-image-and-form",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR40",
+   "category": "Hero",
+   "name": "Filmstrip hero, focused card unfurls",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@crafterui/components/hero-carousel.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR41",
+   "category": "Hero",
+   "name": "Search-bar hero over fading architecture",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@felipemenezes098/components/hero-09.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR42",
+   "category": "Hero",
+   "name": "Full-screen crossfading slideshow",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/images-slider",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR43",
+   "category": "Hero",
+   "name": "Small vignette image above a narrow title",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/hero-section/five.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT24",
+   "category": "Features",
+   "name": "Intro column + icon grid",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/icon-blocks/#feature-description-with-icon-grid",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT25",
+   "category": "Features",
+   "name": "Icon trio over a photo strip",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/feature-sections/#centered-feature-section-with-four-images-and-icon-blocks",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT26",
+   "category": "Features",
+   "name": "Portrait image + stacked icon rows",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/feature-sections/#feature-section-with-image-and-icon-blocks",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "BN12",
+   "category": "Bento",
+   "name": "Oversized canvas cropped by the viewport",
+   "source_site": "shadcn/ui blocks",
+   "source_url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/bases/radix/blocks/preview/index.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 shadcn (inspired only, no code copied))",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS21",
+   "category": "Product showcase",
+   "name": "Filter dropdown bar + product grid",
+   "source_site": "HyperUI",
+   "source_url": "https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/product-collections/3.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 Mark Mead)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS22",
+   "category": "Product showcase",
+   "name": "Category tile wall (many small tiles)",
+   "source_site": "Flowbite",
+   "source_url": "https://flowbite.com/blocks/e-commerce/product-categories/#default",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 Bergside Inc. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "ST14",
+   "category": "Stats / ingredients",
+   "name": "Split headline + metric card grid",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@shadcnstore/components/statistic-2.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "ST15",
+   "category": "Stats / ingredients",
+   "name": "Chip rails (network lines)",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/integrations/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY15",
+   "category": "Story / about",
+   "name": "Logo-led expandable history",
+   "source_site": "Magic UI Portfolio template",
+   "source_url": "https://portfolio-magicui.vercel.app/",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 Dillion Verma (magicuidesign/portfolio LICENSE))",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY16",
+   "category": "Story / about",
+   "name": "Vertical timeline with logo markers",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/data-display/timelines/#career-timeline-with-logo-markers",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL27",
+   "category": "Gallery",
+   "name": "Formation switcher gallery",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@uicapsule/components/formation.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL28",
+   "category": "Gallery",
+   "name": "Helix column carousel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@crafterui/components/dither-helix-carousel.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL29",
+   "category": "Gallery",
+   "name": "Tabbed photo sets",
+   "source_site": "Awwwards (Gallery, Tengile Malamala)",
+   "source_url": "https://tengilemalamala.com/accommodation/tengile-river-lodge",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL30",
+   "category": "Gallery",
+   "name": "Filter-chip gallery with lightbox",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@moumensoliman/components/gallery-grid-block-shadcnui.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL31",
+   "category": "Gallery",
+   "name": "Centre-point image tunnel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ruixen.ui/components/scroll-image-tunnel.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP19",
+   "category": "Social proof",
+   "name": "Video testimonial cards",
+   "source_site": "Awwwards (Client Case Study Cards With Video Testimonials, Digital Darts)",
+   "source_url": "https://www.awwwards.com/elements/video/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP20",
+   "category": "Social proof",
+   "name": "Overlapping slider card on a colour column",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/testimonials/FullPage.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP21",
+   "category": "Social proof",
+   "name": "Quote + 2x2 stat grid",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/testimonials/#testimonial-section-with-stats",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PR13",
+   "category": "Pricing / shop",
+   "name": "Offer card + billing FAQ split",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@diarmuradi/components/pricing-1.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FQ12",
+   "category": "FAQ",
+   "name": "Topic cards with question lists",
+   "source_site": "Mamba UI",
+   "source_url": "https://raw.githubusercontent.com/Microwawe/mamba-ui/master/src/app/components/faq/faq6/faq6.component.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2020 Mamba UI)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CT12",
+   "category": "CTA band",
+   "name": "CTA block + 2x2 image quad",
+   "source_site": "HyperUI",
+   "source_url": "https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/ctas/4.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 Mark Mead)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FO14",
+   "category": "Footer",
+   "name": "Image-side footer",
+   "source_site": "HyperUI",
+   "source_url": "https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/footers/5.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 Mark Mead)",
+   "batch": "6",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FO15",
+   "category": "Footer",
+   "name": "Centred stacked footer",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/footer/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "6",
+   "date": "2026-10-04"
   }
  ],
  "skipped": [
