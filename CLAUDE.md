@@ -32,7 +32,7 @@ Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on
 | `archive/` | Finished sites (`npm run archive -- <name>`, `npm run restore -- <name>`). **Local only, not in git** | — |
 | `docs/` | `LESSONS.md` (**read first**), `DESIGN-MENU.md` (the variety engine), `MOTION-MENU.md` (a motion code for every section), `SOURCES.md` (open-source effects + licences), `SITES-LOG.md` (**local only, not in git**), AI prompts, filming guide | Update the log + lessons |
 
-**The repo shows only the current project.** Each day lives in its own folder (a copy of the kit), so old sites stay safe there. In git there is only: today's site (`site/`, `public/images/<slug>/`, `public/frames/<slug>-*`), the engine, the pattern library and the kit docs. No other brand names or images. `.gitignore` keeps `archive/`, `raw/`, `docs/SITES-LOG.md`, `node_modules/`, `.next/`, `.env*` and `.DS_Store` out.
+**The repo shows only the current project.** Each day lives in its own folder (a copy of the kit), so old sites stay safe there. In git there is only: today's site (`site/`) **and its assets** (`raw/` Flow images + Veo videos, `public/images/<slug>/`, `public/frames/<slug>-*`, `cover.jpg`), the engine, the pattern library and the kit docs. No other brand names or images. `.gitignore` keeps `archive/`, `docs/SITES-LOG.md`, `recordings/`, `*.mov`, final reel videos, venvs, `node_modules/`, `.next/`, `.env*` and `.DS_Store` out. **Any single asset over 50 MB goes through Git LFS** (`.gitattributes`; `npm run assets` checks sizes and warns over 100 MB).
 
 `app/page.tsx` renders the engine + `site/Page.tsx`. `app/layout.tsx` reads `site/site.ts` (colours → CSS variables) and imports `site/fonts.ts` + `site/site.css`.
 
@@ -50,7 +50,7 @@ Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on
 
 ### Round 0 — Design direction (no code yet)
 0. **Read `docs/LESSONS.md`.**
-1. **Clear the previous site's assets**: delete the old site's images and frames (`public/images/<old-slug>/`, `public/frames/<old-slug>-*`) and any demo assets, so only the new site's assets exist. The old site stays safe in its own day folder (and in the local `archive/`).
+1. **Clear the previous site's assets**: delete the old site's raw files, images and frames (`raw/*`, `public/images/<old-slug>/`, `public/frames/<old-slug>-*`, `cover.jpg`) and any demo assets (they are tracked in git now), so only the new site's assets exist. The old site stays safe in its own day folder (and in the local `archive/`).
 2. **Read the brief** (brand, what it sells, audience, mood, assets in `raw/` and `public/images/`).
 3. **Read `docs/SITES-LOG.md`** (what the last sites looked like), **`docs/DESIGN-MENU.md`**, **`docs/SECTION-MENU.md`** and **`docs/MOTION-MENU.md`**, and open **`/lab/sections`** (every layout, live) and **`/lab`** (the M38+ effects).
 4. **Pick one option from each menu**: look, palette, type pair, nav, hero, section shape, card style, signature moment, loader. Follow the uniqueness rule (≥ 6 of 8 different from each of the last 3 sites; never the same type pair two days in a row; the hero and signature never repeat any earlier site's, see step 6).
@@ -104,7 +104,7 @@ Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on
 5. Set `meta.record.duration` so the **whole page scrolls in 25–40 s** (reel length). Test: `npm run build && npm start` → `npm run reel` (or watch `http://localhost:3000/?record=1`).
 6. **Final checks**: `npm run reel -- <day-NN-slug>-final` (PASS), `npm run phone-shots` (clean at 360 and 390), `npm run check`. Send the user the 1440 reel.
 7. **Add a row to `docs/SITES-LOG.md`** (including the Motion column: loader · hero · signature codes, and the **Layouts column**: every section's layout code), **add the day's new lessons to `docs/LESSONS.md`**, and run `npm run archive -- <day-NN-slug>` (skill: **`archive-day`**, which also commits and pushes the day's repo when asked).
-8. **Repo check**: run `git ls-files` and confirm the repo only contains the current site's assets, the engine, the pattern library and the kit docs: no other brand names (`git grep -il <old names>`) and no other site's images. Report the file list (grouped by folder) and the total size (`git ls-files -z | xargs -0 du -ch | tail -1`).
+8. **Repo check**: run `npm run assets` (nothing over 50 MB outside LFS) and `git ls-files`, and confirm the repo only contains the current site's assets (`raw/`, frames, images, cover), the engine, the pattern library and the kit docs: no other brand names (`git grep -il <old names>`) and no other site's images. Report the file list (grouped by folder) and the total size (`git ls-files -z | xargs -0 du -ch | tail -1`).
 9. Report back in plain simple language: the section list, anything skipped, and the filming command (see `docs/RECORDING.md`).
 
 ### Checks every round (Rounds 1–5)
@@ -138,6 +138,7 @@ If you build something on a site that would be useful again (a new nav, hero, ca
 - `npm run dev` / `npm run build && npm start` (use production for filming)
 - `npm run frames -- <video> <folder> [--zoom 1.2] [--max 160] [--start s] [--end s] [--reverse]`
 - `npm run check`: all images/frames used in `site/` exist
+- `npm run assets`: asset sizes (raw, frames, images, cover) + biggest file; fails if a file over 50 MB is not in Git LFS, warns over 100 MB
 - `npm run reel [-- <name>]`: record `?record=1` at 1440×900 → `recordings/<name>.mp4` + freezedetect + frame-diff (PASS / FAIL)
 - `npm run phone-shots`: screenshots of every section at 360×640 and 390×844 → `recordings/phone-shots/`
 - `npm run film-frames [clip]`: video → scroll frames by video time (`site/frames.json`, skill `video-frames`)

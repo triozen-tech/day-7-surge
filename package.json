@@ -16,7 +16,8 @@
     "cover-check": "python3 scripts/cover-check.py",
     "cutout": "node scripts/cutout.mjs",
     "cutout:setup": "python3 -m venv .venv-cutout && .venv-cutout/bin/pip install \"rembg[cpu,cli]\" \"huggingface_hub<1.0\"",
-    "glb": "node scripts/glb.mjs"
+    "glb": "node scripts/glb.mjs",
+    "assets": "node scripts/asset-check.mjs"
   },
   "dependencies": {
     "@fontsource-variable/big-shoulders-display": "^5.3.0",
