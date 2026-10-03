@@ -196,15 +196,15 @@ Micro-interactions are not section codes; list the ones used under the Motion ma
 ```
 ## Motion map
 
-| # | Section | Motion | How it plays here | Phone | Record mode |
-|---|---|---|---|---|---|
-| 0 | Loader | M5 circle wipe | cup rim grows into the page | same | fixed 2.5 s |
-| 1 | Nav | M9 print-out | menu links feed out line by line when opened | same | not shown |
-| 2 | Hero | M19 focus pull | fogged window wiped clear, then the video scrubs | lighter blur | scrub |
+| # | Section | Layout | Motion | How it plays here | Phone | Record mode |
+|---|---|---|---|---|---|---|
+| 0 | Loader | — | M5 circle wipe | cup rim grows into the page | same | fixed 2.5 s |
+| 1 | Nav | — | M9 print-out | menu links feed out line by line when opened | same | not shown |
+| 2 | Hero | HR08 | M19 focus pull | fogged window wiped clear, then the video scrubs | lighter blur | scrub |
 | … | | | | | |
 
 Transitions: 2→3 X2 colour wash · 3→4 X3 torn edge stretches · …
 Details: magnetic Menu button · copper underline draw on links · …
 ```
 
-Checklist before approving: every section has a code · no code appears twice · no section is "fade in" · the hero and signature repeat no earlier site's (every row of the sites log) · the hero is not a shape growing to full screen.
+Checklist before approving: every section has a layout code (SECTION-MENU) and a motion code · no code appears twice · no section is "fade in" · the hero and signature repeat no earlier site's (every row of the sites log) · the hero is not a shape growing to full screen.

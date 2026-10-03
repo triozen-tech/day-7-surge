@@ -110,3 +110,20 @@ All seven repos are MIT (GitHub API). We copied **ideas** (names, hex values, fo
 | h3nryprod01/design-taste (`reference/core-rules.md`, `anti-slop.md`, `motion.md`) | category-reflex check, cream+brass default warning, lessons 36–38/41 | brand design-system table, brand analogies, "use real company logos" rule; comparison wipe (already M46) |
 
 Also read in full (installed by the user as skills, all docs-only, MIT): owl-listener/designer-skills `animation-principles` + `motion-system` (duration/easing tokens, reduced-motion at :root) and leonxlnx/taste-skill `high-end-visual-design` (`skills/soft-skill`). Our kit rules win where they differ (CLAUDE.md top).
+
+## Section layouts (SECTION-MENU, `/lab/sections`; checked 2026-10-03)
+
+All 90 layouts (`components/sections/`) were **written from scratch** in our engine (Tailwind + GSAP + Lenis, no framer-motion). **No code was copied** from any source below. We studied how each source arranges a section (grid, hierarchy, what sits next to what), then designed our own version with our own content, placeholders and motion codes.
+
+| Source | Licence (checked on the real repo / site) | How we used it |
+|---|---|---|
+| 21st.dev (community marketing blocks: heroes, features, pricing, testimonials, CTA, footers, backgrounds) | Each author owns their component; licences differ per component; site terms forbid republishing; free tier limited | **Look and learn only.** Layout ideas noted, nothing copied or downloaded |
+| Tailark (`tailark/blocks`, free sets dusk / mist / veil) | MIT © 2025 Irung | Ideas only (hero + logo strip, feature rows, bento, pricing, footers). Pro set "Quartz" not looked at |
+| HyperUI (`markmead/hyperui`) | MIT © Mark Mead | Ideas only (CTA bands, FAQ grids, newsletter rows, footers) |
+| Magic UI (`magicuidesign/magicui`, free components + templates) | MIT © Magic UI | Ideas only (bento grid, marquee reviews, border sheen, flickering grid); motion rebuilt in GSAP. Magic UI Pro not used |
+| Preline UI (`htmlstreamofficial/preline`) | MIT + "Preline UI Fair Use" © Preline Labs Ltd. (free blocks allowed in client sites; Pro excluded) | Ideas only (pricing tiers + comparison table, stats rows, FAQ + help card) |
+| Flowbite (`themesberg/flowbite`) | Core library MIT © Bergside; free marketing blocks are served from the site with no confirmed licence | **Ideas only** (blocks not copied); Flowbite Pro excluded |
+| shadcn/ui (`shadcn-ui/ui`) | MIT © shadcn | Checked: has app blocks, no marketing sections; nothing taken |
+| Award-winning brand sites (Awwwards / Godly / Codrops showcases): /zeroz, STILL., Palmo, Kraken Industries, Partake Foods, Caffè Gilli, Best Bean Best Cup, Tengile MalaMala, Colonia Zacamil | Their own sites (all rights reserved) | Section **structure** only (chapter openers, stockist ledgers, press walls, founder letters, info footers). No text, images, logos or code |
+
+All people, press titles, shops and brands in the demo sections are invented. Placeholder art only (`scene()` / `productAngle()`).
