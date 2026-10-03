@@ -9,7 +9,7 @@
 - Desktop first (1440×900, 1920×1080). The first 90 layouts also have phone wireframes; later entries are desktop-only (basic stacking in code, not tuned for phones).
 - Sources: every layout was rebuilt from scratch after studying 21st.dev (look-and-learn only), Tailark, shadcn/ui, Magic UI, Aceternity (look-and-learn only), HyperUI, Preline, Flowbite, Meraki UI, Tailblocks, Mamba UI, Float UI, Codrops and award galleries (Awwwards, SiteInspire); **no code was copied**. See `docs/SOURCES.md` and `docs/SECTION-LOG.md`.
 
-Codes (31 categories): **HR** hero ×18 · **NV** navbar / menu ×3 · **FT** features ×10 · **BN** bento ×8 · **PS** product showcase ×12 · **ST** stats / ingredients ×6 · **PD** process / steps ×2 · **CP** comparison / before-after ×2 · **SY** story / about ×6 · **TM** team ×2 · **GL** gallery ×10 · **VD** video feature ×3 · **SP** social proof ×6 · **LG** logos / press ×2 · **PR** pricing / shop ×6 · **MN** menu / price list ×2 · **BK** booking / reservation ×2 · **LS** listings / rooms / property ×2 · **MP** locations / map ×2 · **EV** events / schedule ×2 · **AP** app download ×2 · **JR** journal / blog ×2 · **FQ** faq ×4 · **CT** cta band ×6 · **NL** newsletter ×4 · **CC** contact ×2 · **FO** footer ×8 · **AN** announcement / promo bar ×3 · **PL** poll / vote ×1 · **CR** careers ×1 · **ER** error / 404 ×1 (140 layouts).
+Codes (31 categories): **HR** hero ×23 · **NV** navbar / menu ×8 · **FT** features ×13 · **BN** bento ×9 · **PS** product showcase ×14 · **ST** stats / ingredients ×8 · **PD** process / steps ×3 · **CP** comparison / before-after ×2 · **SY** story / about ×8 · **TM** team ×4 · **GL** gallery ×14 · **VD** video feature ×5 · **SP** social proof ×9 · **LG** logos / press ×4 · **PR** pricing / shop ×7 · **MN** menu / price list ×3 · **BK** booking / reservation ×3 · **LS** listings / rooms / property ×3 · **MP** locations / map ×4 · **EV** events / schedule ×3 · **AP** app download ×3 · **JR** journal / blog ×4 · **FQ** faq ×6 · **CT** cta band ×7 · **NL** newsletter ×4 · **CC** contact ×4 · **FO** footer ×9 · **AN** announcement / promo bar ×3 · **PL** poll / vote ×1 · **CR** careers ×1 · **ER** error / 404 ×1 (190 layouts).
 
 ---
 
@@ -210,6 +210,59 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**HR19 · Bottom-anchored giant title on a full-bleed photo** · motion M12 · fit: hotels, restaurants, heritage brands · suggested motions: M12, M13 · avoid with: HR02 centred statement
+```
+┌──────────────────────────────────────┐
+│ Wordmark            links  links     │
+│            full-bleed photo          │
+│ (Est. 1932)                          │
+│ THE FERNHILL            copy  ( Book │
+│ RETREAT                       a stay)│
+└──────────────────────────────────────┘
+```
+
+**HR20 · Isometric image wall behind a statement** · motion M32 · fit: fashion, sneakers, catalogue-rich brands · suggested motions: M32, M6 · avoid with: HR11 diced hero
+```
+┌──────────────────────────────────────┐
+│ ╲▢╲ ╲▢╲ ╲▢╲ ╲▢╲  (tilted plane, dark)│
+│  ╲▢╲  Linen for the LONGEST  ╲▢╲     │
+│ ╲▢╲     summer.        ╲▢╲ ╲▢╲       │
+│  ╲▢╲  copy [Shop][Lookbook]  ╲▢╲     │
+│ ╲▢╲ ╲▢╲ ╲▢╲ ╲▢╲  cols drift ↑↓      │
+└──────────────────────────────────────┘
+```
+
+**HR21 · Day-to-night crossfade landscape** · motion M6 · fit: hotels, resorts, tea/coffee estates, real estate · suggested motions: M6, M13 · avoid with: HR08 two-mood split
+```
+┌──────────────────────────────────────┐
+│  landscape: day ⇄ night (☾ ✦ loop)   │
+│          (New · Monsoon stays →)     │
+│          WAKE ABOVE THE              │
+│          TEA CLOUDS.                 │
+│          copy  [Check dates][Tour]   │
+└──────────────────────────────────────┘
+```
+
+**HR22 · Vanishing-point image rails** · motion M42 · fit: travel, fashion, music · suggested motions: M42, M13 · avoid with: HR11 diced hero
+```
+┌──────────────────────────────────────┐
+│ ▢▢       ▫ ·   GO FURTHER,   · ▫  ▢▢ │
+│  ▢▢▢   ▫ ·       SLOWER.     · ▫ ▢▢▢ │
+│ ◄── rail out      copy      rail out ──►│
+│           [Plan a journey][Dates]    │
+└──────────────────────────────────────┘
+```
+
+**HR23 · Tilted card wall that straightens** · motion M31 · fit: sneakers, catalogues, D2C ranges · suggested motions: M31, M42 · avoid with: GL tilted grids
+```
+┌──────────────────────────────────────┐
+│ Every pair,          copy            │
+│ on one wall.         [Shop] link     │
+│ ▭▭ ▭▭ ▭▭ ▭▭ ▭▭  →  (tilted → flat)   │
+│   ▭▭ ▭▭ ▭▭ ▭▭ ▭▭  ←                  │
+│ ▭▭ ▭▭ ▭▭ ▭▭ ▭▭  →                    │
+└──────────────────────────────────────┘
+```
 
 ## NV · Navbar / menu
 
@@ -247,6 +300,65 @@ desktop                                   phone
 │                                      │
 │     ( ⌂  ▣  ◉  ≡  ☺ │ [Start →] )    │
 └──────────────────────────────────────┘
+```
+
+**NV04 · Header morphs into a floating capsule** · motion M6 · fit: any premium brand (shown: furniture) · suggested motions: M6, M18 · avoid with: other floating pills (NV03 dock, NV06 pill)
+```
+┌──────────────────────────────────────┐
+│ Headline               copy          │
+│ ┌──────────────────────────────────┐ │
+│ │   ( Logo  links  [CTA] )══progress│ │
+│ │ page scrolls by itself: hero,    │ │
+│ │ product row, quote, wide photo   │ │
+│ └──────────────────────────────────┘ │
+└──────────────────────────────────────┘
+```
+
+**NV05 · Mega menu with featured story card** · motion M23 · fit: furniture, fashion, multi-category stores · suggested motions: M23, M13 · avoid with: FO02 mega footer
+```
+┌──────────────────────────────────────┐
+│ Logo   Living Dining Bed Out   Bag   │
+├────────────┬───────────┬──────┬──────┤
+│ SEATING    │ TABLES    │ LIGHT│[photo]│
+│ links      │ links     │ links│ title→│
+├────────────┴───────────┴──────┴──────┤
+│ (page peeking: headline · copy)      │
+└──────────────────────────────────────┘
+```
+
+**NV06 · Hover menu with one morphing panel** · motion M18 · fit: tech, audio, product-family brands · suggested motions: M18, M34 · avoid with: mega menus (NV05)
+```
+┌──────────────────────────────────────┐
+│ Logo     ( Sound|Studio|Support ) Cart│
+│        ┌──────────────────────┐      │
+│        │ [▣ card] [▣ card]    │ ←resizes│
+│        │ [▣ card] [▣ card]    │      │
+│        └──────────────────────┘      │
+│ Headline                 [Shop][Find]│
+└──────────────────────────────────────┘
+```
+
+**NV07 · Corner circle menu** · motion M12 · fit: perfume, fashion, agencies · suggested motions: M18, M12 · avoid with: other full-screen overlay menus (NV01, NV02)
+```
+┌──────────────────────────────────────┐
+│ Logo                     Close (×)◜  │
+│          Fragrances  twelve eaux     │
+│          Atelier     how we blend    │
+│          Gifting     sets from ₹     │
+│          Visit       the salon       │
+│ note                       socials   │
+└──────────────────────────────────────┘
+```
+
+**NV08 · Box grid menu** · motion M34 · fit: studios, interiors, galleries · suggested motions: M34, M1 · avoid with: BN bento layouts right below
+```
+┌──────────────────┬────────┬─────────┐
+│                  │ Studio │ Objects │
+│   PROJECTS photo ├────────┤ [photo] │
+│                  │ Journal│ from ₹  │
+├────────┬─────────┴────────┼─────────┤
+│Services│ contact · [Book] │ Follow  │
+└────────┴──────────────────┴─────────┘
 ```
 
 ## FT · Features
@@ -359,6 +471,40 @@ desktop                                   phone
                                           └──────────────┘
 ```
 
+**FT11 · Pinned horizontal chapter track** · motion M42 · fit: coffee origins, craft process, watches · suggested motions: M42, M41, M23 · avoid with: GL horizontal galleries
+```
+┌──────────────────────────────────────┐
+│ From cherry to cup.      ━━━━──── 2/5│
+│ 01          ┌──────┐ 02          ┌── │
+│ Title       │ img  │ Title       │ im│
+│ copy        │ ⇄par │ copy        │   │
+│ fact        └──────┘ fact        └── │
+└──────────────── track ← ─────────────┘
+```
+
+**FT12 · Stacked pinned card pile** · motion M40 · fit: skincare routines, supplements, product pillars · suggested motions: M40, M13 · avoid with: FT02 sticky title
+```
+┌──────────────────────────────────────┐
+│ Four steps, ten minutes.   ₹ copy    │
+│  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔ (pile edges) ▔▔▔▔   │
+│ ┌──────────────┬───────────────────┐ │
+│ │ Step 2 · name│      image        │ │
+│ │ copy [Add ₹] │                   │ │
+│ └──────────────┴───────────────────┘ │
+└──────────────────────────────────────┘
+```
+
+**FT13 · Headline orbited by floating cards** · motion M31 · fit: energy drinks, supplements, problem/solution stories · suggested motions: M31, M6, M34 · avoid with: ST03 orbit
+```
+┌──────────────────────────────────────┐
+│ [160 mg]                     [0 g]   │
+│          FOCUS THAT OUTLASTS         │
+│ [6 h]     FOUR O'CLOCK.      [+4]    │
+│          copy  ₹  [Shop]             │
+│ [12 kcal]                    [120%]  │
+└──────────────────────────────────────┘
+```
+
 ## BN · Bento
 
 **BN01 · Classic bento** · motion M34 · fit: skincare / beauty hero product with proof · avoid with: another bento or 2×2 grid right next to it
@@ -452,6 +598,18 @@ desktop                                   phone
 │ └~~~~~~~~~~~~~~~~~~~~~~┘│spatial │   │  │ │60hr│spat.│ │
 │ ● lossless ● multipoint ● 38 g       │  │ ● perks      │
 └──────────────────────────────────────┘  └──────────────┘
+```
+
+**BN09 · Pillar bento with staggered seams** · motion M34 · fit: furniture, skincare, multi-line food brands (built: teak furniture workshop) · suggested motions: M34, M18 · avoid with: BN03 asymmetric rows
+```
+┌──────────────────────────────────────┐
+│ Rooms, built in teak.   copy [Shop]  │
+├───────────┬────────────┬─────────────┤
+│ Lounge    │            │ Lamps       │
+│ chairs    │  Bookcase  ├─────────────┤
+├───────────┤  (pillar)  │ Sofas       │
+│ Side tbl  │            │             │
+└───────────┴────────────┴─────────────┘
 ```
 
 ## PS · Product showcase
@@ -597,6 +755,30 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**PS13 · Magnifier inspection card** · motion M23 · fit: watches, leather, textiles, jewellery (built: handmade leather derby) · suggested motions: M23, M13 · avoid with: PS04 spotlight
+```
+┌───────────────────────┬──────────────┐
+│                       │ Look closer. │
+│    big image   (◎)    │ ● detail 1   │
+│        lens glides    │ ○ detail 2   │
+│                       │ ○ detail 3   │
+│                       │ ₹14,900 [Buy]│
+└───────────────────────┴──────────────┘
+```
+
+**PS14 · Shop-by-category tile grid** · motion M13 · fit: fashion, home, grocery (built: linen fashion) · suggested motions: M13, M34 · avoid with: BN05 mosaic
+```
+┌──────────────────────────────────────┐
+│ Shop by category       [All cats]    │
+├─────────────────┬────────┬───────────┤
+│  FEATURED 2x2   │ Shirts │ Dresses   │
+│  New in · 64    ├────────┼───────────┤
+│                 │ Trouser│ Kurtas    │
+├────────┬────────┼────────┼───────────┤
+│ Knits  │ Bags   │ Scarves│ Home linen│
+└────────┴────────┴────────┴───────────┘
+```
+
 ## ST · Stats / ingredients
 
 **ST01 · Big numbers row** · motion M3 · fit: audio/tech specs, company facts · avoid with: ST05 or BN04 (number rows back to back)
@@ -670,6 +852,30 @@ desktop                                   phone
 └──────────────┴───────────────────────┘  └──────────────┘
 ```
 
+**ST07 · Proportion bar** · motion M18 · fit: blends (coffee, tea, perfume notes), ingredient splits (built: coffee house blend) · suggested motions: M18, M3 · avoid with: ST06 comparison bars
+```
+┌──────────────────────────────────────┐
+│ Inside House Blend No. 4    copy ₹780│
+│ ████████████▓▓▓▓▓▓▓▒▒▒▒▒░░░░··       │
+│ 38%         24%    18%  12% 8%       │
+│ Coorg       Chikm. Araku Wyd Mal.    │
+├──────────────────────────────────────┤
+│ notes · roast      [Add] [Subscribe] │
+└──────────────────────────────────────┘
+```
+
+**ST08 · Provenance ledger** · motion M23 · fit: clean-label food, coffee, chocolate (built: 70% chocolate bar) · suggested motions: M23, M3 · avoid with: ST02 dossier
+```
+┌──────────────────────────────────────┐
+│ Every ingredient, traced.     copy   │
+├────────┬─────────┬────────┬────┬─────┤
+│ Cacao  │ Varkey  │ Idukki │412 │━━─  │
+│ Sugar  │ co-op   │ Mandya │118 │━─   │
+│ Salt   │ Agariya │ Kutch  │1520│━━━━ │
+├────────┴─────────┴────────┴────┴─────┤
+│ avg 413 km           ₹240 [Shop]     │
+└──────────────────────────────────────┘
+```
 
 ## PD · Process / steps
 
@@ -696,6 +902,18 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**PD03 · Auto-advancing steps with progress bars** · motion M6 · fit: subscriptions, kits, apps (shown: coffee subscription) · suggested motions: M6, M18 · avoid with: FT03 tabs
+```
+┌──────────────────────────────────────┐
+│ Headline                    copy     │
+├──────────────┬───────────────────────┤
+│ Step 1 ▬▬▬── │                       │
+│  desc        │   photo (swaps per    │
+│ Step 2 ───── │   step)    (chip)     │
+│ Step 3/4 ─── │                       │
+│ [Start] ₹780 │                       │
+└──────────────┴───────────────────────┘
+```
 
 ## CP · Comparison / before-after
 
@@ -802,6 +1020,27 @@ desktop                                   phone
                                           └──────────────┘
 ```
 
+**SY07 · Statement with inline image chips** · motion M20 · fit: perfume, fashion, food, any premium story (built: monsoon attar) · suggested motions: M20, M13 · avoid with: SY04 manifesto
+```
+┌─────────────────────────────┬────────┐
+│ We bottle (▭) the hour after│┌──────┐│
+│ rain, (▭) smoke from a      ││ big  ││
+│ temple lamp and (▭) jasmine ││ prev.││
+│ ..., then (▭) let it rest.  │└──────┘│
+│ [Discover · ₹3,400]         │ note   │
+└─────────────────────────────┴────────┘
+```
+
+**SY08 · Fixed title that swaps per chapter** · motion M12 · fit: chaptered stories: origins, collections (built: four tea gardens) · suggested motions: M12, M32 · avoid with: SY01
+```
+┌──────────────────────────────────────┐
+│ copy                    [Shop tin]   │
+│  ┌─────┐                             │
+│  │ img │  D A R J E E L I N G  ┌────┐│
+│  └─────┘   02 / 04 · 2,100 m   │img ││
+│        ┌─────┐  (title fixed)  └────┘│
+└──────────────────────────────────────┘
+```
 
 ## TM · Team
 
@@ -824,6 +1063,31 @@ desktop                                   phone
 │ Mira F.       Creative ┌────┐  Work →│
 │ Arjun B.      Type     │ ☺  │  Work →│
 │ …                      └────┘        │
+└──────────────────────────────────────┘
+```
+
+**TM03 · Rotating founders wheel** · motion M33 · fit: founder-led brands with 2–3 founders (shown: bean-to-bar chocolate) · suggested motions: M33, M6 · avoid with: ST03 orbit
+```
+┌──────────────────────────────────────┐
+│ Headline              ( portrait )   │
+│ ROLE · Name        (o)          (o)  │
+│ bio + quote      ╭──────────────╮    │
+│ [Story] ₹1,250  ╱   wheel turns  ╲   │
+│ ● ○ ○          ╱  (pinned 200svh) ╲  │
+└──────────────────────────────────────┘
+```
+
+**TM04 · Hover-reveal bio portrait cards** · motion M13 · fit: chefs, makers, therapists (shown: chef's counter restaurant) · suggested motions: M13, M23 · avoid with: GL focus grid
+```
+┌──────────────────────────────────────┐
+│ Headline                    copy     │
+├────────┬────────┬────────┬───────── ┤
+│ photo  │ photo  │ photo  │ photo    │
+│        │ bio ↑  │        │          │
+│ ROLE   │ ROLE   │ ROLE   │ ROLE     │
+│ Name   │ Name   │ Name   │ Name     │
+├────────┴────────┴────────┴──────────┤
+│ Chef's counter · ₹6,500     [Book]  │
 └──────────────────────────────────────┘
 ```
 
@@ -946,6 +1210,50 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**GL11 · Zoom parallax cluster** · motion M13 · fit: hotels, travel, architecture (mid-page only) (built: backwater hotel) · suggested motions: M13, M42 · avoid with: any other expanding moment on the page
+```
+┌──────────────────────────────────────┐
+│ Seven rooms on one lagoon.  copy     │
+│   ┌──┐   ┌────────┐                  │
+│   │  │   └────────┘                  │
+│   │  │   ┌──────┐   ┌─────┐          │
+│   └──┘   │centre│   └─────┘  → zoom  │
+│ ┌──────┐ └──────┘ ┌───┐  ┌─┐  to full│
+└──────────────────────────────────────┘
+```
+
+**GL12 · Rotating image sphere beside copy** · motion M33 · fit: flavour ranges, community photos, ingredients (built: 30-flavour energy drink) · suggested motions: M33, M6 · avoid with: ST03 orbit
+```
+┌────────────────┬─────────────────────┐
+│ Thirty         │      ·  o  ·        │
+│ flavours, one  │   o   (O) (O)  o    │
+│ fridge.  copy  │  · (O) (O) (O) ·    │
+│ [Build case]   │   o  (O) (O)  o     │
+│ ₹1,440         │      ·  o  ·        │
+└────────────────┴─────────────────────┘
+```
+
+**GL13 · Pinned horizontal gallery with counter** · motion M41 (row skews with scroll speed; counter rolls) · fit: interiors, hotels, fashion lookbooks (built: restored Kochi house) · suggested motions: M41, M42, M3 · avoid with: GL02 filmstrip
+```
+┌──────────────────────────────────────┐
+│ The Kochi house, room by room.  copy │
+│ ┌──────┐┌───┐┌─────┐┌────────┐┌──   │
+│ │      ││   ││     ││        ││  ←  │
+│ └──────┘└───┘└─────┘└────────┘└──   │
+│ Entry   Hall Living Courtyard        │
+│                            03 / 12   │
+└──────────────────────────────────────┘
+```
+
+**GL14 · Grid that morphs into a slideshow** · motion M34 (entry) + FLIP grid⇄slide auto-morph · fit: furniture, ceramics, product details (built: wood-fired stoneware) · suggested motions: M34, M13, M54 · avoid with: GL03 main image + thumbs
+```
+┌──────────────────────────────────────┐   ┌──────────────────────────────────────┐
+│ Stoneware, glazed by hand.   copy    │   │      ┌──────────────────────┐        │
+│ ┌────┐┌────┐┌────┐┌────┐             │ ⇄ │      │   big slide  ₹4,200  │        │
+│ └────┘└────┘└────┘└────┘             │   │      └──────────────────────┘        │
+│ ┌────┐┌────┐┌────┐┌────┐             │   │ ▭ ▭ ▭ ▭ ▭ ▭ ▭  (thumbnail row)       │
+└──────────────────────────────────────┘   └──────────────────────────────────────┘
+```
 
 ## VD · Video feature
 
@@ -980,6 +1288,30 @@ desktop                                   phone
 │ copy …              ░░░░░░░░░░░░░░░░ │
 │                     ● Now playing    │
 └──────────────────────────────────────┘
+```
+
+**VD04 · Vertical video track + synced titles** · motion M42 · fit: recipe brands, studios, collections, course creators · suggested motions: M42, M23 · avoid with: GL06 (another column of scrolling media)
+```
+┌──────────────┬───────────────────────┐
+│ Cook along…  │ ┌───────────────────┐ │
+│ Fish curry ◀ │ │ ▶ video tile      │ │
+│ Naan         │ └───────────────────┘ │
+│ Corn chaat   │ ┌───────────────────┐ │
+│ Coffee flan  │ │ ▶ video tile  ↑   │ │
+│ [Recipe box] │ (track scrolls, pinned)│
+└──────────────┴───────────────────────┘
+```
+
+**VD05 · Showreel on an object's screen** · motion M31 · fit: audio, TVs, home cinema, studios, hotels · suggested motions: M31, M13 · avoid with: tilted-screen heroes (two device mock-ups)
+```
+┌──────────────────────────────────────┐
+│ The room is the speaker.        copy │
+├─────────────────────────┬────────────┤
+│ ▌▌  ┌────────────┐  ▌▌  │ Rain…  2:14│
+│ ▌▌  │ ▶ clip     │  ▌▌  │ ▬▬▬▬▬      │
+│ ▌▌  └────────────┘  ▌▌  │ Live…  3:40│
+│    ▬▬▬▬ console ▬▬▬▬    │ ₹ [Book]   │
+└─────────────────────────┴────────────┘
 ```
 
 ## SP · Social proof (fake names only)
@@ -1060,6 +1392,43 @@ desktop                                   phone
 └──────────────────────────────────────┘  └──────────────┘
 ```
 
+**SP07 · Counter-scrolling portrait reel** · motion M42 · fit: skincare, fitness, community brands (built as a skincare before/after reel) · suggested motions: M42, M12, M32 · avoid with: GL06 split scroll or any other opposite-scroll column section
+```
+┌──────────────────────────┬───────────┐
+│ Skin, seen up close.     │ copy ★4.8 │
+├────────┬────────┬────────┴───────────┤
+│ ▼ pic  │ ▲ pic  │ ▼ pic   (fade edges)│
+│ ▼ pic  │ ▲ pic  │ ▼ pic              │
+├────────┴────────┴────────────────────┤
+│   "quote rising letter by letter"    │
+│        (av) Name · product   ━ ─ ─   │
+└──────────────────────────────────────┘
+```
+
+**SP08 · Vertical counter-scrolling review columns** · motion M32 · fit: drinks, snacks, beauty with many reviews (built for a roasted-makhana snack) · suggested motions: M32, M44, M3 · avoid with: SP01 horizontal marquee (two moving review walls)
+```
+┌──────────────────────────────────────┐
+│     Twelve thousand crunchy opinions │
+│        copy · ★★★★★ 4.9 · 12,480     │
+├────────┬────────┬────────┬───────────┤
+│ ▲card  │ ▼card  │ ▲card  │ ▼card     │
+│ ▲card  │ ▼card  │ ▲card  │ ▼card     │ 500px, faded
+├────────┴────────┴────────┴───────────┤
+│       [Try the tin] [Read all]       │
+└──────────────────────────────────────┘
+```
+
+**SP09 · Inline-name testimonials paragraph** · motion M20 · fit: perfume, fashion, editorial brands (built for an eau de parfum) · suggested motions: M20, M6 · avoid with: SY04 manifesto or any other big-paragraph statement
+```
+┌──────────────────────────────────────┐
+│ Nocturne No. 7 was made for one      │
+│ winter. _Anaya Rao_ calls it rain…   │
+│   ┌─(av) ★★★★★ "quote"─┐ _Zoya_ …    │
+│   └────────────────────┘  _Kabir_ …  │
+├──────────────────────────────────────┤
+│ product line          ₹3,850 [Add]   │
+└──────────────────────────────────────┘
+```
 
 ## LG · Logos / press
 
@@ -1081,6 +1450,29 @@ desktop                                   phone
 │ [Wholesale]      │     ┊ Café B ┊ ↑  │
 │                  │     ┊ ░fade░ ┊    │
 └──────────────────┴───────────────────┘
+```
+
+**LG03 · Endless logo strip with edge fades** · motion M44 · fit: any brand with stockists or press · suggested motions: M44, M6 · avoid with: SP01 marquee
+```
+┌──────────────────────────────────────┐
+│     STOCKED BY 300 SHOPS · AS SEEN IN │
+│ ░ Mark   Mark   Mark   Mark   Mark ░ │
+│   ← drifts forever, bends on scroll  │
+└──────────────────────────────────────┘
+```
+
+**LG04 · Logo grid with merged CTA cell** · motion M3 · fit: coffee, wholesale, venues · suggested motions: M3, M34 · avoid with: SP04 press wall
+```
+┌──────────────────────────────────────┐
+│ Headline                    copy     │
+├─────────────────┬────────┬───────────┤
+│ Trusted by 2,000│  logo  │   logo    │
+│ cafés  [Open →] │        │           │
+├────────┬────────┼────────┼───────────┤
+│ logo   │ logo   │ logo   │ logo      │
+├────────┼────────┼────────┼───────────┤
+│ logo   │ logo   │ logo   │ logo      │
+└────────┴────────┴────────┴───────────┘
 ```
 
 ## PR · Pricing / shop
@@ -1166,6 +1558,17 @@ desktop                                   phone
 └──────────────────────────────────────┘  └──────────────┘
 ```
 
+**PR07 · Build-your-box add-ons + sticky total** · motion M34 · fit: coffee, snacks, skincare kits, gift boxes (built as a coffee subscription box) · suggested motions: M34, M3 · avoid with: PS07 configurator (two builders on one page)
+```
+┌───────────────────────┬──────────────┐
+│ Build the box…  copy  │┌────────────┐│
+│ [▢] Base box   ₹1,200 ││ ₹3,390     ││
+│ [▢] Add-on  +₹540 (●○)││ base       ││
+│ [▢] Add-on +₹2,400(○●)││ + add-ons  ││
+│ [▢] Add-on  +₹890 (●○)││ [Checkout] ││ sticky
+│ …                     │└────────────┘│
+└───────────────────────┴──────────────┘
+```
 
 ## MN · Menu / price list
 
@@ -1193,6 +1596,16 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**MN03 · Menu index + sticky service card** · motion M23 · fit: restaurants, wine bars, cafés with several menus · suggested motions: M23, M6 · avoid with: an FQ ledger / accordion list right after (two big row lists in a row)
+```
+┌───────────────────────┬──────────────┐
+│ Five menus, one table │ ● Open now   │
+│ À la carte        (→) │ Service hours│
+│ Bar lunch         (→) │ Lunch  12–15 │
+│ Desserts          (→) │ Booking rules│
+│ Drinks / Wine     (→) │ Corkage [Book]│
+└───────────────────────┴──────────────┘
+```
 
 ## BK · Booking / reservation
 
@@ -1220,6 +1633,17 @@ desktop                                   phone
 └────────────────────────────┴─────────┘
 ```
 
+**BK03 · Two-month range picker + stay summary** · motion M3 · fit: hotels, cabins, retreats, villa rentals · suggested motions: M3, M34 · avoid with: another calendar (EV month grid) on the same page
+```
+┌──────────────────────────┬───────────┐
+│ Pick your nights...      │ copy      │
+├────────────┬─────────────┼───────────┤
+│ Dec 2026   │ Jan 2027    │ In · Out  │
+│ ▢▢▢▢▢▢▢    │ ▢▢▢▢▢▢▢     │ 5 nights  │
+│ ▢▢▢●━━━━   │ ━●▢▢▢▢▢     │ ₹ total   │
+│ legend                   │ [Reserve] │
+└────────────┴─────────────┴───────────┘
+```
 
 ## LS · Listings / rooms / property
 
@@ -1248,6 +1672,19 @@ desktop                                   phone
 └────────┴─────────────────────────────┘
 ```
 
+**LS03 · Residence carousel with status chips** · motion M34 · fit: hotel groups, developments, property openings · suggested motions: M34, M44 · avoid with: LS card grids (same property cards twice)
+```
+┌──────────────────────────────────────┐
+│ Six houses, opening...   01—06 (←)(→)│
+├───────────┬───────────┬──────────────┤
+│[Opening27]│[Now open] │[Opening │    │
+│  photo    │  photo    │  photo  │    │
+│ Name      │ Name      │ Name    │    │
+│ 8 suites·…│ 12 suites │         │    │
+├───────────┴───────────┴──────────────┤
+│ founding note           [Join list]  │
+└──────────────────────────────────────┘
+```
 
 ## MP · Locations / map
 
@@ -1273,6 +1710,29 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**MP03 · Scroll-zoom region map** · motion M13 · fit: tea, coffee, wine origins, travel and tourism · suggested motions: M13, M23 · avoid with: SY01 (another pinned scroll story next to it)
+```
+┌──────────────┬───────────────────────┐
+│ Up into the  │        ╭─╮            │
+│ tea hills.   │      ╭╯   ╰╮  ◉ Uva   │
+│┌────────────┐│     │ ◉Dimbula│ (zoom) │
+││Region 2/3  ││      ╰╮ ◉  ╭╯         │
+││Uva · ₹680  ││        ╰──╯           │
+│└────────────┘│   pinned ≤200vh       │
+└──────────────┴───────────────────────┘
+```
+
+**MP04 · Full-bleed map with floating location card** · motion M18 · fit: restaurant groups, bakeries, boutiques, studios with several branches · suggested motions: M18, M13 · avoid with: a CC contact section with a map backdrop
+```
+┌──────────────────────────────────────┐
+│┌──────────┐ ═══╪════╪═══  ◉ Indira.  │
+││Four ovens│    │ ~~river~~ │         │
+││address   │ ═══╪════╪═══╪═══         │
+││• loc 1 → │  ◉ Malles.   ◉ White.    │
+││• loc 2   │ (map flies to the pin)   │
+│└──────────┘                          │
+└──────────────────────────────────────┘
+```
 
 ## EV · Events / schedule
 
@@ -1300,6 +1760,17 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**EV03 · 'Happening now' mixed-card carousel** · motion M44 · fit: galleries, museums, venues, hotels with an events programme · suggested motions: M44, M34 · avoid with: GL02 filmstrip (two sideways strips)
+```
+┌──────────────────────────────────────┐
+│ Happening!                    (←)(→) │
+├───────┬──────┬────────┬──────┬───────┤
+│[Now on│[Oct21│[Opens  │(tour)│[Oct31 │
+│ image]│  21  │ image] │ (○)  │  31   │
+│ title │ title│ title  │ title│ title │
+│   → drifts sideways, bends on scroll │
+└──────────────────────────────────────┘
+```
 
 ## AP · App download
 
@@ -1325,6 +1796,17 @@ desktop                                   phone
 └──────────────┴───────────────────────┘
 ```
 
+**AP03 · QR card + benefits split** · motion M18 · fit: cafés, gyms, retail brands with an in-store app or loyalty club · suggested motions: M18, M6 · avoid with: NL02 split signup right after (two split sign-up blocks)
+```
+┌──────────────────┬───────────────────┐
+│ YOUR COFFEE,     │┌─────────────────┐│
+│ ONE SCAN AWAY.   ││ ▣▣▣▣  │ ┌─────┐ ││
+│ ✓ Order ahead    ││ ▣QR▣  │ │phone│ ││
+│ ✓ 9th cup free   ││ ▣▣▣▣  │ │card │ ││
+│ ✓ Beans…         ││ Club  │ └─────┘ ││
+│ [iPhone][Android]│└─────────────────┘│
+└──────────────────┴───────────────────┘
+```
 
 ## JR · Journal / blog
 
@@ -1348,6 +1830,34 @@ desktop                                   phone
 │ 24 SEP  Chef joins the kitchen [▢] → │
 │ 11 SEP  Two new rooms…        [▢] →  │
 └──────────────────────────────────────┘
+```
+
+**JR03 · Split featured image + divider list** · motion M13 · fit: perfume, fashion, editorial and lifestyle brands · suggested motions: M13, M23 · avoid with: SY01 (two big image + text splits in a row)
+```
+┌──────────────────────────────────────┐
+│ Notes from the atelier.  All stories→│
+├──────────────────┬───────────────────┤
+│                  │ intro line        │
+│   featured       │ Cat · date     (→)│
+│   image          │ Title ─────────── │
+│ Cover story      │ Title ─────────── │
+│ Title            │ Title ─────────── │
+└──────────────────┴───────────────────┘
+```
+
+**JR04 · Fluid importance grid** · motion M34 · fit: magazines, design and furniture brands, studios with a journal · suggested motions: M34, M32 · avoid with: BN05 mosaic (two irregular grids)
+```
+┌──────────────────────────────────────┐
+│ The Kaaru Journal.              copy │
+├───────────────────────┬──────────────┤
+│                       │ “ quote ”    │
+│   lead image (4×2)    ├──────────────┤
+│                       │ small image  │
+├──────────────────┬────┴──────────────┤
+│ essay (text)     │ image             │
+├────────────┬─────┴───────────────────┤
+│ short reads│ wide image + title      │
+└────────────┴─────────────────────────┘
 ```
 
 ## FQ · FAQ
@@ -1403,6 +1913,31 @@ desktop                                   phone
 └────────────────────┴───────────────┘─┘  │ │ photo    │ │
                                           │ │[Book]    │ │
                                           └──────────────┘
+```
+
+**FQ05 · Chat-bubble FAQ** · motion M6 · fit: apps, skincare, playful D2C (built for a skincare brand's skin team) · suggested motions: M6, M34 · avoid with: other chat / notification sections
+```
+┌──────────────┬───────────────────────┐
+│ Ask us like  │ (av) Skin team ● online│
+│ you'd ask a  │        ( question ? ) │
+│ friend.      │ ( • • • / answer )    │
+│ copy         │        ( question ? ) │
+│ [Chat] link  │        ( question ? ) │
+└──────────────┴───────────────────────┘
+```
+
+**FQ06 · Ledger FAQ (question left, answer right)** · motion M23 · fit: wine, perfume, editorial brands (built for a small-lot winery) · suggested motions: M23, M6 · avoid with: PR06 ledger (two ruled ledgers)
+```
+┌───────────────────────┬──────────────┐
+│ Questions, poured     │ [pic] copy   │
+│ plainly.              │       link → │
+├━━━━━━━━━━━━┯━━━━━━━━━━┷━━━━━━━━━━━━━━┤
+│ Question?  │ Answer text, two lines  │
+├────────────┼─────────────────────────┤
+│▓Question?▓▓│▓Answer (cycling tint)▓▓▓│
+├────────────┼─────────────────────────┤
+│ Question?  │ Answer text             │
+└────────────┴─────────────────────────┘
 ```
 
 ## CT · CTA band
@@ -1486,6 +2021,18 @@ desktop                                   phone
                                           └──────────────┘
 ```
 
+**CT07 · Scroll-drawn lines converging on a CTA** · motion M71 · fit: launches, sneakers, energy drinks, music (built as a sneaker drop) · suggested motions: M71, M23 · avoid with: CT02 marquee CTA; any other long sticky stage next to it (180vh)
+```
+┌──────────────────────────────────────┐
+│~~╮     Five cities. One drop.     ╭~~│
+│~~~╲    copy · 600 pairs ₹9,490   ╱~~~│
+│~~~~╲   [Join the drop list] →   ╱~~~ │
+│     ╲╲╲_______ glow ______╱╱        │
+│              ││││                    │
+│     Friday 10:00 IST · one pair      │
+└──────────────────────────────────────┘
+```
+
 ## NL · Newsletter
 
 **NL01 · Inline single-row signup** · motion M6 · fit: chocolate, food, any brand that needs a quiet signup between sections · avoid with: FQ02 or FO03 next to it (also M6); a footer that already has a signup strip
@@ -1562,6 +2109,28 @@ desktop                                   phone
 │                     └──────┘         │
 │ Letters Journal       from ₹38,000   │
 └──────────────────────────────────────┘
+```
+
+**CC03 · Map backdrop + floating form card** · motion M18 · fit: cafés, showrooms, clinics with one address · suggested motions: M18, M13, M6 · avoid with: MP map sections on the same page
+```
+┌──────────────────────────────────────┐
+│ ░ streets ░ blocks ░ ┌─────────────┐ │
+│ ░░ ●pin [Café·open]  │ Come by…    │ │
+│ ░ route - - - ░ park │ [email]     │ │
+│ ░░ ░░ river ~~~~ ░░  │ [message]   │ │
+│ ░ ░░ ░ ░░ ░ ░░ ░ ░░  │ [Send] note │ │
+└──────────────────────┴─────────────┴─┘
+```
+
+**CC04 · Globe + contact form split** · motion M33 · fit: exporters, travel, global D2C · suggested motions: M33, M6 · avoid with: MP globe sections
+```
+┌───────────────────┬──────────────────┐
+│     .-~~~-.       │ Headline         │
+│   /  arcs   \     │ copy             │
+│  |  ● ─ ● ─● |    │ desk | samples | │
+│   \  spin   /     │ [form: 3 fields] │
+│     '-~~~-'       │ [Quote]   note   │
+└───────────────────┴──────────────────┘
 ```
 
 ## FO · Footer
@@ -1668,6 +2237,17 @@ desktop                                   phone
 │ © Glow Theory · Concept…  Privacy    │  │ socials ↗    │
 └──────────────────────────────────────┘  │ © … Concept… │
                                           └──────────────┘
+```
+
+**FO09 · Curtain-reveal footer** · motion M12 · fit: any premium brand; perfume, fashion, hotels (built for a lake hotel) · suggested motions: M12, M1 · avoid with: FO01 wordmark footer (pick one)
+```
+┌──────────────────────────────────────┐
+│ Stay a little longer.  [Check dates] │  ← last panel (curtain)
+╰──────────────────────────────────────╯
+│ newsletter [Sub]  Stay Dine House pic│  ← footer waits underneath
+│        H A V E L I   N E E L         │
+│ © … Concept website      links       │
+└──────────────────────────────────────┘
 ```
 
 ## AN · Announcement / promo bar
