@@ -1,11 +1,19 @@
 # Showreel Kit — playbook for Claude Code
 
+> **Our kit is the source of truth.** DESIGN-MENU, MOTION-MENU, LESSONS.md, SITES-LOG uniqueness and the brief always win over any skill's style advice. Skills are helpers for HOW to build, not WHAT it should look like.
+>
+> Inside this kit, always use our project skills `caption`, `cover-check` and our reel workflow (`record-check`, `npm run reel`) — never the global `caption-and-hashtags`, `cover-thumbnail-brief`, `reel-builder` or `reel-scripter`.
+>
+> The `animation-principles` and `motion-system` skills apply ONLY to small UI motion (buttons, hovers, menus, cart). Scroll-driven, cinematic and video-scrub motion follows MOTION-MENU and is exempt from their duration and easing limits.
+
 This repo builds **one showcase website per day**. The team films the laptop screen with a phone held **vertically (9:16 Instagram reel)** while the site scrolls itself, and posts it to win clients. Two things matter most:
 
 1. **Every site must look like a different designer made it.** New layout, nav, typography, cards and page flow every day. Only the engine underneath stays the same.
 2. It must look **premium and real**: a cinematic moment (scroll video, product spin, colour switch) **plus** real-business sections (products, prices, offers, categories), so a client can picture their own brand.
 
 Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on the laptop** (`?record=1` at 1440×900); there are no phone recordings. Phones must still work (clients open the link on their phone): they are checked with **screenshots only** (`npm run phone-shots`, 360×640 and 390×844). See "Checks every round" below.
+
+**Before anything else, every day and every round: read `docs/LESSONS.md`** (rules learned on earlier days). At the end of a day, add the day's new lessons to it.
 
 ## How the kit is organised
 
@@ -14,10 +22,14 @@ Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on
 | `components/engine/` | Loader, SmoothScroll (Lenis ↔ GSAP), Animations (data attributes), RecordMode, Cursor, useFramePlayer | **No** |
 | `lib/` | gsap setup, frame loading, loader tracker, site types | **No** |
 | `components/patterns/` | Library of ready sections (stock + patterns from the reference reels). **Starting points, not templates.** See them live at `/patterns` | No: copy them, then restyle |
-| `components/ui/` | SplitText, Magnetic, Button, TiltCard | Rarely |
+| `components/ui/` | SplitText (GSAP SplitText, masked lines), Magnetic, Button, TiltCard | Rarely |
+| `components/fx/` | **Effect library** (M38+ motions, X6+ transitions, I6 loader, collected effects): text, layout, WebGL (`gl.tsx`), more. Live at **`/lab`** (hidden, noindex). **`fx/travel/`**: travelling product object F1–F8 (driver + PNG / OGL 3D / three / R3F / model-viewer layers), live at **`/lab/travel/f1 · f3 · f6`** | No: import or copy |
+| `lib/gsap.ts` · `lib/gl.ts` · `lib/film.ts` | GSAP + **all plugins registered in one place** (`loadPlugin()` for the big ones) · OGL WebGL helper (lazy) · scroll-video player (video time, blending, subject-fit) + `components/patterns/FilmPin.tsx` | No |
+| `scripts/` | `make_frames.py` (video → frames by video time), `reel.mjs` (record + freeze checks, phone shots), `cover-check.py`, `check-site.mjs`, `archive.mjs` | No |
+| `.claude/skills/` | `new-site` + ours: `video-frames`, `record-check`, `phone-check`, `cover-check`, `flow-prompts`, `caption`, `archive-day` + official GSAP skills (`gsap-*`) | Add, don't edit |
 | `site/` | **Everything about today's site**: `DESIGN.md`, `site.ts` (meta + theme), `fonts.ts`, `site.css`, `content.ts`, `components/`, `Page.tsx` | **Yes, rewritten every day** |
 | `archive/` | Finished sites (`npm run archive -- <name>`, `npm run restore -- <name>`). **Local only, not in git** | — |
-| `docs/` | `DESIGN-MENU.md` (the variety engine), `MOTION-MENU.md` (a motion code for every section), `SITES-LOG.md` (**local only, not in git**), AI prompts, filming guide | Update the log |
+| `docs/` | `LESSONS.md` (**read first**), `DESIGN-MENU.md` (the variety engine), `MOTION-MENU.md` (a motion code for every section), `SOURCES.md` (open-source effects + licences), `SITES-LOG.md` (**local only, not in git**), AI prompts, filming guide | Update the log + lessons |
 
 **The repo shows only the current project.** Each day lives in its own folder (a copy of the kit), so old sites stay safe there. In git there is only: today's site (`site/`, `public/images/<slug>/`, `public/frames/<slug>-*`), the engine, the pattern library and the kit docs. No other brand names or images. `.gitignore` keeps `archive/`, `raw/`, `docs/SITES-LOG.md`, `node_modules/`, `.next/`, `.env*` and `.DS_Store` out.
 
@@ -33,12 +45,13 @@ Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on
 
 ## Building a new site — Round 0 + 5 rounds
 
-Stop after **every** round, tell the user in plain simple language what to check, and wait for their "ok".
+**Every round starts by re-reading `docs/LESSONS.md`.** Stop after **every** round, tell the user in plain simple language what to check, and wait for their "ok".
 
 ### Round 0 — Design direction (no code yet)
+0. **Read `docs/LESSONS.md`.**
 1. **Clear the previous site's assets**: delete the old site's images and frames (`public/images/<old-slug>/`, `public/frames/<old-slug>-*`) and any demo assets, so only the new site's assets exist. The old site stays safe in its own day folder (and in the local `archive/`).
 2. **Read the brief** (brand, what it sells, audience, mood, assets in `raw/` and `public/images/`).
-3. **Read `docs/SITES-LOG.md`** (what the last sites looked like), **`docs/DESIGN-MENU.md`** and **`docs/MOTION-MENU.md`**.
+3. **Read `docs/SITES-LOG.md`** (what the last sites looked like), **`docs/DESIGN-MENU.md`** and **`docs/MOTION-MENU.md`**, and open **`/lab`** to see the M38+ effects live.
 4. **Pick one option from each menu**: look, palette, type pair, nav, hero, section shape, card style, signature moment, loader. Follow the uniqueness rule (≥ 6 of 8 different from each of the last 3 sites; never the same type pair two days in a row; the hero and signature never repeat any earlier site's, see step 6).
 5. **Plan 9–12 sections**: 1 hero + ~3 cinematic + ~5 shop-style + footer. For each: name, pattern it starts from (or "custom"), and *how it will be restyled*.
 6. **Plan the motion**: give every section (loader, nav and footer included) **one motion code** from `docs/MOTION-MENU.md`. **No code used twice** on the site, and **"just fade in" is not allowed** as a section's motion. **The hero and signature must not repeat ANY earlier site's hero or signature**: check every row of `docs/SITES-LOG.md` (Hero, Signature and Motion columns), not just yesterday's. **The hero must not be a "shape grows to full screen / portal" opening** (a window, arch, plate, card or doorway that expands to fill the screen). Also note the transitions between sections (X codes) and the planned details (hover, cursor).
@@ -48,7 +61,7 @@ Stop after **every** round, tell the user in plain simple language what to check
 
 ### Round 1 — Structure (build it)
 1. **Save the old site first**: `npm run archive -- <day-NN-slug>` (if not already saved), then clear `site/` except `DESIGN.md`.
-2. **Assets**: put images in `public/images/<slug>/`. For every video: `npm run frames -- raw/<video>.mp4 frames/<slug>-<name> --zoom 1.2 --max 160` (< 15 MB each). Cut-out product images (transparent PNG/WebP) for pop cards / colour switcher.
+2. **Assets**: put images in `public/images/<slug>/`. For every scroll video use the **`video-frames`** skill (`site/frames.json` + `npm run film-frames`: by video time, watermark painted out, ≤ 12 MB desktop / ≤ 6 MB phone; play with `lib/film.ts` + `FilmPin`). The older `npm run frames -- raw/<video>.mp4 frames/<slug>-<name>` still works for simple evenly spaced frames. Cut-out product images (transparent PNG/WebP) for pop cards / colour switcher. Asset prompts: **`flow-prompts`** skill.
 3. **Fonts**: `npm i` the chosen pair, import them in `site/fonts.ts`.
 4. **Write** `site/site.ts` (meta, theme, record), `site/site.css` (brand-specific styles: buttons, eyebrow, special effects), `site/content.ts` (all text/data), `site/components/*` and `site/Page.tsx`.
    - Copy each pattern you use into `site/components/` under a brand-specific name and **restyle it** (see the end of DESIGN-MENU.md). Import **at most 3 patterns unchanged** from `components/patterns/`.
@@ -89,12 +102,12 @@ Stop after **every** round, tell the user in plain simple language what to check
 4. No console errors; `npm run build` passes.
 5. Set `meta.record.duration` so the **whole page scrolls in 25–40 s** (reel length). Test: `npm run build && npm start` → `npm run reel` (or watch `http://localhost:3000/?record=1`).
 6. **Final checks**: `npm run reel -- <day-NN-slug>-final` (PASS), `npm run phone-shots` (clean at 360 and 390), `npm run check`. Send the user the 1440 reel.
-7. **Add a row to `docs/SITES-LOG.md`** (including the Motion column: loader · hero · signature codes) and run `npm run archive -- <day-NN-slug>`.
+7. **Add a row to `docs/SITES-LOG.md`** (including the Motion column: loader · hero · signature codes), **add the day's new lessons to `docs/LESSONS.md`**, and run `npm run archive -- <day-NN-slug>` (skill: **`archive-day`**, which also commits and pushes the day's repo when asked).
 8. **Repo check**: run `git ls-files` and confirm the repo only contains the current site's assets, the engine, the pattern library and the kit docs: no other brand names (`git grep -il <old names>`) and no other site's images. Report the file list (grouped by folder) and the total size (`git ls-files -z | xargs -0 du -ch | tail -1`).
 9. Report back in plain simple language: the section list, anything skipped, and the filming command (see `docs/RECORDING.md`).
 
 ### Checks every round (Rounds 1–5)
-Run against the production server (`npm run build && npm start`):
+Every round starts by re-reading `docs/LESSONS.md`. Skills: **`record-check`**, **`phone-check`** (and `cover-check` for the reel cover). Run against the production server (`npm run build && npm start`):
 1. **`npm run reel -- <day-NN-slug>-r<round>`**: records `?record=1` at **1440×900 only**, trims it to the page (first paint → end of the auto-scroll), runs **freezedetect** (n=0.002, d=0.4 s) and **frame-diff** (no stretch ≥ 0.3 s without change) and prints PASS / FAIL. It must PASS. If it reports < ~50 fps captured, the machine is busy: re-run (don't "fix" the site for a recorder hiccup). Look at any flagged spot before changing anything. (Round 1 has no motion yet: skip the reel.)
 2. **`npm run phone-shots`**: one screenshot of every section at **360×640 and 390×844** → `recordings/phone-shots/` (+ one contact sheet per size). Look at every shot: the main subject fully visible, nothing on top of it, nothing cut off.
 3. Fix every problem **before** saying the round is done. No phone recordings, and the checks run on the 1440 recording only.
@@ -126,8 +139,13 @@ If you build something on a site that would be useful again (a new nav, hero, ca
 - `npm run check`: all images/frames used in `site/` exist
 - `npm run reel [-- <name>]`: record `?record=1` at 1440×900 → `recordings/<name>.mp4` + freezedetect + frame-diff (PASS / FAIL)
 - `npm run phone-shots`: screenshots of every section at 360×640 and 390×844 → `recordings/phone-shots/`
+- `npm run film-frames [clip]`: video → scroll frames by video time (`site/frames.json`, skill `video-frames`)
+- `npm run cover-check -- <cover.jpg> [--fit]`: Instagram safe areas on a 9:16 cover
+- `npm run cutout -- <folder> [out]`: transparent PNGs with rembg + BiRefNet (install once: `pip3 install "rembg[cpu,cli]"`)
+- `npm run glb -- <in.glb> [out.glb] [--ogl]`: compress a 3D model (gltf-transform; ≤ 3 MB; `--ogl` for OGL / model-viewer)
+- `PAGE=/lab npm run reel -- lab` · `PAGE=/lab npm run phone-shots`: check other pages (long pages: `SECS=180`)
 - `npm run archive -- <name>` / `npm run restore -- <name>`
-- `/patterns`: pattern catalogue · `?static=1`: no motion · `?record=1`: auto-scroll (`&duration=30` or `&speed=200`)
+- `/patterns`: pattern catalogue · `/lab/travel/<f1|f3|f3t|f3r|f6>`: travelling object demos · `/lab`: every M38+ motion, X6+ transition and collected effect, live (hidden, noindex) · `?static=1`: no motion · `?record=1`: auto-scroll (`&duration=30` or `&speed=200`)
 
 <!-- BEGIN:nextjs-agent-rules -->
 

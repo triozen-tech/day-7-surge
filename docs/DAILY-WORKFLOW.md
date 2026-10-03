@@ -14,7 +14,7 @@
 | 10. Film vertical in a dark room (`docs/RECORDING.md`) | 20 min | Person C |
 | 11. Edit (top text, trending song), post Reel + Story | 45 min | Person C |
 
-**Every round** Claude runs the checks itself: `npm run reel` (laptop 1440×900 only, freezedetect + frame-diff must PASS) and `npm run phone-shots` (every section at 360×640 and 390×844; the main subject fully visible, nothing on top of it). Reels are filmed on the laptop only; nobody records the phone.
+**Every round** Claude first re-reads `docs/LESSONS.md`, then runs the checks itself: `npm run reel` (laptop 1440×900 only, freezedetect + frame-diff must PASS) and `npm run phone-shots` (every section at 360×640 and 390×844; the main subject fully visible, nothing on top of it). Reels are filmed on the laptop only; nobody records the phone.
 
 ## The one-line brief
 

@@ -127,18 +127,10 @@ body {
 }
 
 /* Split-text words (see components/core/Animations.tsx) */
-.split-word {
-  display: inline-block;
-  overflow: hidden;
-  vertical-align: top;
-  padding-bottom: 0.08em;
-  margin-bottom: -0.08em;
+/* data-split lines (GSAP SplitText adds the masks; a little room for descenders) */
+[data-split] {
+  font-kerning: none;
 }
-.split-word > span {
-  display: inline-block;
-  will-change: transform;
-}
-
 .highlight {
   color: var(--accent);
   font-style: italic;

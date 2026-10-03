@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { gsap, prefersReducedMotion, ScrollTrigger } from "@/lib/gsap";
+import { gsap, prefersReducedMotion, ScrollTrigger, SplitText } from "@/lib/gsap";
 import { onSiteReady } from "@/lib/loading";
 
 /**
@@ -9,7 +9,7 @@ import { onSiteReady } from "@/lib/loading";
  *
  *   data-reveal            fade + slide up when it enters the screen
  *   data-reveal="stagger"  animate its direct children one after another
- *   data-split             word-by-word reveal (use <SplitText>)
+ *   data-split             line-by-line masked reveal, GSAP SplitText (use <SplitText>)
  *   data-parallax="0.15"   moves slower/faster than the page (0.1–0.3)
  *   data-count="850"       counts up (optional data-decimals, data-prefix, data-suffix)
  *   data-zoom              image slowly zooms out while it scrolls into view
@@ -36,14 +36,21 @@ export default function Animations() {
           });
         });
 
+        // line-by-line reveal (GSAP SplitText: masked lines, re-split on font load / resize)
         gsap.utils.toArray<HTMLElement>("[data-split]").forEach((el) => {
-          gsap.from(el.querySelectorAll(".split-word > span"), {
-            yPercent: 110,
-            duration: 0.9,
-            ease: "power3.out",
-            stagger: 0.035,
-            scrollTrigger: { trigger: el, start: START, once: true },
-          });
+          SplitText.create(el, {
+              type: "lines",
+              mask: "lines",
+              autoSplit: true,
+              onSplit: (self) =>
+                gsap.from(self.lines, {
+                  yPercent: 110,
+                  duration: 0.9,
+                  ease: "power3.out",
+                  stagger: 0.08,
+                  scrollTrigger: { trigger: el, start: START, once: true },
+                }),
+          }); // reverted with the context
         });
 
         gsap.utils.toArray<HTMLElement>("[data-parallax]").forEach((el) => {

@@ -4,6 +4,8 @@ archive/
 raw/
 docs/SITES-LOG.md
 recordings/
+# local Python env for `npm run cutout` (rembg + BiRefNet); recreate with the command in scripts/cutout.mjs
+.venv-cutout/
 
 # dependencies, builds, secrets, system files
 node_modules/

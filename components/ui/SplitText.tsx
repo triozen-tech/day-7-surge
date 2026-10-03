@@ -1,8 +1,10 @@
 import { createElement, type ElementType } from "react";
 
 /**
- * Renders text as masked words for the word-by-word reveal.
- * Wrap words in *stars* to highlight them in the accent colour.
+ * Text for the line-by-line reveal (`data-split`, played by the engine with GSAP's SplitText plugin: lines rise from
+ * behind a mask, re-split automatically when fonts load or the width changes, so lines never break wrongly).
+ * Wrap words in *stars* to highlight them in the accent colour. The server renders plain text, so ?static=1 and
+ * no-JS show the final state.
  */
 export default function SplitText({
   text,
@@ -13,25 +15,18 @@ export default function SplitText({
   as?: ElementType;
   className?: string;
 }) {
-  const plain = text.replace(/\*/g, "");
-  const words = text.split(/(\s+)/);
-  let highlighted = false;
-
+  const parts = text.split(/(\*[^*]+\*)/);
   return createElement(
     as,
-    { className, "data-split": "", "aria-label": plain },
-    words.map((w, i) => {
-      if (/^\s+$/.test(w)) return " ";
-      const starts = w.startsWith("*");
-      const ends = w.replace(/[.,!?;:]+$/, "").endsWith("*");
-      if (starts) highlighted = true;
-      const isHi = highlighted;
-      if (ends) highlighted = false;
-      return (
-        <span key={i} className="split-word" aria-hidden>
-          <span className={isHi ? "highlight" : undefined}>{w.replace(/\*/g, "")}</span>
+    { className, "data-split": "" },
+    parts.map((p, i) =>
+      p.startsWith("*") && p.endsWith("*") ? (
+        <span key={i} className="highlight">
+          {p.slice(1, -1)}
         </span>
-      );
-    }),
+      ) : (
+        p
+      ),
+    ),
   );
 }

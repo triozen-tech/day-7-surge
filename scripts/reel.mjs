@@ -5,6 +5,7 @@
 //                                 trimmed from the page's first paint to the end of the auto-scroll, then
 //                                 freezedetect (n=0.002, d=0.4 s) + frame-diff (no stretch ≥ 0.3 s without change).
 //                                 Prints PASS / FAIL and exits 1 on FAIL.
+//   (other pages: PAGE=/lab npm run reel -- lab · longer runs: SECS=180)
 //   npm run phone-shots           one screenshot of every section at 360×640 and 390×844 (pinned sections at
 //                                 start / middle / end) → recordings/phone-shots/<size>/ + a contact sheet per size
 //                                 (recordings/phone-shots/<size>.jpg). Check them by eye: the main subject fully
@@ -17,9 +18,10 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 
 const BASE = process.env.URL || "http://localhost:3000";
+const PAGE = (process.env.PAGE || "/").replace(/^\/?/, "/"); // e.g. PAGE=/lab
 const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const OUT = join(process.cwd(), "recordings");
-const REEL = { w: 1440, h: 900, secs: 60 }; // secs = safety cap; recording stops when the auto-scroll is done
+const REEL = { w: 1440, h: 900, secs: Number(process.env.SECS || 60) }; // secs = safety cap; recording stops when the auto-scroll is done
 const PHONES = [
   [360, 640],
   [390, 844],
@@ -49,7 +51,10 @@ async function browser(w, h, { dpr = 1, mobile = false } = {}) {
     try {
       proc.kill("SIGKILL");
     } catch {}
-    rmSync(dir, { recursive: true, force: true });
+    try {
+      // Chrome may still be writing its profile for a moment after the kill: retry, and never fail the run over it
+      rmSync(dir, { recursive: true, force: true, maxRetries: 10, retryDelay: 150 });
+    } catch {}
   };
   process.on("exit", close); // never leave a headless Chrome running
   let page;
@@ -118,6 +123,8 @@ async function reel(name) {
   const frames = [];
   let doneAt = 0;
   const errors = [];
+  const marks = []; // { t: wall-clock s, label } from record mode's "[record] 12.40 s  → Label" logs
+  let planned = 0; // record mode's planned total (s), to catch a run that broke off early
   b.on((m) => {
     if (m.method === "Page.screencastFrame") {
       const { data, metadata, sessionId } = m.params;
@@ -129,16 +136,20 @@ async function reel(name) {
     if (m.method === "Runtime.consoleAPICalled") {
       const text = m.params.args.map((a) => a.value ?? a.description ?? "").join(" ");
       if (text.includes("[record] done")) doneAt = m.params.timestamp / 1000;
+      const pl = text.match(/\[record\] section timeline.*total ([\d.]+) s/);
+      if (pl) planned = Number(pl[1]);
+      const mk = text.match(/\[record\] [\d.]+ s\s+→ (.+)$/);
+      if (mk) marks.push({ t: m.params.timestamp / 1000, label: mk[1].trim() });
       if (m.params.type === "error") errors.push(text);
     }
     if (m.method === "Runtime.exceptionThrown") errors.push(m.params.exceptionDetails.exception?.description ?? m.params.exceptionDetails.text);
   });
   await b.send("Page.startScreencast", { format: "jpeg", quality: 80, maxWidth: REEL.w, maxHeight: REEL.h, everyNthFrame: 1 });
-  await b.send("Page.navigate", { url: `${BASE}/?record=1` });
+  await b.send("Page.navigate", { url: `${BASE}${PAGE}?record=1` });
   const t0 = Date.now();
   while (!doneAt && Date.now() - t0 < REEL.secs * 1000) await sleep(200);
   await sleep(600); // a little tail after the last move
-  await b.send("Page.stopScreencast");
+  await b.send("Page.stopScreencast", {}, 5000).catch(() => {}); // frames are already captured; never fail here
   await sleep(300);
   b.close();
   if (!doneAt) console.warn("! the auto-scroll never reported done; kept the whole capture");
@@ -173,6 +184,13 @@ async function reel(name) {
       break;
     }
   }
+  const wall0 = kept[0].t + start; // wall-clock second of the trimmed video's first frame
+  const where = (sec) => {
+    const at = wall0 + Number(sec);
+    let label = "start";
+    for (const m of marks) if (m.t <= at + 0.05) label = m.label;
+    return label;
+  };
   ff(["-ss", start.toFixed(3), "-i", full, "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p", out]);
   rmSync(work, { recursive: true, force: true });
 
@@ -198,10 +216,18 @@ async function reel(name) {
   const secs = (v.length / 30).toFixed(1);
   console.log(`\nreel: ${out}`);
   console.log(`  ${secs} s · ${frames.length} frames captured (≈ ${Math.round(frames.length / ((frames.at(-1).t - frames[0].t) || 1))} fps; under ~50 the machine is busy: re-run)`);
-  console.log(`  freezedetect (n=0.002, d=0.4 s): ${freezes.length ? freezes.map(([s, d]) => `${s}s for ${d}s`).join(", ") : "none"}`);
-  console.log(`  frame-diff (no change ≥ 0.3 s): ${stuck.length ? stuck.map(([s, d]) => `${s}s for ${d}s`).join(", ") : "none"}`);
+  // each flagged spot with the section record mode was heading to at that moment
+  const spots = (arr) => (arr.length ? "\n" + arr.map(([s, d]) => `    ${s.padStart(7)} s  for ${d} s   → ${where(s)}`).join("\n") : " none");
+  console.log(`  freezedetect (n=0.002, d=0.4 s):${spots(freezes)}`);
+  console.log(`  frame-diff (no change ≥ 0.3 s):${spots(stuck)}`);
   if (errors.length) console.log(`  console errors:\n    ${errors.slice(0, 8).join("\n    ")}`);
-  const pass = !freezes.length && !stuck.length && !errors.length;
+  // a recording shorter than the planned timeline broke off (busy machine, crashed tab): never a PASS
+  const firstMark = marks.length ? marks[0].t : wall0;
+  const covered = doneAt ? doneAt - firstMark : 0;
+  const complete = !planned || (doneAt && covered >= planned - 1.5);
+  if (!complete) console.log(`  ⚠ incomplete: the auto-scroll covered ${covered.toFixed(1)} s of its planned ${planned.toFixed(1)} s (busy machine? re-run)`);
+  else if (planned) console.log(`  complete: ${planned.toFixed(1)} s timeline played to the end`);
+  const pass = !freezes.length && !stuck.length && !errors.length && complete;
   console.log(pass ? "PASS" : "FAIL");
   process.exit(pass ? 0 : 1);
 }
@@ -214,7 +240,7 @@ async function phoneShots() {
     rmSync(dir, { recursive: true, force: true });
     mkdirSync(dir, { recursive: true });
     const b = await browser(w, h, { dpr: 2, mobile: true });
-    await b.send("Page.navigate", { url: `${BASE}/` });
+    await b.send("Page.navigate", { url: `${BASE}${PAGE}` });
     await sleep(5500); // loader
     const scrollTo = (y) => b.evaluate(`(window.__lenis ? window.__lenis.scrollTo(${y}, {immediate:true, force:true}) : window.scrollTo(0, ${y})), true`);
     // walk the page once so every lazy video / image loads, then come back
@@ -226,12 +252,12 @@ async function phoneShots() {
     await sleep(1200);
     // every top-level section (+ footer); pinned / tall ones at start, middle and end
     const stops = await b.evaluate(`(() => {
-      const els = [...document.querySelectorAll("section[id], footer")].filter((el) => !el.parentElement.closest("section[id]"));
+      const els = [...document.querySelectorAll("section[id], section[data-record-label], footer")].filter((el) => !el.parentElement.closest("section[id], section[data-record-label]"));
       const out = [];
       els.forEach((el, n) => {
         const r = el.getBoundingClientRect();
         const top = r.top + scrollY;
-        const name = String(n + 1).padStart(2, "0") + "-" + (el.id || el.tagName.toLowerCase());
+        const name = String(n + 1).padStart(2, "0") + "-" + (el.id || (el.dataset.recordLabel || el.tagName).toLowerCase().replace(/[^a-z0-9]+/g, "-"));
         if (r.height > innerHeight * 1.6) [0.08, 0.5, 0.92].forEach((p, i) => out.push({ name: name + "-" + "abc"[i], y: Math.round(top + (r.height - innerHeight) * p) }));
         else out.push({ name, y: Math.max(0, Math.round(top + Math.min(0, (r.height - innerHeight) / 2))) });
       });
