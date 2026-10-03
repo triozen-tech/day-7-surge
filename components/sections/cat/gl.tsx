@@ -6,5 +6,6 @@ import { GALLERY } from "../gallery";
 import { DEFS as GL_B1 } from "../gl-b1";
 import { DEFS as GL_B2 } from "../gl-b2";
 import { DEFS as GL_B3 } from "../gl-b3";
+import { DEFS as GL_B4 } from "../gl-b4";
 
-export const DEFS: SectionDef[] = ([...GALLERY, ...GL_B1, ...GL_B2, ...GL_B3] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...GALLERY, ...GL_B1, ...GL_B2, ...GL_B3, ...GL_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

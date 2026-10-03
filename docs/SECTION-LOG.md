@@ -4,37 +4,37 @@ Every layout in `docs/SECTION-MENU.md`, where its idea came from, and every cand
 Source of truth: `docs/section-log.json` → `node scripts/section-log.mjs` writes this file and `docs/section-log.csv`.
 No code was copied from any source; "inspired" = layout idea rebuilt from scratch (see `docs/SOURCES.md` for licences).
 
-**240 layouts · 1003 skipped**
+**290 layouts · 1003 skipped**
 
 | Category | Layouts |
 |---|---|
-| Hero | 28 |
-| Gallery | 18 |
-| Features | 16 |
-| Product showcase | 16 |
-| Social proof | 12 |
-| Navbar / menu | 12 |
-| Footer | 11 |
+| Hero | 33 |
+| Gallery | 22 |
+| Features | 20 |
+| Product showcase | 18 |
+| Navbar / menu | 17 |
+| Social proof | 15 |
+| Stats / ingredients | 12 |
+| Story / about | 12 |
+| Footer | 12 |
 | Bento | 10 |
-| Stats / ingredients | 10 |
-| Story / about | 10 |
-| Pricing / shop | 9 |
-| CTA band | 8 |
-| FAQ | 7 |
-| Video feature | 7 |
-| Journal / blog | 7 |
-| Team | 6 |
-| Locations / map | 6 |
-| Contact | 6 |
-| Logos / press | 5 |
-| Newsletter | 4 |
-| Process / steps | 4 |
-| Menu / price list | 4 |
-| Booking / reservation | 4 |
-| Events / schedule | 4 |
+| Pricing / shop | 10 |
+| FAQ | 9 |
+| CTA band | 9 |
+| Video feature | 9 |
+| Journal / blog | 9 |
+| Team | 8 |
+| Locations / map | 8 |
+| Contact | 8 |
+| Logos / press | 7 |
+| Newsletter | 5 |
+| Process / steps | 5 |
+| Menu / price list | 5 |
+| Booking / reservation | 5 |
+| Events / schedule | 5 |
+| Listings / rooms / property | 4 |
 | App download | 4 |
 | Comparison / before-after | 3 |
-| Listings / rooms / property | 3 |
 | Announcement / promo bar | 3 |
 | Poll / vote | 1 |
 | Error / 404 | 1 |
@@ -46,6 +46,7 @@ No code was copied from any source; "inspired" = layout idea rebuilt from scratc
 | 1 | 50 |
 | 2 | 50 |
 | 3 | 50 |
+| 4 | 50 |
 
 ## Layouts
 
@@ -291,6 +292,56 @@ No code was copied from any source; "inspired" = layout idea rebuilt from scratc
 | CT08 | CTA band | CTA card in a perspective tunnel | Magic UI | [link](https://magicui.design/docs/components/warp-background) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 3 | 2026-10-04 |
 | FO10 | Footer | Physics pile footer | Awwwards (Draggable Candy Footer, Ring Pop) | [link](https://www.awwwards.com/elements/footer/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
 | FO11 | Footer | Full-screen photo footer | Awwwards (Fullscreen Footer, Columbus Travel) | [link](https://www.awwwards.com/elements/footer/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| NV13 | Navbar / menu | Infinite loop scroll menu | Codrops (ScrollLoopMenu) | [link](https://github.com/codrops/ScrollLoopMenu) | inspired, no code copied (source: MIT (Codrops)) | 4 | 2026-10-04 |
+| NV14 | Navbar / menu | Ruled-cell editorial navbar | 21st.dev | [link](https://21st.dev/@kedhareswer/components/dither-sweep-navbar.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 4 | 2026-10-04 |
+| NV15 | Navbar / menu | Large title that condenses into the bar | 21st.dev | [link](https://21st.dev/@ddoemonn/components/sticky-header.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| NV16 | Navbar / menu | Floating pill navbar that hides on scroll | Preline UI | [link](https://preline.co/blocks/marketing/floating-headers/#floating-navbar-with-cta) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 4 | 2026-10-04 |
+| NV17 | Navbar / menu | Main bar + category row | Preline UI | [link](https://preline.co/blocks/marketing/website-headers/#website-header-with-secondary-nav-row) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 4 | 2026-10-04 |
+| PD05 | Process / steps | Segmented phase bar | 21st.dev | [link](https://21st.dev/@ankitsharma2615/components/process-pillars.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 4 | 2026-10-04 |
+| TM07 | Team | Team portrait slider | Awwwards (Team slider, Union) | [link](https://www.awwwards.com/elements/team/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 4 | 2026-10-04 |
+| TM08 | Team | Name directory with hover cards | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/team/two.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| LG06 | Logos / press | Shuffle tile grid beside headline | 21st.dev | [link](https://21st.dev/@vaib215/components/shuffle-grid.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 4 | 2026-10-04 |
+| LG07 | Logos / press | 3x3 tile grid with cycling featured tile | 21st.dev | [link](https://21st.dev/@mohammadshehadeh/components/integrations-07.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| MN05 | Menu / price list | Numbered service list with from-prices | 21st.dev | [link](https://21st.dev/@balick/components/services-01.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 4 | 2026-10-04 |
+| BK05 | Booking / reservation | Week strip + time-slot chips | 21st.dev | [link](https://21st.dev/@bidyut10/components/booking-slot-calendar.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| LS04 | Listings / rooms / property | Itinerary cards with season + from-price | Awwwards (White Desert) | [link](https://white-desert.com/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 4 | 2026-10-04 |
+| MP07 | Locations / map | Journey route infographic | Awwwards (White Desert; Flight Map, New Zealander Delivery Service) | [link](https://white-desert.com/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 4 | 2026-10-04 |
+| MP08 | Locations / map | Numbered shop cards + coming soon | SiteInspire (Union Boulangerie) | [link](https://unionboulangerie.com/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 4 | 2026-10-04 |
+| EV05 | Events / schedule | Event cards with RSVP | 21st.dev | [link](https://21st.dev/@cnippet-dev/components/v-card-19.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 4 | 2026-10-04 |
+| VD08 | Video feature | Thumbnail that opens a video modal | Magic UI | [link](https://magicui.design/docs/components/hero-video-dialog) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 4 | 2026-10-04 |
+| VD09 | Video feature | Looping plate clips row | Awwwards (Signature Plates in Motion, Qissa) | [link](https://www.awwwards.com/elements/video/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 4 | 2026-10-04 |
+| JR08 | Journal / blog | Index list with reading-length bars | 21st.dev | [link](https://21st.dev/@nikolas-sapa/components/post-list-ascii-index.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| JR09 | Journal / blog | Sticky-date release log | Magic UI Changelog template | [link](https://changelog-magicui.vercel.app/) | inspired, no code copied (source: No LICENSE file in repo: licence unclear, look and learn only) | 4 | 2026-10-04 |
+| CC07 | Contact | Intro column + 2x2 contact methods | Meraki UI | [link](https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/contact/Grid2x2.html) | inspired, no code copied (source: MIT © 2021 Khatab Wedaa) | 4 | 2026-10-04 |
+| CC08 | Contact | Heading, wide image, method row | Meraki UI | [link](https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/contact/GridWithImage.html) | inspired, no code copied (source: MIT © 2021 Khatab Wedaa) | 4 | 2026-10-04 |
+| HR29 | Hero | Split hero with twin shoppable image cards | 21st.dev | [link](https://21st.dev/@felipemenezes098/components/hero-08.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 4 | 2026-10-04 |
+| HR30 | Hero | Depth-of-field chip cloud | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/hero-section/one/hero-section.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| HR31 | Hero | Split hero with cycling card stack | 21st.dev | [link](https://21st.dev/@ruixen.ui/components/hero-preview-walls.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 4 | 2026-10-04 |
+| HR32 | Hero | Type-only hero with a flipping word slot | Aceternity UI | [link](https://ui.aceternity.com/components/layout-text-flip) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 4 | 2026-10-04 |
+| HR33 | Hero | Split-flap board headline | Aceternity UI | [link](https://ui.aceternity.com/components/text-flipping-board) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 4 | 2026-10-04 |
+| FT17 | Features | Wide masked visual + four footnotes | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/features/six.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| FT18 | Features | Tall story-card carousel opening into an article | Aceternity UI | [link](https://ui.aceternity.com/components/apple-cards-carousel) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 4 | 2026-10-04 |
+| FT19 | Features | Browser-frame storefront showcase | Magic UI | [link](https://magicui.design/docs/components/safari) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 4 | 2026-10-04 |
+| FT20 | Features | Statement left, ruled bullet ledger right | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/content/four.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| PS17 | Product showcase | Collection tree browser | Magic UI | [link](https://magicui.design/docs/components/file-tree) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 4 | 2026-10-04 |
+| PS18 | Product showcase | Compact list rows that open a detail card | Aceternity UI | [link](https://ui.aceternity.com/components/expandable-card) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 4 | 2026-10-04 |
+| ST11 | Stats / ingredients | Statement left, ruled stats sink bottom-right | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/stats/one.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| ST12 | Stats / ingredients | Hero metric + image + figure row | 21st.dev | [link](https://21st.dev/@uilayout.contact/components/stats-bold.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 4 | 2026-10-04 |
+| SY11 | Story / about | Alternating centre-spine timeline | 21st.dev | [link](https://21st.dev/@shadcnspace/components/timeline-01.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| SY12 | Story / about | Centre-focus expanding timeline | 21st.dev | [link](https://21st.dev/@ruixen.ui/components/release-time-line.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 4 | 2026-10-04 |
+| GL19 | Gallery | Make-way expanding grid | Codrops (MakeWayGridEffect) | [link](https://github.com/codrops/MakeWayGridEffect) | inspired, no code copied (source: MIT (Codrops)) | 4 | 2026-10-04 |
+| GL20 | Gallery | Diagonal drifting oversized grid | 21st.dev | [link](https://21st.dev/@kapishdima/components/infinite-bento-pan.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 4 | 2026-10-04 |
+| GL21 | Gallery | Per-slide grid compositions | Codrops (GridLayoutSlideshow) | [link](https://github.com/codrops/GridLayoutSlideshow) | inspired, no code copied (source: Codrops custom licence (free to build upon, no as-is redistribution)) | 4 | 2026-10-04 |
+| GL22 | Gallery | Deck that deals into a grid | 21st.dev | [link](https://21st.dev/@paceui/components/layered-stack.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| SP13 | Social proof | Testimonial switcher with stacked portraits | Aceternity UI | [link](https://ui.aceternity.com/components/animated-testimonials) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 4 | 2026-10-04 |
+| SP14 | Social proof | Rotated label rail + progress-timed quote | 21st.dev | [link](https://21st.dev/@jatin-yadav05/components/design-testimonial.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 4 | 2026-10-04 |
+| SP15 | Social proof | Video quote card + tall colour quote | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/testimonials/one.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| PR10 | Pricing / shop | Stacked horizontal tier rows | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/pricing/two.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| FQ08 | FAQ | FAQ card marquee | 21st.dev | [link](https://21st.dev/@dhileepkumargm/components/habit-faq-scroller.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 4 | 2026-10-04 |
+| FQ09 | FAQ | Grouped FAQ rows | Float UI | [link](https://raw.githubusercontent.com/MarsX-dev/floatui/main/componentsDB/faqs/faqs-79884cc45412.mdx) | inspired, no code copied (source: Float UI custom licence (use in unlimited end products allowed; no redistribution of components) — free components only) | 4 | 2026-10-04 |
+| CT09 | CTA band | CTA card with inset price box | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/call-to-action/four.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 4 | 2026-10-04 |
+| NL05 | Newsletter | Launch signup + auto-scrolling preview column | 21st.dev | [link](https://21st.dev/@uiable/components/block-coming-soon-1.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 4 | 2026-10-04 |
+| FO12 | Footer | Circular text-ribbon footer | 21st.dev | [link](https://21st.dev/@radiumcoders/components/tangle-footer.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 4 | 2026-10-04 |
 
 ## Skipped
 

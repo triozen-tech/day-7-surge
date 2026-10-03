@@ -5,5 +5,6 @@ import type { SectionDef } from "../types";
 import { CTA } from "../cta";
 import { DEFS as CT_B2 } from "../ct-b2";
 import { DEFS as CT_B3 } from "../ct-b3";
+import { DEFS as CT_B4 } from "../ct-b4";
 
-export const DEFS: SectionDef[] = ([...CTA, ...CT_B2, ...CT_B3] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...CTA, ...CT_B2, ...CT_B3, ...CT_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

@@ -73,7 +73,7 @@ export const Stars = ({ n = 5 }: { n?: number }) => (
 export const Avatar = ({ name, i = 0, size = 40 }: { name: string; i?: number; size?: number }) => {
   const hues = ["#4f8dff", "#b5502a", "#1f5f4a", "#8a5cf6", "#d4a24c"];
   return (
-    <span className="grid shrink-0 place-items-center rounded-full font-[700] text-white" style={{ width: size, height: size, background: hues[i % hues.length], fontSize: size * 0.38 }}>
+    <span className="grid shrink-0 place-items-center rounded-full font-[700] text-white" style={{ width: size, height: size, background: hues[i % hues.length], fontSize: Math.max(12, size * 0.38) }}>
       {name
         .split(" ")
         .map((w) => w[0])

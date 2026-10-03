@@ -5,5 +5,6 @@ import type { SectionDef } from "../types";
 import { DEFS as PD_B1 } from "../pd-b1";
 import { DEFS as PD_B2 } from "../pd-b2";
 import { DEFS as PD_B3 } from "../pd-b3";
+import { DEFS as PD_B4 } from "../pd-b4";
 
-export const DEFS: SectionDef[] = ([...PD_B1, ...PD_B2, ...PD_B3] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...PD_B1, ...PD_B2, ...PD_B3, ...PD_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

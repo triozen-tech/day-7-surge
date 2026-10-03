@@ -2399,6 +2399,506 @@
    "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
    "batch": "3",
    "date": "2026-10-04"
+  },
+  {
+   "code": "NV13",
+   "category": "Navbar / menu",
+   "name": "Infinite loop scroll menu",
+   "source_site": "Codrops (ScrollLoopMenu)",
+   "source_url": "https://github.com/codrops/ScrollLoopMenu",
+   "type": "inspired, no code copied (source: MIT (Codrops))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV14",
+   "category": "Navbar / menu",
+   "name": "Ruled-cell editorial navbar",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@kedhareswer/components/dither-sweep-navbar.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV15",
+   "category": "Navbar / menu",
+   "name": "Large title that condenses into the bar",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ddoemonn/components/sticky-header.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV16",
+   "category": "Navbar / menu",
+   "name": "Floating pill navbar that hides on scroll",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/floating-headers/#floating-navbar-with-cta",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV17",
+   "category": "Navbar / menu",
+   "name": "Main bar + category row",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/website-headers/#website-header-with-secondary-nav-row",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PD05",
+   "category": "Process / steps",
+   "name": "Segmented phase bar",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ankitsharma2615/components/process-pillars.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM07",
+   "category": "Team",
+   "name": "Team portrait slider",
+   "source_site": "Awwwards (Team slider, Union)",
+   "source_url": "https://www.awwwards.com/elements/team/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM08",
+   "category": "Team",
+   "name": "Name directory with hover cards",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/team/two.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LG06",
+   "category": "Logos / press",
+   "name": "Shuffle tile grid beside headline",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@vaib215/components/shuffle-grid.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LG07",
+   "category": "Logos / press",
+   "name": "3x3 tile grid with cycling featured tile",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@mohammadshehadeh/components/integrations-07.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MN05",
+   "category": "Menu / price list",
+   "name": "Numbered service list with from-prices",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@balick/components/services-01.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "BK05",
+   "category": "Booking / reservation",
+   "name": "Week strip + time-slot chips",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@bidyut10/components/booking-slot-calendar.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LS04",
+   "category": "Listings / rooms / property",
+   "name": "Itinerary cards with season + from-price",
+   "source_site": "Awwwards (White Desert)",
+   "source_url": "https://white-desert.com/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MP07",
+   "category": "Locations / map",
+   "name": "Journey route infographic",
+   "source_site": "Awwwards (White Desert; Flight Map, New Zealander Delivery Service)",
+   "source_url": "https://white-desert.com/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MP08",
+   "category": "Locations / map",
+   "name": "Numbered shop cards + coming soon",
+   "source_site": "SiteInspire (Union Boulangerie)",
+   "source_url": "https://unionboulangerie.com/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "EV05",
+   "category": "Events / schedule",
+   "name": "Event cards with RSVP",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@cnippet-dev/components/v-card-19.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "VD08",
+   "category": "Video feature",
+   "name": "Thumbnail that opens a video modal",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/hero-video-dialog",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "VD09",
+   "category": "Video feature",
+   "name": "Looping plate clips row",
+   "source_site": "Awwwards (Signature Plates in Motion, Qissa)",
+   "source_url": "https://www.awwwards.com/elements/video/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR08",
+   "category": "Journal / blog",
+   "name": "Index list with reading-length bars",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@nikolas-sapa/components/post-list-ascii-index.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR09",
+   "category": "Journal / blog",
+   "name": "Sticky-date release log",
+   "source_site": "Magic UI Changelog template",
+   "source_url": "https://changelog-magicui.vercel.app/",
+   "type": "inspired, no code copied (source: No LICENSE file in repo: licence unclear, look and learn only)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC07",
+   "category": "Contact",
+   "name": "Intro column + 2x2 contact methods",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/contact/Grid2x2.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC08",
+   "category": "Contact",
+   "name": "Heading, wide image, method row",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/contact/GridWithImage.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR29",
+   "category": "Hero",
+   "name": "Split hero with twin shoppable image cards",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@felipemenezes098/components/hero-08.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR30",
+   "category": "Hero",
+   "name": "Depth-of-field chip cloud",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/hero-section/one/hero-section.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR31",
+   "category": "Hero",
+   "name": "Split hero with cycling card stack",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ruixen.ui/components/hero-preview-walls.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR32",
+   "category": "Hero",
+   "name": "Type-only hero with a flipping word slot",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/layout-text-flip",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR33",
+   "category": "Hero",
+   "name": "Split-flap board headline",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/text-flipping-board",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT17",
+   "category": "Features",
+   "name": "Wide masked visual + four footnotes",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/features/six.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT18",
+   "category": "Features",
+   "name": "Tall story-card carousel opening into an article",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/apple-cards-carousel",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT19",
+   "category": "Features",
+   "name": "Browser-frame storefront showcase",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/safari",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT20",
+   "category": "Features",
+   "name": "Statement left, ruled bullet ledger right",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/content/four.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS17",
+   "category": "Product showcase",
+   "name": "Collection tree browser",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/file-tree",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS18",
+   "category": "Product showcase",
+   "name": "Compact list rows that open a detail card",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/expandable-card",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "ST11",
+   "category": "Stats / ingredients",
+   "name": "Statement left, ruled stats sink bottom-right",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/stats/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "ST12",
+   "category": "Stats / ingredients",
+   "name": "Hero metric + image + figure row",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@uilayout.contact/components/stats-bold.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY11",
+   "category": "Story / about",
+   "name": "Alternating centre-spine timeline",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@shadcnspace/components/timeline-01.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY12",
+   "category": "Story / about",
+   "name": "Centre-focus expanding timeline",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ruixen.ui/components/release-time-line.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL19",
+   "category": "Gallery",
+   "name": "Make-way expanding grid",
+   "source_site": "Codrops (MakeWayGridEffect)",
+   "source_url": "https://github.com/codrops/MakeWayGridEffect",
+   "type": "inspired, no code copied (source: MIT (Codrops))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL20",
+   "category": "Gallery",
+   "name": "Diagonal drifting oversized grid",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@kapishdima/components/infinite-bento-pan.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL21",
+   "category": "Gallery",
+   "name": "Per-slide grid compositions",
+   "source_site": "Codrops (GridLayoutSlideshow)",
+   "source_url": "https://github.com/codrops/GridLayoutSlideshow",
+   "type": "inspired, no code copied (source: Codrops custom licence (free to build upon, no as-is redistribution))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL22",
+   "category": "Gallery",
+   "name": "Deck that deals into a grid",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@paceui/components/layered-stack.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP13",
+   "category": "Social proof",
+   "name": "Testimonial switcher with stacked portraits",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/animated-testimonials",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP14",
+   "category": "Social proof",
+   "name": "Rotated label rail + progress-timed quote",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@jatin-yadav05/components/design-testimonial.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP15",
+   "category": "Social proof",
+   "name": "Video quote card + tall colour quote",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/testimonials/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PR10",
+   "category": "Pricing / shop",
+   "name": "Stacked horizontal tier rows",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/pricing/two.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FQ08",
+   "category": "FAQ",
+   "name": "FAQ card marquee",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@dhileepkumargm/components/habit-faq-scroller.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FQ09",
+   "category": "FAQ",
+   "name": "Grouped FAQ rows",
+   "source_site": "Float UI",
+   "source_url": "https://raw.githubusercontent.com/MarsX-dev/floatui/main/componentsDB/faqs/faqs-79884cc45412.mdx",
+   "type": "inspired, no code copied (source: Float UI custom licence (use in unlimited end products allowed; no redistribution of components) \u2014 free components only)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CT09",
+   "category": "CTA band",
+   "name": "CTA card with inset price box",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/call-to-action/four.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NL05",
+   "category": "Newsletter",
+   "name": "Launch signup + auto-scrolling preview column",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@uiable/components/block-coming-soon-1.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "4",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FO12",
+   "category": "Footer",
+   "name": "Circular text-ribbon footer",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@radiumcoders/components/tangle-footer.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "4",
+   "date": "2026-10-04"
   }
  ],
  "skipped": [
