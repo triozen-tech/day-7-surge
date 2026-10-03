@@ -1,0 +1,656 @@
+/* Surge: brand styles. Midnight navy, ice white, electric blue used as light. Direction: site/DESIGN.md. */
+
+:root {
+  --glow: #5cc8ff;
+  --blue: #2f8cff;
+  --blue-deep: #1d6ae6;
+  --ice: #eaf5ff;
+  --frost: #b9c6d3;
+  --page: #05080f;
+  /* flavour accents (Flavours section only; set by FlavourScrub at the measured video times) */
+  --fa: #2f8cff;
+  --fb: #5cc8ff;
+}
+
+/* ---------- type ---------- */
+.font-display {
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--frost);
+}
+.eyebrow::before {
+  content: "";
+  width: 26px;
+  height: 9px;
+  background: repeating-linear-gradient(180deg, var(--glow) 0 1px, transparent 1px 4px);
+  filter: drop-shadow(0 0 4px rgba(92, 200, 255, 0.8));
+}
+.label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.06em;
+  margin-bottom: -0.06em;
+}
+
+/* Component styles live in the components layer, so Tailwind utilities (md:hidden, sizes …) can override them. */
+@layer components {
+/* ---------- the brand mark: three ring lines ---------- */
+.rings {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rings > i {
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--glow) 10%, var(--glow) 90%, transparent);
+  box-shadow: 0 0 6px rgba(92, 200, 255, 0.75), 0 0 1px rgba(92, 200, 255, 1);
+}
+.rings-v {
+  flex-direction: row;
+  align-self: stretch;
+}
+.rings-v > i {
+  width: 1px;
+  height: auto;
+  background: linear-gradient(180deg, transparent, var(--glow) 12%, var(--glow) 88%, transparent);
+}
+.edge-rings {
+  z-index: 3;
+  opacity: 0.8;
+}
+
+/* ---------- materials ---------- */
+.frost {
+  background: linear-gradient(160deg, rgba(234, 245, 255, 0.11), rgba(234, 245, 255, 0.035));
+  border: 1px solid rgba(234, 245, 255, 0.14);
+  border-radius: var(--radius);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+  backdrop-filter: blur(18px) saturate(1.2);
+}
+/* condensation: fine droplets in the lower third (like the can's frosted base) + three ring lines on the top edge */
+.condensation {
+  position: relative;
+  overflow: hidden;
+}
+.condensation::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.35) 0 1.1px, transparent 1.6px),
+    radial-gradient(circle at 70% 60%, rgba(255, 255, 255, 0.28) 0 1.6px, transparent 2.2px),
+    radial-gradient(circle at 45% 80%, rgba(255, 255, 255, 0.22) 0 0.9px, transparent 1.4px),
+    radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.3) 0 1.3px, transparent 1.8px);
+  background-size: 37px 29px, 53px 41px, 23px 31px, 61px 47px;
+  -webkit-mask-image: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.6) 22%, transparent 42%);
+  mask-image: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.6) 22%, transparent 42%);
+}
+.condensation::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  right: 24px;
+  height: 11px;
+  pointer-events: none;
+  background: repeating-linear-gradient(180deg, color-mix(in srgb, var(--fa) 70%, transparent) 0 1px, transparent 1px 5px);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+  opacity: 0.7;
+}
+
+/* ---------- buttons ---------- */
+.btn-surge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  white-space: nowrap;
+  padding: 0.95rem 1.5rem;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background: linear-gradient(135deg, var(--blue), var(--blue-deep));
+  box-shadow: 0 0 0 1px rgba(234, 245, 255, 0.12) inset, 0 10px 30px -10px rgba(47, 140, 255, 0.7);
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+}
+.btn-surge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(110deg, transparent 25%, rgba(255, 255, 255, 0.4) 50%, transparent 75%);
+  transform: translateX(-120%);
+}
+/* the shine: on hover, and once by itself (.is-shine, see SurgeDetails); it snaps back unseen */
+.btn-surge:hover::after {
+  transform: translateX(120%);
+  transition: transform 0.8s ease;
+}
+.btn-surge.is-shine::after,
+.cta-ring.is-shine::after {
+  animation: shine 0.9s ease forwards;
+}
+@keyframes shine {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(120%);
+  }
+}
+.cta-ring {
+  overflow: hidden;
+  isolation: isolate;
+}
+.cta-ring::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  background: linear-gradient(110deg, transparent 25%, rgba(234, 245, 255, 0.35) 50%, transparent 75%);
+  transform: translateX(-120%);
+  pointer-events: none;
+}
+.cta-ring:hover::after {
+  transform: translateX(120%);
+  transition: transform 0.8s ease;
+}
+/* footer links: a glowing ring-line underline draws on (hover, and once by itself as the footer arrives) */
+.surge-footer .link-underline {
+  background-image: linear-gradient(var(--glow), var(--glow));
+  background-size: 0 1px;
+  padding-bottom: 3px;
+}
+.surge-footer .link-underline:hover,
+.surge-footer .link-underline.is-drawn {
+  background-size: 100% 1px;
+}
+.btn-sm {
+  padding: 0.7rem 1.2rem;
+  font-size: 14px;
+}
+.flavours .btn-surge {
+  background: linear-gradient(135deg, var(--fa), var(--fb));
+  box-shadow: 0 0 0 1px rgba(234, 245, 255, 0.14) inset, 0 10px 30px -10px color-mix(in srgb, var(--fa) 80%, transparent);
+}
+.flavour-card[data-flavour="tropical"] .btn-surge,
+.flavour-card[data-flavour="zero"] .btn-surge {
+  color: var(--page);
+}
+
+/* ---------- pinned sections ---------- */
+.pin-outer {
+  position: relative;
+}
+.pin-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  background: var(--page);
+}
+html.is-static .pin-outer {
+  height: auto !important;
+}
+html.is-static .pin-stage {
+  position: relative;
+  height: 100vh;
+  height: 100svh;
+}
+html.is-static .rec-stop {
+  display: none;
+}
+
+/* ---------- nav "charge HUD" ---------- */
+.charge-nav {
+  background: linear-gradient(180deg, rgba(5, 8, 15, 0.78), rgba(5, 8, 15, 0));
+}
+.nav-seg {
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(185, 198, 211, 0.25);
+  transition: background 0.5s ease, box-shadow 0.5s ease;
+}
+.nav-seg.is-lit {
+  background: var(--glow);
+  box-shadow: 0 0 8px rgba(92, 200, 255, 0.9);
+}
+.cart-glow {
+  box-shadow: 0 0 0 1px var(--glow), 0 0 24px rgba(92, 200, 255, 0.8);
+}
+.cart-count {
+  min-width: 1.4em;
+  padding: 0.05em 0.45em;
+  border-radius: 999px;
+  text-align: center;
+  background: var(--blue);
+  color: #fff;
+}
+
+/* ---------- hero: the sliced wordmark ---------- */
+.hero-shade {
+  background:
+    linear-gradient(0deg, rgba(5, 8, 15, 0.7) 0%, rgba(5, 8, 15, 0) 34%),
+    linear-gradient(180deg, rgba(5, 8, 15, 0.55) 0%, rgba(5, 8, 15, 0) 16%);
+}
+.slice-word {
+  position: relative;
+  display: block;
+  font-size: min(25vw, 50vh);
+  font-weight: 900;
+  line-height: 0.8;
+  letter-spacing: 0.005em;
+  text-align: right;
+  color: var(--ice);
+  white-space: nowrap;
+}
+.slice-sizer {
+  display: block;
+  visibility: hidden;
+}
+.slice {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.slice-inner {
+  display: block;
+}
+/* three slices cut along the two ring-line groups (gaps of ~0.05em around each cut) */
+.slice-0 {
+  clip-path: inset(-20% -10% calc(66% + 0.045em) -10%);
+}
+.slice-1 {
+  clip-path: inset(calc(34% + 0.045em) -10% calc(33% + 0.045em) -10%);
+}
+.slice-2 {
+  clip-path: inset(calc(67% + 0.045em) -10% -20% -10%);
+}
+/* the top slice is clean ice, the bottom slice is frosted (like the can's icy base) */
+.slice-0 .slice-inner,
+.slice-1 .slice-inner {
+  background: linear-gradient(180deg, #ffffff 0%, var(--ice) 45%, #c6d8ea 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.slice-2 .slice-inner {
+  background:
+    radial-gradient(circle at 30% 40%, rgba(255, 255, 255, 0.9) 0 1px, transparent 1.6px) 0 0 / 9px 7px,
+    radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.7) 0 1.2px, transparent 1.8px) 0 0 / 13px 11px,
+    linear-gradient(180deg, #d9e8f6 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.slice-cut {
+  position: absolute;
+  left: -3%;
+  right: -3%;
+  transform: translateY(-50%);
+}
+.slice-cut-1 {
+  top: 34%;
+}
+.slice-cut-2 {
+  top: 67%;
+}
+.hint-line {
+  background: linear-gradient(90deg, var(--glow), transparent);
+}
+@media (max-width: 767px) {
+  .slice-word {
+    font-size: 36vw;
+    text-align: left;
+  }
+}
+
+/* ---------- the pop ---------- */
+.pop-shade {
+  background: linear-gradient(90deg, rgba(5, 8, 15, 0.7) 0%, rgba(5, 8, 15, 0.25) 34%, rgba(5, 8, 15, 0) 50%);
+}
+@media (min-width: 768px) {
+  .pop-glow {
+    left: 59% !important;
+  }
+  .pop-rings {
+    left: 34% !important;
+  }
+}
+.pop-glow {
+  background: radial-gradient(ellipse at center, rgba(160, 225, 255, 0.95) 0%, rgba(92, 200, 255, 0.55) 18%, rgba(47, 140, 255, 0.22) 42%, transparent 68%);
+  mix-blend-mode: screen;
+}
+.pop-rings {
+  z-index: 1;
+  gap: 7px;
+}
+.pop-words {
+  font-size: clamp(64px, 8.4vw, 156px);
+  font-weight: 900;
+  line-height: 0.86;
+}
+.pop-word {
+  opacity: 0;
+  transform-origin: 0% 60%;
+  will-change: transform, filter, opacity;
+}
+html.is-static .pop-word {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .pop-shade {
+    background: linear-gradient(0deg, rgba(5, 8, 15, 0.85) 0%, rgba(5, 8, 15, 0.4) 34%, rgba(5, 8, 15, 0) 52%);
+  }
+  .pop-words {
+    font-size: 22vw;
+  }
+  /* the opening's height is measured from where the video landed (--open-y, set by the player) */
+  .pop-glow,
+  .pop-rings {
+    top: var(--open-y, 35%) !important;
+  }
+}
+
+/* ---------- what's inside ---------- */
+.stat-value {
+  font-size: clamp(64px, 7.4vw, 136px);
+}
+.stat:nth-of-type(2) .stat-value,
+.stat-value:has(.decode[data-text*="·"]) {
+  font-size: clamp(48px, 5.2vw, 96px);
+}
+.stat-unit {
+  font-size: 0.42em;
+  text-transform: none;
+}
+.stat-divider {
+  opacity: 0.7;
+}
+.bend-ring {
+  filter: drop-shadow(0 0 3px rgba(92, 200, 255, 0.9));
+  opacity: 0.75;
+}
+.decode .dc {
+  display: inline-block;
+  min-width: 0.1em;
+}
+
+/* ---------- flavours ---------- */
+
+/* the wash: a coloured light around the can + a faint tint over the whole stage (above the video, so the video and
+   the page take the colour together and no edge can appear) */
+.flavour-glow {
+  background:
+    radial-gradient(ellipse 42% 58% at 35% 55%, color-mix(in srgb, var(--fa) 22%, transparent), transparent 72%),
+    linear-gradient(0deg, color-mix(in srgb, var(--fb) 7%, transparent), color-mix(in srgb, var(--fa) 4%, transparent));
+  mix-blend-mode: screen;
+}
+@media (max-width: 767px) {
+  .flavour-glow {
+    background:
+      radial-gradient(ellipse 70% 40% at 50% 38%, color-mix(in srgb, var(--fa) 22%, transparent), transparent 72%),
+      linear-gradient(0deg, color-mix(in srgb, var(--fb) 7%, transparent), color-mix(in srgb, var(--fa) 4%, transparent));
+  }
+}
+.flavour-name {
+  background: linear-gradient(135deg, var(--ice) 0%, color-mix(in srgb, var(--fb) 55%, var(--ice)) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.flavour-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  opacity: 0.35;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.flavour-dot.is-on {
+  opacity: 1;
+  transform: scale(1.25);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--fa) 80%, transparent);
+}
+
+/* ---------- ice-cold ---------- */
+.ice-shade {
+  background:
+    radial-gradient(ellipse 46% 52% at 14% 74%, rgba(5, 8, 15, 0.86) 0%, rgba(5, 8, 15, 0.62) 45%, rgba(5, 8, 15, 0) 100%),
+    linear-gradient(90deg, rgba(5, 8, 15, 0.55) 0%, rgba(5, 8, 15, 0.25) 26%, rgba(5, 8, 15, 0) 46%),
+    linear-gradient(0deg, rgba(5, 8, 15, 0.6) 0%, rgba(5, 8, 15, 0) 34%);
+}
+@media (max-width: 767px) {
+  .ice-shade {
+    background:
+      radial-gradient(ellipse 90% 34% at 30% 82%, rgba(5, 8, 15, 0.8) 0%, rgba(5, 8, 15, 0.5) 50%, rgba(5, 8, 15, 0) 100%),
+      linear-gradient(0deg, rgba(5, 8, 15, 0.92) 0%, rgba(5, 8, 15, 0.72) 26%, rgba(5, 8, 15, 0) 52%);
+  }
+}
+.ice-pane {
+  opacity: 0.94;
+}
+.ice-sheen {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 90%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 90%, transparent 100%);
+}
+.ice-sheen::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: 0;
+  width: 45%;
+  background: linear-gradient(100deg, transparent 0%, rgba(235, 248, 255, 0.05) 30%, rgba(235, 248, 255, 0.32) 50%, rgba(235, 248, 255, 0.05) 70%, transparent 100%);
+  animation: ice-sheen 1.8s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+@keyframes ice-sheen {
+  from {
+    transform: translateX(-110%) skewX(-12deg);
+  }
+  to {
+    transform: translateX(260%) skewX(-12deg);
+  }
+}
+html.is-static .ice-sheen {
+  display: none;
+}
+.ice-tint {
+  background: radial-gradient(ellipse 70% 70% at 50% 50%, rgba(127, 231, 255, 0.28), rgba(127, 231, 255, 0.1) 60%, rgba(127, 231, 255, 0.04));
+  mix-blend-mode: screen;
+}
+/* X4 frost: the ice whitens toward its bottom edge; Night Run's frost starts at the same white at its top edge, so the
+   seam between the two sections is one continuous frosted screen */
+.ice-frost {
+  background: linear-gradient(180deg, rgba(228, 242, 253, 0.55) 0%, rgba(232, 244, 254, 0.86) 55%, rgba(234, 245, 255, 0.94) 100%);
+}
+.run-frost {
+  background: linear-gradient(180deg, rgba(234, 245, 255, 0.94) 0%, rgba(232, 244, 254, 0.86) 40%, rgba(228, 242, 253, 0.4) 75%, rgba(228, 242, 253, 0) 100%);
+}
+html.is-static .ice-pane {
+  display: none;
+}
+
+/* ---------- night run ---------- */
+.run-curtain {
+  transform: translateY(-125%); /* final state: the curtain has slid off (Round 3 animates it) */
+}
+.run-curtain-fill {
+  background: var(--page);
+}
+
+/* ---------- closing ---------- */
+.closing-shade {
+  background: linear-gradient(90deg, rgba(5, 8, 15, 0.86) 0%, rgba(5, 8, 15, 0.5) 34%, rgba(5, 8, 15, 0) 58%);
+}
+.closing-title {
+  font-size: clamp(110px, 13vw, 240px);
+}
+.cta-ring {
+  --l: var(--lit, 0);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 1.25rem 2.6rem;
+  border-radius: 999px;
+  font-family: var(--font-display-family);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ice);
+  background: rgba(47, 140, 255, calc(0.12 + 0.7 * var(--l)));
+  border: 1px solid rgba(92, 200, 255, calc(0.3 + 0.7 * var(--l)));
+  box-shadow: 0 0 calc(50px * var(--l)) rgba(92, 200, 255, calc(0.75 * var(--l))), 0 0 calc(120px * var(--l)) rgba(47, 140, 255, calc(0.35 * var(--l)));
+  overflow: hidden;
+}
+.cta-rings {
+  position: absolute;
+  inset-inline: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: calc(0.15 + 0.5 * var(--l));
+}
+html.is-static .closing [style*="--lit"] {
+  --lit: 1 !important;
+}
+@media (max-width: 767px) {
+  .closing-shade {
+    background: linear-gradient(180deg, rgba(5, 8, 15, 0.96) 0%, rgba(5, 8, 15, 0.85) 34%, rgba(5, 8, 15, 0) 46%);
+  }
+  .closing-title {
+    font-size: 24vw;
+  }
+}
+
+/* ---------- footer: cold mist ---------- */
+.surge-footer {
+  background: linear-gradient(180deg, var(--page), #070c18);
+}
+/* cold mist drifting along the bottom (like the can's icy base): slow, but clearly moving, so the last seconds of a
+   reel are alive */
+.wisp {
+  position: absolute;
+  bottom: -26%;
+  width: 62%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(190, 222, 248, 0.42) 0%, rgba(150, 200, 240, 0.16) 40%, transparent 68%);
+  filter: blur(18px);
+  will-change: transform;
+}
+.wisp-1 {
+  left: -14%;
+  animation: wisp-a 4.5s ease-in-out infinite alternate;
+}
+.wisp-2 {
+  left: 24%;
+  bottom: -38%;
+  animation: wisp-b 5.5s ease-in-out infinite alternate;
+}
+.wisp-3 {
+  right: -16%;
+  animation: wisp-a 5s ease-in-out -3s infinite alternate-reverse;
+}
+.wisp-4 {
+  left: 44%;
+  bottom: -12%;
+  width: 40%;
+  height: 60%;
+  opacity: 0.8;
+  animation: wisp-b 4s ease-in-out -2s infinite alternate-reverse;
+}
+@keyframes wisp-a {
+  from {
+    transform: translate3d(-18%, 5%, 0) scale(1);
+    opacity: 0.55;
+  }
+  to {
+    transform: translate3d(20%, -10%, 0) scale(1.25);
+    opacity: 1;
+  }
+}
+@keyframes wisp-b {
+  from {
+    transform: translate3d(18%, -5%, 0) scale(1.18);
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(-18%, 8%, 0) scale(0.95);
+    opacity: 0.5;
+  }
+}
+html.is-static .wisp {
+  animation: none;
+}
+
+/* ---------- ambient: never a frozen frame ---------- */
+/* loader glow: a CSS pulse, so the loader moves from the first paint */
+.ld-glow {
+  animation: ld-pulse 0.9s ease-in-out infinite alternate;
+}
+.ld-spark {
+  animation: ld-spark 1s linear infinite;
+}
+@keyframes ld-spark {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes ld-pulse {
+  from {
+    opacity: 0.4;
+    scale: 0.82;
+  }
+  to {
+    opacity: 1;
+    scale: 1.14;
+  }
+}
+.breathe {
+  animation: breathe 5s ease-in-out infinite alternate;
+}
+@keyframes breathe {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.03;
+  }
+}
+html.is-static .breathe {
+  animation: none;
+}
+html.is-static .rain {
+  display: none;
+}
+}
