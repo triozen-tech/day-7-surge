@@ -127,3 +127,22 @@ All 90 layouts (`components/sections/`) were **written from scratch** in our eng
 | Award-winning brand sites (Awwwards / Godly / Codrops showcases): /zeroz, STILL., Palmo, Kraken Industries, Partake Foods, Caffè Gilli, Best Bean Best Cup, Tengile MalaMala, Colonia Zacamil | Their own sites (all rights reserved) | Section **structure** only (chapter openers, stockist ledgers, press walls, founder letters, info footers). No text, images, logos or code |
 
 All people, press titles, shops and brands in the demo sections are invented. Placeholder art only (`scene()` / `productAngle()`).
+
+### Section-menu growth (batches 1+, research 2026-10-03/04)
+
+Four research passes read 21st.dev (≈110 category pages, ≈2,550 component pages), every free block of Tailark, Magic UI, shadcn/ui and Aceternity, all free marketing blocks of HyperUI, Preline and Flowbite, Meraki UI, Tailblocks, Mamba UI, Float UI, Codrops (≈160 repos) and Awwwards / SiteInspire pages. 483 candidates → **318 structurally new layouts** after removing duplicates; every candidate and every skip (1,003, with the reason) is in `docs/SECTION-LOG.md` / `docs/section-log.csv`. **No code was copied from any of them**: each layout was rebuilt from a written structure description.
+
+| Source | Licence (checked on the real repo / page) | Use |
+|---|---|---|
+| 21st.dev | author-owned; per-component licences vary (MIT, MIT-0, Apache-2.0, MPL-2.0, AGPL-3.0, none) | look and learn only |
+| Aceternity UI (free components) | proprietary "Aceternity Licence" (not MIT) | look and learn only; blocks/templates (paid) not opened |
+| Magic UI blog / changelog templates | no licence file | look and learn only |
+| Meraki UI | MIT © 2021 Khatab Wedaa | ideas only |
+| Tailblocks | MIT © 2020 Mert Cukuren | ideas only |
+| Mamba UI | MIT © 2020 Mamba UI | ideas only |
+| Float UI | own licence (use in client sites, no redistribution) | ideas only, free items |
+| Codrops demos | MIT (2021+ repos); older repos custom licence (no resale/redistribution) | ideas only |
+| Awwwards, SiteInspire | all rights reserved | layout ideas only |
+| TailGrids, daisyUI | MIT | not mined (blocks are Pro / no section blocks) |
+| Kometa UI | no public repo, licence unclear | skipped |
+| Godly, Land-book, Lapa Ninja | could not be read (blocked / redirect) | not used |
