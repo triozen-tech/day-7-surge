@@ -6,5 +6,6 @@ import { DEFS as MN_B1 } from "../mn-b1";
 import { DEFS as MN_B2 } from "../mn-b2";
 import { DEFS as MN_B3 } from "../mn-b3";
 import { DEFS as MN_B4 } from "../mn-b4";
+import { DEFS as MN_B5 } from "../mn-b5";
 
-export const DEFS: SectionDef[] = ([...MN_B1, ...MN_B2, ...MN_B3, ...MN_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...MN_B1, ...MN_B2, ...MN_B3, ...MN_B4, ...MN_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

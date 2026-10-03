@@ -2899,6 +2899,506 @@
    "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
    "batch": "4",
    "date": "2026-10-04"
+  },
+  {
+   "code": "NV18",
+   "category": "Navbar / menu",
+   "name": "Nav with mini-cart dropdown",
+   "source_site": "Flowbite",
+   "source_url": "https://flowbite.com/blocks/e-commerce/navbars/#default",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 Bergside Inc. \u2014 free blocks only)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV19",
+   "category": "Navbar / menu",
+   "name": "Scrollspy section header",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/navigation-layout/scroll-navigation/#header-scrollspy-nav-with-dropdown",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV20",
+   "category": "Navbar / menu",
+   "name": "Utility bar over main bar",
+   "source_site": "Awwwards (Hoyt Arts Center)",
+   "source_url": "https://www.hoytartscenter.org",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV21",
+   "category": "Navbar / menu",
+   "name": "Thumbnail stack menu",
+   "source_site": "Codrops (MenuThumbStackAnimation)",
+   "source_url": "https://github.com/codrops/MenuThumbStackAnimation",
+   "type": "inspired, no code copied (source: MIT (Codrops))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV22",
+   "category": "Navbar / menu",
+   "name": "Menu over a background image grid",
+   "source_site": "Codrops (MenuFullGrid)",
+   "source_url": "https://github.com/codrops/MenuFullGrid",
+   "type": "inspired, no code copied (source: MIT (Codrops))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PD06",
+   "category": "Process / steps",
+   "name": "Six-step numbered accordion",
+   "source_site": "Awwwards (White Desert)",
+   "source_url": "https://white-desert.com/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CP04",
+   "category": "Comparison / before-after",
+   "name": "Compare slider + highlights sidebar",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ziegfiroyt/components/reveal2.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM09",
+   "category": "Team",
+   "name": "Team grid with department filter",
+   "source_site": "Awwwards (Our Full Team, Seneca Group)",
+   "source_url": "https://www.awwwards.com/elements/team/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM10",
+   "category": "Team",
+   "name": "Team card with avatar-pinned globe",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/3d-globe",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LG08",
+   "category": "Logos / press",
+   "name": "Partner perks grid",
+   "source_site": "Awwwards (Design Bomb Festival digital box)",
+   "source_url": "https://www.designbomb.it/ticket",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved; use made-up partner names)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LG09",
+   "category": "Logos / press",
+   "name": "Logo grid with hover-reveal CTA",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/logo-cloud/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MN06",
+   "category": "Menu / price list",
+   "name": "Weekly offers strip",
+   "source_site": "Awwwards (D\u00e9lice)",
+   "source_url": "https://delice.ca/en/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "BK06",
+   "category": "Booking / reservation",
+   "name": "Month calendar + slot list card",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@shadcnspace/components/calendar-03.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "BK07",
+   "category": "Booking / reservation",
+   "name": "Seat map picker + total panel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@lavikatiyar/components/seat-selection.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MP09",
+   "category": "Locations / map",
+   "name": "Address card + weekly hours grid",
+   "source_site": "Awwwards (D\u00e9lice)",
+   "source_url": "https://delice.ca/en/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "EV06",
+   "category": "Events / schedule",
+   "name": "Month grid calendar of events",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ahmedmayara/components/fullscreen-calendar.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "VD10",
+   "category": "Video feature",
+   "name": "Inset video card in an editorial split",
+   "source_site": "Awwwards (Hero Card with Video, Explora Journal)",
+   "source_url": "https://www.awwwards.com/elements/video/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "AP05",
+   "category": "App download",
+   "name": "One-row app badge strip",
+   "source_site": "Tailblocks",
+   "source_url": "https://raw.githubusercontent.com/mertJF/tailblocks/master/src/blocks/cta/light/d.js",
+   "type": "inspired, no code copied (source: MIT \u00a9 2020 Mert Cukuren)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR10",
+   "category": "Journal / blog",
+   "name": "Sticky category sidebar + wide cards",
+   "source_site": "Awwwards (Blog Sidebar, Noho)",
+   "source_url": "https://www.awwwards.com/elements/blog/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR11",
+   "category": "Journal / blog",
+   "name": "Excerpt that opens into a full article",
+   "source_site": "Codrops (PreviewContentTransition)",
+   "source_url": "https://github.com/codrops/PreviewContentTransition",
+   "type": "inspired, no code copied (source: MIT (Codrops))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC09",
+   "category": "Contact",
+   "name": "Map panel with info card + side form",
+   "source_site": "Tailblocks",
+   "source_url": "https://raw.githubusercontent.com/mertJF/tailblocks/master/src/blocks/contact/light/b.js",
+   "type": "inspired, no code copied (source: MIT \u00a9 2020 Mert Cukuren)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC10",
+   "category": "Contact",
+   "name": "Photo backdrop with split form card",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/contact/BGImage.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR34",
+   "category": "Hero",
+   "name": "Text corridor (3D hallway)",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@dhileepkumargm/components/3d-animation.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR35",
+   "category": "Hero",
+   "name": "Typewriter headline + portrait inset",
+   "source_site": "Awwwards (Typewriter Hero, bermawy.com)",
+   "source_url": "https://www.awwwards.com/elements/hero_image/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR36",
+   "category": "Hero",
+   "name": "Floating info cards over a mood photo",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/hero-section/eight.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR37",
+   "category": "Hero",
+   "name": "Inset rounded canvas with overhanging media",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/hero-section/two/hero-section.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR38",
+   "category": "Hero",
+   "name": "Skewed product plate bleeding off the right",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/hero-section/one/hero-section.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT21",
+   "category": "Features",
+   "name": "Staggered icon-card grid",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/icon-blocks/#stacked-icon-cards",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT22",
+   "category": "Features",
+   "name": "Narrow caption beside a 1:3 panorama",
+   "source_site": "HyperUI",
+   "source_url": "https://raw.githubusercontent.com/markmead/hyperui/main/public/examples/marketing/sections/2.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 Mark Mead)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT23",
+   "category": "Features",
+   "name": "Copy + offset portrait pair",
+   "source_site": "Flowbite",
+   "source_url": "https://flowbite.com/blocks/marketing/content/#images-with-heading",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 Bergside Inc. \u2014 free blocks only)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "BN11",
+   "category": "Bento",
+   "name": "Ruled grid with a full-width stat band",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/features/seven.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS19",
+   "category": "Product showcase",
+   "name": "Material swatch library",
+   "source_site": "Awwwards (Material Library, Woodwrights / Lujo)",
+   "source_url": "https://www.awwwards.com/elements/gallery/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS20",
+   "category": "Product showcase",
+   "name": "Size guide table",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ziegfiroyt/components/ecommerce11.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "ST13",
+   "category": "Stats / ingredients",
+   "name": "Stat sentences beside a tinted image",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/stats/four.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY13",
+   "category": "Story / about",
+   "name": "Year selector timeline",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@shadcnspace/components/timeline-02.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY14",
+   "category": "Story / about",
+   "name": "Orbital timeline",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@jatin-yadav05/components/radial-orbital-timeline.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL23",
+   "category": "Gallery",
+   "name": "Focus grid: one sharp, the rest blur",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/focus-cards",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL24",
+   "category": "Gallery",
+   "name": "Inclined three-slide strip",
+   "source_site": "Codrops (CrossroadsSlideshow)",
+   "source_url": "https://github.com/codrops/CrossroadsSlideshow",
+   "type": "inspired, no code copied (source: Codrops custom licence (free to build upon, no as-is redistribution))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL25",
+   "category": "Gallery",
+   "name": "Coverflow carousel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@reuno-ui/components/skiper49.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: Custom (Skiper UI))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL26",
+   "category": "Gallery",
+   "name": "Ring around a title opening into a drum",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@crafterui/components/works-wheel.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP16",
+   "category": "Social proof",
+   "name": "Logo tabs revealing case quotes",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@mohammadshehadeh/components/logo-cloud-04.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP17",
+   "category": "Social proof",
+   "name": "Centre-focus three-card carousel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@solaceui/components/testimonial-section-3.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP18",
+   "category": "Social proof",
+   "name": "Quote accordion",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@uvain/components/pastel-testimonial-section.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PR11",
+   "category": "Pricing / shop",
+   "name": "Hero offer + side offer carousel",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@lavikatiyar/components/offers-carousel.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PR12",
+   "category": "Pricing / shop",
+   "name": "Single-plan split card",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/pricing/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FQ10",
+   "category": "FAQ",
+   "name": "Search-filter FAQ",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@educalvolpz/components/faq-3.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FQ11",
+   "category": "FAQ",
+   "name": "Help-centre search + topic columns",
+   "source_site": "Mamba UI",
+   "source_url": "https://raw.githubusercontent.com/Microwawe/mamba-ui/master/src/app/components/faq/faq3/faq3.component.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2020 Mamba UI)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CT10",
+   "category": "CTA band",
+   "name": "Four action tiles on a band",
+   "source_site": "Awwwards (D\u00e9lice)",
+   "source_url": "https://delice.ca/en/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CT11",
+   "category": "CTA band",
+   "name": "Dark CTA card with cropped corner globe",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/3d-globe",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "5",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FO13",
+   "category": "Footer",
+   "name": "Hairline grid footer with ticket card",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@kedhareswer/components/ticket-stub-footer.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "5",
+   "date": "2026-10-04"
   }
  ],
  "skipped": [

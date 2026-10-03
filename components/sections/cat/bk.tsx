@@ -6,5 +6,6 @@ import { DEFS as BK_B1 } from "../bk-b1";
 import { DEFS as BK_B2 } from "../bk-b2";
 import { DEFS as BK_B3 } from "../bk-b3";
 import { DEFS as BK_B4 } from "../bk-b4";
+import { DEFS as BK_B5 } from "../bk-b5";
 
-export const DEFS: SectionDef[] = ([...BK_B1, ...BK_B2, ...BK_B3, ...BK_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...BK_B1, ...BK_B2, ...BK_B3, ...BK_B4, ...BK_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

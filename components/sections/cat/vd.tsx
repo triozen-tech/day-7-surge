@@ -6,5 +6,6 @@ import { DEFS as VD_B1 } from "../vd-b1";
 import { DEFS as VD_B2 } from "../vd-b2";
 import { DEFS as VD_B3 } from "../vd-b3";
 import { DEFS as VD_B4 } from "../vd-b4";
+import { DEFS as VD_B5 } from "../vd-b5";
 
-export const DEFS: SectionDef[] = ([...VD_B1, ...VD_B2, ...VD_B3, ...VD_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...VD_B1, ...VD_B2, ...VD_B3, ...VD_B4, ...VD_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

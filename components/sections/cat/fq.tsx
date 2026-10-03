@@ -6,5 +6,6 @@ import { FAQ } from "../faq";
 import { DEFS as FQ_B2 } from "../fq-b2";
 import { DEFS as FQ_B3 } from "../fq-b3";
 import { DEFS as FQ_B4 } from "../fq-b4";
+import { DEFS as FQ_B5 } from "../fq-b5";
 
-export const DEFS: SectionDef[] = ([...FAQ, ...FQ_B2, ...FQ_B3, ...FQ_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...FAQ, ...FQ_B2, ...FQ_B3, ...FQ_B4, ...FQ_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

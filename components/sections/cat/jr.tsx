@@ -6,5 +6,6 @@ import { DEFS as JR_B1 } from "../jr-b1";
 import { DEFS as JR_B2 } from "../jr-b2";
 import { DEFS as JR_B3 } from "../jr-b3";
 import { DEFS as JR_B4 } from "../jr-b4";
+import { DEFS as JR_B5 } from "../jr-b5";
 
-export const DEFS: SectionDef[] = ([...JR_B1, ...JR_B2, ...JR_B3, ...JR_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...JR_B1, ...JR_B2, ...JR_B3, ...JR_B4, ...JR_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

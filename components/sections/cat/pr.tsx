@@ -6,5 +6,6 @@ import { PRICING } from "../pricing";
 import { DEFS as PR_B2 } from "../pr-b2";
 import { DEFS as PR_B3 } from "../pr-b3";
 import { DEFS as PR_B4 } from "../pr-b4";
+import { DEFS as PR_B5 } from "../pr-b5";
 
-export const DEFS: SectionDef[] = ([...PRICING, ...PR_B2, ...PR_B3, ...PR_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...PRICING, ...PR_B2, ...PR_B3, ...PR_B4, ...PR_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

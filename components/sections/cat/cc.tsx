@@ -6,5 +6,6 @@ import { DEFS as CC_B1 } from "../cc-b1";
 import { DEFS as CC_B2 } from "../cc-b2";
 import { DEFS as CC_B3 } from "../cc-b3";
 import { DEFS as CC_B4 } from "../cc-b4";
+import { DEFS as CC_B5 } from "../cc-b5";
 
-export const DEFS: SectionDef[] = ([...CC_B1, ...CC_B2, ...CC_B3, ...CC_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...CC_B1, ...CC_B2, ...CC_B3, ...CC_B4, ...CC_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

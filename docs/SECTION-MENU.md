@@ -9,7 +9,7 @@
 - Desktop first (1440×900, 1920×1080). The first 90 layouts also have phone wireframes; later entries are desktop-only (basic stacking in code, not tuned for phones).
 - Sources: every layout was rebuilt from scratch after studying 21st.dev (look-and-learn only), Tailark, shadcn/ui, Magic UI, Aceternity (look-and-learn only), HyperUI, Preline, Flowbite, Meraki UI, Tailblocks, Mamba UI, Float UI, Codrops and award galleries (Awwwards, SiteInspire); **no code was copied**. See `docs/SOURCES.md` and `docs/SECTION-LOG.md`.
 
-Codes (31 categories): **HR** hero ×33 · **NV** navbar / menu ×17 · **FT** features ×20 · **BN** bento ×10 · **PS** product showcase ×18 · **ST** stats / ingredients ×12 · **PD** process / steps ×5 · **CP** comparison / before-after ×3 · **SY** story / about ×12 · **TM** team ×8 · **GL** gallery ×22 · **VD** video feature ×9 · **SP** social proof ×15 · **LG** logos / press ×7 · **PR** pricing / shop ×10 · **MN** menu / price list ×5 · **BK** booking / reservation ×5 · **LS** listings / rooms / property ×4 · **MP** locations / map ×8 · **EV** events / schedule ×5 · **AP** app download ×4 · **JR** journal / blog ×9 · **FQ** faq ×9 · **CT** cta band ×9 · **NL** newsletter ×5 · **CC** contact ×8 · **FO** footer ×12 · **AN** announcement / promo bar ×3 · **PL** poll / vote ×1 · **CR** careers ×1 · **ER** error / 404 ×1 (290 layouts).
+Codes (31 categories): **HR** hero ×38 · **NV** navbar / menu ×22 · **FT** features ×23 · **BN** bento ×11 · **PS** product showcase ×20 · **ST** stats / ingredients ×13 · **PD** process / steps ×6 · **CP** comparison / before-after ×4 · **SY** story / about ×14 · **TM** team ×10 · **GL** gallery ×26 · **VD** video feature ×10 · **SP** social proof ×18 · **LG** logos / press ×9 · **PR** pricing / shop ×12 · **MN** menu / price list ×6 · **BK** booking / reservation ×7 · **LS** listings / rooms / property ×4 · **MP** locations / map ×9 · **EV** events / schedule ×6 · **AP** app download ×5 · **JR** journal / blog ×11 · **FQ** faq ×11 · **CT** cta band ×11 · **NL** newsletter ×5 · **CC** contact ×10 · **FO** footer ×13 · **AN** announcement / promo bar ×3 · **PL** poll / vote ×1 · **CR** careers ×1 · **ER** error / 404 ×1 (340 layouts).
 
 ---
 
@@ -382,6 +382,65 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**HR34 · Text corridor (3D hallway)** · motion M31 · fit: music festivals, nightlife, art shows · suggested motions: M31, M20 · avoid with: HR09 chapter opener, or any other dark full-screen hero
+```
+┌──────────────────────────────────────┐
+│╲ SOUND·SOUND    ceiling    AFTER·AF ╱│
+│  ╲         ┌──────────────┐       ╱  │
+│    ╲       │ lit doorway  │     ╱    │
+│    ╱       │ copy [Pass]  │     ╲    │
+│  ╱   DARK  └──────────────┘ DARK  ╲  │
+│╱   glossy floor · reflection        ╲│
+└──────────────────────────────────────┘
+```
+
+**HR35 · Typewriter headline + portrait inset** · motion M13 · fit: chefs, studios, personal brands · suggested motions: M13, M6 · avoid with: HR02
+```
+┌──────────────────────────┬───────────┐
+│ I cook coastal           │ ┌───────┐ │
+│ Konkan food for          │ │ dish  │ │
+│ twelve guests.|          │ └───────┘ │
+│ copy  [Book] [Menus]     │ course ── │
+├────────┬─────────────────┴┬──────────┤
+│ fact   │ fact             │ fact     │
+└────────┴──────────────────┴──────────┘
+```
+
+**HR36 · Floating info cards over a mood photo** · motion M40 · fit: hotels, restaurants, booking-led brands · suggested motions: M40, M6 · avoid with: HR02
+```
+┌──────────────────────────────────────┐
+│        A house on the lake,          │
+│        for slow weekends. [Dates]    │
+│     ░░░░░░░ ┌─back──┐ ░░░░░░░        │
+│     ░ photo ┌─front card─┐ soft ░     │
+│     ░░░░░░░ └────────────┘ ░░░░       │
+│   (★4.9 src) (★9.6 src) (★4.8 src)   │
+└──────────────────────────────────────┘
+```
+
+**HR37 · Inset rounded canvas with overhanging media** · motion M18 · fit: apps, D2C skincare, calm premium brands · suggested motions: M18, M6 · avoid with: framed-card heroes
+```
+┌╭────────────────────────────────────╮┐
+││        (New) badge                 ││
+││   Skin care, kept quiet.           ││
+││   copy  [Shop kit] [Quiz]          ││
+││  ┌────────────────┬──────────┐     ││
+│╰──│ photo          │ product  │─────╯│
+│   └────────────────┴──────────┘      │
+└──────────────────────────────────────┘
+```
+
+**HR38 · Skewed product plate bleeding off the right** · motion M6 · fit: apps, audio, tech · suggested motions: M6, M31 · avoid with: HR01
+```
+┌──────────────────┬───────────────────┐
+│ Hear every room  │   ╱ghost╱──────────│
+│ you play in.     │  ╱┌app plate──────│
+│ copy             │ ╱ │ EQ ▮▯▮▮▯▮▮▯▮  │
+│ [Buy] [App]      │   │ tracks ...    │
+│ Trusted by: logos│   └───────────────│
+└──────────────────┴───────────────────┘
+```
+
 ## NV · Navbar / menu
 
 **NV01 · Numbered full-screen menu with image swap** · motion M23 · fit: hotels, resorts, restaurants, fashion · suggested motions: M23, M13, M6 · avoid with: any other full-screen overlay (NV02)
@@ -577,6 +636,65 @@ desktop                                   phone
 │ New in  Women  Men  Linen …  Sale    │
 │ ▔▔▔▔▔                                │
 │ [pic ₹] [pic ₹] [pic ₹] [pic ₹]      │
+└──────────────────────────────────────┘
+```
+
+**NV18 · Nav with mini-cart dropdown** · motion M18 · fit: D2C stores, cafés with online orders (built: coffee roastery) · suggested motions: M18, M3, M6 · avoid with: PS buy boxes
+```
+┌──────────────────────────────────────┐
+│ Logo  Shop Subs Guides   (Ira▾)[Cart3]│
+├──────────────┬───────────┬──────────┤
+│ Roasted      │  picture  │ □ item ₹ │
+│ Tuesday...   │           │ □ item ₹ │
+│ [Shop beans] │           │ Subtotal │
+│              │           │[Checkout]│
+└──────────────┴───────────┴──────────┘
+```
+
+**NV19 · Scrollspy section header** · motion M23 · fit: single-product pages (overview, ingredients, reviews) (built: skincare serum) · suggested motions: M23, M6 · avoid with: FT scroll-spy tab strip
+```
+┌──────────────────────────────────────┐
+│ logo [Overview] Ingr. Use Rev. More▾ │
+│ ▬▬▬▬▬▬ ▬▬▬▬ ──── ──── ──── ────      │
+├──────────────────────────────────────┤
+│ (product)   Clearer skin in 8 weeks │
+│ ── Ingredients: 10% │ 1% │ 2% │ 0%  │
+│  (page scrolls by itself) ↑         │
+└──────────────────────────────────────┘
+```
+
+**NV20 · Utility bar over main bar** · motion M6 · fit: museums, hotels, membership brands (built: craft museum) · suggested motions: M6, M23 · avoid with: AN top bar
+```
+┌──────────────────────────────────────┐
+│ Member Donate Class News     ◎ ▶ ⊕ ✕ │ 32px
+├──────────────────────────────────────┤
+│ ⌂ Saltpan   Visit Explore Learn ▾..  │ 80px
+├──────────────────┬───────────────────┤
+│  exhibition pic  │ col │ col │ [pic] │
+│ Woven Rivers     └───────────────────┤
+│ [Book a ticket]                      │
+└──────────────────────────────────────┘
+```
+
+**NV21 · Thumbnail stack menu** · motion M34 · fit: photographers, fashion, galleries (built: portrait studio) · suggested motions: M40, M34 · avoid with: other overlays
+```
+┌──────────────────────────────────────┐
+│ STUDIO MEHER                 Close ⊗ │
+│ ▯▯   PORTRAITS               Commiss.│
+│ ▯▯   WEDDINGS   (stack)      Book →  │
+│      EDITORIAL / TRAVEL / ARCHIVE    │
+│ [▭] [▭] [▭] [▭] [▭]  ← fanned row    │
+└──────────────────────────────────────┘
+```
+
+**NV22 · Menu over a background image grid** · motion M13 · fit: portfolios, hotels, galleries (built: backwater hotel) · suggested motions: M32, M13 · avoid with: HR11
+```
+┌──────────────────────────────────────┐
+│ ▦ ▦ ▦ ▦   Kayal House                │
+│ ▦ ▦  Rooms / Dining / Spa ▦ ▦        │
+│ ▦ ▦ ▦ ▦   Journeys  ▦ ▦ ▦ ▦          │
+│ → tiles slide into a header band:    │
+│ ▦▦▦▦▦▦▦▦ / Rooms  copy   ₹ [Reserve] │
 └──────────────────────────────────────┘
 ```
 
@@ -808,6 +926,41 @@ desktop                                   phone
 └──────────────────┴───────────────────┘
 ```
 
+**FT21 · Staggered icon-card grid** · motion M34 · fit: wellness, apps, services · suggested motions: M34, M31 · avoid with: FT09 icon grid
+```
+┌──────────────────────────────────────┐
+│ Calm, built into     copy [Start]    │
+│ your day.                            │
+│ [◎ title ]            [◎ title ]     │
+│ [  text  ] [◎ title ] [  text  ]     │
+│ [◎ title ] [  text  ] [◎ title ]     │
+│ [  text  ] [◎ title ] [  text  ]     │
+└──────────────────────────────────────┘
+```
+
+**FT22 · Narrow caption beside a 1:3 panorama** · motion M13 · fit: hotels, outdoor, wine estates · suggested motions: M13, M23 · avoid with: other panoramic images back to back
+```
+┌─────────┬────────────────────────────┐
+│ Forty   │                            │
+│ acres.. │   wide panorama (pans)     │
+│ copy    │  (tag) (tag) (tag)         │
+│ link    │                            │
+├─────────┼──────────┬────────┬────────┤
+│ fact    │ fact     │ fact   │ fact   │
+└─────────┴──────────┴────────┴────────┘
+```
+
+**FT23 · Copy + offset portrait pair** · motion M1 · fit: ceramics, fashion, skincare · suggested motions: M1, M42 · avoid with: FT05 alternating rows
+```
+┌───────────────────┬─────────┬────────┐
+│ Thrown on the     │ ┌─────┐ │        │
+│ wheel, by hand.   │ │ pic │ │┌─────┐ │
+│ para one          │ │     │ ││ pic │ │
+│ para two          │ └─────┘ ││     │ │
+│ [Shop] link       │ cap ₹   │└─────┘ │
+└───────────────────┴─────────┴────────┘
+```
+
 ## BN · Bento
 
 **BN01 · Classic bento** · motion M34 · fit: skincare / beauty hero product with proof · avoid with: another bento or 2×2 grid right next to it
@@ -924,6 +1077,17 @@ desktop                                   phone
 │ ○──beam──○──beam──○     │ ▦ calendar │
 │ Title  (CTA)            │ Title      │
 └─────────────────────────┴────────────┘
+```
+
+**BN11 · Ruled grid with a full-width stat band** · motion M3 · fit: appliances, audio, performance claims · suggested motions: M3, M18 · avoid with: ST01 big numbers row right after
+```
+┌──────────────────┬───────────────────┐
+│ map · pins (tag) │ app window · TDS  │
+├──────────────────┴───────────────────┤
+│              99.99%                  │
+├──────────────────────────────────────┤
+│ text top-left  ~~~ live chart ~~~    │
+└──────────────────────────────────────┘
 ```
 
 ## PS · Product showcase
@@ -1138,6 +1302,29 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**PS19 · Material swatch library** · motion M34 · fit: furniture, fashion, interiors · suggested motions: M34, M18 · avoid with: GL04
+```
+┌──────────────────────────────────────┐
+│ Choose what you'll   (All)(Fab)(Wd)  │
+│ touch every day.                     │
+│ ▦ ▦ ▦ ▦ ▦ ▦         ┌──────────────┐ │
+│ ▦ ▦ ▦ ▦ ▦ ▦         │ big swatch   │ │
+│ names               │ care · ₹     │ │
+│                     └──────────────┘ │
+└──────────────────────────────────────┘
+```
+
+**PS20 · Size guide table** · motion M23 · fit: fashion, shoes, uniforms · suggested motions: M23, M34 · avoid with: ST04
+```
+┌───────────────────────────┬──────────┐
+│ Find your linen fit [cm|in]│ how to  │
+│ Size Chest Waist Hips Len │  measure │
+│ XS   84    66    90   68  │  (dress) │
+│ S .. M .. L .. XL ..      │ model    │
+│                           │ note · ₹ │
+└───────────────────────────┴──────────┘
+```
+
 ## ST · Stats / ingredients
 
 **ST01 · Big numbers row** · motion M3 · fit: audio/tech specs, company facts · avoid with: ST05 or BN04 (number rows back to back)
@@ -1281,6 +1468,19 @@ desktop                                   phone
 └────────┴────────┴────────┴───────────┘
 ```
 
+**ST13 · Stat sentences beside a tinted image** · motion M13 · fit: sustainability reports, origin / farm-to-shelf brands (built as a linen label's impact ledger) · suggested motions: M13, M23 · avoid with: ST05 and other big-number grids on the same page
+```
+┌───────────────────────┬──────────────┐
+│ Headline              │ ░░░░░░░░░░░░ │
+│ copy                  │ ░ tall photo │
+├───────────────────────┤ ░ accent     │
+│ 92% of the cotton ... │ ░ wash       │
+│ 41 t of offcuts ...   │ ░░░░░░░░░░░░ │
+│ 1,860 weavers ...     │ caption      │
+│ [Report]  How →       │              │
+└───────────────────────┴──────────────┘
+```
+
 ## PD · Process / steps
 
 **PD01 · Many-to-one beam convergence diagram** · motion M61 · fit: coffee/tea sourcing, supplements, multi-ingredient drinks · suggested motions: M61, M23, M8 · avoid with: ST03 orbit
@@ -1341,6 +1541,17 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**PD06 · Six-step numbered accordion** · motion M23 · fit: travel, events, bespoke services (built: polar expeditions) · suggested motions: M23, M6 · avoid with: FQ accordions
+```
+┌────────────┬─────────────────────────┐
+│ Six steps  │ 01 Consultation      ⊖  │
+│ to the ice.│    two lines of detail  │
+│ copy       │ 02 Confirmation      ⊕  │
+│ [picture]  │ 03 Planning          ⊕  │
+│ [Btn] ₹    │ 04 … 05 … 06 Departure  │
+└────────────┴─────────────────────────┘
+```
+
 ## CP · Comparison / before-after
 
 **CP01 · Full-width drag before/after** · motion M13 · fit: skincare, cleaning, furniture restoration, renovation · suggested motions: M13, M18, M46 · avoid with: FT07 before/after cards
@@ -1375,6 +1586,19 @@ desktop                                   phone
 │                      │ ●[shoe] Chalk⇄│
 │ ● ● ● ●     [Add]    │ save ₹1,500   │
 └──────────────────────┴───────────────┘
+```
+
+**CP04 · Compare slider + highlights sidebar** · motion M18 · fit: skincare results, renovation, retouching services (built: serum, week 0 vs week 8) · suggested motions: M18, M23 · avoid with: another before/after on the same page
+```
+┌──────────────────────────────────────┐
+│ Eight weeks, side by side.     copy  │
+├─────────────────────────┬────────────┤
+│ Week 8      ┃    Week 0 │ ● Breakouts│
+│   after   ◀‹›▶  before  │ ○ Pores    │
+│             ┃           │ ◐ Tone     │
+│             ┃           │ ⛉ Barrier  │
+│                         │ ₹ [Add]    │
+└─────────────────────────┴────────────┘
 ```
 
 ## SY · Story / about
@@ -1524,6 +1748,31 @@ desktop                                   phone
 └────────────┴─────────────────────────┘
 ```
 
+**SY13 · Year selector timeline** · motion M48 · fit: heritage houses, wineries, family businesses (built as a vineyard's vintages) · suggested motions: M48, M13 · avoid with: SY02 and other tabbed timelines
+```
+┌──────────────────────────────────────┐
+│ Headline                    copy     │
+├──▀▀▀▀──┬───────┬───────┬──────┬──────┤
+│ 1987   │ 1996  │ 2004  │ 2013 │ 2024 │
+├────────┴───────┴──┬────┴──────┴──────┤
+│   [ image ]       │ 1987 (odometer)  │
+│                   │ Title · text     │
+│                   │ meta  [Tasting]  │
+└───────────────────┴──────────────────┘
+```
+
+**SY14 · Orbital timeline** · motion M33 · fit: playful / tech / audio brands with 5–8 milestones (built as an audio maker's story) · suggested motions: M33, M6 · avoid with: ST03 and other ring / orbit layouts
+```
+┌──────────────┬───────────────────────┐
+│ Headline     │      ○ 2014           │
+│ copy         │  ○2025  ┌──────┐ ○2016│
+│ [Shop]       │         │ 2018 │      │
+│ Visit →      │  ○2022  │ text │ ●2018│
+│              │         └──────┘      │
+│              │      ○ 2020  (turns)  │
+└──────────────┴───────────────────────┘
+```
+
 ## TM · Team
 
 **TM01 · Staggered portraits + synced member list** · motion M32 · fit: studios, restaurants, ateliers · suggested motions: M32, M23, M6 · avoid with: GL masonry galleries
@@ -1615,6 +1864,28 @@ TEAM ─────────────────────── Jodhp
 │ ●Name   ●Name └ role @link ┘ ●Name   │
 │ ●Name   ●Name   ●NAME        ●Name   │
 └──────────────────────────────────────┘
+```
+
+**TM09 · Team grid with department filter** · motion M34 · fit: restaurants (kitchen/front), hotels (built: restaurant) · suggested motions: M34, M6 · avoid with: GL filter chips
+```
+┌──────────────────────────────────────┐
+│ Fifteen people, one long table. copy │
+│ [All 15] Kitchen Front Studio  12/15 │
+│ ▢    ▢    ▢    ▢    ▢                │
+│ name name name name name             │
+│ ▢    ▢    ▢    ░    ░  (dimmed)      │
+└──────────────────────────────────────┘
+```
+
+**TM10 · Team card with avatar-pinned globe** · motion M33 · fit: remote/global teams, sourcing partners (built: chocolate growers) · suggested motions: M33, M6 · avoid with: MP globes
+```
+┌────────────┬─────────────────────────┐
+│ Eight      │ Where our people are ●●●│
+│ growers... │ one line of text        │
+│ 8 │ 3      │     .-‾‾‾‾‾‾‾‾-.        │
+│ ₹412│11yrs │   (●)  globe  (●)       │
+│ [Meet]     │  /  (●) turning   \     │
+└────────────┴─────────────────────────┘
 ```
 
 ## GL · Gallery
@@ -1873,6 +2144,53 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**GL23 · Focus grid: one sharp, the rest blur** · motion M6 · fit: perfume, fashion, portfolios (built as six scents) · suggested motions: M34, M6 · avoid with: GL04 and other plain 3-column image grids
+```
+┌──────────────────────────────────────┐
+│ Headline               copy [Set]    │
+├────────────┬────────────┬────────────┤
+│ ▒ blur ▒   │  SHARP     │ ▒ blur ▒   │
+│ ▒      ▒   │  Oud Noir  │ ▒      ▒   │
+├────────────┼────────────┼────────────┤
+│ ▒ blur ▒   │ ▒ blur ▒   │ ▒ blur ▒   │
+└────────────┴────────────┴────────────┘
+```
+
+**GL24 · Inclined three-slide strip** · motion M31 · fit: fashion drops, posters, music / tours (built as a tour's screen prints) · suggested motions: M31, M6 · avoid with: coverflow (GL25) on the same page
+```
+┌──────────────────────────────────────┐
+│ HEADLINE                    copy     │
+│ RIVERSIDE NIGHTS · SUMMER (marquee)  │
+│         ┌──┐                 ╱       │
+│  ┌─┐   │BIG│   ┌─┐   (strip -10°)    │
+│  └─┘   │TTL│   └─┘                   │
+│ Now showing …      ← →  [Buy set]    │
+└──────────────────────────────────────┘
+```
+
+**GL25 · Coverflow carousel** · motion M34 · fit: vinyl, books, perfume, sneakers (built as LP reissues) · suggested motions: M31, M34 · avoid with: 3D ring / drum layouts (GL26) and GL24
+```
+┌──────────────────────────────────────┐
+│          Centred headline            │
+│  ╱▏ ╱▏  ┌────────┐  ▕╲ ▕╲            │
+│ ╱ ▏╱ ▏  │ cover  │  ▕ ╲▕ ╲           │
+│ ╲ ▏╲ ▏  │ facing │  ▕ ╱▕ ╱           │
+│          Title · artist · ₹          │
+│        ←  [Add to crate]  →  • ─ •   │
+└──────────────────────────────────────┘
+```
+
+**GL26 · Ring around a title opening into a drum** · motion M33 · fit: collections of 8–12 items (built as a ceramics set) · suggested motions: M33, M31 · avoid with: other ring / orbit layouts (SY14, GL25)
+```
+┌──────────────────────────────────────┐
+│        □     □     □   (sticky 190vh)│
+│     □    Ten pieces    □             │
+│     □    for one table □  → scroll → │
+│        □     □     □    3D drum      │
+│ 10 pieces    Piece · ₹    [Shop set] │
+└──────────────────────────────────────┘
+```
+
 ## VD · Video feature
 
 **VD01 · Pinned frame-scrub with segment cards** · motion M13 · fit: drinks, sneakers, cars, any filmed product · suggested motions: M13, M6 · avoid with: any other pinned scrub (one per site)
@@ -1976,6 +2294,17 @@ desktop                                   phone
 │ (3:4)  │ (3:4)  │ (3:4)  │ (3:4)     │
 │ Name ₹ │ Name ₹ │ Name ₹ │ Name ₹    │
 └────────┴────────┴────────┴───────────┘
+```
+
+**VD10 · Inset video card in an editorial split** · motion M13 · fit: craft brands, studios, makers · suggested motions: M13, M6 · avoid with: FT05
+```
+┌──────────────┬───────────────────────┐
+│ Every block  │ ╭───────────── 3:42 ╮ │
+│ is carved    │ │       ( ▶ )       │ │
+│ by hand.     │ │ 0:48 ━━━━──── 3:42│ │
+│ copy         │ ╰───────────────────╯ │
+│ [Shop] link  │ caption        date   │
+└──────────────┴───────────────────────┘
 ```
 
 ## SP · Social proof (fake names only)
@@ -2162,6 +2491,43 @@ desktop                                   phone
 └───────┴───────────────┴──────────────┘
 ```
 
+**SP16 · Logo tabs revealing case quotes** · motion M3 · fit: wholesale, B2B-leaning, cafés / stockists (built as a coffee roaster's café accounts) · suggested motions: M3, M23 · avoid with: LG logo rows on the same page
+```
+┌──────────────────────────────────────┐
+│ Headline                    copy     │
+├─▀▀▀───┬───────┬───────┬──────┬──────┤
+│Kettle │BLUEBEL│ninth  │Harbou│Monk's│
+├───────┴──┬────┴───────┴───┬──┴──────┤
+│ +38%     │ "Quote …"      │ [photo] │
+│ label    │ (A) name  Case→│         │
+└──────────┴────────────────┴─────────┘
+```
+
+**SP17 · Centre-focus three-card carousel** · motion M34 · fit: any D2C with lots of reviews (built as sneaker reviews) · suggested motions: M34, M6 · avoid with: GL25 coverflow on the same page
+```
+┌──────────────────────────────────────┐
+│     12,400 RUNNERS CAN'T BE WRONG    │
+│ ┌──────┐ ┌──────────┐ ┌──────┐       │
+│ │ dim  │ │ ★ quote  │ │ dim  │       │
+│ └──────┘ │ (A) name │ └──────┘       │
+│          └──────────┘                │
+│           ←  • ─ • •  →              │
+│ ★★★★★ "snippet" … (marquee) …        │
+└──────────────────────────────────────┘
+```
+
+**SP18 · Quote accordion** · motion M23 · fit: skincare, wellness, personal care (built as a skincare routine) · suggested motions: M23, M6 · avoid with: FQ accordions on the same page
+```
+┌──────────────┬───────────────────────┐
+│ Headline     │ (A) Leela   ★★★★★  ×  │
+│ copy         │ [pic] "full quote …"  │
+│ 4.9 ★★★★★    ├───────────────────────┤
+│ 3,280 reviews│ (A) Farah   ★★★★★  +  │
+│ [Shop] All → │ (A) Neha    ★★★★★  +  │
+│              │ (A) Priya   ★★★★★  +  │
+└──────────────┴───────────────────────┘
+```
+
 ## LG · Logos / press
 
 **LG01 · Flip rolodex logo slots** · motion M6 · fit: stockist-led food, drinks, beauty · suggested motions: M6, M48, M12 · avoid with: SP06 trust strip, LG02
@@ -2237,6 +2603,32 @@ desktop                                   phone
 │ this month:… │  [ic]  [ic]  [ic]     │
 │ [Shop ₹350]  │                       │
 └──────────────┴───────────────────────┘
+```
+
+**LG08 · Partner perks grid** · motion M64 · fit: memberships, hotels, clubs (built: members' club) · suggested motions: M34, M64 · avoid with: PR cards
+```
+┌──────────────────────────────────────┐
+│ MEMBERSHIP THAT     copy             │
+│ PAYS FOR ITSELF.    [✦ Become ₹]     │
+├────────┬────────┬────────┬───────────┤
+│◯ Kiln  │△ North │◇ Halcy │◠ Meridia  │
+│15% OFF │20% OFF │4 PASSES│1 RITUAL   │
+│Claim → │Claim → │Claim → │Claim →    │
+├────────┴────────┴────────┴───────────┤
+│ … 4 more tiles (one in accent)       │
+└──────────────────────────────────────┘
+```
+
+**LG09 · Logo grid with hover-reveal CTA** · motion M34 · fit: press, stockists (built: perfume stockists) · suggested motions: M34, M18 · avoid with: SP04
+```
+┌──────────────────────────────────────┐
+│       On the shelves we admire.      │
+│ ┌───────┬───────┬───────┬───────┐    │
+│ │ VELA  │Linden (See the network →)  │
+│ ├───────┼───────┼───────┼───────┤    │
+│ │Fennick│ noor  │HALCYON│Solano │    │
+│ └───────┴───────┴───────┴───────┘    │
+└──────────────────────────────────────┘
 ```
 
 ## PR · Pricing / shop
@@ -2371,6 +2763,28 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**PR11 · Hero offer + side offer carousel** · motion M13 · fit: bakeries, fashion sales, hotel packages (built as a bakery's weekly offers) · suggested motions: M13, M44, M34 · avoid with: PR03
+```
+┌──────────────────────────────────────┐
+│ This week at the oven.     copy ...  │
+├──────────────┬───────────────────────┤
+│ [ big photo ]│ More from…     (←)(→) │
+│ Sunday Box   │ [pic][pic][pic][pic]→ │
+│ ₹1,450 [Btn] │ name ₹  name ₹  drift │
+└──────────────┴───────────────────────┘
+```
+
+**PR12 · Single-plan split card** · motion M18 · fit: memberships, clubs, one-plan products (built as a tea subscription club) · suggested motions: M18, M3, M49 · avoid with: PR01
+```
+        One membership. Every leaf.
+┌──────────────────┬───────────────────┐
+│  The Tea Circle  │ ✓ include         │
+│     ₹1,290       │ ✓ include         │
+│     [ Join ]     │ ✓ include         │
+│  includes note   │ logo logo logo →  │
+└──────────────────┴───────────────────┘
+```
+
 ## MN · Menu / price list
 
 **MN01 · Two-column course menu with dotted leaders** · motion M23 · fit: restaurants, cafés, bars, supper clubs · suggested motions: M23, M6, M20 · avoid with: PR06 ledger (two leader/ledger lists on one page)
@@ -2429,6 +2843,18 @@ Morrow, all day.                  copy
 │ 03  …              …          from ₹ →│
 │ 06  Bridal trial   …          from ₹ →│
 └──────────────────────────────────────┘
+```
+
+**MN06 · Weekly offers strip** · motion M34 · fit: pubs, cafés, pizzerias, taprooms (standing weekly deals) · suggested motions: M34, M44 · avoid with: AN promo bars
+```
+┌──────────────────────────────────────┐
+│ SOMETHING GOOD,        copy  [Book]  │
+│ EVERY NIGHT.                         │
+├─────┬─────┬─────┬─────┬─────┬────────┤
+│ ico │ ico │█ico█│ ico │ ico │ ico    │
+│ DAY │ DAY │█DAY█│ DAY │ DAY │ DAY    │
+│deal │deal │█deal│deal │deal │deal    │
+└─────┴─────┴─────┴─────┴─────┴────────┘
 ```
 
 ## BK · Booking / reservation
@@ -2491,6 +2917,32 @@ Morrow, all day.                  copy
 │ │kv│kv│    │ ┌ Thu 08 · 16:15 [Conf]┐│
 │ └──┴──┘    │ └──────────────────────┘│
 └────────────┴─────────────────────────┘
+```
+
+**BK06 · Month calendar + slot list card** · motion M6 · fit: studios, consultants, private viewings, galleries · suggested motions: M6, M34 · avoid with: EV month grid on the same page
+```
+┌───────────┬──────────────────────────┐
+│ Headline  │ October 2026  ‹ ›│ Free  │
+│ copy      │ Mo Tu We Th Fr Sa│ 10:00 │
+│ • fact    │ .  .  .  1  2  3 │█10:30█│
+│ • fact    │ 4  5  6 (7) 8  9 │ 11:15 │
+│           │ ...              │ ...   │
+│           ├──────────────────┴───────┤
+│           │ 7 Oct · 10:30  [Confirm] │
+└───────────┴──────────────────────────┘
+```
+
+**BK07 · Seat map picker + total panel** · motion M3 · fit: cinemas, supper clubs, concerts, tasting counters · suggested motions: M3, M34 · avoid with: EV ticket cards right before
+```
+┌──────────────────────────────────────┐
+│ Pick your seats…            copy     │
+├─────────────────────────┬────────────┤
+│   ════ SCREEN ════      │ Film, time │
+│ A ▢▢▢▢▢▢▢  ▢▢▢▢▢▢▢ A    │ [D7][D8]   │
+│ B ▢▢■■▢▢▢  ▢▢▢■▢▢▢ B    │ 2 × ₹650   │
+│ D ▢▢▢▢▢▢█  █▢▢▢▢▢▢ D    │ Total ₹1,340│
+│  free · taken · yours   │ [Pay]      │
+└─────────────────────────┴────────────┘
 ```
 
 ## LS · Listings / rooms / property
@@ -2645,6 +3097,19 @@ Morrow, all day.                  copy
 └────────────┴────────────┴╌╌╌╌╌╌╌╌╌╌╌╌┘
 ```
 
+**MP09 · Address card + weekly hours grid** · motion M3 · fit: restaurants, cafés, bars · suggested motions: M3, M34 · avoid with: FO07
+```
+┌──────────────────────────────────────┐
+│ Open early, close late.              │
+├───────────┬──────────────────────────┤
+│(●Open now)│ Day  Din Bar Brk HH Tk Dl│
+│ Name      │ Mon   —   —   —  — 12 12 │
+│ address   │ ...                      │
+│ 96│84│4.8 │█Fri  12  5   —  5 12 12█│
+│ [Directions]│ Sat ...                │
+└───────────┴──────────────────────────┘
+```
+
 ## EV · Events / schedule
 
 **EV01 · Agenda list grouped by day** · motion M6 · fit: festivals, conferences, hotels' weekly programmes, retreats · suggested motions: M6, M23, M20 · avoid with: PR06 stockist ledger
@@ -2710,6 +3175,20 @@ Morrow, all day.                  copy
 └──────────────────────────────────────┘
 ```
 
+**EV06 · Month grid calendar of events** · motion M34 · fit: venues, workshops, tasting rooms, roasteries · suggested motions: M34, M6 · avoid with: BK calendars
+```
+┌──────────────────────────────────────┐
+│ What's on…          ‹ Sep|Oct|Nov ›  │
+├────┬────┬────┬────┬────┬────┬────────┤
+│ 28 │ 29 │ 30 │ 1  │ 2  │ 3  │ 4      │
+│    │    │    │    │[ev]│    │        │
+│ 5  │ 6  │ 7  │ 8  │ 9  │ 10 │ 11     │
+│    │[ev]│    │    │    │[ev]│        │
+├────┴────┴────┴────┴────┴────┴────────┤
+│ Event · date · seats   ₹ [Reserve]   │
+└──────────────────────────────────────┘
+```
+
 ## AP · App download
 
 **AP01 · Centre phone flanked by feature callouts** · motion M31 · fit: food delivery, coffee subscriptions, loyalty apps · suggested motions: M31, M6 · avoid with: FT04 product with callout lines
@@ -2756,6 +3235,17 @@ Morrow, all day.                  copy
 │ iPhone │ Android │ Web     │ Mac/Win │
 │ [Get ↓]│ [Get ↓] │ [Open ↓]│ [Get ↓] │
 └────────┴─────────┴─────────┴─────────┘
+```
+
+**AP05 · One-row app badge strip** · motion M64 · fit: any brand with an app as a side note · suggested motions: M64, M6 · avoid with: other one-row bands (LG, AN) back to back
+```
+┌──────────────────────────────────────┐
+│ ╭──────────────────────────────────╮ │
+│ │ KICKER                           │ │
+│ │ Your usual chai,  [▯ iPhone][↓ And]│
+│ │ ready when…  ////stripes////     │ │
+│ ╰──────────────────────────────────╯ │
+└──────────────────────────────────────┘
 ```
 
 ## JR · Journal / blog
@@ -2874,6 +3364,31 @@ Morrow, all day.                  copy
 └─────────┴────────────────────────────┘
 ```
 
+**JR10 · Sticky category sidebar + wide cards** · motion M23 · fit: travel, food, hotels · suggested motions: M23, M13 · avoid with: FQ category rail
+```
+┌─────────┬────────────────────────────┐
+│ Field   │ ┌───────┬────────────────┐ │
+│ notes.  │ │ image │ CAT · Title    │ │
+│ [search]│ └───────┴ excerpt  Read →┘ │
+│ • All   │ ┌───────┬────────────────┐ │
+│ • Food ━│ │ image │ CAT · Title    │ │
+│ • Coast │ └───────┴────────────────┘ │
+└─────────┴────────────────────────────┘
+```
+
+**JR11 · Excerpt that opens into a full article** · motion M6 · fit: editorial, fashion, journals · suggested motions: M6, M13 · avoid with: FT story carousel
+```
+┌──────────────────────────────────────┐
+│ The Weave, issue nine.     copy      │
+├──────────────────┬───────────────────┤
+│ [img] Title      │ [img] Title       │
+│       3 lines    │       3 lines     │
+│ [img] Title      │ [img] Title       │
+│  ↳ opens in place: header image +    │
+│    full text over the whole list     │
+└──────────────────┴───────────────────┘
+```
+
 ## FQ · FAQ
 
 **FQ01 · Two-column FAQ, self-opening accordion** · motion M23 · fit: tea, coffee, any calm premium brand with real questions · avoid with: FO07 or CT05 next to it (also M23, also line-led)
@@ -2989,6 +3504,28 @@ desktop                                   phone
 └────────────┴─────────────────────────┘
 ```
 
+**FQ10 · Search-filter FAQ** · motion M23 · fit: big product catalogues, apps (built for a sneaker store) · suggested motions: M23, M6, M22 · avoid with: FQ11 help-centre search
+```
+     Ask us anything about your pair.
+   ┌ 🔍 return▌            3 answers ┐
+   ├─ What is your return policy?  ⊕ ┤
+   │   answer with highlighted term  │
+   ├─ Can I return a worn pair?    + ┤
+   └─ (empty state → contact link)   ┘
+```
+
+**FQ11 · Help-centre search + topic columns** · motion M6 · fit: D2C stores, subscriptions (built for a skincare subscription) · suggested motions: M6, M34, M23 · avoid with: FO02 mega sitemap, FQ10
+```
+           How can we help?
+   ┌ 🔍 Track my order▌     [Search] ┐
+├────────────┬────────────┬───────────┤
+│ Orders     │Subscription│ Products  │
+│ link →     │ link →     │ link →    │
+│ Billing    │ Account    │ Contact   │
+│ link →     │ link →     │ link →    │
+└────────────┴────────────┴───────────┘
+```
+
 ## CT · CTA band
 
 **CT01 · Accent band, giant CTA line** · motion M12 · fit: energy drinks, sports, loud launch brands · avoid with: NL03 or FO01 (also M12 giant letters)
@@ -3101,6 +3638,29 @@ desktop                                   phone
 ││ delivered monthly. │ ₹1,180        ││
 ││ ✓ ✓ ✓ ✓ checklist  │ note  [Start] ││
 │└────────────────────┴───────────────┘│
+└──────────────────────────────────────┘
+```
+
+**CT10 · Four action tiles on a band** · motion M34 · fit: restaurants, cafés, hotels (reserve, call, order, gift) · suggested motions: M34, M71, M18 · avoid with: CT06 two-choice split
+```
+┌══════════ accent band ═══════════════┐
+│ COME HUNGRY,             short copy  │
+│ LEAVE SLOWLY.                        │
+│ ┌──────┐┌──────┐┌──────┐┌──────┐     │
+│ │ icon ││ icon ││ icon ││ icon │     │
+│ │Reserve││Call →││Order→││Gift →│    │
+│ └──────┘└──────┘└──────┘└──────┘     │
+└══════════════════════════════════════┘
+```
+
+**CT11 · Dark CTA card with cropped corner globe** · motion M33 · fit: exporters, travel, global shipping (built for a spice exporter) · suggested motions: M33, M64, M61 · avoid with: MP globe sections
+```
+┌──────────────────────────────────────┐
+│ Kerala pepper,                       │
+│ at your port in 21 days.        ╭─── │
+│ copy ...                     ╭─╯ ┊ ┊ │
+│ [✦Sample crate] [Price list] │ ┊ ┊ ┊ │
+│ 38 · 1 t · FOB              │ ┊ globe│
 └──────────────────────────────────────┘
 ```
 
@@ -3261,6 +3821,32 @@ desktop                                   phone
 └──────────────────────────────────────┘
 ```
 
+**CC09 · Map panel with info card + side form** · motion M13 · fit: shops, studios, clinics with walk-ins · suggested motions: M13, M23 · avoid with: FO07 info footer
+```
+┌──────────────────────────────────────┐
+│ Find us, or drop a note.     copy    │
+├─────────────────────────┬────────────┤
+│  streets ┄┄route┄┄ 📍    │ Name       │
+│   blocks   park         │ Email      │
+│ ┌──────────┬──────────┐ │ About chips│
+│ │ Address  │Email+Phone│ │ Message…  │
+│ └──────────┴──────────┘ │ [Send]     │
+└─────────────────────────┴────────────┘
+```
+
+**CC10 · Photo backdrop with split form card** · motion M18 · fit: hotels, wellness, outdoor brands · suggested motions: M18, M13 · avoid with: CT03 photo + glass card
+```
+┌──────────────────────────────────────┐
+│░░░░░░░░░░░ photo + dark overlay ░░░░░│
+│ COME UP THE      ┌─────────────────┐ │
+│ MOUNTAIN.        │ PLAN YOUR STAY  │ │
+│ ───              │ Name │ Email    │ │
+│ copy             │ Message…        │ │
+│ [Get in touch] ○○○│ [Send enquiry]  │ │
+│░░░░░░░░░░░░░░░░░░└─────────────────┘░│
+└──────────────────────────────────────┘
+```
+
 ## FO · Footer
 
 **FO01 · Giant cropped wordmark + 3 link columns** · motion M12 · fit: energy drinks, sports, loud brands with a short name · avoid with: CT01 or NL03 just before (also M12); brand names longer than about 9 letters
@@ -3410,6 +3996,18 @@ desktop                                   phone
 │ link   link   ╰─ ribbons ─╯          │
 ├──────────────────────────────────────┤
 │ © 2026 · concept note     legal links│
+└──────────────────────────────────────┘
+```
+
+**FO13 · Hairline grid footer with ticket card** · motion M60 · fit: tech, audio, events (built for a loudspeaker workshop) · suggested motions: M60, M48, M33 · avoid with: FO02 mega sitemap, FO12
+```
+┌───────────┬────────────┬─────────────┐
+│ Index     │ ·:·(globe)·│ Hear it     │
+│ 01 Speak… │ :·  spins ·│ first [Btn] │
+├─────┬─────┤ ·:·:·:·:·  ├──────┬──────┤
+│Shop │Supp.│            │Studio│Follow│
+├─────┴─────┴────────────┴──────┴──────┤
+│ ONDU AUDIO      ( ticket  ┊ №0471 )  │
 └──────────────────────────────────────┘
 ```
 

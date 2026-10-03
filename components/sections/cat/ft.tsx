@@ -6,5 +6,6 @@ import { FEATURES } from "../features";
 import { DEFS as FT_B2 } from "../ft-b2";
 import { DEFS as FT_B3 } from "../ft-b3";
 import { DEFS as FT_B4 } from "../ft-b4";
+import { DEFS as FT_B5 } from "../ft-b5";
 
-export const DEFS: SectionDef[] = ([...FEATURES, ...FT_B2, ...FT_B3, ...FT_B4] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...FEATURES, ...FT_B2, ...FT_B3, ...FT_B4, ...FT_B5] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
