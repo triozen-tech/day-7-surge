@@ -4,38 +4,38 @@ Every layout in `docs/SECTION-MENU.md`, where its idea came from, and every cand
 Source of truth: `docs/section-log.json` → `node scripts/section-log.mjs` writes this file and `docs/section-log.csv`.
 No code was copied from any source; "inspired" = layout idea rebuilt from scratch (see `docs/SOURCES.md` for licences).
 
-**190 layouts · 1003 skipped**
+**240 layouts · 1003 skipped**
 
 | Category | Layouts |
 |---|---|
-| Hero | 23 |
-| Product showcase | 14 |
-| Gallery | 14 |
-| Features | 13 |
-| Bento | 9 |
-| Social proof | 9 |
-| Footer | 9 |
-| Stats / ingredients | 8 |
-| Story / about | 8 |
-| Navbar / menu | 8 |
-| Pricing / shop | 7 |
-| CTA band | 7 |
-| FAQ | 6 |
-| Video feature | 5 |
+| Hero | 28 |
+| Gallery | 18 |
+| Features | 16 |
+| Product showcase | 16 |
+| Social proof | 12 |
+| Navbar / menu | 12 |
+| Footer | 11 |
+| Bento | 10 |
+| Stats / ingredients | 10 |
+| Story / about | 10 |
+| Pricing / shop | 9 |
+| CTA band | 8 |
+| FAQ | 7 |
+| Video feature | 7 |
+| Journal / blog | 7 |
+| Team | 6 |
+| Locations / map | 6 |
+| Contact | 6 |
+| Logos / press | 5 |
 | Newsletter | 4 |
-| Team | 4 |
-| Logos / press | 4 |
-| Locations / map | 4 |
-| Journal / blog | 4 |
-| Contact | 4 |
-| Process / steps | 3 |
-| Menu / price list | 3 |
-| Booking / reservation | 3 |
+| Process / steps | 4 |
+| Menu / price list | 4 |
+| Booking / reservation | 4 |
+| Events / schedule | 4 |
+| App download | 4 |
+| Comparison / before-after | 3 |
 | Listings / rooms / property | 3 |
-| Events / schedule | 3 |
-| App download | 3 |
 | Announcement / promo bar | 3 |
-| Comparison / before-after | 2 |
 | Poll / vote | 1 |
 | Error / 404 | 1 |
 | Careers | 1 |
@@ -45,6 +45,7 @@ No code was copied from any source; "inspired" = layout idea rebuilt from scratc
 | 0 | 90 |
 | 1 | 50 |
 | 2 | 50 |
+| 3 | 50 |
 
 ## Layouts
 
@@ -240,6 +241,56 @@ No code was copied from any source; "inspired" = layout idea rebuilt from scratc
 | FQ06 | FAQ | Ledger FAQ (question left, answer right) | Mamba UI | [link](https://raw.githubusercontent.com/Microwawe/mamba-ui/master/src/app/components/faq/faq4/faq4.component.html) | inspired, no code copied (source: MIT © 2020 Mamba UI) | 2 | 2026-10-04 |
 | CT07 | CTA band | Scroll-drawn lines converging on a CTA | Aceternity UI | [link](https://ui.aceternity.com/components/google-gemini-effect) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 2 | 2026-10-04 |
 | FO09 | Footer | Curtain-reveal footer | 21st.dev | [link](https://21st.dev/@jahed/components/motion-footer.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 2 | 2026-10-04 |
+| NV09 | Navbar / menu | Fixed vertical side rail nav | Awwwards (Side Navigation Menu, Xiloteca) | [link](https://www.awwwards.com/elements/menu/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| NV10 | Navbar / menu | Altitude scroll-progress rail | Awwwards (Altitude rail, Whiteout) | [link](https://www.awwwards.com/elements/navigation/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| NV11 | Navbar / menu | Three-island navbar | 21st.dev | [link](https://21st.dev/@arunachalam/components/adaptive-notch-navigation-bar.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 3 | 2026-10-04 |
+| NV12 | Navbar / menu | Inline sentence menu with preview panel | Codrops (InlineMenuLayout) | [link](https://github.com/codrops/InlineMenuLayout) | inspired, no code copied (source: MIT (Codrops)) | 3 | 2026-10-04 |
+| PD04 | Process / steps | Self-typing step log | Magic UI | [link](https://magicui.design/docs/components/terminal) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 3 | 2026-10-04 |
+| CP03 | Comparison / before-after | Colour pairing suggestions | Awwwards (Colour Pairing Recommendations, Acme) | [link](https://www.awwwards.com/elements/scroll/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| TM05 | Team | Ruled label, split intro, 4-up portraits | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/team/one.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 3 | 2026-10-04 |
+| TM06 | Team | Colour band with overlapping portrait cards | Meraki UI | [link](https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/teams/Background.html) | inspired, no code copied (source: MIT © 2021 Khatab Wedaa) | 3 | 2026-10-04 |
+| LG05 | Logos / press | Ruler carousel of logos | 21st.dev | [link](https://21st.dev/@isaiahbjork/components/ruler-carousel.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 3 | 2026-10-04 |
+| MN04 | Menu / price list | Two-half menu split by a rule | Awwwards (Haven Coffee + Kitchen) | [link](https://haven-annecy.fr/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| BK04 | Booking / reservation | Table booking split: contact + form | Awwwards (Da Maria) | [link](https://damaria-roma.webflow.io/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| MP05 | Locations / map | Dotted world map with flight arcs | Aceternity UI | [link](https://ui.aceternity.com/components/world-map) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 3 | 2026-10-04 |
+| MP06 | Locations / map | Illustrated map with numbered pins + legend | Awwwards (Map Navigation, Colonia Zacamil) | [link](https://www.awwwards.com/elements/maps/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| EV04 | Events / schedule | Day-part triptych | Awwwards (The Bend Club) | [link](https://thebendclub.com/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| VD06 | Video feature | Video-to-colour fade banner | 21st.dev | [link](https://21st.dev/@dqnamo/components/animated-banner.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 3 | 2026-10-04 |
+| VD07 | Video feature | Full-screen video with play cursor | Awwwards (Full screen video section, Cominvi) | [link](https://www.awwwards.com/elements/video/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| AP04 | App download | Platform download cards row | 21st.dev | [link](https://21st.dev/@shadcnspace/components/download-01.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 3 | 2026-10-04 |
+| JR05 | Journal / blog | Magazine spread with page flip | Codrops (PageFlipLayout) | [link](https://github.com/codrops/PageFlipLayout) | inspired, no code copied (source: Codrops custom licence (free to build upon, no as-is redistribution)) | 3 | 2026-10-04 |
+| JR06 | Journal / blog | Long-read with sticky side rail | Magic UI Blog template | [link](https://blog-magicui.vercel.app/blog/21-best-free-react-components) | inspired, no code copied (source: No LICENSE file in repo: licence unclear, look and learn only) | 3 | 2026-10-04 |
+| JR07 | Journal / blog | Numbered guide with bookable experiences | Awwwards (Blog Article, Explora Journal) | [link](https://www.explorajourneys.com/int/en/explora-journal/destinations/amalfi-coast) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| CC05 | Contact | Narrow form with topic chips | SiteInspire (Union Boulangerie) | [link](https://unionboulangerie.com/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| CC06 | Contact | Centred form + support link cards | Preline UI | [link](https://preline.co/blocks/marketing/contact-pages/#centered-contact-page-with-info-cards) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 3 | 2026-10-04 |
+| HR24 | Hero | Curved panorama strip | 21st.dev | [link](https://21st.dev/@daiwiikharihar/components/panoramic-spread-hero.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 3 | 2026-10-04 |
+| HR25 | Hero | Centre copy ringed by floating images | 21st.dev | [link](https://21st.dev/@ravikatiyar162/components/hero-section-7.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 3 | 2026-10-04 |
+| HR26 | Hero | Tilted 3D object above the title | Tailark | [link](https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/hero-section/four/hero-section.tsx) | inspired, no code copied (source: MIT © 2025 Irung (tailark/blocks LICENCE.md) — free OSS kits Dusk/Mist/Veil) | 3 | 2026-10-04 |
+| HR27 | Hero | Tilted screen that flattens on scroll | Aceternity UI | [link](https://ui.aceternity.com/components/container-scroll-animation) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 3 | 2026-10-04 |
+| HR28 | Hero | Split header over a landscape product stage | Preline UI | [link](https://preline.co/blocks/marketing/hero-sections/#editorial-split-hero-with-product-stage) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 3 | 2026-10-04 |
+| FT14 | Features | Image + tag-pill marquee rows | 21st.dev | [link](https://21st.dev/@shadcnspace/components/feature-24.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: Free License (Shadcn Space)) | 3 | 2026-10-04 |
+| FT15 | Features | Numbered features flanking a tall image | Aceternity UI | [link](https://ui.aceternity.com/components/chromatic-image) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 3 | 2026-10-04 |
+| FT16 | Features | Triptych images + checklist | Preline UI | [link](https://preline.co/blocks/marketing/feature-sections/#centered-feature-section-with-three-images) | inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), © 2026 Preline Labs Ltd. — free blocks only) | 3 | 2026-10-04 |
+| BN10 | Bento | Living-widget bento | Magic UI | [link](https://magicui.design/docs/components/bento-grid) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 3 | 2026-10-04 |
+| PS15 | Product showcase | Filter sidebar + product grid | 21st.dev | [link](https://21st.dev/@mohammadshehadeh/components/ecommerce-04.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 3 | 2026-10-04 |
+| PS16 | Product showcase | List/grid view toggle catalogue | Awwwards (The List and grid View, Areyoudami) | [link](https://www.awwwards.com/elements/products/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| ST09 | Stats / ingredients | Ring gauge row | Magic UI | [link](https://magicui.design/docs/components/animated-circular-progress-bar) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 3 | 2026-10-04 |
+| ST10 | Stats / ingredients | Ring chart composition | 21st.dev | [link](https://21st.dev/@sean0205/components/c-chart-20.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 3 | 2026-10-04 |
+| SY09 | Story / about | Sticky image chapters with copy beneath | 21st.dev | [link](https://21st.dev/@uniquesonu/components/text-parallax-content-scroll.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 3 | 2026-10-04 |
+| SY10 | Story / about | Sticky-date timeline with scroll beam | Aceternity UI | [link](https://ui.aceternity.com/components/timeline) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 3 | 2026-10-04 |
+| GL15 | Gallery | Grid tiles that expand in place | Aceternity UI | [link](https://ui.aceternity.com/components/layout-grid) | inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence)) | 3 | 2026-10-04 |
+| GL16 | Gallery | Four-quadrant converge | 21st.dev | [link](https://21st.dev/@componentry/components/scroll-choreography.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 3 | 2026-10-04 |
+| GL17 | Gallery | Perspective floor grid flying toward you | Codrops (Scroll3DGrid / Staggered3DGridAnimations) | [link](https://github.com/codrops/Scroll3DGrid) | inspired, no code copied (source: MIT (Codrops)) | 3 | 2026-10-04 |
+| GL18 | Gallery | Twin orbit roll | 21st.dev | [link](https://21st.dev/@hyperiux/components/circular-split-roll.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 3 | 2026-10-04 |
+| SP10 | Social proof | Auto-cycling stacked review cards | 21st.dev | [link](https://21st.dev/@youcefbnm/components/animated-cards-stack.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 3 | 2026-10-04 |
+| SP11 | Social proof | Live order feed | Magic UI | [link](https://magicui.design/docs/components/animated-list) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 3 | 2026-10-04 |
+| SP12 | Social proof | Quote cloud with focus blur | 21st.dev | [link](https://21st.dev/@radiumcoders/components/animated-testimonials.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 3 | 2026-10-04 |
+| PR08 | Pricing / shop | Savings calculator | 21st.dev | [link](https://21st.dev/@diarmuradi/components/pricing-12.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 3 | 2026-10-04 |
+| PR09 | Pricing / shop | Single centred offer card | 21st.dev | [link](https://21st.dev/@ln-dev7/components/pricing-17.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 3 | 2026-10-04 |
+| FQ07 | FAQ | Category rail + filtered accordion | 21st.dev | [link](https://21st.dev/@diarmuradi/components/faq-9.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 3 | 2026-10-04 |
+| CT08 | CTA band | CTA card in a perspective tunnel | Magic UI | [link](https://magicui.design/docs/components/warp-background) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md)) | 3 | 2026-10-04 |
+| FO10 | Footer | Physics pile footer | Awwwards (Draggable Candy Footer, Ring Pop) | [link](https://www.awwwards.com/elements/footer/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
+| FO11 | Footer | Full-screen photo footer | Awwwards (Fullscreen Footer, Columbus Travel) | [link](https://www.awwwards.com/elements/footer/) | inspired, no code copied (source: layout idea only, site all rights reserved) | 3 | 2026-10-04 |
 
 ## Skipped
 

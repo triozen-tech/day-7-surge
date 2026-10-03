@@ -4,5 +4,6 @@
 import type { SectionDef } from "../types";
 import { STORY } from "../story";
 import { DEFS as SY_B2 } from "../sy-b2";
+import { DEFS as SY_B3 } from "../sy-b3";
 
-export const DEFS: SectionDef[] = ([...STORY, ...SY_B2] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...STORY, ...SY_B2, ...SY_B3] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
