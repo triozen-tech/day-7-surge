@@ -3899,6 +3899,186 @@
    "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
    "batch": "6",
    "date": "2026-10-04"
+  },
+  {
+   "code": "NV27",
+   "category": "Navbar / menu",
+   "name": "Radial corner menu",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@samitkapoor/components/circle-menu.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "NV28",
+   "category": "Navbar / menu",
+   "name": "Three-zone bar (3/6/3)",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/ecommerce/ecommerce-headers/#center-aligned-ecommerce-navbar",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "TM13",
+   "category": "Team",
+   "name": "Compact circular roster",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/team-sections/#circular-team-portrait-grid",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "LG11",
+   "category": "Logos / press",
+   "name": "Segmented icon tile strip",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/mist/blocks/integrations/two.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "MP12",
+   "category": "Locations / map",
+   "name": "Office rows with live local clocks",
+   "source_site": "Awwwards (Offices, The Romans)",
+   "source_url": "https://www.awwwards.com/elements/scroll/",
+   "type": "inspired, no code copied (source: layout idea only, site all rights reserved)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "VD13",
+   "category": "Video feature",
+   "name": "Laptop opens, screen flies out",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/macbook-scroll",
+   "type": "inspired, no code copied (source: look and learn only (Aceternity Licence: not open source; author retains ownership; no redistribution of source; free tier gives access, not an OSS licence))",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "JR14",
+   "category": "Journal / blog",
+   "name": "Three-card journal row",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@shadcnblockscom/components/blog7.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "CC13",
+   "category": "Contact",
+   "name": "Centred form card",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/veil/blocks/contact/two.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR44",
+   "category": "Hero",
+   "name": "Waitlist cover page",
+   "source_site": "Preline UI",
+   "source_url": "https://preline.co/blocks/marketing/cover-pages-and-shells/#waitlist-cover-page",
+   "type": "inspired, no code copied (source: MIT + Preline UI Fair Use License (dual), \u00a9 2026 Preline Labs Ltd. \u2014 free blocks only)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "HR45",
+   "category": "Hero",
+   "name": "Headline over overlapping device pair",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@solaceui/components/hero-section-6.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FT27",
+   "category": "Features",
+   "name": "Scroll-spy tab strip over long panels",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@ruixen.ui/components/service-changelog.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PS23",
+   "category": "Product showcase",
+   "name": "Intro + category chip cloud",
+   "source_site": "Tailblocks",
+   "source_url": "https://raw.githubusercontent.com/mertJF/tailblocks/master/src/blocks/content/light/d.js",
+   "type": "inspired, no code copied (source: MIT \u00a9 2020 Mert Cukuren)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "ST16",
+   "category": "Stats / ingredients",
+   "name": "Wrapped icon-pill cloud",
+   "source_site": "Magic UI Portfolio template",
+   "source_url": "https://portfolio-magicui.vercel.app/",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 Dillion Verma (magicuidesign/portfolio LICENSE))",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SY17",
+   "category": "Story / about",
+   "name": "Wide image then two-column caption",
+   "source_site": "Tailark",
+   "source_url": "https://github.com/tailark/blocks/blob/main/registry/bases/radix/dusk/blocks/content/one.tsx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2025 Irung (tailark/blocks LICENCE.md) \u2014 free OSS kits Dusk/Mist/Veil)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "GL32",
+   "category": "Gallery",
+   "name": "Pinned full-bleed wipe slideshow",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@soralabs/components/scroll-gallery.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "SP22",
+   "category": "Social proof",
+   "name": "Connected story cards",
+   "source_site": "21st.dev",
+   "source_url": "https://21st.dev/@arunachalam/components/connected-carousel.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "PR14",
+   "category": "Pricing / shop",
+   "name": "Radio plan list",
+   "source_site": "Meraki UI",
+   "source_url": "https://raw.githubusercontent.com/merakiuilabs/merakiui/main/components/pricing/Checkbox.html",
+   "type": "inspired, no code copied (source: MIT \u00a9 2021 Khatab Wedaa)",
+   "batch": "7",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "FQ13",
+   "category": "FAQ",
+   "name": "Product Q&A list with search + ask",
+   "source_site": "Flowbite",
+   "source_url": "https://flowbite.com/blocks/e-commerce/customer-service/#default",
+   "type": "inspired, no code copied (source: MIT \u00a9 2023 Bergside Inc. \u2014 free blocks only)",
+   "batch": "7",
+   "date": "2026-10-04"
   }
  ],
  "skipped": [

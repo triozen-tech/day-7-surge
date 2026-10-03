@@ -8,5 +8,6 @@ import { DEFS as NV_B3 } from "../nv-b3";
 import { DEFS as NV_B4 } from "../nv-b4";
 import { DEFS as NV_B5 } from "../nv-b5";
 import { DEFS as NV_B6 } from "../nv-b6";
+import { DEFS as NV_B7 } from "../nv-b7";
 
-export const DEFS: SectionDef[] = ([...NV_B1, ...NV_B2, ...NV_B3, ...NV_B4, ...NV_B5, ...NV_B6] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...NV_B1, ...NV_B2, ...NV_B3, ...NV_B4, ...NV_B5, ...NV_B6, ...NV_B7] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

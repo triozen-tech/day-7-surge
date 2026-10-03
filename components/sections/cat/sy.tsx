@@ -8,5 +8,6 @@ import { DEFS as SY_B3 } from "../sy-b3";
 import { DEFS as SY_B4 } from "../sy-b4";
 import { DEFS as SY_B5 } from "../sy-b5";
 import { DEFS as SY_B6 } from "../sy-b6";
+import { DEFS as SY_B7 } from "../sy-b7";
 
-export const DEFS: SectionDef[] = ([...STORY, ...SY_B2, ...SY_B3, ...SY_B4, ...SY_B5, ...SY_B6] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...STORY, ...SY_B2, ...SY_B3, ...SY_B4, ...SY_B5, ...SY_B6, ...SY_B7] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

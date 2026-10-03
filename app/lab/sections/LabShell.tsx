@@ -35,8 +35,11 @@ export default function LabShell({ slug, defs }: { slug: string; defs: SectionDe
         </section>
       ))}
       <section className="relative grid h-[50svh] place-items-center overflow-hidden" data-record-time="1.2" data-record-align="bottom" data-record-label="End">
-        <div className="lab-glow pointer-events-none absolute inset-0" aria-hidden />
-        <p className="relative text-[clamp(32px,5vw,72px)] font-[800]">End of {cat?.name ?? "section"} lab</p>
+        {/* two loops with different periods (pan + drift) so the closing frame never sits still on camera */}
+        <div className="fx-pan pointer-events-none absolute inset-[-6%]" aria-hidden>
+          <div className="lab-glow absolute inset-0" />
+        </div>
+        <p className="fx-drift relative text-[clamp(32px,5vw,72px)] font-[800]">End of {cat?.name ?? "section"} lab</p>
       </section>
     </main>
   );

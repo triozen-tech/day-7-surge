@@ -8,5 +8,6 @@ import { DEFS as CC_B3 } from "../cc-b3";
 import { DEFS as CC_B4 } from "../cc-b4";
 import { DEFS as CC_B5 } from "../cc-b5";
 import { DEFS as CC_B6 } from "../cc-b6";
+import { DEFS as CC_B7 } from "../cc-b7";
 
-export const DEFS: SectionDef[] = ([...CC_B1, ...CC_B2, ...CC_B3, ...CC_B4, ...CC_B5, ...CC_B6] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...CC_B1, ...CC_B2, ...CC_B3, ...CC_B4, ...CC_B5, ...CC_B6, ...CC_B7] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));

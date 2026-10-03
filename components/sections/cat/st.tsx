@@ -8,5 +8,6 @@ import { DEFS as ST_B3 } from "../st-b3";
 import { DEFS as ST_B4 } from "../st-b4";
 import { DEFS as ST_B5 } from "../st-b5";
 import { DEFS as ST_B6 } from "../st-b6";
+import { DEFS as ST_B7 } from "../st-b7";
 
-export const DEFS: SectionDef[] = ([...STATS, ...ST_B2, ...ST_B3, ...ST_B4, ...ST_B5, ...ST_B6] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
+export const DEFS: SectionDef[] = ([...STATS, ...ST_B2, ...ST_B3, ...ST_B4, ...ST_B5, ...ST_B6, ...ST_B7] as SectionDef[]).sort((a, b) => a.code.localeCompare(b.code));
