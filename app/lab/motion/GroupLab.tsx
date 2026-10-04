@@ -15,6 +15,7 @@ const PAGES: Record<string, ComponentType> = {
   loader: dynamic(() => import("@/components/motion/cat/loader").then((m) => function L() { return <MotionShell slug="loader" defs={m.DEFS} />; })),
   micro: dynamic(() => import("@/components/motion/cat/micro").then((m) => function L() { return <MotionShell slug="micro" defs={m.DEFS} />; })),
   b1: dynamic(() => import("@/components/motion/cat/b1").then((m) => function L() { return <MotionShell slug="b1" defs={m.DEFS} />; })),
+  b2: dynamic(() => import("@/components/motion/cat/b2").then((m) => function L() { return <MotionShell slug="b2" defs={m.DEFS} />; })),
 };
 
 export default function GroupLab({ slug }: { slug: string }) {
