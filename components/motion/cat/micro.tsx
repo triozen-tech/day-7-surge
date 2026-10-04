@@ -23,5 +23,9 @@ import { DEFS as MICRO_B18_2 } from "../micro-b18-2";
 import { DEFS as MICRO_B18_3 } from "../micro-b18-3";
 import { DEFS as MICRO_B18_4 } from "../micro-b18-4";
 import { DEFS as MICRO_B18_5 } from "../micro-b18-5";
+import { DEFS as MICRO_B19_1 } from "../micro-b19-1";
+import { DEFS as MICRO_B19_2 } from "../micro-b19-2";
+import { DEFS as MICRO_B19_3 } from "../micro-b19-3";
+import { DEFS as MICRO_B19_4 } from "../micro-b19-4";
 
-export const DEFS: MotionDef[] = ([...MICRO_B3_5, ...MICRO_B4_1, ...MICRO_B4_2, ...MICRO_B4_3, ...MICRO_B4_4, ...MICRO_B4_5, ...MICRO_B5_2, ...MICRO_B5_3, ...MICRO_B5_4, ...MICRO_B5_5, ...MICRO_B14_2, ...MICRO_B14_3, ...MICRO_B14_4, ...MICRO_B14_5, ...MICRO_B15_1, ...MICRO_B17_5, ...MICRO_B18_1, ...MICRO_B18_2, ...MICRO_B18_3, ...MICRO_B18_4, ...MICRO_B18_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...MICRO_B3_5, ...MICRO_B4_1, ...MICRO_B4_2, ...MICRO_B4_3, ...MICRO_B4_4, ...MICRO_B4_5, ...MICRO_B5_2, ...MICRO_B5_3, ...MICRO_B5_4, ...MICRO_B5_5, ...MICRO_B14_2, ...MICRO_B14_3, ...MICRO_B14_4, ...MICRO_B14_5, ...MICRO_B15_1, ...MICRO_B17_5, ...MICRO_B18_1, ...MICRO_B18_2, ...MICRO_B18_3, ...MICRO_B18_4, ...MICRO_B18_5, ...MICRO_B19_1, ...MICRO_B19_2, ...MICRO_B19_3, ...MICRO_B19_4] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));

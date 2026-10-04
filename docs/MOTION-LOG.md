@@ -4,12 +4,12 @@ Every motion in `docs/MOTION-MENU.md` (M75+, X19+, I11+, U01+), where its idea c
 Source of truth: `docs/motion-log.json` → `node scripts/motion-log.mjs` writes this file and `docs/motion-log.csv`.
 No code was copied from any source; "inspired" = motion idea rebuilt from scratch in GSAP (see `docs/SOURCES.md` for licences).
 
-**1079 motions · 1319 skipped**
+**1118 motions · 1319 skipped**
 
 | Group | Motions |
 |---|---|
+| Hover, buttons & cursor (U) | 263 |
 | Text effects | 231 |
-| Hover, buttons & cursor (U) | 224 |
 | Backgrounds & ambient | 206 |
 | Image effects | 120 |
 | Scroll & pinned | 95 |
@@ -37,6 +37,7 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | 17 | 60 |
 | 18 | 60 |
 | 14 | 59 |
+| 19 | 39 |
 
 ## Motions
 
@@ -1121,6 +1122,45 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | U223 | Hover, buttons & cursor (U) | Liquid slosh button |  | 21st.dev (Tactile Button) | [link](https://21st.dev/@mengto/components/tactile-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 18 | 2026-10-04 |
 | U224 | Hover, buttons & cursor (U) | Elastic drag-off stack |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/ElastiStack) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/ElasticStack/) | 18 | 2026-10-04 |
 | U225 | Hover, buttons & cursor (U) | Trampoline drag |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/PlayfulTrampolineEffect) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Tutorials/PlayfulTrampolineEffect/) | 18 | 2026-10-04 |
+| U226 | Hover, buttons & cursor (U) | Cube grid hover + explode |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/CubesAdventCalendar) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/codrops/?p=28603&preview=true) | 19 | 2026-10-05 |
+| U227 | Hover, buttons & cursor (U) | Make-way grid expand |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/MakeWayGridEffect) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=63990) | 19 | 2026-10-05 |
+| U228 | Hover, buttons & cursor (U) | Grid rows skew with mouse |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/IntroGridMotionTransition) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=77934) | 19 | 2026-10-05 |
+| U229 | Hover, buttons & cursor (U) | 3D pin with radar rings |  | Aceternity UI | [link](https://ui.aceternity.com/components/3d-pin) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 19 | 2026-10-05 |
+| U230 | Hover, buttons & cursor (U) | LED board text |  | Animata | [link](https://animata.design/docs/card/led-board) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 19 | 2026-10-05 |
+| U231 | Hover, buttons & cursor (U) | Liquid glass refraction |  | Kokonut UI | [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/cards/liquid-glass-card.mdx) | inspired, no code copied (source: MIT © 2025 kokonutUI — idea only) | 19 | 2026-10-05 |
+| U232 | Hover, buttons & cursor (U) | Dither sweep nav hover | M17 | 21st.dev (Dither Sweep Navbar) | [link](https://21st.dev/@kedhareswer/components/dither-sweep-navbar.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U233 | Hover, buttons & cursor (U) | Focus-lock corner brackets | X17 | 21st.dev (Focus Frame Border) | [link](https://21st.dev/@shadcnspace/components/shine-border-06.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: Free License) | 19 | 2026-10-05 |
+| U234 | Hover, buttons & cursor (U) | Sprite-mask wipe button | U51 | 21st.dev (Mask Button) | [link](https://21st.dev/@lucasbassetti/components/mask-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 19 | 2026-10-05 |
+| U235 | Hover, buttons & cursor (U) | Sprite-sheet stepped loop | M27 | 21st.dev (Spritesheet Sequencer) | [link](https://21st.dev/@joyco/components/spritesheet-sequencer.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 19 | 2026-10-05 |
+| U236 | Hover, buttons & cursor (U) | Tile tool swap mesh | M58 | 21st.dev (Tool Mesh) | [link](https://21st.dev/@maudbenaddi/components/tool-mesh.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U237 | Hover, buttons & cursor (U) | Glitch button | X9 | 21st.dev (Spider-Verse Glitch Button) | [link](https://21st.dev/@muhammad-binsalman/components/spider-verse-glitch-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U238 | Hover, buttons & cursor (U) | Fluid particle trail | M65 | 21st.dev (Fluid Cursor Trail) | [link](https://21st.dev/@pulkitxm/components/fluid-cursor-trail.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U239 | Hover, buttons & cursor (U) | Caret cursor adapts to text | U52 | 21st.dev (Cursor: Adaptive caret size) | [link](https://21st.dev/@motiondotdev/components/motion-cursor.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U240 | Hover, buttons & cursor (U) | Spotlight product tour | X15 | 21st.dev (Product Tour) | [link](https://21st.dev/@laziekiki/components/product-tour.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U241 | Hover, buttons & cursor (U) | Cell ripple on click | M69 | 21st.dev (Background Ripple Effect) | [link](https://21st.dev/@manuarora700/components/background-ripple-effect.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U242 | Hover, buttons & cursor (U) | Cybernetic hover scan | M49 | 21st.dev (Cybernetic Team Showcase) | [link](https://21st.dev/@dhileepkumargm/components/cybernetic-team-showcase.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 19 | 2026-10-05 |
+| U243 | Hover, buttons & cursor (U) | Swatch book fan | M4 | Codrops (github.com/codrops) | [link](https://github.com/codrops/SwatchBook) | inspired, no code copied (source: MIT (stated in README, no LICENSE file) \| demo: http://tympanus.net/Tutorials/SwatchBook/) | 19 | 2026-10-05 |
+| U244 | Hover, buttons & cursor (U) | Electric border | M64 | React Bits | [link](https://reactbits.dev/animations/electric-border) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 19 | 2026-10-05 |
+| U245 | Hover, buttons & cursor (U) | Circular scroll progress | M26 | Skiper UI | [link](https://skiper-ui.com/v1/skiper89) | inspired, no code copied (source: Skiper UI site terms: all rights reserved, no reproduction — LOOK AND LEARN ONLY (free item)) | 19 | 2026-10-05 |
+| U246 | Hover, buttons & cursor (U) | Mood-morph emoji grid | M53 | 21st.dev (smiley) | [link](https://21st.dev/@kedhareswer/components/smiley.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U247 | Hover, buttons & cursor (U) | Vapor digit countdown | M48 | 21st.dev (Countdown Vapor Digits) | [link](https://21st.dev/@nikolas-sapa/components/countdown-vapor-digits.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 19 | 2026-10-05 |
+| U248 | Hover, buttons & cursor (U) | Terrain carving cursor | M649 | 21st.dev (Terrain Erosion Carve) | [link](https://21st.dev/@nikolas-sapa/components/terrain-erosion-carve.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 19 | 2026-10-05 |
+| U249 | Hover, buttons & cursor (U) | Liquid metal button | M691 | 21st.dev (Liquid Metal Button) | [link](https://21st.dev/@johuniq/components/liquid-metal-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U250 | Hover, buttons & cursor (U) | Shimmering grid slider | M48 | 21st.dev (Amount Slider) | [link](https://21st.dev/@serafimcloud/components/amount-slider.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U251 | Hover, buttons & cursor (U) | Shatter glass card | M667 | 21st.dev (Shatterable Glass Card) | [link](https://21st.dev/@dhileepkumargm/components/shatterable-glass-card.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U252 | Hover, buttons & cursor (U) | Pixel fire fill button | U232 | 21st.dev (Pixel Fire Button) | [link](https://21st.dev/@serafimcloud/components/pixel-fire-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U253 | Hover, buttons & cursor (U) | 3D tube cursor | M65 | 21st.dev (Tubes Curor) | [link](https://21st.dev/@jod49034/components/tubes-curor.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U254 | Hover, buttons & cursor (U) | Morphing magnetic cursor | U52 | 21st.dev (Morphing Cursor) | [link](https://21st.dev/@jatin-yadav05/components/morphing-cursor.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U255 | Hover, buttons & cursor (U) | Magnetic logo swarm | M71 | 21st.dev (Magnetic Logo Cluster) | [link](https://21st.dev/@aicanvas/components/magnetic-logo-cluster.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 19 | 2026-10-05 |
+| U256 | Hover, buttons & cursor (U) | Hanging lamp follows cursor | M197 | 21st.dev (Interactive Light) | [link](https://21st.dev/@designali-in/components/interactive-light.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U257 | Hover, buttons & cursor (U) | Glitch block field | X9 | 21st.dev (GlitchCursor) | [link](https://21st.dev/@dhileepkumargm/components/glitch-cursor.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 19 | 2026-10-05 |
+| U258 | Hover, buttons & cursor (U) | Cover beams speed-up | M742 | 21st.dev (Cover) | [link](https://21st.dev/@manuarora700/components/cover.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U259 | Hover, buttons & cursor (U) | Ash burst physics | X96 | 21st.dev (Ash Burst Button) | [link](https://21st.dev/@radiumcoders/components/ash-burst-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 19 | 2026-10-05 |
+| U260 | Hover, buttons & cursor (U) | Gooey progress rail | M26 | 21st.dev (TOC Minimap Mercury) | [link](https://21st.dev/@nikolas-sapa/components/toc-minimap-mercury.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 19 | 2026-10-05 |
+| U261 | Hover, buttons & cursor (U) | Backlit panel grid | M197 | 21st.dev (Reactive Glow Grid) | [link](https://21st.dev/@carolinaraulino/components/reactive-glow-grid.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 19 | 2026-10-05 |
+| U262 | Hover, buttons & cursor (U) | Elastic progress bar | M26 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ElasticProgress) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/ElasticProgress/) | 19 | 2026-10-05 |
+| U263 | Hover, buttons & cursor (U) | Placeholder cycle + vanish | M45 | Aceternity UI | [link](https://ui.aceternity.com/components/placeholders-and-vanish-input) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 19 | 2026-10-05 |
+| U264 | Hover, buttons & cursor (U) | Breakable footer | M236 | studiors | [link](https://www.awwwards.com/inspiration/physics-based-breakable-footer-studiors) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 19 | 2026-10-05 |
 
 ## Skipped
 
