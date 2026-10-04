@@ -15,7 +15,7 @@ import GroupLab from "../GroupLab";
 
 // /lab/motion/<group>: every new MOTION-MENU code of one group as a small live demo (or /lab/motion/b<N>: one build batch).
 export const metadata: Metadata = { title: "Motion lab", robots: { index: false, follow: false, nocache: true } };
-export const generateStaticParams = () => [...MGROUPS.map((g) => ({ group: g.slug })), ...MBATCHES.map((n) => ({ group: `b${n}` }))];
+export const generateStaticParams = () => [...MGROUPS.map((g) => ({ group: g.slug })), ...MBATCHES.flatMap((n) => [`b${n}`, `b${n}h1`, `b${n}h2`].map((group) => ({ group })))];
 export const dynamicParams = false;
 
 export default async function Page({ params }: { params: Promise<{ group: string }> }) {

@@ -125,11 +125,15 @@ async function reel(name) {
   const errors = [];
   const marks = []; // { t: wall-clock s, label } from record mode's "[record] 12.40 s  → Label" logs
   let planned = 0; // record mode's planned total (s), to catch a run that broke off early
+  let lastFrameWall = Date.now();
+  let crashed = "";
   b.on((m) => {
+    if (m.method === "Inspector.targetCrashed") crashed = "the page tab crashed";
     if (m.method === "Page.screencastFrame") {
       const { data, metadata, sessionId } = m.params;
       const f = join(work, `f_${String(frames.length).padStart(5, "0")}.jpg`);
       frames.push({ f, t: metadata.timestamp });
+      lastFrameWall = Date.now();
       writeFileSync(f, Buffer.from(data, "base64"));
       b.send("Page.screencastFrameAck", { sessionId }).catch(() => {});
     }
@@ -145,9 +149,15 @@ async function reel(name) {
     if (m.method === "Runtime.exceptionThrown") errors.push(m.params.exceptionDetails.exception?.description ?? m.params.exceptionDetails.text);
   });
   await b.send("Page.startScreencast", { format: "jpeg", quality: 80, maxWidth: REEL.w, maxHeight: REEL.h, everyNthFrame: 1 });
+  await b.send("Inspector.enable").catch(() => {});
   await b.send("Page.navigate", { url: `${BASE}${PAGE}?record=1` });
   const t0 = Date.now();
-  while (!doneAt && Date.now() - t0 < REEL.secs * 1000) await sleep(200);
+  while (!doneAt && !crashed && Date.now() - t0 < REEL.secs * 1000) {
+    await sleep(200);
+    // frames stopped for 8 s (tab hung or the capture died): stop waiting instead of sitting out the whole cap
+    if (frames.length && Date.now() - lastFrameWall > 8000) crashed = `no frames for 8 s after ${((lastFrameWall - t0) / 1000).toFixed(1)} s`;
+  }
+  if (crashed) console.warn(`! capture broke off: ${crashed}`);
   await sleep(600); // a little tail after the last move
   await b.send("Page.stopScreencast", {}, 5000).catch(() => {}); // frames are already captured; never fail here
   await sleep(300);

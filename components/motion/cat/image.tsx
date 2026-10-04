@@ -4,5 +4,10 @@
 import type { MotionDef } from "../types";
 import { DEFS as IMAGE_B2_3 } from "../image-b2-3";
 import { DEFS as IMAGE_B2_4 } from "../image-b2-4";
+import { DEFS as IMAGE_B10_1 } from "../image-b10-1";
+import { DEFS as IMAGE_B10_2 } from "../image-b10-2";
+import { DEFS as IMAGE_B10_3 } from "../image-b10-3";
+import { DEFS as IMAGE_B10_4 } from "../image-b10-4";
+import { DEFS as IMAGE_B10_5 } from "../image-b10-5";
 
-export const DEFS: MotionDef[] = ([...IMAGE_B2_3, ...IMAGE_B2_4] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...IMAGE_B2_3, ...IMAGE_B2_4, ...IMAGE_B10_1, ...IMAGE_B10_2, ...IMAGE_B10_3, ...IMAGE_B10_4, ...IMAGE_B10_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));

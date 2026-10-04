@@ -51,13 +51,25 @@ function Demo({ d }: { d: MotionDef }) {
 }
 
 export default function MotionShell({ slug, defs }: { slug: string; defs: MotionDef[] }) {
-  const batch = slug.match(/^b(\d+)$/)?.[1];
-  const g = batch ? { name: `Batch ${batch}` } : MGROUPS.find((x) => x.slug === slug);
+  const bm = slug.match(/^b(\d+)(?:h(\d))?$/);
+  const g = bm ? { name: `Batch ${bm[1]}${bm[2] ? ` · part ${bm[2]}` : ""}` } : MGROUPS.find((x) => x.slug === slug);
   useEffect(() => {
     if (prefersReducedMotion()) document.documentElement.classList.add("is-static");
   }, []);
+  // A batch page mounts ~60 demos; their CSS loops (large blurred glows) would all keep running off screen and load the
+  // compositor. Pause every CSS animation inside a demo that is more than a little away from the viewport.
+  useEffect(() => {
+    const secs = Array.from(document.querySelectorAll<HTMLElement>("main > section[id]"));
+    const io = new IntersectionObserver((es) => es.forEach((e) => e.target.classList.toggle("mo-off", !e.isIntersecting)), { rootMargin: "200px 0px" });
+    secs.forEach((s) => {
+      s.classList.add("mo-off");
+      io.observe(s);
+    });
+    return () => io.disconnect();
+  }, []);
   return (
     <main className="bg-[#05080f] text-[#eaf5ff]">
+      <style>{`.mo-off, .mo-off * { animation-play-state: paused !important; }`}</style>
       <section className="relative grid h-[100svh] place-items-center overflow-hidden px-6 text-center" data-record-time="0.6" data-record-label="Motion">
         <div className="fx-pan pointer-events-none absolute inset-[-6%]" aria-hidden>
           <div className="lab-glow absolute inset-0" />
