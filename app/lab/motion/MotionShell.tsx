@@ -28,7 +28,7 @@ function Demo({ d }: { d: MotionDef }) {
             <div className="absolute inset-x-[clamp(16px,4vw,56px)] bottom-[6vh] top-[clamp(150px,22vh,210px)]">
               <d.C />
             </div>
-            <div className="fx-pan pointer-events-none absolute inset-[-6%] z-10 opacity-60 mix-blend-screen" aria-hidden>
+            <div className="fx-pan pointer-events-none absolute inset-[-6%] z-10 opacity-75 mix-blend-screen" aria-hidden>
               <div className="lab-glow absolute inset-0" />
             </div>
           </div>
@@ -41,6 +41,10 @@ function Demo({ d }: { d: MotionDef }) {
       {label}
       <div className="absolute inset-x-[clamp(16px,4vw,56px)] bottom-[6vh] top-[clamp(150px,22vh,210px)]">
         <d.C />
+      </div>
+      {/* soft moving light over every demo, so a demo between two auto-steps never reads as a frozen frame */}
+      <div className="fx-pan pointer-events-none absolute inset-[-6%] z-10 opacity-40 mix-blend-screen" aria-hidden>
+        <div className="lab-glow absolute inset-0" />
       </div>
     </section>
   );

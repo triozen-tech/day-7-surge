@@ -8,5 +8,9 @@ import { DEFS as MICRO_B4_2 } from "../micro-b4-2";
 import { DEFS as MICRO_B4_3 } from "../micro-b4-3";
 import { DEFS as MICRO_B4_4 } from "../micro-b4-4";
 import { DEFS as MICRO_B4_5 } from "../micro-b4-5";
+import { DEFS as MICRO_B5_2 } from "../micro-b5-2";
+import { DEFS as MICRO_B5_3 } from "../micro-b5-3";
+import { DEFS as MICRO_B5_4 } from "../micro-b5-4";
+import { DEFS as MICRO_B5_5 } from "../micro-b5-5";
 
-export const DEFS: MotionDef[] = ([...MICRO_B3_5, ...MICRO_B4_1, ...MICRO_B4_2, ...MICRO_B4_3, ...MICRO_B4_4, ...MICRO_B4_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...MICRO_B3_5, ...MICRO_B4_1, ...MICRO_B4_2, ...MICRO_B4_3, ...MICRO_B4_4, ...MICRO_B4_5, ...MICRO_B5_2, ...MICRO_B5_3, ...MICRO_B5_4, ...MICRO_B5_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
