@@ -1,14 +1,29 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState, type RefObject } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { ScrubRoot } from "@/components/fx/shared";
 import type { MotionDef } from "@/components/motion/types";
 import { MGROUPS } from "@/components/motion/catalog";
 
+// A demo is only mounted while its section is within ~1.5 screens of the viewport. Far-away demos unmount, so their
+// WebGL contexts, canvases and tickers are released: a 60-demo page otherwise piles up GPU contexts until the tab dies.
+function useLive(ref: RefObject<HTMLElement | null>) {
+  const [live, setLive] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(([e]) => setLive(e.isIntersecting), { rootMargin: "150% 0px" });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [ref]);
+  return live;
+}
+
 // The page frame of one /lab/motion/<group> (or /b<N> batch) page: intro, every motion as a labelled small demo, end card.
 function Demo({ d }: { d: MotionDef }) {
   const root = useRef<HTMLElement>(null);
+  const live = useLive(root);
   const label = (
     <header className="pointer-events-none absolute left-[clamp(16px,4vw,56px)] top-[clamp(40px,7vh,72px)] z-20 max-w-[min(560px,80vw)]">
       <p className="text-[clamp(26px,3vw,44px)] font-[800] leading-none text-[#4f8dff]" style={{ fontFamily: "Space Grotesk Variable" }}>
@@ -26,7 +41,7 @@ function Demo({ d }: { d: MotionDef }) {
             {/* keeps the frame alive while a finished scrub holds still (never-frozen rule) */}
             {label}
             <div className="absolute inset-x-[clamp(16px,4vw,56px)] bottom-[6vh] top-[clamp(150px,22vh,210px)]">
-              <d.C />
+              {live && <d.C />}
             </div>
             <div className="fx-pan pointer-events-none absolute inset-[-6%] z-10 opacity-75 mix-blend-screen" aria-hidden>
               <div className="lab-glow absolute inset-0" />
@@ -37,10 +52,10 @@ function Demo({ d }: { d: MotionDef }) {
       </section>
     );
   return (
-    <section id={d.code.toLowerCase()} className="relative h-[100svh] overflow-hidden border-t border-white/10" data-record-time="2.4" data-record-align="center" data-record-label={d.code}>
+    <section ref={root} id={d.code.toLowerCase()} className="relative h-[100svh] overflow-hidden border-t border-white/10" data-record-time="2.4" data-record-align="center" data-record-label={d.code}>
       {label}
       <div className="absolute inset-x-[clamp(16px,4vw,56px)] bottom-[6vh] top-[clamp(150px,22vh,210px)]">
-        <d.C />
+        {live && <d.C />}
       </div>
       {/* soft moving light over every demo, so a demo between two auto-steps never reads as a frozen frame */}
       <div className="fx-pan pointer-events-none absolute inset-[-6%] z-10 opacity-40 mix-blend-screen" aria-hidden>

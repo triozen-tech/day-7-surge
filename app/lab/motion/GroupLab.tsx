@@ -25,6 +25,7 @@ const PAGES: Record<string, ComponentType> = {
   b9: dynamic(() => import("@/components/motion/cat/b9").then((m) => function L() { return <MotionShell slug="b9" defs={m.DEFS} />; })),
   b10: dynamic(() => import("@/components/motion/cat/b10").then((m) => function L() { return <MotionShell slug="b10" defs={m.DEFS} />; })),
   b11: dynamic(() => import("@/components/motion/cat/b11").then((m) => function L() { return <MotionShell slug="b11" defs={m.DEFS} />; })),
+  b12: dynamic(() => import("@/components/motion/cat/b12").then((m) => function L() { return <MotionShell slug="b12" defs={m.DEFS} />; })),
   b1h1: dynamic(() => import("@/components/motion/cat/b1").then((m) => function L() { return <MotionShell slug="b1h1" defs={m.DEFS.slice(0, Math.ceil(m.DEFS.length / 2))} />; })),
   b1h2: dynamic(() => import("@/components/motion/cat/b1").then((m) => function L() { return <MotionShell slug="b1h2" defs={m.DEFS.slice(Math.ceil(m.DEFS.length / 2))} />; })),
   b2h1: dynamic(() => import("@/components/motion/cat/b2").then((m) => function L() { return <MotionShell slug="b2h1" defs={m.DEFS.slice(0, Math.ceil(m.DEFS.length / 2))} />; })),
@@ -47,6 +48,8 @@ const PAGES: Record<string, ComponentType> = {
   b10h2: dynamic(() => import("@/components/motion/cat/b10").then((m) => function L() { return <MotionShell slug="b10h2" defs={m.DEFS.slice(Math.ceil(m.DEFS.length / 2))} />; })),
   b11h1: dynamic(() => import("@/components/motion/cat/b11").then((m) => function L() { return <MotionShell slug="b11h1" defs={m.DEFS.slice(0, Math.ceil(m.DEFS.length / 2))} />; })),
   b11h2: dynamic(() => import("@/components/motion/cat/b11").then((m) => function L() { return <MotionShell slug="b11h2" defs={m.DEFS.slice(Math.ceil(m.DEFS.length / 2))} />; })),
+  b12h1: dynamic(() => import("@/components/motion/cat/b12").then((m) => function L() { return <MotionShell slug="b12h1" defs={m.DEFS.slice(0, Math.ceil(m.DEFS.length / 2))} />; })),
+  b12h2: dynamic(() => import("@/components/motion/cat/b12").then((m) => function L() { return <MotionShell slug="b12h2" defs={m.DEFS.slice(Math.ceil(m.DEFS.length / 2))} />; })),
 };
 
 export default function GroupLab({ slug }: { slug: string }) {
