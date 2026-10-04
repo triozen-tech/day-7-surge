@@ -16,5 +16,10 @@ import { DEFS as AMBIENT_B12_4 } from "../ambient-b12-4";
 import { DEFS as AMBIENT_B12_5 } from "../ambient-b12-5";
 import { DEFS as AMBIENT_B13_1 } from "../ambient-b13-1";
 import { DEFS as AMBIENT_B13_2 } from "../ambient-b13-2";
+import { DEFS as AMBIENT_B16_1 } from "../ambient-b16-1";
+import { DEFS as AMBIENT_B16_2 } from "../ambient-b16-2";
+import { DEFS as AMBIENT_B16_3 } from "../ambient-b16-3";
+import { DEFS as AMBIENT_B16_4 } from "../ambient-b16-4";
+import { DEFS as AMBIENT_B16_5 } from "../ambient-b16-5";
 
-export const DEFS: MotionDef[] = ([...AMBIENT_B2_4, ...AMBIENT_B2_5, ...AMBIENT_B3_1, ...AMBIENT_B3_2, ...AMBIENT_B11_3, ...AMBIENT_B11_4, ...AMBIENT_B11_5, ...AMBIENT_B12_1, ...AMBIENT_B12_2, ...AMBIENT_B12_3, ...AMBIENT_B12_4, ...AMBIENT_B12_5, ...AMBIENT_B13_1, ...AMBIENT_B13_2] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...AMBIENT_B2_4, ...AMBIENT_B2_5, ...AMBIENT_B3_1, ...AMBIENT_B3_2, ...AMBIENT_B11_3, ...AMBIENT_B11_4, ...AMBIENT_B11_5, ...AMBIENT_B12_1, ...AMBIENT_B12_2, ...AMBIENT_B12_3, ...AMBIENT_B12_4, ...AMBIENT_B12_5, ...AMBIENT_B13_1, ...AMBIENT_B13_2, ...AMBIENT_B16_1, ...AMBIENT_B16_2, ...AMBIENT_B16_3, ...AMBIENT_B16_4, ...AMBIENT_B16_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));

@@ -237,7 +237,10 @@ async function reel(name) {
   const complete = !planned || (doneAt && covered >= planned - 1.5);
   if (!complete) console.log(`  ⚠ incomplete: the auto-scroll covered ${covered.toFixed(1)} s of its planned ${planned.toFixed(1)} s (busy machine? re-run)`);
   else if (planned) console.log(`  complete: ${planned.toFixed(1)} s timeline played to the end`);
-  const pass = !freezes.length && !stuck.length && !errors.length && complete;
+  // the final encode can fail (empty video): nothing was checked, so never a PASS
+  const encoded = v.length > 30;
+  if (!encoded) console.log(`  ⚠ no video: the final encode wrote nothing to check (re-run)`);
+  const pass = !freezes.length && !stuck.length && !errors.length && complete && encoded;
   console.log(pass ? "PASS" : "FAIL");
   process.exit(pass ? 0 : 1);
 }
