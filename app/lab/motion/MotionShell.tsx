@@ -13,6 +13,11 @@ function useLive(ref: RefObject<HTMLElement | null>) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    // ?static=1 (layout review, screenshots) runs no WebGL or loops, so every demo can stay mounted there
+    if (new URLSearchParams(location.search).has("static")) {
+      setLive(true);
+      return;
+    }
     const io = new IntersectionObserver(([e]) => setLive(e.isIntersecting), { rootMargin: "150% 0px" });
     io.observe(el);
     return () => io.disconnect();

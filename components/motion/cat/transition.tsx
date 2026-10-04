@@ -5,5 +5,9 @@ import type { MotionDef } from "../types";
 import { DEFS as TRANSITION_B3_2 } from "../transition-b3-2";
 import { DEFS as TRANSITION_B3_3 } from "../transition-b3-3";
 import { DEFS as TRANSITION_B3_4 } from "../transition-b3-4";
+import { DEFS as TRANSITION_B13_2 } from "../transition-b13-2";
+import { DEFS as TRANSITION_B13_3 } from "../transition-b13-3";
+import { DEFS as TRANSITION_B13_4 } from "../transition-b13-4";
+import { DEFS as TRANSITION_B13_5 } from "../transition-b13-5";
 
-export const DEFS: MotionDef[] = ([...TRANSITION_B3_2, ...TRANSITION_B3_3, ...TRANSITION_B3_4] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...TRANSITION_B3_2, ...TRANSITION_B3_3, ...TRANSITION_B3_4, ...TRANSITION_B13_2, ...TRANSITION_B13_3, ...TRANSITION_B13_4, ...TRANSITION_B13_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));

@@ -4,17 +4,17 @@ Every motion in `docs/MOTION-MENU.md` (M75+, X19+, I11+, U01+), where its idea c
 Source of truth: `docs/motion-log.json` → `node scripts/motion-log.mjs` writes this file and `docs/motion-log.csv`.
 No code was copied from any source; "inspired" = motion idea rebuilt from scratch in GSAP (see `docs/SOURCES.md` for licences).
 
-**720 motions · 548 skipped**
+**780 motions · 1318 skipped**
 
 | Group | Motions |
 |---|---|
 | Text effects | 204 |
-| Backgrounds & ambient | 119 |
+| Backgrounds & ambient | 133 |
 | Image effects | 107 |
 | Hover, buttons & cursor (U) | 102 |
 | Scroll & pinned | 83 |
+| Transitions (X) | 69 |
 | Reveals | 62 |
-| Transitions (X) | 23 |
 | Loaders (I) | 20 |
 
 | Batch | Motions |
@@ -31,6 +31,7 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | 10 | 60 |
 | 11 | 60 |
 | 12 | 60 |
+| 13 | 60 |
 
 ## Motions
 
@@ -756,6 +757,66 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | M647 | Backgrounds & ambient | Cursor-stirred dye fluid | M67 | React Bits | [link](https://reactbits.dev/backgrounds/liquid-ether) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 12 | 2026-10-04 |
 | M648 | Backgrounds & ambient | Ink blooms in water | M36 | 21st.dev (Dye Whorl) | [link](https://21st.dev/@nikolas-sapa/components/dye-whorl.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 12 | 2026-10-04 |
 | M649 | Backgrounds & ambient | Topographic contour drift |  | 21st.dev (Luminous Topography) | [link](https://21st.dev/@rmahammad/components/luminous-topography.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 12 | 2026-10-04 |
+| M650 | Backgrounds & ambient | Topography layers pulse | M649 | Codrops (github.com/codrops) | [link](https://github.com/codrops/GradientTopographyAnimation) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=33779) | 13 | 2026-10-04 |
+| M651 | Backgrounds & ambient | Concentric pulse rings | M37 | 21st.dev (Option 1) | [link](https://21st.dev/@jaimayo88/components/option-1.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 13 | 2026-10-04 |
+| M652 | Backgrounds & ambient | Self-swapping image grid | M34 | Codrops (github.com/codrops) | [link](https://github.com/codrops/AnimatedResponsiveImageGrid) | inspired, no code copied (source: MIT (stated in README, no LICENSE file) \| demo: http://tympanus.net/Development/AnimatedResponsiveImageGrid/) | 13 | 2026-10-04 |
+| M653 | Backgrounds & ambient | Blend-mode colour layers | M10 | Codrops (github.com/codrops) | [link](https://github.com/codrops/BackgroundShift) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=58511) | 13 | 2026-10-04 |
+| M654 | Backgrounds & ambient | Organic blob loop morph | M53 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ShapeMorphIdeas) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=32314) | 13 | 2026-10-04 |
+| M655 | Backgrounds & ambient | Shape morphs with the mouse | M53 | Byotone | [link](https://www.awwwards.com/inspiration/webgl-shape-morph-with-mouse-movement-byotone) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 13 | 2026-10-04 |
+| M656 | Backgrounds & ambient | Bento camera drift | M32 | 21st.dev (Infinite Bento Pan) | [link](https://21st.dev/@kapishdima/components/infinite-bento-pan.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 13 | 2026-10-04 |
+| M657 | Backgrounds & ambient | Ambilight glow | M37 | SmoothUI | [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/video-ambient.mdx) | inspired, no code copied (source: MIT © 2024 Eduardo Calvo (SmoothUI) — idea only) | 13 | 2026-10-04 |
+| M658 | Backgrounds & ambient | Progressive edge blur | M19 | Cult UI | [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/edge-blur.mdx) | inspired, no code copied (source: MIT © 2023 Jordan-Gilliam (Cult UI) — idea only) | 13 | 2026-10-04 |
+| M659 | Backgrounds & ambient | Moving emboss light | M49 | SmoothUI | [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/emboss-surface.mdx) | inspired, no code copied (source: MIT © 2024 Eduardo Calvo (SmoothUI) — idea only) | 13 | 2026-10-04 |
+| M660 | Backgrounds & ambient | Card edge spotlight | M64 | HJM Studio | [link](https://www.awwwards.com/inspiration/gradient-spotlight-effect-hjm-studio) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 13 | 2026-10-04 |
+| M661 | Backgrounds & ambient | Shine border | M64 | Magic UI | [link](https://magicui.design/docs/components/shine-border) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 13 | 2026-10-04 |
+| M662 | Backgrounds & ambient | Breathing paragraph lines | M23 | anime.js examples | [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/text/split-effects/index.js) | inspired, no code copied (source: anime.js MIT (c) 2025 Julian Garnier - example code MIT, still we only rebuild the idea in GSAP) | 13 | 2026-10-04 |
+| M663 | Backgrounds & ambient | Aurora card top | M181 | 21st.dev (Aurora Panel) | [link](https://21st.dev/@rmahammad/components/aurora-panel.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 13 | 2026-10-04 |
+| X42 | Transitions (X) | Fast mask slide with inner counter-move | M1 | Codrops (github.com/codrops) | [link](https://github.com/codrops/MotionRevealSlideshow) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=35450) | 13 | 2026-10-04 |
+| X43 | Transitions (X) | Rounded panel with cover unreveal | M1 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ExpandingRoundedMenu) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=59320) | 13 | 2026-10-04 |
+| X44 | Transitions (X) | Rotating title chars + diagonal thumbs | M12 | Codrops (github.com/codrops) | [link](https://github.com/codrops/DiagonalThumbnails) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=50811) | 13 | 2026-10-04 |
+| X45 | Transitions (X) | Section scale-zoom slideshow | M13 | Codrops (github.com/codrops) | [link](https://github.com/codrops/OutdoorsTemplate) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=33851) | 13 | 2026-10-04 |
+| X46 | Transitions (X) | 3D slice-box turn | M16 | Codrops (github.com/codrops) | [link](https://github.com/codrops/Slicebox) | inspired, no code copied (source: MIT (stated in README, no LICENSE file) \| demo: http://tympanus.net/Development/Slicebox/) | 13 | 2026-10-04 |
+| X47 | Transitions (X) | Four-quadrant split-out | M16 | Codrops (github.com/codrops) | [link](https://github.com/codrops/FourBoxes) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Tutorials/FourBoxes/) | 13 | 2026-10-04 |
+| X48 | Transitions (X) | Row cover with opposite slide-in | X28 | Codrops (github.com/codrops) | [link](https://github.com/codrops/CoverPageTransition) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=64083) | 13 | 2026-10-04 |
+| X49 | Transitions (X) | Diagonal stripe shutter | M16 | SmoothUI | [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-stripes-transition.mdx) | inspired, no code copied (source: MIT © 2024 Eduardo Calvo (SmoothUI) — idea only) | 13 | 2026-10-04 |
+| X50 | Transitions (X) | Corner polygon menu takeover | M18 | Forge Automotive | [link](https://www.awwwards.com/inspiration/clip-path-menu-transition-forge-automotive) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 13 | 2026-10-04 |
+| X51 | Transitions (X) | Booklet page turn | M2 | Codrops (github.com/codrops) | [link](https://github.com/codrops/BookBlock) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/BookBlock/) | 13 | 2026-10-04 |
+| X52 | Transitions (X) | Fold away / unfold in | M2 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PageTransitions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/PageTransitions/) | 13 | 2026-10-04 |
+| X53 | Transitions (X) | Edge hinge out, then in | X52 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PageTransitions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/PageTransitions/) | 13 | 2026-10-04 |
+| X54 | Transitions (X) | Cube rotate | X1 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PageTransitions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/PageTransitions/) | 13 | 2026-10-04 |
+| X55 | Transitions (X) | Box expands, siblings shrink away | M28 | Codrops (github.com/codrops) | [link](https://github.com/codrops/FullscreenLayoutPageTransitions) | inspired, no code copied (source: MIT (stated in README, no LICENSE file) \| Mid-page/transition only (not a hero portal). \| demo: http://tympanus.net/Development/FullscreenLayoutPageTransitions) | 13 | 2026-10-04 |
+| X56 | Transitions (X) | Pill clip with skewed side slides | X32 | Codrops (github.com/codrops) | [link](https://github.com/codrops/FullscreenClipEffect) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 2 \| demo: https://tympanus.net/codrops/?p=70833) | 13 | 2026-10-04 |
+| X57 | Transitions (X) | Clip to small card with stretched chars | X32 | Codrops (github.com/codrops) | [link](https://github.com/codrops/FullscreenClipEffect) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 3 \| demo: https://tympanus.net/codrops/?p=70833) | 13 | 2026-10-04 |
+| X58 | Transitions (X) | Clip to column with Y-rotated slides | X32 | Codrops (github.com/codrops) | [link](https://github.com/codrops/FullscreenClipEffect) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 4 \| demo: https://tympanus.net/codrops/?p=70833) | 13 | 2026-10-04 |
+| X59 | Transitions (X) | Overlay grows from the item | M28 | Codrops (github.com/codrops) | [link](https://github.com/codrops/UnrevealEffects) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 3; mid-page only \| demo: https://tympanus.net/codrops/?p=65427) | 13 | 2026-10-04 |
+| X60 | Transitions (X) | Split halves push to side | M28 | Codrops (github.com/codrops) | [link](https://github.com/codrops/SplitLayout) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| Mid-page only. \| demo: http://tympanus.net/codrops/category/blueprints/) | 13 | 2026-10-04 |
+| X61 | Transitions (X) | Video tile opens to player | M28 | Codrops (github.com/codrops) | [link](https://github.com/codrops/VideoOpeningAnimation) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| Mid-page only. \| demo: http://tympanus.net/Tutorials/VideoOpeningAnimation/) | 13 | 2026-10-04 |
+| X62 | Transitions (X) | Page stack navigation | M29 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PageStackNavigation) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/codrops/category/blueprints/) | 13 | 2026-10-04 |
+| X63 | Transitions (X) | Page pushed back to reveal menu |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/PerspectivePageViewNavigation) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/PerspectivePageViewNavigation/) | 13 | 2026-10-04 |
+| X64 | Transitions (X) | Off-canvas page reveal styles |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/SidebarTransitions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/SidebarTransitions/) | 13 | 2026-10-04 |
+| X65 | Transitions (X) | Flip in from deep space | M31 | Codrops (github.com/codrops) | [link](https://github.com/codrops/SlideshowAnimations) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 13 \| demo: https://tympanus.net/codrops/?p=73708) | 13 | 2026-10-04 |
+| X66 | Transitions (X) | Triple-panel 3D slider | M33 | Codrops (github.com/codrops) | [link](https://github.com/codrops/TriplePanelImageSlider) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Tutorials/TriplePanelImageSlider/) | 13 | 2026-10-04 |
+| X67 | Transitions (X) | Tiles merge into one image | M34 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ImageTilesMenu) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=71727) | 13 | 2026-10-04 |
+| X68 | Transitions (X) | Thumb stack to horizontal line | M4 | Codrops (github.com/codrops) | [link](https://github.com/codrops/MenuThumbStackAnimation) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=56500) | 13 | 2026-10-04 |
+| X69 | Transitions (X) | Double slideshow, opposite travel | M42 | Codrops (github.com/codrops) | [link](https://github.com/codrops/DoubleSlideshow) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=72565) | 13 | 2026-10-04 |
+| X70 | Transitions (X) | Button morphs into a panel | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ButtonComponentMorph) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/ButtonComponentMorph/) | 13 | 2026-10-04 |
+| X71 | Transitions (X) | Card morphs into a centred dialog | M54 | Motion Primitives | [link](https://motion-primitives.com/docs/morphing-dialog) | inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP) | 13 | 2026-10-04 |
+| X72 | Transitions (X) | Shared-element morph between different elements | M54 | GSAP demos | [link](https://demos.gsap.com/demo/animate-between-different-targets) | inspired, no code copied (source: GSAP free standard licence; demo code is author-owned (GreenSock) - look & learn, rebuild ourselves) | 13 | 2026-10-04 |
+| X73 | Transitions (X) | Device frame morph | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/MorphingDevices) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/MorphingDevices/) | 13 | 2026-10-04 |
+| X74 | Transitions (X) | Excerpt opens into the article | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PreviewContentTransition) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=54117) | 13 | 2026-10-04 |
+| X75 | Transitions (X) | Fluid filter reposition | M54 | Be The Buzz | [link](https://www.awwwards.com/awwwards/collections/css-js-animations/) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 13 | 2026-10-04 |
+| X76 | Transitions (X) | Fullscreen to strip carousel | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/DraggableDualViewSlideshow) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/DraggableDualViewSlideshow/) | 13 | 2026-10-04 |
+| X77 | Transitions (X) | Grid item opening styles | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ImageGridEffects) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/ImageGridEffects/) | 13 | 2026-10-04 |
+| X78 | Transitions (X) | Grid to slider with colour return | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/GridToSlider) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=71899) | 13 | 2026-10-04 |
+| X79 | Transitions (X) | Grid column split to slideshow | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/GridViewSwitch) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=71437) | 13 | 2026-10-04 |
+| X80 | Transitions (X) | Large image to grid slot | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ImageToGridTransition) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=63608) | 13 | 2026-10-04 |
+| X81 | Transitions (X) | Menu row thumbs fly to grid | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/MenuToGrid) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=65056) | 13 | 2026-10-04 |
+| X82 | Transitions (X) | Stack to gallery column | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ContentLayoutTransition) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=63558) | 13 | 2026-10-04 |
+| X83 | Transitions (X) | Thumbnail to full-width header | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ThumbFullTransition) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=50733) | 13 | 2026-10-04 |
+| X84 | Transitions (X) | Thumbnails flow into grid with spin | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/GridFlowEffect) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=73018) | 13 | 2026-10-04 |
+| X85 | Transitions (X) | Type rows open an inline image | M54 | Codrops (github.com/codrops) | [link](https://github.com/codrops/LinesToLayout) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=60052) | 13 | 2026-10-04 |
+| X86 | Transitions (X) | Luma-map transition | M66 | 21st.dev (Shader Reveal Luma Transition) | [link](https://21st.dev/@educalvolpz/components/shader-reveal-luma-transition.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 13 | 2026-10-04 |
+| X87 | Transitions (X) | Concentric ripple page transition | M69 | 21st.dev (Great UI Liquid Ripple Shader) | [link](https://21st.dev/@saurabh-2607/components/great-ui-liquid-ripple-shader.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 13 | 2026-10-04 |
 
 ## Skipped
 
@@ -1309,3 +1370,773 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | [link](https://magicui.design/docs/components/lens) | exact duplicate of ace-055 (image group) | research |
 | [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/image/image-trail.mdx) | exact duplicate of codrops-ImageTrailEffects-1 (image group) | research |
 | [link](https://21st.dev/@rmahammad/components/lens-card.md) | exact duplicate of aw-092 (image group) | research |
+| [link](https://github.com/codrops/LayerMotionSlideshow) | Layered depth slideshow: Near-duplicate of X42: Layered parallax inside slide swap | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Horizontal stretch slide: Near-duplicate of X69: Slide swap with inner stretch | near-duplicate review |
+| [link](https://github.com/codrops/MotionTransitionEffect) | Speedy vertical stretch: Near-duplicate of X69: Slide swap with inner stretch | near-duplicate review |
+| [link](https://github.com/codrops/TextTrailEffect) | Text trail transition: Near-duplicate of M105: Echo copies trail then settle | near-duplicate review |
+| [link](https://github.com/codrops/SlidingHeaderLayout) | Full-screen header slides up: Near-duplicate of X1: Header slides off revealing content | near-duplicate review |
+| [link](https://github.com/codrops/FullscreenScroll) | Full-screen slides with stretch: Near-duplicate of X39: Gesture slides plus stretch | near-duplicate review |
+| [link](https://demos.gsap.com/demo/infinite-looped-scrolling-sections) | Infinite looped sections: Near-duplicate of X39: Gesture sections, looped | near-duplicate review |
+| [link](https://demos.gsap.com/demo/orchestrated-easereverse) | Orchestrated menu open / reversed close: Near-duplicate of U76: Staggered menu with reverse close | near-duplicate review |
+| [link](https://raw.githubusercontent.com/swup/demos/main/slideshow/transitions.css) | Parallel page slide: Near-duplicate of X1: Pages slide together | near-duplicate review |
+| [link](https://github.com/codrops/PageTransitions) | Recede and cover: Near-duplicate of M416: Recede and get covered | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Tilted card swap: Near-duplicate of X1: Slide swap with slight tilt | near-duplicate review |
+| [link](https://21st.dev/@Legacy/components/glyph-portal/canvas.md) | Scroll through a letter: Near-duplicate of X10: Zoom into shape holding next image | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/chroma-blur-transition.mdx) | Chromatic liquid sweep: Near-duplicate of X11: Liquid sweep, RGB offsets | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/sdf-blob-transition.mdx) | Merging blob transition: Near-duplicate of X19: Organic growing mask | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/next-reveal.md) | Mechanical flip with inversion: Near-duplicate of X13: Inversion with flip | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/overlay-menu-wave-transition-superrb) | Wave-edge rising panel: Near-duplicate of X29: Curved-edge rising panel | near-duplicate review |
+| [link](https://github.com/codrops/OffCanvasMenuEffects) | Elastic / wave / bubble menu edge: Near-duplicate of X29: SVG edge path cover panel | near-duplicate review |
+| [link](https://github.com/codrops/WobblySlideshowEffect) | Wobbly jelly slide edge: Near-duplicate of X92: Lagging elastic SVG edge | near-duplicate review |
+| [link](https://github.com/codrops/ZoomSlideshow) | Zoom slideshow on gesture: Near-duplicate of X4: Zoom-through on gesture | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/aperture-blur-transition.mdx) | Aperture blur sweep: Near-duplicate of M50: Blur, swap at peak, refocus | near-duplicate review |
+| [link](https://github.com/codrops/UnrevealEffects) | Circle closes to centre: Near-duplicate of X6: Circle iris, reversed | near-duplicate review |
+| [link](https://21st.dev/@snapcn.dev/components/reel-collage.md) | Eyelid shut cut: Near-duplicate of M78: Letterbox bands close then open | near-duplicate review |
+| [link](https://21st.dev/@ajith66310/components/inversion-circle-scroll-animation.md) | Rising circle inversion: Near-duplicate of X6: Circle iris plus inversion | near-duplicate review |
+| [link](https://21st.dev/@educalvolpz/components/warped-circle-transition.md) | Warped circle wipe: Near-duplicate of X19: Wobbly organic mask | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/radial-circles-transition.mdx) | Radial circle-grid reveal: Near-duplicate of X8: Grid cells cover and clear | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-wipe-transition.mdx) | Noisy displacement wipe: Near-duplicate of X7: Wipe with noisy edge | near-duplicate review |
+| [link](https://github.com/codrops/RotatedRevealers) | Rotated revealer overlay: Near-duplicate of X7: Diagonal wipe, counter-rotated inside | near-duplicate review |
+| [link](https://www.awwwards.com/awwwards/collections/css-js-animations/) | Random shapes cover and clear: Near-duplicate of X8: Cells/shapes cover and clear | near-duplicate review |
+| [link](https://github.com/codrops/RevealSlideshow) | Revealer block slideshow: Near-duplicate of X25: Solid block sweep | near-duplicate review |
+| [link](https://github.com/codrops/UnrevealEffects) | Overlay slide with blurred titles: Near-duplicate of X48: Opposite slides with blurred titles | near-duplicate review |
+| [link](https://github.com/codrops/LayersAnimation) | Octagon layers grow: Near-duplicate of X26: Staggered layers, octagon shape | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/neon-loader.md) | Neon flicker on: Near-duplicate of M273: Neon flicker on the word | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/cinema-grain-preloader.md) | Tumbling letter cube: Near-duplicate of M293: Letter cube roll | near-duplicate review |
+| [link](https://21st.dev/@chetanverma16/components/word-loader.md) | Word blur cycle: Near-duplicate of I28: Word cycle in one spot, blur style | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/page-preloader.mdx) | Words roll preloader: Near-duplicate of M144: Words loop up in mask | near-duplicate review |
+| [link](https://21st.dev/@ruhith369/components/loading-lines.md) | Glow wave across letters: Near-duplicate of M330: Chars glow in a wave | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text13.module.css) | Heat-haze word: Near-duplicate of M375: Boiling/hazy word wobble | near-duplicate review |
+| [link](https://github.com/codrops/PagePreloadingEffect) | Logo ring, then page slides up: Near-duplicate of I17: Logo progress ring then hand-over | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text15.module.css) | Underline progress: Near-duplicate of M26: Progress bar fill | near-duplicate review |
+| [link](https://21st.dev/@dqnamo/components/logo-trace-loader.md) | Logo trace then fill: Near-duplicate of I14: Outline trace then fill | near-duplicate review |
+| [link](https://ui.aceternity.com/labs/gta-vi-poster) | Layered poster intro: Near-duplicate of I7: Layers reveal in quick succession | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/neon-katakana-preloader.md) | Glyph rain to neon sign: Near-duplicate of I8: Particles condense into brand word | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/waving-portfolio-landing.md) | Letter storm + slot-reel headline: Near-duplicate of I25: Pieces swirl and assemble the word | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/loading-animation.md) | Letters fly into the word: Near-duplicate of M312: Chars fly in from random rotation | near-duplicate review |
+| [link](https://21st.dev/@motiondotdev/components/motion-loading-line-reveal.md) | Expanding clip lines: Near-duplicate of M16: Slice/blind strips open | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/page-preloader.mdx) | Staircase column exit: Near-duplicate of X28: Staircase column cover/uncover | near-duplicate review |
+| [link](https://animata.design/docs/preloader/vertical-tiles) | Centre-out column exit: Near-duplicate of X28: Column exit, centre-out order only | near-duplicate review |
+| [link](https://21st.dev/@tonyzebastian/components/image-loading.md) | Blinking grid image loader: Near-duplicate of M214: Pixel cells then colour then image | near-duplicate review |
+| [link](https://21st.dev/@arhamkhnz/components/radial-intro.md) | Radial gather into orbit: Near-duplicate of M448: Items gather into radial orbit | near-duplicate review |
+| [link](https://github.com/loadingio/css-spinner) | Heartbeat mark: Near-duplicate of M37: Pulse, heartbeat timing only | near-duplicate review |
+| [link](https://github.com/codrops/CircularTextEffect) | Concentric text rings intro: Near-duplicate of M638: Nested rotating text rings | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/card-fan-preloader.md) | Card fan preloader: Near-duplicate of M4: Card fan deal | near-duplicate review |
+| [link](https://ui.aceternity.com/components/loader) | Looping stroke mark: Near-duplicate of I14: Stroke draws mark | near-duplicate review |
+| [link](https://github.com/codrops/PageLoadingEffects) | SVG shape page loader: Near-duplicate of X29: SVG shape covers/uncovers screen | near-duplicate review |
+| [link](https://github.com/codrops/AnimatedHeader) | Shrinking header on scroll: Near-duplicate of U24: header shrinks on scroll, same as shrinking nav | near-duplicate review |
+| [link](https://github.com/codrops/LineMenuStyles) | Line indicator travels between menu items: Near-duplicate of U50: travelling indicator between items already built | near-duplicate review |
+| [link](https://github.com/codrops/StackMotionHoverEffects) | Stack motion hover: Near-duplicate of M4: cards fan out from behind, stack fan-out | near-duplicate review |
+| [link](https://github.com/codrops/GridLayoutMotion) | Retro grid motion hover: Near-duplicate of U66: layers offset by pointer, same as layered tilt | near-duplicate review |
+| [link](https://ui.aceternity.com/components/card-spotlight) | Spotlight card: Near-duplicate of M634: cursor spotlight revealing dot pattern already built | near-duplicate review |
+| [link](https://ui.aceternity.com/components/wobble-card) | Wobble card: Near-duplicate of U66: card shifts toward pointer, inner layer opposite | near-duplicate review |
+| [link](https://ui.aceternity.com/components/cards-free) | Hover background reveal card: Near-duplicate of U14: background image fades in on hover | near-duplicate review |
+| [link](https://reactbits.dev/components/pill-nav) | Pill nav: Near-duplicate of U96: circle grows to fill button | near-duplicate review |
+| [link](https://reactbits.dev/components/card-nav) | Card nav: Near-duplicate of U36: small bar morphs into larger panel | near-duplicate review |
+| [link](https://motion-primitives.com/docs/toolbar-expandable) | Expandable toolbar: Near-duplicate of U84: compact button grows into panel | near-duplicate review |
+| [link](https://animata.design/docs/text/split-text) | Split letters on hover: Near-duplicate of M282: sliced letter halves shift on hover | near-duplicate review |
+| [link](https://animata.design/docs/text/double-underline) | Double underline draw: Near-duplicate of U35: underline draw, just doubled | near-duplicate review |
+| [link](https://animata.design/docs/carousel/expandable) | Hover-expand image strip: Near-duplicate of M172: hovered panel widens, others shrink | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/shift-card.mdx) | Header shift card: Near-duplicate of U05: slides cover aside to reveal caption | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Cards/JOBOYA_chilly-sheep-21.html) | Slot-machine content swap: Near-duplicate of U85: content slides up and back in from below | near-duplicate review |
+| [link](https://www.hover.dev/components/cards) | Squishy card: Near-duplicate of U106: squash and stretch spring, hover not drag | near-duplicate review |
+| [link](https://www.hover.dev/components/features) | Bouncy card features: Near-duplicate of U03: card lifts with bounce | near-duplicate review |
+| [link](https://www.hover.dev/components/links) | Flyout link: Near-duplicate of U88: dropdown panel opens from link | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Pop: Near-duplicate of U133: hover scale, different amount | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Bounce out: Near-duplicate of U133: hover scale, overshoot easing only | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Bob: Near-duplicate of M199: gentle bob loop | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Forward / Backward: Near-duplicate of U134: hover nudge, different direction | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Back pulse: Near-duplicate of U135: background colour change on hover | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Rectangle in/out: Near-duplicate of U96: fill grows from centre | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Shutter: Near-duplicate of U51: directional fill from edges | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Hollow: Near-duplicate of U135: background fades on hover | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Trim: Near-duplicate of U136: inset border fades in | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Outline out/in: Near-duplicate of U137: ring/outline expands from element | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Underline grow: Near-duplicate of U35: underline scales in from origin | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Reveal border: Near-duplicate of U136: inset border appears on hover | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Underline/overline reveal: Near-duplicate of U35: line slides in under text | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Grow shadow: Near-duplicate of U138: hover shadow plus scale | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Float shadow: Near-duplicate of U03: lift with ground shadow | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Glow: Near-duplicate of M37: soft glow on element | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Box shadow outset/inset: Near-duplicate of U138: shadow appears on hover | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Icon nudge: Near-duplicate of U121: icon nudges inside button | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Icon drop: Near-duplicate of U85: icon slides out and back in | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Icon float away / sink away: Near-duplicate of U134: icon lifts and fades | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/text-pillars.vue) | Side pillars: Near-duplicate of U06: lines slide in at word sides | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/text-strikethrough.vue) | Strike-through: Near-duplicate of U35: line draws across word | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/pluto-button-animation-with-3d-hover-effect) | 3D button with marquee inside: Near-duplicate of U67: label turns into marquee on hover | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/follow-menu-interaction-portfolio-26-1) | Sticky follow menu: Near-duplicate of U25: highlight pill follows hovered item | near-duplicate review |
+| [link](https://v3.magicui.design/docs/components/scratch-to-reveal) | Scratch to reveal: Near-duplicate of M477: pointer erases a cover layer | near-duplicate review |
+| [link](https://21st.dev/@arihantcodes_1f7b8c4d/components/beam-search.md) | Focus beam input edge: Near-duplicate of U61: light travels along edge | near-duplicate review |
+| [link](https://21st.dev/@carolinaraulino/components/techstack.md) | Dock-swell icon row: Near-duplicate of U22: dock magnification of icon row | near-duplicate review |
+| [link](https://21st.dev/@himansujha/components/magnetic-liquid-button.md) | Magnetic liquid button with ripple: Near-duplicate of U68: magnetic button with inner fill | near-duplicate review |
+| [link](https://21st.dev/@designali-in/components/glowing-shadow.md) | Rotating colour glow shadow: Near-duplicate of M192: rotating blurred conic glow | near-duplicate review |
+| [link](https://21st.dev/@ibelick/components/spotlight/border-only.md) | Cursor spotlight: Near-duplicate of M197: flashlight circle in dark section | near-duplicate review |
+| [link](https://21st.dev/@serafimcloud/components/gradient-button.md) | Gradient button with moving bg: Near-duplicate of M52: animated gradient background | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/toolbar-dock.md) | Clip-path tooltip rail: Near-duplicate of U88: panel slides between items swapping content | near-duplicate review |
+| [link](https://21st.dev/@dev.yadhakim/components/animated-state-icons.md) | Two-state icon morphs: Near-duplicate of M53: SVG path morph between shapes | near-duplicate review |
+| [link](https://21st.dev/@manuarora700/components/glare-card.md) | Glare card: Near-duplicate of M489: glare band across card | near-duplicate review |
+| [link](https://21st.dev/@youcefbnm/components/card-curtain-reveal.md) | Curtain card reveal: Near-duplicate of M1: curtain halves reveal | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/rolling-list.md) | Rolling list text: Near-duplicate of U42: list hover with image preview | near-duplicate review |
+| [link](https://21st.dev/@crafterui/components/super-hover-list.md) | Sticky hover list cover: Near-duplicate of U42: list hover cover follows cursor | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/magnetic-tabs.md) | Magnetic tab indicator: Near-duplicate of U50: tab indicator slides to tab | near-duplicate review |
+| [link](https://21st.dev/@moazamtrade/components/marquee-hover-button.md) | Marquee-on-hover button: Near-duplicate of U67: hover label marquee | near-duplicate review |
+| [link](https://21st.dev/@koustubhayadiyala36/components/morphing-card-stack.md) | Morphing card stack layouts: Near-duplicate of M54: Flip layout morph between arrangements | near-duplicate review |
+| [link](https://github.com/codrops/ShapeHoverEffectSVG) | SVG shape hover morph: Near-duplicate of M53: SVG shape morph | near-duplicate review |
+| [link](https://github.com/codrops/DistortedMenuLinkEffects) | Distorted menu link text: Near-duplicate of U109: turbulence distortion on link | near-duplicate review |
+| [link](https://github.com/codrops/RapidImageHoverMenuEffects) | Hover image follow variants: Near-duplicate of U15: hover image follows cursor | near-duplicate review |
+| [link](https://magicui.design/docs/components/rainbow-button) | Rainbow button: Near-duplicate of M64: animated gradient glow on button border | near-duplicate review |
+| [link](https://magicui.design/docs/components/shiny-button) | Shiny button (radial sweep): Near-duplicate of M49: light sweep across button | near-duplicate review |
+| [link](https://magicui.design/docs/components/ripple-button) | Ripple button: Near-duplicate of U143: click-point ink ripple | near-duplicate review |
+| [link](https://magicui.design/docs/components/pulsating-button) | Pulsating button: Near-duplicate of U137: ring expands and fades, looped | near-duplicate review |
+| [link](https://ui.aceternity.com/components/tooltip-card) | Tooltip card follows pointer: Near-duplicate of U23: hover preview card follows pointer | near-duplicate review |
+| [link](https://ui.aceternity.com/components/magnetic-button) | Magnetic drift button (plain): Near-duplicate of M71: magnetic button pull | near-duplicate review |
+| [link](https://ui.aceternity.com/components/glowing-effect) | Cursor-angle border glow: Near-duplicate of U79: border lights nearest the cursor | near-duplicate review |
+| [link](https://reactbits.dev/animations/star-border) | Star border: Near-duplicate of U78: glow travels around border | near-duplicate review |
+| [link](https://reactbits.dev/components/specular-button) | Specular button: Near-duplicate of U78: light travels round rim | near-duplicate review |
+| [link](https://reactbits.dev/micro/flip-card) | Flip card: Near-duplicate of U81: 3D two-face card flip | near-duplicate review |
+| [link](https://motion-primitives.com/docs/infinite-slider) | Infinite slider: speed change on hover: Near-duplicate of M14: marquee with speed change | near-duplicate review |
+| [link](https://motion-primitives.com/docs/progressive-blur) | Progressive blur edges on a slider: Near-duplicate of M14: marquee with edge masks | near-duplicate review |
+| [link](https://motion-primitives.com/docs/toolbar-dynamic) | Dynamic toolbar to search field: Near-duplicate of U115: icon pill morphs into search field | near-duplicate review |
+| [link](https://motion-primitives.com/docs/morphing-popover) | Morphing popover: Near-duplicate of U84: button morphs into panel | near-duplicate review |
+| [link](https://animata.design/docs/button/ai-button) | AI shimmer button: Near-duplicate of M64: shimmer pass on button | near-duplicate review |
+| [link](https://animata.design/docs/button/animated-follow-button) | Follow button label swap: Near-duplicate of U72: button label state swap | near-duplicate review |
+| [link](https://animata.design/docs/card/card-spread) | Card spread throw: Near-duplicate of M4: stack fans out | near-duplicate review |
+| [link](https://animata.design/docs/card/case-study-card) | Book-cover open on hover: Near-duplicate of U05: cover hinges open on Y | near-duplicate review |
+| [link](https://animata.design/docs/card/github-card-skew) | Skew card on hover: Near-duplicate of U66: card tilts/skews toward pointer | near-duplicate review |
+| [link](https://animata.design/docs/card/staggered-card) | Staggered link menu with hover follow: Near-duplicate of U25: highlight follows hovered item | near-duplicate review |
+| [link](https://animata.design/docs/feature-cards/survey-card) | Survey bars on hover: Near-duplicate of M26: bars fill to value | near-duplicate review |
+| [link](https://animata.design/docs/fabs/speed-dial) | Speed dial row: Near-duplicate of U131: FAB expands into action buttons | near-duplicate review |
+| [link](https://animata.design/docs/list/reveal-image) | Word reveals rotated photos: Near-duplicate of U32: photos pop out of hovered word | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/random-letter-swap.mdx) | Random-order letter roll: Near-duplicate of U33: letter roll, shuffled order | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/variable-font-hover-by-letter.mdx) | Weight wave on hover: Near-duplicate of M395: variable weight wave on hover | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/bg-animate-button.mdx) | Rotating conic gradient button: Near-duplicate of M192: rotating conic gradient | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/cosmic-button.mdx) | Glow border grows on hover: Near-duplicate of M192: rotating glow ring behind CTA | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/halo-button.mdx) | Halo rim + staggered label: Near-duplicate of U78: rotating rim plus letter roll | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/side-panel.mdx) | Side panel expand: Near-duplicate of U36: container expands to show more | near-duplicate review |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/cards/spotlight-cards.mdx) | Focus dimming grid: Near-duplicate of U31: sibling dim and blur on hover | near-duplicate review |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/buttons/flip.mdx) | Flip button: Near-duplicate of U81: 3D flip to second face | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/dock.mdx) | Dock magnify + launch bounce: Near-duplicate of U22: dock magnification | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/glass-card.mdx) | Specular sweep glass: Near-duplicate of M489: glare band sweeps glass | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/wallet-card.mdx) | Hand-held card fan: Near-duplicate of M523: fanned stack spreads on hover | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Buttons/misaraadel_tame-elephant-97.html) | Triangle clip fill: Near-duplicate of U51: fill wipe via clip-path | near-duplicate review |
+| [link](https://www.hover.dev/components/buttons) | Encrypt button: Near-duplicate of U91: hover scramble label | near-duplicate review |
+| [link](https://www.hover.dev/components/text) | Draw circle text: Near-duplicate of U09: hand-drawn SVG stroke around word | near-duplicate review |
+| [link](https://demos.gsap.com/demo/enter-and-exit) | List add/remove close-the-gap: Near-duplicate of U92: items close gaps with Flip | near-duplicate review |
+| [link](https://gsap.com/docs/v3/Plugins/InertiaPlugin/) | Spinnable dial with momentum: Near-duplicate of M517: inertial drag wheel snapping | near-duplicate review |
+| [link](https://animate.style/) | Heartbeat double pulse: Near-duplicate of U154: scale pulse, double timing | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Pulse grow: Near-duplicate of U154: scale pulse on hover | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Bounce fill: Near-duplicate of U51: directional fill, bounce easing | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/input-outline.vue) | Input outline grow: Near-duplicate of U139: input border draws on focus | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/text-bars.vue) | Top & bottom bars: Near-duplicate of U35: lines scale in on text | near-duplicate review |
+| [link](https://animista.net/play/basic/scale-up) | Scale up from anchor: Near-duplicate of U133: scale in, different anchor | near-duplicate review |
+| [link](https://animista.net/play/basic/swing) | 3D swing on edge: Near-duplicate of U132: swing about an edge | near-duplicate review |
+| [link](https://animista.net/play/attention/pulsate) | Depth pulse (forward/back in Z): Near-duplicate of U154: pulse loop in depth | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/reactive-cursor-with-blending-modes-mask) | Reactive cursor mask: Near-duplicate of U52: blend-mode inverting cursor | near-duplicate review |
+| [link](https://21st.dev/@stackingsu/components/cards-shader-effect.md) | Shader-face card flip: Near-duplicate of M556: tilt card that flips | near-duplicate review |
+| [link](https://github.com/codrops/3DGridContentPreview) | Magnetic 3D grid tilt: Near-duplicate of M51: 3D tilt toward cursor | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/interactive-typographic-footer-offform) | Interactive typographic footer: Near-duplicate of M287: letters stretch by pointer | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/deer-logo.md) | Logo stroke draw on paper: Near-duplicate of M8: stroke draw-on of logo | near-duplicate review |
+| [link](https://21st.dev/@smammar/components/pixel-logo-grid.md) | Pixel shimmer logo tiles: Near-duplicate of M352: pixel shimmer reveal | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/team-section.md) | Team arc layout: Near-duplicate of M450: items fly into an arc | near-duplicate review |
+| [link](https://skiper-ui.com/v1/skiper34) | Reveal with rotation: Near-duplicate of M1: mask reveal plus slight rotation | near-duplicate review |
+| [link](https://reactbits.dev/components/pixel-card) | Pixel-card shimmer: Near-duplicate of M630: pixel grid lights from centre | near-duplicate review |
+| [link](https://motion-primitives.com/docs/animated-group) | Image grid rise with blur (springy): Near-duplicate of M216: blur-slide stagger, spring easing only | near-duplicate review |
+| [link](https://animista.net/play/entrances/roll-in-blurred) | Blurred roll-in: Near-duplicate of M669: roll-in with blur added | near-duplicate review |
+| [link](https://animata.design/docs/graphs/gauge-chart) | Gauge fill: Near-duplicate of M224: arc stroke fill to value | near-duplicate review |
+| [link](https://animate.style/) | Flip-in with overshoot: Near-duplicate of M229: flip-in, overshoot easing only | near-duplicate review |
+| [link](https://github.com/codrops/GridLoadingAnimations) | Grid loading variants: Near-duplicate of M230: pack of existing grid 3D entrances | near-duplicate review |
+| [link](https://motion-primitives.com/docs/animated-group) | Logo row drop + flip + blur: Near-duplicate of M231: group flip-down with blur | near-duplicate review |
+| [link](https://animista.net/play/entrances/slide-in-fwd) | Slide-in through depth: Near-duplicate of M31: arrive from Z depth | near-duplicate review |
+| [link](https://animista.net/play/entrances/tilt-in-fwd) | Tilt-in forward from a corner: Near-duplicate of M233: tilt-in from corner | near-duplicate review |
+| [link](https://animista.net/play/entrances/scale-in) | Scale-in from anchor: Near-duplicate of M218: scale-in from anchor, no blur | near-duplicate review |
+| [link](https://animate.style/) | Zoom-in from edge with anticipation: Near-duplicate of M664: off-edge entrance, easing differs | near-duplicate review |
+| [link](https://motion-primitives.com/docs/animated-group) | Bounce drop stagger: Near-duplicate of M678: drop and bounce stagger | near-duplicate review |
+| [link](https://motion-primitives.com/docs/animated-group) | Spin-in stagger: Near-duplicate of M669: rotation entrance, stagger differs | near-duplicate review |
+| [link](https://motion-primitives.com/docs/animated-group) | Swing settle stagger: Near-duplicate of M668: small rotate-to-zero swing | near-duplicate review |
+| [link](https://motion-primitives.com/docs/animated-group) | Zoom spring stagger: Near-duplicate of M285: spring scale-in stagger | near-duplicate review |
+| [link](https://reactbits.dev/components/animated-list) | Scrolling list row pop: Near-duplicate of M432: rows scale as they cross viewport | near-duplicate review |
+| [link](https://www.hover.dev/components/grids) | Bento rotate-scale stagger: Near-duplicate of M34: bento tiles snap in | near-duplicate review |
+| [link](https://reactbits.dev/animations/dither-veil) | Dither burn-through: Near-duplicate of M245: cursor resolves stylised image to photo | near-duplicate review |
+| [link](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/) | Rotational shape morph: Near-duplicate of M53: SVG morph, rotational parameter | near-duplicate review |
+| [link](https://animista.net/play/entrances/slide-in-blurred) | Blurred stretch slide-in: Near-duplicate of M346: fast slide with directional blur | near-duplicate review |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/backgrounds/shape-hero.mdx) | Glass shapes drop in and float: Near-duplicate of M199: drop-in then float bob | near-duplicate review |
+| [link](https://animate.style/) | Light-speed skewed entry: Near-duplicate of M401: skewed whip-in with overshoot | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/sketchbook-reveal-card.md) | Sketchbook wobble border: Near-duplicate of M109: hand-drawn stroke draws on | near-duplicate review |
+| [link](https://animate.style/) | Bounce-in from an edge: Near-duplicate of M664: off-screen slide, bounce easing only | near-duplicate review |
+| [link](https://animate.style/) | Bounce-in scale: Near-duplicate of M285: scale-in with overshoot | near-duplicate review |
+| [link](https://animista.net/play/entrances/flicker-in) | Flicker-in: Near-duplicate of M273: neon flicker on | near-duplicate review |
+| [link](https://animate.style/) | Jack-in-the-box pop: Near-duplicate of M285: scale pop with wobble | near-duplicate review |
+| [link](https://animista.net/play/entrances/rotate-in) | Spin-in from zero: Near-duplicate of M669: rotation entrance, scale/direction differs | near-duplicate review |
+| [link](https://animista.net/play/entrances/slide-in) | Long slide-in from off-screen: Near-duplicate of M664: off-screen slide-in, no scale phase | near-duplicate review |
+| [link](https://animista.net/play/entrances/swing-in) | Swing-in on a hinge: Near-duplicate of M229: 3D hinge flip-in | near-duplicate review |
+| [link](https://animata.design/docs/text/fade-through) | Fade-through swap: Near-duplicate of M361: same fade+scale text swap as shared-axis Z | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollTextHighlight) | Highlight word echo clones: Near-duplicate of M105: echo ghost copies of a word | near-duplicate review |
+| [link](https://animata.design/docs/text/micro-scale-fade) | Micro scale-fade: Near-duplicate of M281: scale-fade entrance, only direction differs | near-duplicate review |
+| [link](https://21st.dev/@kokonutd/components/swoosh-text.md) | Swoosh shadow: Near-duplicate of M289: animated stacked text-shadows, same mechanism | near-duplicate review |
+| [link](https://github.com/codrops/TextStylesHoverEffects) | Text hover pack (masks, canvas): Near-duplicate of M121: pack of existing image-in-type and layer effects | near-duplicate review |
+| [link](https://animista.net/play/text/shadow-drop) | Text shadow drop (Animista): Near-duplicate of M289: text-shadow lift, minor variant | near-duplicate review |
+| [link](https://github.com/codrops/RepetitiveTypography) | Word duplication rows: Near-duplicate of M258: repeated word copies stacked in rows | near-duplicate review |
+| [link](https://skiper-ui.com/v1/skiper28) | 3D perspective text on scroll: Near-duplicate of M355: text block tilted in perspective on scroll | near-duplicate review |
+| [link](https://21st.dev/@sean0205/components/svg-text.md) | Animated SVG fill in text: Near-duplicate of M121: moving fill inside letters, content differs | near-duplicate review |
+| [link](https://animista.net/play/text/blur-out) | Blur-out with tracking (Animista): Near-duplicate of M108: exit counterpart of blur+tracking | near-duplicate review |
+| [link](https://21st.dev/@honestui/components/chromatic-text-reveal.md) | Chromatic word rotation: Near-duplicate of M144: word loop plus existing gradient sweep | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/falling-type-david-lubofsky) | Falling type detects elements: Near-duplicate of M236: physics drop and pile, letters vs tags | near-duplicate review |
+| [link](https://21st.dev/@crafterui/components/handwritten-response.md) | Handwritten marker stream: Near-duplicate of M110: handwriting plus existing marker annotation | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/text-card-flick.md) | Index card flick: Near-duplicate of M139: letter flip roll on X, same mechanism | near-duplicate review |
+| [link](https://21st.dev/@youcefbnm/components/text-wavy.md) | Infinite letter wave: Near-duplicate of M304: per-letter sine weight loop | near-duplicate review |
+| [link](https://21st.dev/@cnippet-dev/components/m-variable-font-hover-2.md) | Inverse variable axes lines: Near-duplicate of M292: variable weight breath, two lines inverted | near-duplicate review |
+| [link](https://animata.design/docs/text/jumping-text-instagram) | Jumping text (Instagram): Near-duplicate of M312: chars spring in from rotation | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/gravity-letters.mdx) | Letters fall and re-form: Near-duplicate of M236: gravity pile of letters, rewind minor | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/liquid-grid-text.md) | Liquid grid text displacement: Near-duplicate of M400: pointer distorts WebGL text, same result | near-duplicate review |
+| [link](https://21st.dev/@pacekit/components/mouse-wave-text.md) | Mouse wave text: Near-duplicate of U34: pointer-proximity letter lift | near-duplicate review |
+| [link](https://21st.dev/@grootstudio/components/gradient-text-fill.md) | Moving orb gradient text: Near-duplicate of M300: moving colour fill inside text | near-duplicate review |
+| [link](https://21st.dev/@danielpetho/components/random-letter-swap.md) | Random letter vertical swap: Near-duplicate of U33: letter roll swap, only order differs | near-duplicate review |
+| [link](https://21st.dev/@danielpetho/components/variable-font-hover-by-random-letter.md) | Random-order variable weight: Near-duplicate of M262: per-letter weight change, order differs | near-duplicate review |
+| [link](https://github.com/codrops/TextRepetitionEffect) | Repeated text with fading copies: Near-duplicate of M105: echo copies offset diagonally | near-duplicate review |
+| [link](https://animata.design/docs/text/scale-down-fade) | Scale-down fade exit: Near-duplicate of M281: scale-fade, exit direction only | near-duplicate review |
+| [link](https://21st.dev/@dev.shejanmahamud/components/shutter-text/shutter-text-hover-demo.md) | Shutter blur chars: Near-duplicate of M365: shutter slices, per char instead of line | near-duplicate review |
+| [link](https://21st.dev/@glasscn/components/liquid-text.md) | Smoke inside text: Near-duplicate of M691: shader masked in letters; keep chrome | near-duplicate review |
+| [link](https://reactbits.dev/text-animations/stroke-text) | Stroke draw, reverse un-draw: Near-duplicate of M135: reverse of stroke-draw-fill | near-duplicate review |
+| [link](https://animista.net/play/text/pop-up) | Text pop-up (Animista): Near-duplicate of M289: layered shadow extrude, same mechanism | near-duplicate review |
+| [link](https://animista.net/play/text/tracking-out) | Tracking-out (Animista): Near-duplicate of M140: exit counterpart of tracking-in | near-duplicate review |
+| [link](https://21st.dev/@kokonutd/components/wave-text.md) | Wave text hover: Near-duplicate of U49: wave bob on hover | near-duplicate review |
+| [link](https://21st.dev/@wensity/components/text-ripple.md) | 3D character ripple: Near-duplicate of M362: travelling 3D per-char wave | near-duplicate review |
+| [link](https://21st.dev/@mengto/components/spark-badge.md) | Badge dissolves into embers and reforms: Near-duplicate of M291: dissolve into particles and reform | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollSVGFilterText) | Blur filter text reveal: Near-duplicate of M107: whole-block blur to sharp | near-duplicate review |
+| [link](https://github.com/codrops/TextBlockTransitions) | Chars jitter-dissolve swap: Near-duplicate of M372: chars fly from scattered offsets | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollTypographyAnimations) | Chars scatter grid random: Near-duplicate of M372: chars fly from random positions, scrubbed | near-duplicate review |
+| [link](https://21st.dev/@anurag-mishra22/components/circular-reveal-heading.md) | Circular reveal heading: Near-duplicate of M284: ring text revealed per char | near-duplicate review |
+| [link](https://magicui.design/docs/components/comic-text) | Comic pop stamp: Near-duplicate of X16: stamp-in, comic styling only | near-duplicate review |
+| [link](https://21st.dev/@arunachalam/components/corner-frame-scramble-text.md) | Corner-frame scramble: Near-duplicate of M22: scramble plus bracket decoration | near-duplicate review |
+| [link](https://reactbits.dev/text-animations/text-cursor) | Cursor text trail: Near-duplicate of M264: pointer echo trail of text copies | near-duplicate review |
+| [link](https://21st.dev/@sh20raj/components/curved-text-loop.md) | Curved text loop with drag: Near-duplicate of M39: text on curved path, drag velocity minor | near-duplicate review |
+| [link](https://21st.dev/@chamaac/components/dancing-letters.md) | Dancing letters: Near-duplicate of M688: letter hover physics; keep playground | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/dot-text.md) | Dot-matrix LED text: Near-duplicate of M341: canvas LED dot text | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/pixel-flow-field.mdx) | Dust re-forms into word: Near-duplicate of M45: particles assemble into word | near-duplicate review |
+| [link](https://21st.dev/@paceui/components/text-fall-button.md) | Elastic text fall: Near-duplicate of M678: letters fall and bounce, easing differs | near-duplicate review |
+| [link](https://21st.dev/@scrollxui/components/electric-text.md) | Electric outline text: Near-duplicate of M375: turbulence-displaced outline loop | near-duplicate review |
+| [link](https://github.com/codrops/ScrollTextMotion) | Flip text motion on scroll: Near-duplicate of M402: Flip text layout morph | near-duplicate review |
+| [link](https://21st.dev/@quordix/components/quordix-hero.md) | Glitch colour-cycle heading: Near-duplicate of M686: glitch slices; keep fuller glitch | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/particle-animation.md) | Gooey particle text reveal: Near-duplicate of M336: organic pointer mask reveals text | near-duplicate review |
+| [link](https://github.com/codrops/GooeyTextHoverEffect) | Gooey text swap: Near-duplicate of M59: goo morph between words | near-duplicate review |
+| [link](https://21st.dev/@manuarora700/components/text-hover-effect.md) | Gradient outline follows cursor: Near-duplicate of M349: gradient outline following cursor | near-duplicate review |
+| [link](https://reactbits.dev/text-animations/falling-text) | Gravity-falling words: Near-duplicate of M236: physics words drop and pile | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollTextHighlight) | Highlight chars confetti clones: Near-duplicate of M689: chars with flying confetti; keep shapes | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollTextHighlight) | Highlight words swing in: Near-duplicate of M329: highlight words rotate in | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/interactive-text-mask) | Hover reveals video through text: Near-duplicate of U59: cursor circle reveals alt layer in text | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/hover-text-reveal-saffron) | Hover text reveal (answer): Near-duplicate of M23: line mask reveal on hover | near-duplicate review |
+| [link](https://ui.aceternity.com/components/text-reveal-card) | Hover wipe to hidden text (reveal card): Near-duplicate of M501: pointer divider reveals second layer | near-duplicate review |
+| [link](https://github.com/codrops/LetterEffects) | Letter effect pack (anime.js): Near-duplicate of M311: pack of existing char entrances | near-duplicate review |
+| [link](https://github.com/codrops/TypographyMotion) | Letter stagger page switch: Near-duplicate of X44: chars stagger out/in on switch | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/flashform-falling-letters-interaction-flashform) | Letters fall with physics: Near-duplicate of M236: physics letters drop and pile | near-duplicate review |
+| [link](https://github.com/codrops/LineTypeEffect) | Line then letters hover: Near-duplicate of M372: line then chars burst and settle | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollTextHighlight) | Marker selection sweep: Near-duplicate of M117: marker sweep behind chars | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/scrolling-marquee-text-on-hover) | Marquee starts on hover: Near-duplicate of U67: marquee runs on hover | near-duplicate review |
+| [link](https://21st.dev/@arihantcodes_1f7b8c4d/components/orbital-letters.md) | Orbiting letters settle: Near-duplicate of M372: chars settle into slots from offsets | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/text-prism-split.md) | Prism split strip: Near-duplicate of M400: pointer lens distortion over text | near-duplicate review |
+| [link](https://motion-primitives.com/docs/text-effect) | Random-scatter colour words: Near-duplicate of M372: words spring in from random offsets | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/ransom-note.mdx) | Ransom-note assemble: Near-duplicate of M312: letters drop with rotation, styling only | near-duplicate review |
+| [link](https://reactbits.dev/text-animations/glitch-text) | RGB-split glitch text: Near-duplicate of M686: RGB-split clip glitch, same result | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/ripple-text-effect-eva-sanchez-portfolio-2024) | Ripple text on hover: Near-duplicate of M69: ripple distortion from pointer | near-duplicate review |
+| [link](https://21st.dev/@muhammad-binsalman/components/animated-scan-loader.md) | Scan line text: Near-duplicate of M49: light bar sweeping across | near-duplicate review |
+| [link](https://magicui.design/docs/components/sparkles-text) | Sparkles text: Near-duplicate of M617: twinkling sparkles over element | near-duplicate review |
+| [link](https://21st.dev/@wensity/components/canvas-text.md) | Spinning ring resolves to type: Near-duplicate of M45: particles fly into letterforms | near-duplicate review |
+| [link](https://21st.dev/@isaiahbjork/components/reveal-text.md) | Spring letters + overlay sweep: Near-duplicate of M90: spring letters plus colour block sweep | near-duplicate review |
+| [link](https://github.com/codrops/TextDistortionEffects) | Text distortion shader on scroll/mouse: Near-duplicate of M55: scroll-speed WebGL text distortion | near-duplicate review |
+| [link](https://animata.design/docs/text/text-explode-imessage) | Text explode (iMessage): Near-duplicate of I25: burst outward and spring back | near-duplicate review |
+| [link](https://21st.dev/@bundui/components/text-gradient-scroll.md) | Text gradient scroll: Near-duplicate of M327: scroll-scrubbed gradient fill of words | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/text-masking-animation) | Text masking animation: Near-duplicate of M23: line mask slide plus colour flash | near-duplicate review |
+| [link](https://21st.dev/@kokonutd/components/text-rewind.md) | Text rewind: Near-duplicate of M392: type, delete and retype | near-duplicate review |
+| [link](https://21st.dev/@ayushmxxn/components/type-testimonial.md) | Typewriter on avatar hover: Near-duplicate of M21: typewriter, hover trigger only | near-duplicate review |
+| [link](https://21st.dev/@gughigug/components/ufo-hero.md) | UFO pushes letters: Near-duplicate of M342: letters pushed aside and spring back | near-duplicate review |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/wavy-text.mdx) | Wavy letters loop: Near-duplicate of U49: sine wave letter bob | near-duplicate review |
+| [link](https://github.com/codrops/TextBlockTransitions) | Words squash with elastic rebound: Near-duplicate of M308: chars flatten and new ones spring | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Covered section scales to zero: Near-duplicate of M415: covered section shrinks under next | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Covered section rotates out of corner: Near-duplicate of M415: covered section shrink plus rotation | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Covered section blurs behind: Near-duplicate of M418: buried panel blurs and scales | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Section slides up, image unrotates: Near-duplicate of M416: covered section moves up, image tilt | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Covered section tumbles away: Near-duplicate of M415: covered section shrinks and rotates | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Section thrown sideways into dark: Near-duplicate of M416: covered section dims and moves off | near-duplicate review |
+| [link](https://github.com/codrops/StickySections) | Covered section squashes vertically: Near-duplicate of M415: covered section scales on one axis | near-duplicate review |
+| [link](https://21st.dev/@educalvolpz/components/scrollable-card-stack.md) | Snap stack with blur: Near-duplicate of M418: stack with blur, snap added | near-duplicate review |
+| [link](https://21st.dev/@httpsdesign-layercomja/components/music-video-pin-stack.md) | Pinned stack with synced titles: Near-duplicate of M40: sticky stack with synced titles | near-duplicate review |
+| [link](https://21st.dev/@jean.duthil13/components/hero-scrub.md) | Thumbnail grows while sequence scrubs: Near-duplicate of M28: grow to full screen plus frame scrub | near-duplicate review |
+| [link](https://github.com/codrops/ConnectedGrid) | Connected grid: scale from inner edge: Near-duplicate of M18: scrubbed scale from corner origin | near-duplicate review |
+| [link](https://github.com/codrops/ConnectedGrid) | Connected grid: diagonal slide + flash: Near-duplicate of M212: image slide with inner counter-move | near-duplicate review |
+| [link](https://github.com/codrops/ConnectedGrid) | Connected grid: doors open: Near-duplicate of M229: door flip-in from edge | near-duplicate review |
+| [link](https://github.com/codrops/ConnectedGrid) | Connected grid: swing from corner: Near-duplicate of M668: corner-pivot rotate-in, scrubbed | near-duplicate review |
+| [link](https://github.com/codrops/ScrollAnimationsGrid) | Grid images swing up on far origin: Near-duplicate of M444: images swing on far pivot arc | near-duplicate review |
+| [link](https://github.com/codrops/ScrollAnimationsGrid) | Grid items drift sideways and shrink: Near-duplicate of M697: exit shrink with sideways drift | near-duplicate review |
+| [link](https://github.com/codrops/ScrollAnimationsGrid) | Rows tear with random offsets: Near-duplicate of M435: items offset at different speeds | near-duplicate review |
+| [link](https://github.com/codrops/ScrollAnimationsGrid) | Images stretch tall on exit: Near-duplicate of M699: images stretch tall on exit | near-duplicate review |
+| [link](https://github.com/codrops/ScrollAnimationsGrid) | Images squash with back ease: Near-duplicate of M697: exit collapse, easing/axis differs | near-duplicate review |
+| [link](https://github.com/codrops/ScrollAnimationsGrid) | Images swing around far pivot: Near-duplicate of M444: images move on giant arc pivot | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Items rotate out by column: Near-duplicate of M697: items rotate/shift out on exit | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Fan rotation across columns: Near-duplicate of M444: rotation about far pivot by column | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Rows rise from 3D tilt: Near-duplicate of M428: tilted rows straighten | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Rows unskew from the sides: Near-duplicate of M428: skewed rows straighten | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Rows swing in with overshoot: Near-duplicate of M428: skewed rows straighten, overshoot | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Rows slide apart horizontally: Near-duplicate of M429: rows slide opposite ways | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollColumnsRows) | Rows slide in from far left, unblur: Near-duplicate of M346: slide with blur from side | near-duplicate review |
+| [link](https://github.com/codrops/Staggered3DGridAnimations) | Staggered 3D grid fly-in: Near-duplicate of M438: 3D grid fly-in from depth | near-duplicate review |
+| [link](https://github.com/codrops/ElasticGridScroll) | Velocity squash items: Near-duplicate of M550: velocity-driven image deformation | near-duplicate review |
+| [link](https://github.com/codrops/SmoothScrollingImageEffects) | Mixed smooth-scroll image effects: Near-duplicate of M550: pack of existing scroll image effects | near-duplicate review |
+| [link](https://github.com/codrops/codrops-sketches) | Loop scroll with corner scale: Near-duplicate of M466: infinite loop with item scaling | near-duplicate review |
+| [link](https://github.com/codrops/codrops-sketches) | Loop scroll with 3D exit: Near-duplicate of M466: infinite loop with item 3D scaling | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollViewSwitch) | Stretch-out + travelling heading: Near-duplicate of M699: stretch-out plus travelling heading | near-duplicate review |
+| [link](https://github.com/codrops/ScrollPanels) | Panel columns settle from scale: Near-duplicate of M435: columns at different scales/speeds | near-duplicate review |
+| [link](https://github.com/codrops/ScrollPanels) | Panel items tilt and blur away: Near-duplicate of M416: leaving panel tilts and blurs | near-duplicate review |
+| [link](https://github.com/codrops/ReflectionScroll) | Reflection squash exit: Near-duplicate of M700: reflection variant, squash exit | near-duplicate review |
+| [link](https://github.com/codrops/RotatingOnScrollAnimations) | Rotating images on a sine path: Near-duplicate of M460: images along a curved path | near-duplicate review |
+| [link](https://github.com/codrops/RotatingOnScrollAnimations) | Rotating images with velocity blur: Near-duplicate of M460: curved path plus velocity blur | near-duplicate review |
+| [link](https://github.com/codrops/RotatingOnScrollAnimations) | Rotating images with edge blur: Near-duplicate of M460: curved path plus edge blur | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollFilter) | Scroll mask + SVG warp + title split: Near-duplicate of M408: mask expands, title splits apart | near-duplicate review |
+| [link](https://github.com/codrops/OnScrollPathAnimations) | Paths draw then undraw: Near-duplicate of M8: SVG line draw, scrubbed | near-duplicate review |
+| [link](https://github.com/codrops/AnimatedImageColumns) | Image columns slide on menu click: Near-duplicate of M42: columns slide opposite, click trigger | near-duplicate review |
+| [link](https://raw.githubusercontent.com/darkroomengineering/lenis/main/README.md) | Whole page horizontal: Near-duplicate of M423: whole page scrolls horizontally | near-duplicate review |
+| [link](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) | Soft section snap: Near-duplicate of M464: section snap scrolling | near-duplicate review |
+| [link](https://reactbits.dev/components/circular-carousel) | Bent-card ring layouts: Near-duplicate of M514: 3D card ring with drag | near-duplicate review |
+| [link](https://reactbits.dev/components/dome-gallery) | Dome gallery: Near-duplicate of M515: viewer inside curved image surface | near-duplicate review |
+| [link](https://reactbits.dev/components/infinite-menu) | Sphere menu: Near-duplicate of M676: items on a rotating sphere | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/draggable-webgl-image-vortex-cosmos) | Image vortex: Near-duplicate of M411: images converge to centre point | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/webgl-circular-scrolling-and-distortion-ma-sai-gon-space) | Giant arc with speed bend: Near-duplicate of M444: giant arc plus speed bend | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/zoom-wave-scroll-effect) | Zoom + wave background: Near-duplicate of M462: WebGL wave through image on scroll | near-duplicate review |
+| [link](https://reactbits.dev/components/flying-posters) | Flying posters: Near-duplicate of M461: WebGL planes on curved band loop | near-duplicate review |
+| [link](https://reactbits.dev/components/flex-carousel) | Liquid-glass edges marquee: Near-duplicate of M546: liquid-glass lens over carousel | near-duplicate review |
+| [link](https://reactbits.dev/components/drift-wall) | Perspective drift wall: Near-duplicate of M549: tilted 3D marquee wall | near-duplicate review |
+| [link](https://www.hover.dev/components/text) | Velocity speed + skew marquee: Near-duplicate of M397: velocity marquee, skew added | near-duplicate review |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/logo-timeline.mdx) | Logo rows on rails: Near-duplicate of M14: marquee rows of logos | near-duplicate review |
+| [link](https://reactbits.dev/components/depth-carousel) | Depth carousel rail: Near-duplicate of M452: depth stack carousel | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/grid-motion) | Pointer-driven grid rows: Near-duplicate of M429: rows slide opposite, pointer driven | near-duplicate review |
+| [link](https://reactbits.dev/components/option-wheel) | Drum option picker: Near-duplicate of M545: curved wheel picker | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/slanted-spread-hero.md) | Slanted cascade spread: Near-duplicate of M449: stack fans out on scroll | near-duplicate review |
+| [link](https://21st.dev/@prashantsom75/components/scroll-morph-hero.md) | Scatter → circle → arc: Near-duplicate of M520: Flip between gallery formations | near-duplicate review |
+| [link](https://21st.dev/@minhxthanh/components/animated-scroll.md) | Two-panel scroll story: Near-duplicate of M42: split panels opposite scroll | near-duplicate review |
+| [link](https://21st.dev/@uiable/components/content-16.md) | Cards float around headline: Near-duplicate of M147: cards cluster around centre on scroll | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/hero-section-3.md) | Image flies in and rotates into place: Near-duplicate of F1: object travels into place | near-duplicate review |
+| [link](https://21st.dev/@ajith66310/components/home-hero-landing-scroll-animation.md) | Icons fly into the nav: Near-duplicate of F8: objects land in UI | near-duplicate review |
+| [link](https://21st.dev/@dillionverma/components/warp-background.md) | Warp perspective grid: Near-duplicate of M636: perspective grid toward horizon | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/3d-animation.md) | Text on hallway walls: Near-duplicate of M474: content on corridor walls | near-duplicate review |
+| [link](https://21st.dev/@patrickthomasdunn1988/components/robot-flyby.md) | Door opens, object flies through: Near-duplicate of M473: corridor camera walk | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/lycoris-specimen.md) | Pinned camera-path specimen: Near-duplicate of F4: camera fly-through object | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/procedural-svg-scroll-draw-kontenta-ai) | Procedural line drawing: Near-duplicate of M8: SVG line draw, procedural paths | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/scroll-based-gravity-we3studio) | Gravity drop entrance: Near-duplicate of M236: physics drop and pile | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/parallax-layers.mdx) | Layer parallax + pointer layer: Near-duplicate of M7: multi-speed parallax plus pointer layer | near-duplicate review |
+| [link](https://www.hover.dev/components/other) | Concentric squares rotate: Near-duplicate of M30: shapes rotate on scroll | near-duplicate review |
+| [link](https://skiper-ui.com/v1/skiper87) | Scroll edge fade mask: Near-duplicate of M220: edge fade/blur band on scroller | near-duplicate review |
+| [link](https://scroll.locomotive.ca/docs) | Per-element progress CSS variable: Near-duplicate of M26: technique for progress-driven fills | near-duplicate review |
+| [link](https://ui.aceternity.com/components/compare) | Auto-sweeping compare: Near-duplicate of M502: compare slider auto-sweep | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/auto-layout/onscroll/index.js) | Scroll-scrubbed word re-layout: Near-duplicate of M402: word token re-layout, scrubbed | near-duplicate review |
+| [link](https://21st.dev/@isaiahbjork/components/portfolio-gallery.md) | 3D overlapping stack: Near-duplicate of M452: 3D depth stack, only hover vs wheel | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/auto-layout/planets/index.js) | Card stack/spread/grid modes: Near-duplicate of M520: Flip formation morph between stack/spread/grid | near-duplicate review |
+| [link](https://21st.dev/@reuno-ui/components/skiper49.md) | Inverted coverflow: Near-duplicate of M513: Coverflow with inverted rotation direction | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/auto-layout/periodic-table/index.js) | Tiles morph table/sphere/helix: Near-duplicate of M520: Formation morph, different shapes only | near-duplicate review |
+| [link](https://21st.dev/@aayush-duhan/components/card-fan-carousel.md) | Elastic arc fan entrance: Near-duplicate of M521: Arc fan, elastic ease only | near-duplicate review |
+| [link](https://21st.dev/@ayushmxxn/components/image-fan-carousel.md) | Fan carousel: Near-duplicate of M521: Fan carousel rotating next to front | near-duplicate review |
+| [link](https://ui.aceternity.com/components/images-badge) | Badge thumbnail fan: Near-duplicate of M523: Fan spreads on hover, smaller badge | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/card-hand-gallery.md) | Card hand pull-out: Near-duplicate of M522: Fan with lifted card, minor pull-out | near-duplicate review |
+| [link](https://reactbits.dev/components/stack) | Swipe-away card stack: Near-duplicate of M527: Top card flicked away from stack | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/image-swiper.md) | Perspective swipe stack: Near-duplicate of M527: Swipe-away stack with stronger perspective | near-duplicate review |
+| [link](https://21st.dev/@laziekiki/components/draggable-photo-stack.md) | Draggable shuffle photo stack: Near-duplicate of M527: Throw top card off stack, plus shuffle | near-duplicate review |
+| [link](https://ui.aceternity.com/components/draggable-card) | Throwable bouncing card: Near-duplicate of U60: Throwable card with inertia in bounds | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/elastic-gallery.md) | Elastic accordion gallery: Near-duplicate of M172: Accordion panels, elastic easing only | near-duplicate review |
+| [link](https://21st.dev/@educalvolpz/components/dither-image.md) | Dither resolves on scroll: Near-duplicate of M504: Dither resolves to photo, scroll reveal | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/ascii-render.mdx) | ASCII coarse-to-fine reveal: Near-duplicate of M712: ASCII image, char size tween only | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/navigation-more-than-equal) | ASCII patch around cursor: Near-duplicate of M476: Cursor circle shows alternate layer | near-duplicate review |
+| [link](https://ui.aceternity.com/components/ascii-art) | ASCII typewriter build: Near-duplicate of M712: ASCII image typed row by row | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/pixelated-effect-on-mouse-hover-synthetic-theatre) | Pixelate around cursor: Near-duplicate of M476: Cursor circle shows mosaic layer | near-duplicate review |
+| [link](https://ui.aceternity.com/components/pixelated-canvas) | Pixels pushed by cursor: Near-duplicate of M627: Image pixels scatter near cursor, resettle | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/webgl-point-cloud-mouse-effect-amaterasu) | Point-cloud image scatters: Near-duplicate of M627: Point cloud pushed by cursor, same result | near-duplicate review |
+| [link](https://21st.dev/@componentry/components/dithered-logo.md) | Dithered logo particles: Near-duplicate of M270: Particle mark repels from cursor | near-duplicate review |
+| [link](https://ui.aceternity.com/components/image-generation-loader) | Pixel-grid scan reveal: Near-duplicate of M17: Pixel grid wave reveal | near-duplicate review |
+| [link](https://ui.aceternity.com/components/image-generation-loader) | Pixel wave build with counter: Near-duplicate of M17: Pixel wave reveal plus counter | near-duplicate review |
+| [link](https://ui.aceternity.com/components/chromatic-image) | RGB burst slide change: Near-duplicate of X9: RGB glitch burst on change | near-duplicate review |
+| [link](https://ui.aceternity.com/components/chromatic-image) | Chromatic split near pointer: Near-duplicate of M55: RGB channel split, pointer instead of scroll | near-duplicate review |
+| [link](https://reactbits.dev/components/decay-card) | Decay card (motion-driven turbulence): Near-duplicate of M497: SVG turbulence warp driven by pointer | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/product-glitch-hover-effect) | Glitch bands on hover: Near-duplicate of X9: Glitch band offsets, on hover | near-duplicate review |
+| [link](https://github.com/codrops/CSSGlitchEffect) | Looping CSS RGB glitch: Near-duplicate of X9: Looping RGB slice glitch | near-duplicate review |
+| [link](https://github.com/codrops/GlitchPerspective) | Pixel glitch + 3D tilt on hover: Near-duplicate of X9: Glitch flicker plus tilt combo | near-duplicate review |
+| [link](https://github.com/codrops/DraggableImageStrip) | Draggable inertia strip: Near-duplicate of M536: Inertia drag strip | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/ruixen-carousel-wave.md) | Wave dip carousel: Near-duplicate of M462: Cards dip in sine wave | near-duplicate review |
+| [link](https://21st.dev/@componentry/components/collection-surfer.md) | Perspective track surfing: Near-duplicate of M472: Perspective rail track of cards | near-duplicate review |
+| [link](https://21st.dev/@minhxthanh/components/flip-gallery.md) | Split-flap image flip: Near-duplicate of M371: Split-flap flip applied to images | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/ink-flow-carousel.md) | Ink-fluid slide carousel: Near-duplicate of M67: Pointer stirs image fluid | near-duplicate review |
+| [link](https://21st.dev/@uicapsule/components/infinite-grid.md) | Infinite spiral grid: Near-duplicate of M548: Infinite drag wall, spiral layout only | near-duplicate review |
+| [link](https://github.com/codrops/PhotographyWebsiteConcept) | Background tilt + stack opens to slider: Near-duplicate of X68: Stack expands into slider row | near-duplicate review |
+| [link](https://reactbits.dev/components/profile-card) | Holographic foil card: Near-duplicate of U80: Tilt with glare/colour shift, foil colours | near-duplicate review |
+| [link](https://reactbits.dev/animations/cubes) | Tilting cubes field: Near-duplicate of U45: Proximity field tilting grid items | near-duplicate review |
+| [link](https://reactbits.dev/components/magic-bento) | Magic bento tiles: Near-duplicate of U21: Card spotlight glow tiles | near-duplicate review |
+| [link](https://github.com/codrops/LittleFragments) | Image fragments parallax: Near-duplicate of M557: Clip-path image segments shifted | near-duplicate review |
+| [link](https://github.com/codrops/codrops-sketches) | Rotating repetition tunnel: Near-duplicate of M558: Nested repetition tunnel with rotation | near-duplicate review |
+| [link](https://github.com/codrops/ImageDraggingEffects) | Image deforms while dragged: Near-duplicate of M539: Drag-velocity image stretch | near-duplicate review |
+| [link](https://github.com/codrops/RoomDisplay) | 3D room slideshow: Near-duplicate of M474: CSS 3D room walls with artwork | near-duplicate review |
+| [link](https://reactbits.dev/animations/elastic-mesh) | Elastic mesh image: Near-duplicate of M499: Pointer-driven image displacement with decay | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/frosted-hover.md) | Frosted ripple hotspots: Near-duplicate of M69: Ripple distortion from hotspots | near-duplicate review |
+| [link](https://ui.aceternity.com/components/parallax-hero-images) | Edge-weighted parallax collage: Near-duplicate of M560: Pointer depth collage, edge layout only | near-duplicate review |
+| [link](https://reactbits.dev/animations/image-trail) | Trail: pop then shrink: Near-duplicate of M559: Cursor image trail, ageing variant | near-duplicate review |
+| [link](https://reactbits.dev/animations/image-trail) | Trail: flash zoom: Near-duplicate of M559: Cursor image trail, ageing variant | near-duplicate review |
+| [link](https://reactbits.dev/animations/image-trail) | Trail: grow to grayscale: Near-duplicate of M559: Cursor image trail, ageing variant | near-duplicate review |
+| [link](https://reactbits.dev/animations/image-trail) | Trail: random scale: Near-duplicate of M559: Cursor image trail, scale variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: travel and shrink: Near-duplicate of M559: Cursor image trail, travel variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: images rise: Near-duplicate of M559: Cursor image trail, rise variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: speed brightness + throw: Near-duplicate of M559: Cursor image trail, speed variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: oriented to direction: Near-duplicate of M559: Cursor image trail, rotation variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: speed blur/greyscale: Near-duplicate of M559: Cursor image trail, speed filter variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: fragmented pieces: Near-duplicate of M559: Cursor image trail, fragment variant | near-duplicate review |
+| [link](https://github.com/codrops/MotionTrailAnimations) | Trail: 3D recede: Near-duplicate of M559: Cursor image trail, 3D variant | near-duplicate review |
+| [link](https://github.com/codrops/codrops-sketches) | Lerped copies smear trail: Near-duplicate of M264: Lagging copies follow pointer | near-duplicate review |
+| [link](https://reactbits.dev/components/folder) | Folder opens, papers slide out: Near-duplicate of U87: Folder opens and contents slide out | near-duplicate review |
+| [link](https://reactbits.dev/animations/shape-blur) | Blurred shape morph on hover: Near-duplicate of M655: Shape morph responding to mouse | near-duplicate review |
+| [link](https://reactbits.dev/animations/metallic-paint) | Liquid metal inside logo: Near-duplicate of M575: Liquid metal shader, masked to logo | near-duplicate review |
+| [link](https://21st.dev/@silvestrefrigeriopro/components/hero.md) | Plasma: Near-duplicate of M52: Flowing colour-field shader, same as gradient mesh | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/plasma-wave) | Raymarched plasma wave: Near-duplicate of M593: Raymarched waves rolling toward viewer already built | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/balatro) | Pixel psychedelic swirl: Near-duplicate of M587: Same polar swirl, only pixel quantisation added | near-duplicate review |
+| [link](https://21st.dev/@paper-design/components/heatmap-sepia.md) | Heatmap blobs: Near-duplicate of M573: Drifting blurred blobs; only heat-map colours differ | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/molten-metal) | Molten filaments: Near-duplicate of M725: Glowing noise filaments, same look as neuro noise | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/line-waves) | Warped line waves: Near-duplicate of M586: Noise-warped line/stripe waves already built | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Patterns/MikeAndrewDesigner_fuzzy-duck-40.html) | Pattern pan: Near-duplicate of M579: Background pan; only pattern content differs | near-duplicate review |
+| [link](https://21st.dev/@paper-design/components/dithering-warp.md) | Warped dither waves: Near-duplicate of M597: Moving dithered field, same retro dither result | near-duplicate review |
+| [link](https://21st.dev/@paper-design/components/halftone-dots-led-screen.md) | LED dot screen: Near-duplicate of M598: Image as shimmering dot screen, same as halftone | near-duplicate review |
+| [link](https://21st.dev/@jatin-yadav05/components/old-television-shader.md) | Old TV noise waves: Near-duplicate of M730: Retro TV static waves overlap CRT look | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/beams-background.md) | Light beams with chroma + scanlines: Near-duplicate of M606: Drifting light beams; scanlines are minor styling | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/lightfall) | Lightfall tunnel: Near-duplicate of M742: Streaks through tunnel; only direction differs | near-duplicate review |
+| [link](https://21st.dev/@designali-in/components/radial-lines.md) | Radial line fan: Near-duplicate of M603: Rotating radial rays from centre already built | near-duplicate review |
+| [link](https://21st.dev/@sensewood8/components/energy-beam.md) | Energy beam: Near-duplicate of M609: Pulse travelling between two points already built | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/circuit-board.mdx) | Circuit traces with pulses: Near-duplicate of M610: Light pulses along paths; only path shape differs | near-duplicate review |
+| [link](https://21st.dev/@minhxthanh/components/animated-infinity-background.md) | Infinity loops: Near-duplicate of M612: Looping SVG line draw, only shape differs | near-duplicate review |
+| [link](https://21st.dev/@muntazirzaidi/components/neon-maze/neon-maze) | Neon maze: Near-duplicate of M612: Looping path draw/redraw, only maze shape | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/singularity.md) | Particle accretion disc: Near-duplicate of M740: Particles orbiting a centre disc, same as galaxy | near-duplicate review |
+| [link](https://21st.dev/@minhxthanh/components/triangles-falling.md) | Pulled into a black hole: Near-duplicate of M739: Particles spiralling into centre, same as vortex | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/quantum-nebula.md) | 3D particle nebula: Near-duplicate of M621: 3D curl-noise particle cloud already built | near-duplicate review |
+| [link](https://animata.design/docs/background/boids-ecosystem) | Boids flock: Near-duplicate of M624: Flocking swarm; same visible result as murmuration | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/canvas-2d/index.js) | Churning particle drift: Near-duplicate of M624: Particles retargeting random points, same mechanism | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/quantum-swarm.md) | Fibonacci swarm with shockwaves: Near-duplicate of M737: Linked particles pushed by pointer, same network | near-duplicate review |
+| [link](https://21st.dev/@scrollxui/components/gravity.md) | Particle fountain: Near-duplicate of M744: Gravity particle launches, same as fireworks | near-duplicate review |
+| [link](https://21st.dev/@scrollxui/components/dualsparks.md) | Corner spark waves: Near-duplicate of M744: Spark bursts under gravity, only origin differs | near-duplicate review |
+| [link](https://21st.dev/@xordev/components/lanterns.md) | Rising lanterns: Near-duplicate of M15: Glowing rising embers, only larger | near-duplicate review |
+| [link](https://21st.dev/@efferd/components/falling-pattern.md) | Falling blurred pattern: Near-duplicate of M625: Falling particle loop, only blurred | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/additive-fireflies/index.js) | Fireflies around cursor: Near-duplicate of M210: Fireflies; only centred on cursor | near-duplicate review |
+| [link](https://21st.dev/@educalvolpz/components/pixel-flow-field.md) | Pixel flow field to text: Near-duplicate of M270: Pixels form text and part at pointer, built | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/woven-light-hero.md) | Particle-woven object: Near-duplicate of M45: Particle-formed object reacting to cursor, same idea | near-duplicate review |
+| [link](https://21st.dev/@designali-in/components/animated-grid.md) | Grid radius colour waves: Near-duplicate of M601: Grid cells pulsing in waves already built | near-duplicate review |
+| [link](https://21st.dev/@efferd/components/gradient-dots.md) | Rainbow dot shimmer: Near-duplicate of M601: Dot field wave; only hue cycling | near-duplicate review |
+| [link](https://21st.dev/@paper-design/components/dot-orbit-hallucinatory.md) | Dot orbit moire: Near-duplicate of M736: Moving moire pattern, same visible result | near-duplicate review |
+| [link](https://animata.design/docs/background/interactive-grid) | Diagonal ripple hover grid: Near-duplicate of M635: Grid ripple from a point, diagonal delay only | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/shape-grid) | Drifting shape grid: Near-duplicate of M631: Cells light under pointer and fade, built | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/dot-grid) | Dot grid push: Near-duplicate of M633: Dots react to cursor proximity, minor variant | near-duplicate review |
+| [link](https://ui.aceternity.com/components/background-ripple-effect) | Cell grid ripple: Near-duplicate of M635: Grid ripple outward, cells instead of dots | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/stagger/index.js) | Scattered dot pulse wave: Near-duplicate of M630: Dot wave from centre already built | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/ripple-grid) | Ripple grid: Near-duplicate of M69: Continuous ripple distortion already in menu | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/grid-scan) | Grid room scan: Near-duplicate of M605: Scan line sweeping a grid already built | near-duplicate review |
+| [link](https://21st.dev/@chamaac/components/grid-bloom.md) | Glowing grid bloom: Near-duplicate of M633: Grid glow reacting to pointer, same result | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/faulty-terminal) | Faulty terminal: Near-duplicate of M752: Glyph grid flicker plus scanlines only | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/cyber-matrix-hero.md) | Character grid cursor glow: Near-duplicate of M787: Glyph grid brightening near cursor, same effect | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/voxel-topography-grid.md) | Voxel terrain with cursor bump: Near-duplicate of M755: Voxel wave grid; cursor bump minor | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/pillar-grid.md) | Hex pillar grid: Near-duplicate of M755: Rising pillars; only hex shape differs | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/isometric-wave-grid-background.md) | Isometric wave grid: Near-duplicate of M754: Line terrain waves; isometric angle only | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/particle-wave.md) | Particle wave sheet: Near-duplicate of M727: Undulating 3D wave sheet; particles vs slats | near-duplicate review |
+| [link](https://21st.dev/@Mazyar%20kawa/components/voxel-wall.md) | Voxel tunnel with rays: Near-duplicate of M756: Tunnel flying toward camera, rays are minor | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/light-tunnel) | Fibre-optic light tunnel: Near-duplicate of M735: Lines receding in tunnel with pulses | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/acid-squares) | Receding square corridor: Near-duplicate of M735: Receding corridor tunnel, same as grid tunnel | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/hero-ascii-tunnel.md) | ASCII ring tunnel: Near-duplicate of M637: Text ring tunnel already built | near-duplicate review |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/backgrounds/hole.mdx) | Converging hole lines: Near-duplicate of M735: Lines converging into perspective tunnel | near-duplicate review |
+| [link](https://21st.dev/@jatin-yadav05/components/radial-orbital-timeline.md) | Orbital timeline: Near-duplicate of M639: Orbiting nodes, click to focus is minor | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/chart-radar-dither.md) | Radar sweep sharpens dither: Near-duplicate of M759: Radar sweep; only dither sharpening added | near-duplicate review |
+| [link](https://21st.dev/@uniquesonu/components/glass-ui.md) | Glass orbs on a path: Near-duplicate of M577: Refracting glass orbs drifting, built | near-duplicate review |
+| [link](https://21st.dev/@rahil1202/components/fire-sphere.md) | Fire sphere: Near-duplicate of M646: Glowing swirling orb already built | near-duplicate review |
+| [link](https://21st.dev/@unlumen/components/pixel-liquid-bg.md) | Pixel fluid: Near-duplicate of M647: Cursor fluid sim, only pixelated styling | near-duplicate review |
+| [link](https://21st.dev/@radiumcoders/components/ascii-fluid.md) | ASCII fluid: Near-duplicate of M647: Cursor fluid sim, only ASCII styling | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/grid-distortion) | Grid mesh distortion: Near-duplicate of M67: Cursor warps image then recovers, built | near-duplicate review |
+| [link](https://21st.dev/@mengto/components/liquid-form.md) | Liquid metal blob: Near-duplicate of M576: Morphing noisy 3D blob, metallic material only | near-duplicate review |
+| [link](https://21st.dev/@cldgayo/components/iridescent-raymarched-glass-metaballs.md) | Glass metaballs: Near-duplicate of M574: Merging metaballs, glass material only | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/metaball-morph.md) | Mercury globules: Near-duplicate of M574: Merging metaballs, mercury material only | near-duplicate review |
+| [link](https://21st.dev/@paper-design/components/metaballs-ink-drops.md) | Ink drop metaballs: Near-duplicate of M574: Merging metaballs, ink drops only | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/ferrofluid) | Ferrofluid contours: Near-duplicate of M649: Contour lines reacting to cursor, built | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/aether-ribbon-mesh.md) | Ribbon mesh superposition: Near-duplicate of M205: Undulating ribbon meshes already built | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/threads) | Threads: Near-duplicate of M203: Waving line threads, same as wave line field | near-duplicate review |
+| [link](https://reactbits.dev/animations/strands) | Weaving strands: Near-duplicate of M734: Glowing sine strands weaving, same look | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/ghost-fibers) | Ghost fibres: Near-duplicate of M586: Twisting fibre bands, same warped stripes | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/celestial-loom.md) | Loom shuttle: Near-duplicate of M762: Loom weaving threads, shuttle is minor | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/helix-chrono-matrix.md) | Fibre matrix: Near-duplicate of M749: 3D node network with travelling pulses | near-duplicate review |
+| [link](https://21st.dev/@mengto/components/gateway-flow.md) | Converging bezier streams: Near-duplicate of M613: Streams converging along curves to centre | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/field-lines-aurora.md) | Field-line tracers: Near-duplicate of M623: Particles tracing flow arcs, same streaks | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/fluid-flow-grid.md) | Vector flow lines: Near-duplicate of M763: Grid of marks aligning/repelling, same field | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/animatable-follow-cursor/index.js) | Arrow grid follows cursor: Near-duplicate of M763: Grid marks rotate toward cursor, same | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/additive-creature/index.js) | Glowing dot creature: Near-duplicate of M65: Staggered cursor-follow trail, same mechanism | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/living-vine-background.md) | Vines follow cursor: Near-duplicate of M764: Branches growing, path follows cursor only | near-duplicate review |
+| [link](https://21st.dev/@uicapsule/components/background-shapes.md) | Shape-swapping cells: Near-duplicate of M769: Cells randomly recompose, same generator idea | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/hero-vortex-street.md) | Vortex street: Near-duplicate of M647: Cursor-driven fluid swirl, same result | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/geometric-sphere.md) | Layered sphere hero: Near-duplicate of M775: Rotating wireframe sphere plus haze layers | near-duplicate review |
+| [link](https://21st.dev/@montekkundan/components/ascii-pyramid.md) | ASCII rotating solid: Near-duplicate of M775: Rotating solid, ASCII render only | near-duplicate review |
+| [link](https://21st.dev/@vgpu/components/transmission.md) | Refracting glass cube: Near-duplicate of M604: Rotating glass solid dispersing light, built | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/etched-accretion.md) | Engraved black hole: Near-duplicate of M740: Rotating disc; engraved line style only | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/shader-animation.md) | Singularity shader: Near-duplicate of M587: Full-screen polar swirl already built | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/pixel-blast) | Pixel blast: Near-duplicate of M635: Grid ripple and burst on tap | near-duplicate review |
+| [link](https://reactbits.dev/backgrounds/scanner) | Scanner bands: Near-duplicate of M584: Sweeping sine bands already built | near-duplicate review |
+| [link](https://21st.dev/@minhxthanh/components/spinning-arc-logo-with-gradient-text-1.md) | Multi-speed arcs badge: Near-duplicate of M638: Concentric rings rotating different speeds | near-duplicate review |
+| [link](https://21st.dev/@gonzalochale/components/commits-grid.md) | Text as contribution grid: Near-duplicate of M785: Grid cells forming text, same as flip-disc | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/peak-mountain.md) | ASCII image loop: Near-duplicate of M787: ASCII image with shimmer, same render | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/background-ascii-flow.md) | ASCII flow glyphs: Near-duplicate of M786: ASCII noise field, glyph choice only | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/hero-ascii-schlieren.md) | ASCII plume: Near-duplicate of M786: ASCII noise field, plume shape only | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/background-ascii-nodal-lines.md) | ASCII nodal lines: Near-duplicate of M786: ASCII field rendering, content only | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/background-ascii-force-chains.md) | ASCII force chains: Near-duplicate of M786: ASCII field rendering, content only | near-duplicate review |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/layered-css-transforms/index.js) | Floating morphing outlines: Near-duplicate of M654: Drifting morphing shapes, outline only | near-duplicate review |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/shader-lens-blur.mdx) | Pointer lens blur: Near-duplicate of M166: Pointer lens distortion already built | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/sonic-waveform.md) | Mouse-distorted waveform: Near-duplicate of M203: Line waveform rippling, built wave line field | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/kinetic-particle-fabric.md) | Particle fabric: Near-duplicate of M208: Billowing cloth sheet, particle render only | near-duplicate review |
+| [link](https://www.hover.dev/components/3d) | Particle ring: Near-duplicate of M740: Tilted orbiting particle ring like galaxy | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Scale-X collapse: Near-duplicate of X25: Collapse uncovering, wipe-like | near-duplicate review |
+| [link](https://github.com/codrops/DeveloperDesignerPageLayout) | Split-piece page swap: Near-duplicate of M510: Pieces fly out, new fly in | near-duplicate review |
+| [link](https://21st.dev/@starc007/components/center-morph-modal.md) | Centre-unfold panel: Near-duplicate of X24: Opens from centre | near-duplicate review |
+| [link](https://github.com/codrops/PageFlipLayout) | Flat spread flip: Near-duplicate of X51: Spread flip | near-duplicate review |
+| [link](https://github.com/codrops/PageTransitions) | Carousel rotate pages: Near-duplicate of X54: 3D page rotation, far axis | near-duplicate review |
+| [link](https://github.com/codrops/PageTransitions) | Room rotate (inside the box): Near-duplicate of X54: Cube rotate, inverse | near-duplicate review |
+| [link](https://github.com/codrops/PageTransitions) | Push / pull in 3D: Near-duplicate of X53: Pages rotate about edges | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Shrink to a point swap: Near-duplicate of X33: Current shrinks away | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Rotate away small: Near-duplicate of M416: Current shrinks back, next covers | near-duplicate review |
+| [link](https://21st.dev/@molecule-lab-rushil/components/warp-dialog.md) | 3D warp dialog: Near-duplicate of M31: 3D tilt-in settle | near-duplicate review |
+| [link](https://ui.aceternity.com/components/animated-modal) | Tilted modal entry: Near-duplicate of M31: Tilted pop-in | near-duplicate review |
+| [link](https://github.com/codrops/MorphingSearch) | Input morphs to full page: Near-duplicate of X70: Box morphs into panel | near-duplicate review |
+| [link](https://github.com/codrops/GridZoom) | Grid cell zoom with mini grid: Near-duplicate of X77: Grid image opens, others fade | near-duplicate review |
+| [link](https://github.com/codrops/InlineLayoutSwitch) | Inline images spin to column: Near-duplicate of X84: Thumbnails Flip with spin | near-duplicate review |
+| [link](https://github.com/codrops/InlineToMenuLink) | Inline links become a menu: Near-duplicate of M402: Word tokens re-layout | near-duplicate review |
+| [link](https://github.com/codrops/MenuFullGrid) | Menu galleries fly in and fill grid: Near-duplicate of X81: Menu thumbs fly to grid | near-duplicate review |
+| [link](https://github.com/codrops/TooltipTransition) | Tooltip to gallery with guide lines: Near-duplicate of X72: Shared-element morph | near-duplicate review |
+| [link](https://swup.js.org/getting-started/demos/) | Route-loaded modal: Near-duplicate of X71: Modal over list | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-luma-transition.mdx) | Luma ribbons transition: Near-duplicate of X86: Luma-driven swap | near-duplicate review |
+| [link](https://github.com/codrops/LayersAnimation) | Side layers with zoom-out: Near-duplicate of X26: Staggered colour layers | near-duplicate review |
+| [link](https://github.com/codrops/LayersAnimation) | Vertical slit layers: Near-duplicate of X24: Centre slit opening, layered | near-duplicate review |
+| [link](https://animate.style/) | Shrink then slide away: Near-duplicate of X33: Shrink then move away | near-duplicate review |
+| [link](https://swup.js.org/themes/slide-theme/) | Short slide-and-fade swap: Near-duplicate of X1: Slide swap, shorter | near-duplicate review |
+| [link](https://21st.dev/@fatih-developer/components/curtain-theme-toggle.md) | Curtain theme toggle: Near-duplicate of M486: Two panels close/open | near-duplicate review |
+| [link](https://github.com/codrops/ZoomSlider) | Zoom into a detail area: Near-duplicate of X10: Zoom into area | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-push-transition.mdx) | Noise push: Near-duplicate of X11: Shader push transition | near-duplicate review |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/organic-merge-transition.mdx) | Corner blobs merge: Near-duplicate of X19: Organic blobs mask | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Pop from zero with flash: Near-duplicate of X89: Brightness flash entrance | near-duplicate review |
+| [link](https://github.com/codrops/FullscreenOverlayStyles) | Overlay entrance pack: Near-duplicate of X50: Overlay menu entrance styles | near-duplicate review |
+| [link](https://raw.githubusercontent.com/swup/demos/main/reveal/transitions.css) | Diamond collapse to a point: Near-duplicate of X6: Shape iris shrinking | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Diagonal slide in: Near-duplicate of X94: Diagonal slide | near-duplicate review |
+| [link](https://21st.dev/@cinquinandy/components/lightning-split.md) | Lightning split: Near-duplicate of X31: Screen split along line, halves apart | near-duplicate review |
+| [link](https://21st.dev/@arunachalam/components/vertical-theme-wipe-toggle.md) | Straight theme wipe: Near-duplicate of U73: Theme change wipe | near-duplicate review |
+| [link](https://github.com/codrops/PixelTransition) | Pixel cover with flash: Near-duplicate of X8: Pixel cover plus flash | near-duplicate review |
+| [link](https://github.com/codrops/GlitchyGrid) | Glitchy grid stack swap: Near-duplicate of X9: Glitch swap | near-duplicate review |
+| [link](https://github.com/codrops/CrossroadsSlideshow) | Inclined three-slide row: Near-duplicate of X94: Tilted axis slides | near-duplicate review |
+| [link](https://github.com/codrops/SlideshowAnimations) | Vertical slide with rotated stretch: Near-duplicate of X69: Slide with rotated stretch | near-duplicate review |
+| [link](https://github.com/codrops/ElasticCircleSlideshow) | Elastic circle slideshow: Near-duplicate of X1: Slide swap, elastic circles | near-duplicate review |
+| [link](https://github.com/codrops/MultiLayoutSlideshow) | Per-slide layout scatter: Near-duplicate of X95: Per-slide layouts swap | near-duplicate review |
+| [link](https://animista.net/play/exits/roll-out-blurred) | Blurred roll-out: Near-duplicate of X102: Roll-out plus blur | near-duplicate review |
+| [link](https://animista.net/play/exits/slide-out-blurred) | Blurred stretch slide-out: Near-duplicate of X56: Stretched exit | near-duplicate review |
+| [link](https://animista.net/play/exits/bounce-out) | Bounce then drop out: Near-duplicate of X103: Pre-move then exit | near-duplicate review |
+| [link](https://animista.net/play/exits/slide-out-elliptic) | Elliptic slide-out: Near-duplicate of X54: Swing away on far axis | near-duplicate review |
+| [link](https://animista.net/play/exits/flicker-out) | Flicker-out: Near-duplicate of M273: Neon flicker, outward | near-duplicate review |
+| [link](https://animista.net/play/exits/flip-out) | Flip-out on axis: Near-duplicate of M229: Axis flip, outward | near-duplicate review |
+| [link](https://animista.net/play/exits/puff-out) | Puff-out: Near-duplicate of M219: Puff, reversed | near-duplicate review |
+| [link](https://animista.net/play/exits/slide-out-bck) | Recede out: Near-duplicate of M278: Recede in Z | near-duplicate review |
+| [link](https://animista.net/play/exits/rotate-out-2) | Rotate-out 45 from corner: Near-duplicate of X53: Rotate out about edge/corner | near-duplicate review |
+| [link](https://animista.net/play/exits/slide-out) | Slide-out to far edge: Near-duplicate of X1: Slide off | near-duplicate review |
+| [link](https://animista.net/play/exits/slit-out) | Slit-out: Near-duplicate of M232: Slit, reversed | near-duplicate review |
+| [link](https://21st.dev/@elements-/components/loader-morphing-blob.md) | Specular blob: Near-duplicate of M654: Organic blob loop morph | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/liquid-loader.md) | Merging gradient blobs: Near-duplicate of M574: Gooey merging blobs | near-duplicate review |
+| [link](https://21st.dev/@loading-ui/components/analyzing-image.md) | Image scan sweep: Near-duplicate of M49: Light sweep across image | near-duplicate review |
+| [link](https://21st.dev/@zzzzshawn/components/dotm-circular-7.md) | Gate-shift dot matrix: Near-duplicate of M635: Dot matrix wave | near-duplicate review |
+| [link](https://21st.dev/@zzzzshawn/components/dotm-circular-20.md) | Ghosted glyph cycle: Near-duplicate of M353: Pixel glyph cycling | near-duplicate review |
+| [link](https://21st.dev/@maxim.bort.devel/components/metamorphic-loader.md) | Circle to rounded-square morph: Near-duplicate of M53: Shape morph loop | near-duplicate review |
+| [link](https://21st.dev/@loading-ui/components/morphing-infinity.md) | Circle to infinity morph: Near-duplicate of M53: Shape morph loop | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/chroma-glitch-preloader.md) | Chroma glitch letter cube: Near-duplicate of M293: Letter cube with chroma | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/loader.md) | Letter cubes in sequence: Near-duplicate of M293: Letter cubes rolling | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/brutalist-deck-loader.md) | Deck shuffle with bar: Near-duplicate of M525: Deck cycles plus bar | near-duplicate review |
+| [link](https://21st.dev/@asanshay/components/loader.md) | Shader spinner shapes: Near-duplicate of M644: Shader orb spinner | near-duplicate review |
+| [link](https://21st.dev/@adrielzimbril/components/generating-orb.md) | Chromatic orb: Near-duplicate of M645: Glowing conic orb | near-duplicate review |
+| [link](https://21st.dev/@theshanelevine/components/loading-state.md) | Pixel grid wavefront: Near-duplicate of M635: Dot grid wave | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/loader-4.md) | Reflective block grid: Near-duplicate of M601: Grid pulsing shapes | near-duplicate review |
+| [link](https://21st.dev/@su2491251/components/bouncing-square.md) | Squash-stretch hop: Near-duplicate of I41: Squash-stretch bounce | near-duplicate review |
+| [link](https://21st.dev/@su2491251/components/magnetic-dots.md) | Gooey merging dots: Near-duplicate of M574: Gooey merging dots | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/csozidev_fat-eagle-48.html) | Letter swell wave: Near-duplicate of M331: Chars swell in wave | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text02.module.css) | Glow-edged drain: Near-duplicate of I18: Word drain with glow edge | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text12.module.css) | Floating word with ground shadow: Near-duplicate of M199: Floating bob | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text06.module.css) | One-word ticker: Near-duplicate of M276: Word clone ticker | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-bars.vue) | Equaliser bars: Near-duplicate of I27: Bars grow staggered | near-duplicate review |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/inputs/loader.mdx) | Gradient rings around a title: Near-duplicate of M639: Rotating rings | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-multi-ring.vue) | Counter-rotating rings: Near-duplicate of M639: Counter-rotating rings | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-grid.vue) | Diagonal dot-grid wave: Near-duplicate of M635: Dot grid diagonal wave | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress14.module.css) | Fill with live percent: Near-duplicate of M26: Progress fill with percent | near-duplicate review |
+| [link](https://github.com/loadingio/css-spinner) | Turning hourglass: Near-duplicate of I48: Hourglass flip loop | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/SouravBandyopadhyay_rude-sloth-38.html) | Sand hourglass: Near-duplicate of I48: Hourglass flip loop | near-duplicate review |
+| [link](https://github.com/loadingio/css-spinner) | Roller dots: Near-duplicate of I33: Dots circling on ring | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress23.module.css) | Segmented block fill: Near-duplicate of M26: Progress fill in segments | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-disk.vue) | Spin-stretch disk: Near-duplicate of I31: Spinning disk mark | near-duplicate review |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress07.module.css) | Barber-pole fill: Near-duplicate of M26: Progress fill with stripes | near-duplicate review |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-flip.vue) | Tumbling square: Near-duplicate of I31: Mark flips in 3D | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/stardust-stage-preloader.md) | Dithered particles form a scene: Near-duplicate of I8: Particles form image | near-duplicate review |
+| [link](https://raw.githubusercontent.com/syntaxUI/syntaxui/main/src/app/(docs)/components/loaders/particle-swarm/page.mdx) | Particle swarm: Near-duplicate of M624: Particle swarm | near-duplicate review |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/primitives/animate/motion-grid.mdx) | LED dot-grid frames: Near-duplicate of M341: LED dot frames | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/Nawsome_curly-goose-54.html) | Flipping book: Near-duplicate of X51: Book page flips | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/progressive-flux-loader.md) | Flux bar with flying labels: Near-duplicate of M26: Progress bar with labels | near-duplicate review |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/community/radial-intro.mdx) | Radial fly-out ring: Near-duplicate of M448: Items fly into radial ring | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/SelfMadeSystem_orange-crab-82.html) | Valve and steam: Near-duplicate of M36: Steam wisps, plus valve | near-duplicate review |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/ai/ai-text-loading.mdx) | Shimmer status words: Near-duplicate of M388: Text status words loader | near-duplicate review |
+| [link](https://21st.dev/@su2491251/components/pulse.md) | Pulse rings: Near-duplicate of M651: Concentric pulse rings | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/loader-1.md) | Pencil draws a circle: Near-duplicate of I14: Stroke circle draws | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/loader-2.md) | Sequenced shape outlines: Near-duplicate of M8: Outline shapes draw on | near-duplicate review |
+| [link](https://21st.dev/@theutkarshmail/components/rising-ball.md) | Ball climbs stairs: Near-duplicate of I41: Bounce with squash, stairs path | near-duplicate review |
+| [link](https://21st.dev/@ravikatiyar162/components/folding-cube-loader.md) | Folding cube: Near-duplicate of F5: Squares fold into cube | near-duplicate review |
+| [link](https://21st.dev/@loading-ui/components/infinity-track.md) | Glyph infinity track: Near-duplicate of M381: Loop on infinity path | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/snow-ball-loading-spinner.md) | Rolling ball on a track: Near-duplicate of M35: Object follows track path | near-duplicate review |
+| [link](https://21st.dev/@theutkarshmail/components/3-dots-loader.md) | Three balls merge and spin: Near-duplicate of M574: Balls merge goo-style | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/andrew-demchenk0_silent-earwig-10.html) | Layer glitch word: Near-duplicate of X9: Glitch offset colour copies | near-duplicate review |
+| [link](https://21st.dev/@vaib215/components/wet-paint-button.md) | Wet paint button: Near-duplicate of U55: liquid drips from button edge | near-duplicate review |
+| [link](https://github.com/codrops/ClickEffects) | Click ripple feedback: Near-duplicate of U143: click-point ripple feedback | near-duplicate review |
+| [link](https://github.com/codrops/CardStackEffects) | Card stack accept/reject: Near-duplicate of M528: top card leaves stack | near-duplicate review |
+| [link](https://github.com/codrops/MultiLevelMenu) | Multi-level menu delayed items: Near-duplicate of U161: drill into next menu level | near-duplicate review |
+| [link](https://github.com/codrops/ShazamButtonEffect) | Button morphs into player: Near-duplicate of X70: button morphs into panel | near-duplicate review |
+| [link](https://github.com/codrops/Animocons) | Burst icon animations: Near-duplicate of U126: radial burst on click | near-duplicate review |
+| [link](https://github.com/codrops/DistortedButtonEffects) | Goo/filter distorted buttons: Near-duplicate of U55: goo liquid squirts from button | near-duplicate review |
+| [link](https://github.com/codrops/SlideOutBoxMenu) | Slide-out irregular box menu: Near-duplicate of U170: menu boxes slide in sequence | near-duplicate review |
+| [link](https://github.com/codrops/ImageGridMotionEffect) | Grid pans with mouse: Near-duplicate of M560: layers shift opposite pointer | near-duplicate review |
+| [link](https://github.com/codrops/codrops-sketches) | Theme picker grid wipe: Near-duplicate of U73: theme change with shape wipe | near-duplicate review |
+| [link](https://github.com/codrops/AnimatedCodeBackground) | Gradient mask code hover: Near-duplicate of U59: cursor mask reveals alternate layer | near-duplicate review |
+| [link](https://ui.aceternity.com/components/following-pointer) | Following pointer name tag: Near-duplicate of U74: custom pointer inside area | near-duplicate review |
+| [link](https://ui.aceternity.com/components/animated-tooltip) | Swinging avatar tooltip: Near-duplicate of U144: tooltip tilts with pointer | near-duplicate review |
+| [link](https://reactbits.dev/animations/click-spark) | Click spark: Near-duplicate of U126: radial burst on click | near-duplicate review |
+| [link](https://reactbits.dev/components/gooey-nav) | Gooey nav: Near-duplicate of U50: nav indicator moves on select | near-duplicate review |
+| [link](https://reactbits.dev/components/bubble-menu) | Bubble menu: Near-duplicate of U131: menu items pop out staggered | near-duplicate review |
+| [link](https://reactbits.dev/components/line-sidebar) | Line sidebar: Near-duplicate of U45: proximity scaling of items | near-duplicate review |
+| [link](https://reactbits.dev/micro/hold-button) | Hold button: Near-duplicate of U149: press-and-hold fill | near-duplicate review |
+| [link](https://reactbits.dev/micro/folder-float) | Folder float: Near-duplicate of U87: folder opens, contents spring out | near-duplicate review |
+| [link](https://reactbits.dev/micro/dodge-field) | Dodge field: Near-duplicate of U158: element flees pointer | near-duplicate review |
+| [link](https://reactbits.dev/micro/lattice-loader) | Lattice loader: Near-duplicate of U103: phase-offset looping loader | near-duplicate review |
+| [link](https://animata.design/docs/feature-cards/subscribe-card) | Subscribe card skew + check: Near-duplicate of U29: button state draws check | near-duplicate review |
+| [link](https://animata.design/docs/feature-cards/swap-card) | Swap card up/down: Near-duplicate of U85: content slides up, next from below | near-duplicate review |
+| [link](https://animata.design/docs/icon/hover-interaction) | Icon on hovered word: Near-duplicate of U12: hovered word pops media | near-duplicate review |
+| [link](https://animata.design/docs/tabs/gooey-tabs) | Gooey tabs: Near-duplicate of U150: selected tab expands to show label | near-duplicate review |
+| [link](https://animata.design/docs/tabs/shift-tabs) | Shift tabs tilt: Near-duplicate of U66: tilt toward pointer | near-duplicate review |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/texts/sliced-text.mdx) | Sliced text merge: Near-duplicate of M282: sliced halves align on hover | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Buttons/misaraadel_dry-cow-55.html) | Echo-offset button + shake: Near-duplicate of M264: ghost echo copies trail | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Buttons/BurgiSimon_wonderful-seahorse-35.html) | Fill and press: Near-duplicate of U120: button presses down | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Buttons/LilaRest_afraid-fox-80.html) | Moving border + beating heart: Near-duplicate of U78: light runs around border | near-duplicate review |
+| [link](https://demos.gsap.com/demo/create-physics-based-effects) | Physics particle burst: Near-duplicate of U175: particles burst with gravity | near-duplicate review |
+| [link](https://animate.style/) | Shake (X / Y): Near-duplicate of U155: shake jitter | near-duplicate review |
+| [link](https://animate.style/) | Full 3D flip: Near-duplicate of U81: 3D flip | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Wobble horizontal: Near-duplicate of U207: decaying wobble, one axis | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Wobble top/bottom (skew): Near-duplicate of U207: decaying wobble, skew variant | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Buzz: Near-duplicate of U155: shake jitter looped | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Shadow radial: Near-duplicate of U138: shadow appears on hover | near-duplicate review |
+| [link](https://animista.net/play/basic/rotate) | Rotate 360 about anchor: Near-duplicate of U208: rotation, different anchor/angle | near-duplicate review |
+| [link](https://animista.net/play/basic/rotate-scale) | Rotate while scaling: Near-duplicate of U208: rotation plus scale | near-duplicate review |
+| [link](https://animista.net/play/basic/rotate-90) | Quarter turn: Near-duplicate of U208: rotation, 90 degrees | near-duplicate review |
+| [link](https://animista.net/play/basic/slide) | Slide nudge: Near-duplicate of U134: slide nudge, direction only | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/custom-cursor-with-trail-effect-and-blending-layers) | Cursor trail with blending layers: Near-duplicate of M65: trailing circles following cursor | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/foundation-primitives.md) | Lens over raymarched shapes: Near-duplicate of M166: glass lens refraction | near-duplicate review |
+| [link](https://21st.dev/@shadcnspace/components/button-26.md) | Sticker peel button: Near-duplicate of U212: corner peels back | near-duplicate review |
+| [link](https://21st.dev/@jatin-yadav05/components/interactive-string.md) | Plucked strings: Near-duplicate of U123: lines bend and spring back | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/toast-gravity-stack.md) | Gravity toast pile: Near-duplicate of M236: gravity pile of items | near-duplicate review |
+| [link](https://animata.design/docs/card/blur-stack-card) | Blur stack cards: Near-duplicate of M528: front card leaves stack | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/physics/cursor-attractor-and-gravity.mdx) | Cursor attractor physics: Near-duplicate of M236: gravity pile of pills | near-duplicate review |
+| [link](https://21st.dev/@unlumen/components/matrix.md) | LED dot matrix display: Near-duplicate of U230: LED dot matrix display | near-duplicate review |
+| [link](https://21st.dev/@abushaidislam7/components/interactive-eye-tracker.md) | Cursor-following eyes: Near-duplicate of U217: SVG eyes track pointer | near-duplicate review |
+| [link](https://21st.dev/@su2491251/components/cursor-trail.md) | Shrinking dot cursor trail: Near-duplicate of M65: cursor trail of shrinking dots | near-duplicate review |
+| [link](https://21st.dev/@rmahammad/components/border-beam-panel.md) | Dwelling border beam: Near-duplicate of U61: border beam, pauses at corners | near-duplicate review |
+| [link](https://21st.dev/@framecn/components/bounding-box-selector.md) | Selection box draws round element: Near-duplicate of M354: box draws around element | near-duplicate review |
+| [link](https://21st.dev/@carolinaraulino/components/grid-pulse.md) | Spectrum grid trail: Near-duplicate of M631: grid cells light along cursor trail | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/animated-glow-card.md) | SVG goo glow card: Near-duplicate of M567: soft glowing border | near-duplicate review |
+| [link](https://21st.dev/@Shatlyk1011/components/hover-border-gradient.md) | Hover rotating border gradient: Near-duplicate of M64: rotating border gradient | near-duplicate review |
+| [link](https://21st.dev/@cnippet-dev/components/m-random-letter-swap-2.md) | Letter swap CTA: Near-duplicate of M58: letter shuffle on hover | near-duplicate review |
+| [link](https://21st.dev/@reuno-ui/components/pearl-button.md) | Pearl button: Near-duplicate of M49: sheen shifts across button | near-duplicate review |
+| [link](https://21st.dev/@smammar/components/anti-metal-button.md) | Dot-wave expanding slab: Near-duplicate of U51: colour slab fills button | near-duplicate review |
+| [link](https://21st.dev/@aayush-duhan/components/halftone-trail.md) | Halftone trail: Near-duplicate of M631: cursor trail in a grid | near-duplicate review |
+| [link](https://21st.dev/@componentry/components/pixel-canvas.md) | Pixel glow trail: Near-duplicate of M631: grid lights around cursor trail | near-duplicate review |
+| [link](https://21st.dev/@radiumcoders/components/dither-button/hi-res.md) | Dither wave button: Near-duplicate of U232: dither pattern on button | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/hero-long-exposure.md) | Long-exposure light streaks: Near-duplicate of U193: cursor draws fading strokes | near-duplicate review |
+| [link](https://21st.dev/@amitgajare2/components/option-wheel.md) | Curved option wheel: Near-duplicate of M545: curved inertial wheel picker | near-duplicate review |
+| [link](https://21st.dev/@witharc/components/logo-carousel.md) | Slot logo swap with blur: Near-duplicate of U236: logos swap slot by slot | near-duplicate review |
+| [link](https://21st.dev/@soralabs/components/custom-cursor.md) | Ring expands on targets: Near-duplicate of U52: cursor grows over targets | near-duplicate review |
+| [link](https://21st.dev/@unlumen/components/cursor.md) | Velocity-tilt cursor with label: Near-duplicate of U174: cursor tilts with velocity | near-duplicate review |
+| [link](https://21st.dev/@motiondotdev/components/motion-cursor-multifollow.md) | Multi-ring cursor: Near-duplicate of M65: lagging circles following cursor | near-duplicate review |
+| [link](https://21st.dev/@unlumen/components/cursor-image-trail.md) | Spring image trail: Near-duplicate of M559: items spawn along cursor path | near-duplicate review |
+| [link](https://21st.dev/@heyquincy/components/cursor-dither-trail.md) | Dither tail: Near-duplicate of M631: decaying cursor trail pattern | near-duplicate review |
+| [link](https://21st.dev/@phandangkhoa96/components/momentum-lines.md) | Momentum lines: Near-duplicate of U179: line field reacts to cursor | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/tilted-dock.md) | Tilted glass dock: Near-duplicate of U22: icon dock magnification | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/gooey-dock.md) | Gooey dock: Near-duplicate of U115: goo filter between shapes | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/chapter-scrubber.md) | Tick rail magnifier: Near-duplicate of U22: proximity magnify wave | near-duplicate review |
+| [link](https://21st.dev/@arihantcodes_1f7b8c4d/components/avatar-stack.md) | Avatar fan: Near-duplicate of U151: avatars spread apart on hover | near-duplicate review |
+| [link](https://21st.dev/@educalvolpz/components/hover-image-list.md) | Skewed image follow: Near-duplicate of U15: image follows cursor with skew | near-duplicate review |
+| [link](https://21st.dev/@jatin-yadav05/components/location-tag.md) | Live dot text swap: Near-duplicate of M259: vertical text swap on hover | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/animated-highlight-text.md) | Self-drawing icon highlights: Near-duplicate of U09: SVG stroke draws on word | near-duplicate review |
+| [link](https://21st.dev/@lucasbassetti/components/progress-fold-button/disabled.md) | Hinged flap progress button: Near-duplicate of U167: button reveals progress face | near-duplicate review |
+| [link](https://21st.dev/@monolythdev/components/stepped-logo-marquee.md) | Stepped logo marquee: Near-duplicate of M14: logo marquee, stepped timing | near-duplicate review |
+| [link](https://21st.dev/@manuarora700/components/canvas-reveal-effect.md) | Dot matrix expand on hover: Near-duplicate of M630: dot matrix spreads from point | near-duplicate review |
+| [link](https://21st.dev/@moazamtrade/components/stacked-panels-cursor-intereactive-component.md) | Cursor-lifted panel stack: Near-duplicate of U22: proximity lift falloff | near-duplicate review |
+| [link](https://21st.dev/@manuarora700/components/glowing-stars.md) | Glowing stars card: Near-duplicate of M629: twinkling star grid | near-duplicate review |
+| [link](https://21st.dev/@jatin-yadav05/components/click-trigger.md) | Plus-shape click burst: Near-duplicate of U126: click burst, plus shape | near-duplicate review |
+| [link](https://21st.dev/@voxlet-ui/components/flip-coin-button.md) | Coin flip button: Near-duplicate of U81: 3D flip to back face | near-duplicate review |
+| [link](https://21st.dev/@radiumcoders/components/click-powerup.md) | Corner bracket power-up: Near-duplicate of U233: corner brackets spring on hover | near-duplicate review |
+| [link](https://21st.dev/@lucasbassetti/components/multi-button/gooey-multi-button.md) | Gooey action rail: Near-duplicate of U150: icon expands to show label | near-duplicate review |
+| [link](https://21st.dev/@ruixen.ui/components/gooey-pagination.md) | Gooey pagination: Near-duplicate of U11: pagination dot stretches | near-duplicate review |
+| [link](https://21st.dev/@paceui/components/layered-stack.md) | Deck to grid re-stack: Near-duplicate of M54: Flip deck into grid | near-duplicate review |
+| [link](https://21st.dev/@starc007/components/expanding-arrow-button.md) | Arrow trail button: Near-duplicate of U121: arrows slide forward on hover | near-duplicate review |
+| [link](https://21st.dev/@aayush-duhan/components/liquid-morph-floating-menu.md) | Liquid morph floating menu: Near-duplicate of U115: gooey pill expands into panel | near-duplicate review |
+| [link](https://21st.dev/@mengto/components/dot-border-button.md) | Dot border draw: Near-duplicate of U10: borders draw in on hover | near-duplicate review |
+| [link](https://21st.dev/@starc007/components/button-metallic.md) | Metallic rim reflection: Near-duplicate of U78: reflection travels round rim | near-duplicate review |
+| [link](https://21st.dev/@makviesainte/components/hover-brand-logo.md) | Brand name morph on icon hover: Near-duplicate of M58: letter shuffle text swap | near-duplicate review |
+| [link](https://21st.dev/@manuarora700/components/animated-tooltip.md) | Rotating follow tooltip: Near-duplicate of U144: tooltip tilts with pointer | near-duplicate review |
+| [link](https://21st.dev/@motiondotdev/components/motion-dots-morph-button.md) | Dots morph to cross: Near-duplicate of M53: path morph between shapes | near-duplicate review |
+| [link](https://21st.dev/@motiondotdev/components/motion-ios-slider.md) | Squish slider: Near-duplicate of U106: squash-stretch while dragged | near-duplicate review |
+| [link](https://21st.dev/@motiondotdev/components/motion-along-path.md) | Box along drawn path: Near-duplicate of M35: object follows drawn path | near-duplicate review |
+| [link](https://21st.dev/@cnippet-dev/components/m-variable-font-hover-3.md) | Varied stagger origin weight: Near-duplicate of M395: variable weight wave on hover | near-duplicate review |
+| [link](https://21st.dev/@kuratlielia/components/card-stack.md) | Throw-to-triage deck: Near-duplicate of U224: drag and throw top card | near-duplicate review |
+| [link](https://21st.dev/@0xUrvish/components/magnified-bento.md) | Magnified bento: Near-duplicate of M172: hovered tile grows, neighbours shrink | near-duplicate review |
+| [link](https://github.com/codrops/CreativeGooeyEffects) | Gooey menu and loader: Near-duplicate of U115: goo filter merging shapes | near-duplicate review |
+| [link](https://github.com/codrops/LineTextHoverAnimations) | Terminal text hover: Near-duplicate of U91: per-char scramble on hover | near-duplicate review |
+| [link](https://magicui.design/docs/components/confetti) | Confetti burst: Near-duplicate of U175: particle burst with gravity | near-duplicate review |
+| [link](https://reactbits.dev/animations/ghost-cursor) | Ghost cursor: Near-duplicate of M67: shader smoke trail at cursor | near-duplicate review |
+| [link](https://reactbits.dev/animations/glow-cursor) | Glow cursor: Near-duplicate of M67: glowing cursor trail | near-duplicate review |
+| [link](https://reactbits.dev/animations/splash-cursor) | Splash cursor fluid: Near-duplicate of M647: cursor-stirred dye fluid | near-duplicate review |
+| [link](https://reactbits.dev/animations/target-cursor) | Target cursor: Near-duplicate of U233: corner brackets lock on target | near-duplicate review |
+| [link](https://reactbits.dev/animations/cursor-grid) | Cursor grid: Near-duplicate of M631: grid cells light near cursor | near-duplicate review |
+| [link](https://reactbits.dev/micro/slosh-gauge) | Slosh gauge: Near-duplicate of U104: liquid gauge rising to value | near-duplicate review |
+| [link](https://animata.design/docs/card/card-stack) | Card stack shuffle: Near-duplicate of M528: front card cycles to back | near-duplicate review |
+| [link](https://animata.design/docs/card/WebHooks-card) | Webhook ball travel: Near-duplicate of M35: object travels along path | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/background/pixel-trail.mdx) | Pixel grid cursor trail: Near-duplicate of M631: grid cell cursor trail | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/filter/gooey-svg-filter.mdx) | Gooey panel merge: Near-duplicate of U115: goo filter merges panels | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/variable-font-and-cursor.mdx) | Cursor-mapped font axes: Near-duplicate of M396: variable axes by pointer | near-duplicate review |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/variable-font-hover-by-random-letter.mdx) | Random weight flicker on hover: Near-duplicate of M395: weight change on hover | near-duplicate review |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/animated-frameworks.mdx) | Icon stack 3D hover: Near-duplicate of M47: layers separate in Z | near-duplicate review |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/scale-letter-text.mdx) | Letter 3D scale on hover: Near-duplicate of M279: proximity char scale | near-duplicate review |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/cards/mouse-effect-card.mdx) | Dot repel card: Near-duplicate of M633: dots react near cursor | near-duplicate review |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/community/playful-todolist.mdx) | Wavy strikethrough: Near-duplicate of M8: SVG line draw | near-duplicate review |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/Cards/AnnixArt_wonderful-liger-82.html) | Liquid + smoke card: Near-duplicate of M36: smoke wisps loop | near-duplicate review |
+| [link](https://demos.gsap.com/demo/cursor-trail) | Shape/image flair trail: Near-duplicate of M559: shapes spawn along cursor path | near-duplicate review |
+| [link](https://animate.style/) | Head shake: Near-duplicate of U155: shake with rotation | near-duplicate review |
+| [link](https://animate.style/) | Jello skew: Near-duplicate of U205: jiggle stretch decaying | near-duplicate review |
+| [link](https://ianlunn.github.io/Hover/) | Grow rotate: Near-duplicate of U133: hover scale plus rotate | near-duplicate review |
+| [link](https://animista.net/play/basic/flip-scale) | Flip with scale pop: Near-duplicate of U81: flip with scale | near-duplicate review |
+| [link](https://animista.net/play/basic/flip-scale-2) | Edge flip with scale: Near-duplicate of U81: flip about edge | near-duplicate review |
+| [link](https://animista.net/play/attention/flicker) | Flicker (attention): Near-duplicate of U204: opacity blink/flicker | near-duplicate review |
+| [link](https://animista.net/play/attention/wobble) | Wobble on edge: Near-duplicate of U207: decaying wobble on edge | near-duplicate review |
+| [link](https://21st.dev/@nikolas-sapa/components/background-ascii-wake.md) | ASCII wake trail: Near-duplicate of M631: decaying wake trail grid | near-duplicate review |
+| [link](https://21st.dev/@hyperiux/components/liquid-glass-cursor.md) | Liquid glass cursor: Near-duplicate of M166: refractive lens follows cursor | near-duplicate review |
+| [link](https://21st.dev/@isaiahbjork/components/shader-kinetic-dots.md) | Dot shader trail: Near-duplicate of M631: dot trail behind pointer | near-duplicate review |
+| [link](https://21st.dev/@moumensoliman/components/holographic-wall-shadcnui.md) | Spotlit glyph wall: Near-duplicate of M324: light at pointer reveals glyphs | near-duplicate review |
+| [link](https://21st.dev/@gughigug/components/shave-reveal-hero.md) | Drag-to-shave reveal: Near-duplicate of M477: drag erases top layer | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/crystal-trail-background.md) | Crystal trail: Near-duplicate of M559: shapes spawn along cursor path | near-duplicate review |
+| [link](https://21st.dev/@jatin-yadav05/components/smoke-card.md) | Smoke cursor: Near-duplicate of M67: smoke trail at cursor | near-duplicate review |
+| [link](https://21st.dev/@jahed/components/magnetic-cursor.md) | Fluid magnetic cursor: Near-duplicate of U40: blob cursor follows with spring | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/sentinel-core.md) | Cybernetic eye: Near-duplicate of U217: eye tracks pointer | near-duplicate review |
+| [link](https://21st.dev/@dhileepkumargm/components/interactive-3d-character.md) | Zdog character follows: Near-duplicate of U217: character turns toward pointer | near-duplicate review |
+| [link](https://21st.dev/@alexperezcedeno/components/interactive-folder-gallery.md) | Folder springs open with photos: Near-duplicate of U87: folder opens, photos fan out | near-duplicate review |
+| [link](https://21st.dev/@vaib215/components/logo-particles.md) | Logo particle scatter: Near-duplicate of M270: particle shape repels from pointer | near-duplicate review |
+| [link](https://21st.dev/@kedhareswer/components/tile-scrollbar.md) | 3D tile scrollbar: Near-duplicate of U201: progress ticks scrollbar | near-duplicate review |
+| [link](https://21st.dev/@vgpu/components/radiance-cascades.md) | Draw light radiance: Near-duplicate of U193: pointer-drawn light strokes | near-duplicate review |
+| [link](https://21st.dev/@lran1028/components/smoky-button.md) | Smoky button: Near-duplicate of U249: shader fluid inside button | near-duplicate review |
+| [link](https://21st.dev/@xubohuah/components/geometric-blur-mesh.md) | Blur by mouse on wireframes: Near-duplicate of U13: proximity blur by distance | near-duplicate review |
+| [link](https://21st.dev/@radiumcoders/components/live-orb.md) | Orb with tracking eyes: Near-duplicate of U217: eyes track pointer | near-duplicate review |
+| [link](https://21st.dev/@crafterui/components/mercury-dial.md) | Mercury dial menu: Near-duplicate of U131: FAB bursts into radial items | near-duplicate review |
+| [link](https://21st.dev/@zanwei/components/liquid-connector.md) | Liquid card-to-prompt peel: Near-duplicate of U115: goo stretch into field | near-duplicate review |
+| [link](https://21st.dev/@daiwiikharihar/components/neo-brutalist-kinetic-deck.md) | Kinetic card deck: Near-duplicate of U60: drag and throw cards | near-duplicate review |
+| [link](https://21st.dev/@shadcnspace/components/button-32.md) | Emoji arc physics: Near-duplicate of U259: particles fall and pile on button | near-duplicate review |
+| [link](https://github.com/codrops/ParticleEffectsButtons) | Button disintegrates to particles: Near-duplicate of U259: button breaks into particles | near-duplicate review |
+| [link](https://github.com/codrops/PushGridItems) | Grid item push to fullscreen: Near-duplicate of U227: grid item expands, neighbours pushed | near-duplicate review |
+| [link](https://ui.aceternity.com/labs/gooey-dropdown) | Gooey dropdown: Near-duplicate of U115: goo pill melts into panel | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/menu-with-physics-brick-studio) | Physics menu: Near-duplicate of M236: gravity pile of pills | near-duplicate review |
+| [link](https://www.awwwards.com/inspiration/draggable-candy-footer-submission-6a8d3b1659e02374121591) | Draggable product footer: Near-duplicate of M236: gravity pile, draggable bodies | near-duplicate review |
