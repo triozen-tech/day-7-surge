@@ -12,5 +12,7 @@ import { DEFS as SCROLL_B9_3 } from "../scroll-b9-3";
 import { DEFS as SCROLL_B9_4 } from "../scroll-b9-4";
 import { DEFS as SCROLL_B9_5 } from "../scroll-b9-5";
 import { DEFS as SCROLL_B10_1 } from "../scroll-b10-1";
+import { DEFS as SCROLL_B15_4 } from "../scroll-b15-4";
+import { DEFS as SCROLL_B15_5 } from "../scroll-b15-5";
 
-export const DEFS: MotionDef[] = ([...SCROLL_B2_1, ...SCROLL_B2_2, ...SCROLL_B2_3, ...SCROLL_B8_5, ...SCROLL_B9_1, ...SCROLL_B9_2, ...SCROLL_B9_3, ...SCROLL_B9_4, ...SCROLL_B9_5, ...SCROLL_B10_1] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...SCROLL_B2_1, ...SCROLL_B2_2, ...SCROLL_B2_3, ...SCROLL_B8_5, ...SCROLL_B9_1, ...SCROLL_B9_2, ...SCROLL_B9_3, ...SCROLL_B9_4, ...SCROLL_B9_5, ...SCROLL_B10_1, ...SCROLL_B15_4, ...SCROLL_B15_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));

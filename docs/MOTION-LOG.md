@@ -4,17 +4,17 @@ Every motion in `docs/MOTION-MENU.md` (M75+, X19+, I11+, U01+), where its idea c
 Source of truth: `docs/motion-log.json` → `node scripts/motion-log.mjs` writes this file and `docs/motion-log.csv`.
 No code was copied from any source; "inspired" = motion idea rebuilt from scratch in GSAP (see `docs/SOURCES.md` for licences).
 
-**839 motions · 1319 skipped**
+**899 motions · 1319 skipped**
 
 | Group | Motions |
 |---|---|
-| Text effects | 204 |
-| Hover, buttons & cursor (U) | 146 |
+| Text effects | 231 |
+| Hover, buttons & cursor (U) | 154 |
 | Backgrounds & ambient | 133 |
-| Image effects | 107 |
-| Scroll & pinned | 83 |
+| Image effects | 114 |
+| Scroll & pinned | 95 |
 | Transitions (X) | 77 |
-| Reveals | 62 |
+| Reveals | 68 |
 | Loaders (I) | 27 |
 
 | Batch | Motions |
@@ -32,6 +32,7 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | 11 | 60 |
 | 12 | 60 |
 | 13 | 60 |
+| 15 | 60 |
 | 14 | 59 |
 
 ## Motions
@@ -877,6 +878,66 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | U145 | Hover, buttons & cursor (U) | Link hover variants | U62 | 21st.dev (Great UI Animated Link) | [link](https://21st.dev/@saurabh-2607/components/great-ui-animated-link.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 14 | 2026-10-04 |
 | U146 | Hover, buttons & cursor (U) | Velocity bobble tiles | M71 | 21st.dev (Bobble hover) | [link](https://21st.dev/@motiondotdev/components/motion-bobble-hover.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 14 | 2026-10-04 |
 | U147 | Hover, buttons & cursor (U) | Branched menu | M8 | React Bits | [link](https://reactbits.dev/micro/branched-menu) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 14 | 2026-10-04 |
+| U148 | Hover, buttons & cursor (U) | Fanned card stack aligns on hover | M4 | Animata | [link](https://animata.design/docs/hero/hero-section) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| U149 | Hover, buttons & cursor (U) | Press-and-hold fill | M26 | Kokonut UI | [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/buttons/hold-button.mdx) | inspired, no code copied (source: MIT © 2025 kokonutUI — idea only) | 15 | 2026-10-04 |
+| U150 | Hover, buttons & cursor (U) | Expanding tool label | U36 | Kokonut UI | [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/navigation/toolbar.mdx) | inspired, no code copied (source: MIT © 2025 kokonutUI — idea only) | 15 | 2026-10-04 |
+| U151 | Hover, buttons & cursor (U) | Avatar step-forward | M4 | Animate UI | [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/avatar-group.mdx) | inspired, no code copied (source: MIT + Commons Clause © 2025 Elliot Sutton (Animate UI): use in sites OK, no reselling components — idea only) | 15 | 2026-10-04 |
+| U152 | Hover, buttons & cursor (U) | Spring tether drag | U123 | Animate UI | [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/primitives/animate/spring.mdx) | inspired, no code copied (source: MIT + Commons Clause © 2025 Elliot Sutton (Animate UI): use in sites OK, no reselling components — idea only) | 15 | 2026-10-04 |
+| U153 | Hover, buttons & cursor (U) | Holographic foil shift | M51 | SmoothUI | [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/holographic-foil.mdx) | inspired, no code copied (source: MIT © 2024 Eduardo Calvo (SmoothUI) — idea only) | 15 | 2026-10-04 |
+| U154 | Hover, buttons & cursor (U) | Pulse scale | M37 | Animate.css | [link](https://animate.style/) | inspired, no code copied (source: Animate.css Hippocratic License 2.1 (c) 2021 Daniel Eden - idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| U155 | Hover, buttons & cursor (U) | Shake (anchored) |  | Animista | [link](https://animista.net/play/attention/shake) | inspired, no code copied (source: Animista: generated CSS free for personal & commercial use under FreeBSD licence (c) 2017 Ana Travas - we rebuild in GSAP) | 15 | 2026-10-04 |
+| M664 | Reveals | Back-in (placed card) | M31 | Animate.css | [link](https://animate.style/) | inspired, no code copied (source: Animate.css Hippocratic License 2.1 (c) 2021 Daniel Eden - idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| M665 | Reveals | Elliptic slide-in | M31 | Animista | [link](https://animista.net/play/entrances/slide-in-elliptic) | inspired, no code copied (source: Animista: generated CSS free for personal & commercial use under FreeBSD licence (c) 2017 Ana Travas - we rebuild in GSAP) | 15 | 2026-10-04 |
+| M666 | Reveals | Rainbow floor glow rise | M37 | 21st.dev (Ruixen Gradient Footer) | [link](https://21st.dev/@ruixen.ui/components/ruixen-gradient-footer.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M667 | Reveals | Shattered glass headline | M51 | 21st.dev (Broken by Design — Shattered Glass Hero) | [link](https://21st.dev/@gughigug/components/broken-by-design.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M668 | Reveals | Corner-pivot rotate-in |  | Animate.css | [link](https://animate.style/) | inspired, no code copied (source: Animate.css Hippocratic License 2.1 (c) 2021 Daniel Eden - idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| M669 | Reveals | Roll-in |  | Animate.css | [link](https://animate.style/) | inspired, no code copied (source: Animate.css Hippocratic License 2.1 (c) 2021 Daniel Eden - idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| M670 | Text effects | Jitter text (loop) |  | Animata | [link](https://animata.design/docs/text/jitter-text) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| M671 | Text effects | Lightning text |  | 21st.dev (Lightning Text) | [link](https://21st.dev/@minhxthanh/components/lightning-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 15 | 2026-10-04 |
+| M672 | Text effects | Paragraph wraps around moving silhouette |  | 21st.dev (Silhouette Wrap) | [link](https://21st.dev/@kedhareswer/components/silhouette-wrap.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M673 | Text effects | Recursive type wordmark |  | 21st.dev (Hero Recursive Type) | [link](https://21st.dev/@nikolas-sapa/components/hero-recursive-type.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 15 | 2026-10-04 |
+| M674 | Text effects | Refractive glass headline |  | 21st.dev (Glass Headline Hero) | [link](https://21st.dev/@kedhareswer/components/glass-headline-hero.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M675 | Text effects | Rotating diamond letter |  | 21st.dev (Potfolio Text) | [link](https://21st.dev/@jatin-yadav05/components/potfolio-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 15 | 2026-10-04 |
+| M676 | Text effects | Letter sphere scatter |  | 21st.dev (Ball Study) | [link](https://21st.dev/@mengto/components/ball-study.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M677 | Text effects | Shader bend text | M400 | 21st.dev (BendText) | [link](https://21st.dev/@xubohuah/components/bend-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 15 | 2026-10-04 |
+| M678 | Text effects | Squash-bounce letters |  | 21st.dev (Squash Text) | [link](https://21st.dev/@pacekit/components/squash-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M679 | Text effects | ASCII cascade collapse | M22 | 21st.dev (Text ASCII Cascade) | [link](https://21st.dev/@nikolas-sapa/components/text-ascii-cascade.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 15 | 2026-10-04 |
+| M680 | Text effects | ASCII text render | M43 | React Bits | [link](https://reactbits.dev/text-animations/ascii-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 15 | 2026-10-04 |
+| M681 | Text effects | Colour-cycling letters | M12 | Aceternity UI | [link](https://ui.aceternity.com/components/colourful-text) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 15 | 2026-10-04 |
+| M682 | Text effects | Cursor-proximity scramble | M22 | React Bits | [link](https://reactbits.dev/text-animations/scrambled-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 15 | 2026-10-04 |
+| M683 | Text effects | Dashed-vector letters under cursor | M24 | React Bits | [link](https://reactbits.dev/text-animations/tech-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 15 | 2026-10-04 |
+| M684 | Text effects | Dipole iron filings form text | M45 | 21st.dev (Hero Dipole Field) | [link](https://21st.dev/@nikolas-sapa/components/hero-dipole-field.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 15 | 2026-10-04 |
+| M685 | Text effects | Fuzzy vibrating text | X9 | React Bits | [link](https://reactbits.dev/text-animations/fuzzy-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 15 | 2026-10-04 |
+| M686 | Text effects | Glitch text with clip slices | X9 | 21st.dev (Glitch Text Loader) | [link](https://21st.dev/@elements-/components/loader-glitch-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M687 | Text effects | Gooey marquee | M14 | 21st.dev (Gooey Marquee) | [link](https://21st.dev/@designali-in/components/gooey-marquee.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 15 | 2026-10-04 |
+| M688 | Text effects | Letter hover playground | M12 | Codrops (github.com/codrops) | [link](https://github.com/codrops/LetterInteractions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=31349) | 15 | 2026-10-04 |
+| M689 | Text effects | Letters with flying shapes | M12 | Codrops (github.com/codrops) | [link](https://github.com/codrops/DecorativeLetterAnimations) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=33640) | 15 | 2026-10-04 |
+| M690 | Text effects | Ligature melt | M59 | 21st.dev (Text Ligature Melt) | [link](https://21st.dev/@nikolas-sapa/components/text-ligature-melt.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 15 | 2026-10-04 |
+| M691 | Text effects | Liquid chrome text fill | M52 | 21st.dev (Liquid Metal) | [link](https://21st.dev/@educalvolpz/components/liquid-metal.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M692 | Text effects | Moving hatched shadow text | M49 | Magic UI | [link](https://magicui.design/docs/components/line-shadow-text) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 15 | 2026-10-04 |
+| M693 | Text effects | Organism seeks wordmark | M45 | 21st.dev (Semantic Bloom) | [link](https://21st.dev/@mengto/components/semantic-bloom.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M694 | Text effects | Pill-flicker typer | M22 | 21st.dev (Typer) | [link](https://21st.dev/@soralabs/components/typer.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M695 | Text effects | Scroll burn manifesto | M57 | 21st.dev (Scroll Burn Text) | [link](https://21st.dev/@ruixen.ui/components/scroll-burn-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M696 | Text effects | Speed-lines word cover | M49 | Aceternity UI | [link](https://ui.aceternity.com/components/container-cover) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 15 | 2026-10-04 |
+| M697 | Scroll & pinned | Grid images shrink to random corners | M13 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ScrollAnimationsGrid) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 1 \| demo: https://tympanus.net/codrops/?p=63672) | 15 | 2026-10-04 |
+| M698 | Scroll & pinned | Book-spine columns with flaps | M2 | Codrops (github.com/codrops) | [link](https://github.com/codrops/OnScrollColumnsRows) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Demo 8 \| demo: https://tympanus.net/codrops/?p=73182) | 15 | 2026-10-04 |
+| M699 | Scroll & pinned | Images stretch out of frames |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/ImageToContent) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=64266) | 15 | 2026-10-04 |
+| M700 | Scroll & pinned | Reflection floor scroll |  | Codrops (github.com/codrops) | [link](https://github.com/codrops/ReflectionScroll) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=75702) | 15 | 2026-10-04 |
+| M701 | Scroll & pinned | Image helix | M33 | React Bits | [link](https://reactbits.dev/components/infinite-spiral) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 15 | 2026-10-04 |
+| M702 | Scroll & pinned | Smoke distortion by scroll speed | M68 | Awwwards element | [link](https://www.awwwards.com/inspiration/smoke-effects-distortion-on-scrolling) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 15 | 2026-10-04 |
+| M703 | Scroll & pinned | Refracting crystal over headline | M604 | 21st.dev (Prism Hero) | [link](https://21st.dev/@bevelui/components/prism-hero.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M704 | Scroll & pinned | Laptop lid opens, screen flies out | M47 | Aceternity UI | [link](https://ui.aceternity.com/components/macbook-scroll) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 15 | 2026-10-04 |
+| M705 | Scroll & pinned | Scanner beam turns cards to ASCII | M14 | 21st.dev (ScannerCardStream ) | [link](https://21st.dev/@rahil1202/components/scanner-card-stream.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 15 | 2026-10-04 |
+| M706 | Scroll & pinned | Distorted glass header |  | 21st.dev (Distorted Glass) | [link](https://21st.dev/@cult-ui/components/distorted-glass.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M707 | Scroll & pinned | Horizon rim wipe | M61 | 21st.dev (Horizon Glow Hero) | [link](https://21st.dev/@ruixen.ui/components/horizon-glow-hero.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 15 | 2026-10-04 |
+| M708 | Scroll & pinned | Direction-aware illustration |  | Hear | [link](https://www.awwwards.com/inspiration/svg-animation-on-scroll-direction-hear) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 15 | 2026-10-04 |
+| M709 | Image effects | Image sphere | M33 | 21st.dev (Img Sphere) | [link](https://21st.dev/@tonyzebastian/components/img-sphere.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 15 | 2026-10-04 |
+| M710 | Image effects | Dither helix carousel | M33 | 21st.dev (Dither Helix Carousel) | [link](https://21st.dev/@crafterui/components/dither-helix-carousel.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 15 | 2026-10-04 |
+| M711 | Image effects | Live ordered-dither image |  | Aceternity UI | [link](https://ui.aceternity.com/components/dither-shader) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 15 | 2026-10-04 |
+| M712 | Image effects | Image as ASCII art |  | Aceternity UI | [link](https://ui.aceternity.com/components/ascii-art) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 15 | 2026-10-04 |
+| M713 | Image effects | ASCII rain locks into image | M712 | Aceternity UI | [link](https://ui.aceternity.com/components/ascii-art) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 15 | 2026-10-04 |
+| M714 | Image effects | Particle swirl slide change | X8 | Cosmos | [link](https://www.awwwards.com/inspiration/webgl-particle-image-slider-cosmos) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 15 | 2026-10-04 |
+| M715 | Image effects | Shattered glass image change |  | Uprising | [link](https://www.awwwards.com/inspiration/shattered-glass-effect) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 15 | 2026-10-04 |
 
 ## Skipped
 
