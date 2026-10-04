@@ -4,24 +4,631 @@ Every motion in `docs/MOTION-MENU.md` (M75+, X19+, I11+, U01+), where its idea c
 Source of truth: `docs/motion-log.json` → `node scripts/motion-log.mjs` writes this file and `docs/motion-log.csv`.
 No code was copied from any source; "inspired" = motion idea rebuilt from scratch in GSAP (see `docs/SOURCES.md` for licences).
 
-**0 motions · 0 skipped**
+**60 motions · 548 skipped**
 
 | Group | Motions |
 |---|---|
-
+| Text effects | 45 |
+| Reveals | 15 |
 
 | Batch | Motions |
 |---|---|
-
+| 1 | 60 |
 
 ## Motions
 
 | Code | Group | Name | Variant of | Source site | Source URL | Type | Batch | Date |
 |---|---|---|---|---|---|---|---|---|
-
+| M75 | Reveals | Product rises from behind a horizon | M1 | Welly | [link](https://www.awwwards.com/inspiration/scroll-triggered-animation-product-reveal-welly) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M76 | Reveals | Product rises in front of giant type | M25 | Jetson by Mute | [link](https://www.awwwards.com/inspiration/jetson-by-mute-jetson-by-mute-4) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M77 | Reveals | Image seen through the headline | M24 | Mediterranean Dream | [link](https://www.awwwards.com/inspiration/big-image-with-text-reveal-on-scroll-mediterranean-dream) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M78 | Reveals | Letterbox band opens | M18 | Balans Kitchen | [link](https://www.awwwards.com/inspiration/clip-path-scroll-animation-balans-kitchen-1) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M79 | Reveals | Full-bleed hero shrinks into its frame | M13 | Stella Domo | [link](https://www.awwwards.com/inspiration/stella-domo-zoom-out-hero-image-on-scroll-effect) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M80 | Reveals | Zoom-out reveals the gallery | M28 | Ueno | [link](https://www.awwwards.com/inspiration/zoom-out-gallery-scroll) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M81 | Reveals | Media opens between two words | M28 | Fancy Components | [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/media-between-text.mdx) | inspired, no code copied (source: MIT © 2024 Daniel Petho (Fancy Components) — idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M82 | Reveals | Block reveal (two-phase box wipe) | M1 | Codrops (github.com/codrops) | [link](https://github.com/codrops/BlockRevealers) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/Development/BlockRevealers/) | 1 | 2026-10-04 |
+| M83 | Reveals | Paper-tear headline reveal | M62 | 21st.dev (Tiger Tear Reveal) | [link](https://21st.dev/@kedhareswer/components/tiger-tear-reveal.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 1 | 2026-10-04 |
+| M84 | Reveals | Folded flyer unfolds | M2 | Codrops (github.com/codrops) | [link](https://github.com/codrops/3DRestaurantMenu) | inspired, no code copied (source: MIT (stated in README, no LICENSE file) \| demo: http://tympanus.net/Tutorials/3DRestaurantMenu/) | 1 | 2026-10-04 |
+| M85 | Reveals | Sticky text with clip-path image steps | M18 | Balans Kitchen | [link](https://www.awwwards.com/inspiration/clip-path-scroll-animation-with-sticky-layout-balans-kitchen-1) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M86 | Reveals | Pinned list with cross-swapping visual | M29 | Columbus Travel | [link](https://www.awwwards.com/inspiration/animated-pinned-services-section-columbus-travel) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M87 | Reveals | Images pass a fixed title | M7 | The Happy Few | [link](https://www.awwwards.com/inspiration/sticky-gallery-the-happy-few-the-happy-few) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M88 | Reveals | Stacking cards tilt back in 3D | M40 | Naya Studio | [link](https://www.awwwards.com/inspiration/services-3d-scene-and-stacking-cards-scroll-naya-studio) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M89 | Reveals | Batched viewport stagger | M34 | GSAP demos | [link](https://demos.gsap.com/demo/stagger-items-in-on-scroll) | inspired, no code copied (source: GSAP free standard licence; demo code is author-owned (GreenSock) - look & learn, rebuild ourselves) | 1 | 2026-10-04 |
+| M90 | Text effects | Dual curtain text wipe | M104 | 21st.dev (Dual Wipe Reveal) | [link](https://21st.dev/@soralabs/components/dual-wipe-reveal.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 1 | 2026-10-04 |
+| M91 | Text effects | Layout-pushing word flip | M106 | Aceternity UI | [link](https://ui.aceternity.com/components/layout-text-flip) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 1 | 2026-10-04 |
+| M92 | Text effects | Mask-filled heading, word wipe | M119 | React Bits | [link](https://reactbits.dev/text-animations/masked-heading) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M93 | Text effects | Paper-fold from bottom hinge (words) | M122 | React Bits | [link](https://reactbits.dev/text-animations/fold-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M94 | Text effects | Scroll-scrubbed letter swap | U33 | Fancy Components | [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/scroll-and-swap.mdx) | inspired, no code copied (source: MIT © 2024 Daniel Petho (Fancy Components) — idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M95 | Text effects | Short slide-down stack | M113 | Animata | [link](https://animata.design/docs/text/short-slide-down) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M96 | Text effects | Word pull-up | M124 | Eldora UI | [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/word-pull-up-text.mdx) | inspired, no code copied (source: MIT © Mudunuri Bhaskara Karthikeya Varma (Eldora UI) — idea only) | 1 | 2026-10-04 |
+| M97 | Text effects | 3D rotating phrase swap | M23 | React Bits | [link](https://reactbits.dev/text-animations/rotating-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M98 | Text effects | Blur-in characters, no travel | M6 | Magic UI | [link](https://magicui.design/docs/components/text-animate) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M99 | Text effects | Bottom-up letters staircase | M12 | Animata | [link](https://animata.design/docs/text/bottom-up-letters) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M100 | Text effects | Box reveal wipe | M1 | Magic UI | [link](https://v3.magicui.design/docs/components/box-reveal) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M101 | Text effects | Char flip-up (rotateX 90 -> 0) | M12 | Motion Primitives | [link](https://motion-primitives.com/docs/text-effect) | inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M102 | Text effects | Chars stretch down from above | M12 | Codrops (github.com/codrops) | [link](https://github.com/codrops/OnScrollTypographyAnimations) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| Set 1 \| demo: https://tympanus.net/codrops/?p=69734) | 1 | 2026-10-04 |
+| M103 | Text effects | Circular text ring | M39 | React Bits | [link](https://reactbits.dev/text-animations/circular-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M104 | Text effects | Colour block line wipe | M23 | 21st.dev (Text Block Animation) | [link](https://21st.dev/@daiwiikharihar/components/text-block-animation.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 1 | 2026-10-04 |
+| M105 | Text effects | Echo-trail entrance | M6 | React Bits | [link](https://reactbits.dev/text-animations/echo-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M106 | Text effects | Flip words (blur-out up, letters in) | M59 | Aceternity UI | [link](https://ui.aceternity.com/components/flip-words) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 1 | 2026-10-04 |
+| M107 | Text effects | Focus-blur resolve with blur exit | M50 | Animata | [link](https://animata.design/docs/text/focus-blur-resolve) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M108 | Text effects | Focus-in with tracking (Animista) | M6 | Animista | [link](https://animista.net/play/text/focus-in) | inspired, no code copied (source: Animista: generated CSS free for personal & commercial use under FreeBSD licence (c) 2017 Ana Travas - we rebuild in GSAP) | 1 | 2026-10-04 |
+| M109 | Text effects | Hand-drawn marker annotation | M8 | Magic UI | [link](https://magicui.design/docs/components/highlighter) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M110 | Text effects | Handwriting draw | M8 | 21st.dev (Handwriting SVG) | [link](https://21st.dev/@pulkitxm/components/handwriting-svg.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 1 | 2026-10-04 |
+| M111 | Text effects | Headline splits in half | M23 | Dora Expo | [link](https://www.awwwards.com/inspiration/split-text-in-half-with-scroll-effect-dora-expo-ai-era-web-design) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M112 | Text effects | Inline image text reveal | M20 | 21st.dev (ImgText Reveal Scroll Animation) | [link](https://21st.dev/@ajith66310/components/imgtext-reveal-scroll-animation.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 1 | 2026-10-04 |
+| M113 | Text effects | Kinetic centre build | M12 | Animata | [link](https://animata.design/docs/text/kinetic-center-build) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M114 | Text effects | Letter roll-up on hover | M12 | Baunfire | [link](https://www.awwwards.com/inspiration/text-animation-hover-effect) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M115 | Text effects | Letter scroll reveal | M20 | Skiper UI | [link](https://skiper-ui.com/v1/skiper31) | inspired, no code copied (source: Skiper UI site terms: all rights reserved, no reproduction — LOOK AND LEARN ONLY (free item)) | 1 | 2026-10-04 |
+| M116 | Text effects | Line-by-line slide-left | M23 | Magic UI | [link](https://magicui.design/docs/components/text-animate) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M117 | Text effects | Marker highlight sweep | M20 | Fancy Components | [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/text-highlighter.mdx) | inspired, no code copied (source: MIT © 2024 Daniel Petho (Fancy Components) — idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M118 | Text effects | Marker highlight sweeps words | M20 | Sol | [link](https://www.awwwards.com/inspiration/scroll-based-text-highlight-sol) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M119 | Text effects | Mask-filled heading, word rise | M23 | React Bits | [link](https://reactbits.dev/text-animations/masked-heading) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M120 | Text effects | One word in a sentence changes | M23 | Money in Check | [link](https://www.awwwards.com/inspiration/everything-changes-scroll-driven-typography-money-in-check-a-novel-by-oscar-perez) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 1 | 2026-10-04 |
+| M121 | Text effects | Panning image inside type | M24 | 21st.dev (Image Text) | [link](https://21st.dev/@animbits/components/image-text.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 1 | 2026-10-04 |
+| M122 | Text effects | Paper-fold line unfold (top hinge) | M31 | React Bits | [link](https://reactbits.dev/text-animations/fold-text) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M123 | Text effects | Per-char fade-in-blur rise | M6 | Motion Primitives | [link](https://motion-primitives.com/docs/text-effect) | inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M124 | Text effects | Per-character slide-up (unmasked) | M12 | Magic UI | [link](https://magicui.design/docs/components/text-animate) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M125 | Text effects | Per-line slide-up (no mask) | M23 | Motion Primitives | [link](https://motion-primitives.com/docs/text-effect) | inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M126 | Text effects | Per-word blur dissolve-in | M6 | Motion Primitives | [link](https://motion-primitives.com/docs/text-effect) | inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M127 | Text effects | Rainbow sweep settling to ink | M49 | Magic UI | [link](https://magicui.design/docs/components/dia-text-reveal) | inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M128 | Text effects | Rolling drum text | M12 | GSAP demos | [link](https://demos.gsap.com/demo/rolling-text) | inspired, no code copied (source: GSAP free standard licence; demo code is author-owned (GreenSock) - look & learn, rebuild ourselves) | 1 | 2026-10-04 |
+| M129 | Text effects | Rotated line reveal | M23 | Codrops (github.com/codrops) | [link](https://github.com/codrops/SuperfluidLayout) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=55661) | 1 | 2026-10-04 |
+| M130 | Text effects | Rotating word slot | M58 | Fancy Components | [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/text-rotate.mdx) | inspired, no code copied (source: MIT © 2024 Daniel Petho (Fancy Components) — idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M131 | Text effects | Scroll reveal with tilt + blur | M20 | React Bits | [link](https://reactbits.dev/text-animations/scroll-reveal) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 1 | 2026-10-04 |
+| M132 | Text effects | Sliced text glass effect | M16 | Codrops (github.com/codrops) | [link](https://github.com/codrops/SlicedTextEffect) | inspired, no code copied (source: MIT (LICENSE file, "Copyright (c) 2009 - <year> Codrops") \| demo: https://tympanus.net/codrops/?p=74735) | 1 | 2026-10-04 |
+| M133 | Text effects | Sliding digits (per-digit vertical slide) | M48 | Motion Primitives | [link](https://motion-primitives.com/docs/sliding-number) | inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP) | 1 | 2026-10-04 |
+| M134 | Text effects | Smooth typewriter (clip sweep) | M21 | Aceternity UI | [link](https://ui.aceternity.com/components/typewriter-effect) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 1 | 2026-10-04 |
 
 ## Skipped
 
 | Source URL | Reason | Batch |
 |---|---|---|
-
+| [link](https://reactbits.dev/animations/animated-content) | Exact duplicate of the engine data-reveal (slide from a distance + fade); not a motion code on its own. | research |
+| [link](https://animata.design/docs/hero/product-features) | Card rise = engine data-reveal and hover image zoom = micro; no new reveal motion. | research |
+| [link](https://animata.design/docs/graphs/commit-graph) | App-UI data widget (commit graph squares). | research |
+| [link](https://21st.dev/@daiwiikharihar/components/reveal-image-mask.md) | Exact duplicate of M5 circle / mask wipe (small masked shape blooms to full on scroll). | research |
+| [link](https://21st.dev/@larsen66/components/hole-reveal-hero.md) | Exact duplicate of M5 (a hole opens through the section to what is beneath). | research |
+| [link](https://motion-primitives.com/docs/in-view) | Exact duplicate of M6 text rise from blur (paragraph rises, scales and clears blur). | research |
+| [link](https://21st.dev/@arihantcodes_1f7b8c4d/components/skeleton-reveal.md) | App-UI skeleton crossfade (skeleton loaders are out of scope). | research |
+| [link](https://www.awwwards.com/inspiration/interavtive-bento-grid-with-hover-and-scroll-effects-pixlspace-creative-studio) | Exact duplicate of M34 snap-in bento assemble (hover zoom is a micro). | research |
+| [link](https://21st.dev/@scrollxui/components/hero-with-cards.md) | Exact duplicate of M4 stack fan-out (photo cards fan out under the headline on load). | research |
+| [link](https://github.com/codrops/ImagePixelLoading) | Exact duplicate of M43 pixelated to sharp (this Codrops demo is its source). | research |
+| [link](https://www.awwwards.com/inspiration/grid-zoom-layout) | Exact duplicate of M54 grid to detail (thumbnail scales up with a content panel, others fade). | research |
+| [link](https://animista.net/play/entrances/fade-in) | Plain fade (short move optional): fade alone is not allowed as a motion. | research |
+| [link](https://motion-primitives.com/docs/in-view) | Plain slide + fade (engine data-reveal), no new motion. | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/svg-shapes-animated.mdx) | Exact duplicate of M8 SVG line draw-on. | research |
+| [link](https://magicui.design/docs/components/terminal) | Exact duplicate of M9 print-out line by line + M21 typewriter. | research |
+| [link](https://www.awwwards.com/inspiration/pixelated-image-reveal-dolsten-co) | (research pass) exact duplicate of M43 Pixelated → sharp (scroll-triggered pixel-to-sharp image reveal) | research |
+| [link](https://animate.style/) | (research pass) fadeIn/fadeInUp/Down/Left/Right and slideIn*/slideOut* skipped: exact duplicates of the engine's plain data-reveal (and 'just fade' is banned); fadeOut* likewise | research |
+| [link](https://reactbits.dev/animations/fade-content) | (research pass) plain fade (not allowed as a motion) | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scroll-reveal-paragraph.mdx) | (research pass) Plain fade/translate on view (not allowed as motion) | research |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/) | (research pass) Magnetic, fade, slide, zoom, blur, auto-height effects: exact duplicates (M71, plain reveals, M19) or app UI; base/radix/headless folders are app primitives | research |
+| [link](https://21st.dev/@cnippet-dev/components/text-scramble/scrambled-stats.md) | Exact duplicate of M22: Glyph cipher scramble — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@danielpetho/components/basic-number-ticker/fancy-basic-number-ticker.md) | Exact duplicate of M3: Number ticker — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@sona-ui/components/stagger-text.md) | Exact duplicate of 21m-446: Hover stagger vertical roll — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@elements-/components/loader-terminal-decode.md) | Exact duplicate of M22: Terminal decode loader — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@waleedkibhen/components/reading-text-reveal.md) | Exact duplicate of M20: Reading word highlight — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@jahed/components/animated-svg-text-path.md) | Exact duplicate of M39: Text along any SVG path — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@shadcnspace/components/animated-text-10.md) | Exact duplicate of 21m-1508: Scanner bar text — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/community/components/s/text-animation) | Category listing pages: only the first ~200 components per tag are served in the HTML listing; components beyond that were not reachable without the API key. | research |
+| [link](https://magicui.design/docs/components/morphing-text) | exact duplicate of M59 | research |
+| [link](https://magicui.design/docs/components/marquee) | basic horizontal marquee = M14 (tilted variant kept) | research |
+| [link](https://magicui.design/docs/components/text-reveal) | exact duplicate of M20 scroll-lit statement | research |
+| [link](https://ui.aceternity.com/components/encrypted-text) | exact duplicate of M22 scramble/decode | research |
+| [link](https://ui.aceternity.com/components/typewriter-effect) | char-by-char variant is exact M21 (smooth clip variant kept) | research |
+| [link](https://ui.aceternity.com/components/terminal) | typed command + printed output lines = M21 + M9, no new motion | research |
+| [link](https://reactbits.dev/text-animations/split-text) | exact duplicate of M12 | research |
+| [link](https://reactbits.dev/text-animations/blur-text) | exact duplicate of M6 | research |
+| [link](https://reactbits.dev/text-animations/text-type) | exact duplicate of M21 | research |
+| [link](https://reactbits.dev/text-animations/count-up) | exact duplicate of M3 | research |
+| [link](https://reactbits.dev/components/counter) | exact duplicate of M48/M3 | research |
+| [link](https://reactbits.dev/text-animations/shiny-text) | exact duplicate of M49 | research |
+| [link](https://reactbits.dev/text-animations/curved-loop) | exact duplicate of M39 | research |
+| [link](https://reactbits.dev/text-animations/particle-text) | exact duplicate of M45 | research |
+| [link](https://motion-primitives.com/docs/text-scramble) | Exact duplicate of M22 (scramble/decode) | research |
+| [link](https://animata.design/docs/text/mask-reveal-up) | Exact duplicate of M23 | research |
+| [link](https://animata.design/docs/text/per-character-rise) | Exact duplicate of M12 | research |
+| [link](https://animata.design/docs/text/typing-text) | Exact duplicate of M21 | research |
+| [link](https://animata.design/docs/text/counter) | Exact duplicate of M3 | research |
+| [link](https://animata.design/docs/text/ticker) | Exact duplicate of M48 | research |
+| [link](https://animata.design/docs/text/gibberish-text) | Exact duplicate of M22 | research |
+| [link](https://animata.design/docs/text/scroll-reveal) | Exact duplicate of M20 | research |
+| [link](https://animata.design/docs/text/circular-text) | Exact duplicate of mp spinning text | research |
+| [link](https://animata.design/docs/container/marquee) | Exact duplicate of M14 | research |
+| [link](https://animata.design/docs/container/announcement-ribbon) | Marquee, duplicate of M14 | research |
+| [link](https://animata.design/docs/card/swap-text-card) | Duplicate of swap text | research |
+| [link](https://www.hover.dev/components/countdown) | Exact duplicate: Shifting countdown — same as Animate UI 'Sliding number' | research |
+| [link](https://www.hover.dev/components/links) | Exact duplicate: Reveal links (letter roll) — same as Fancy 'Letter roll swap (hover)' | research |
+| [link](https://skiper-ui.com/v1/skiper58) | Exact duplicate: Text roll navigation — same as Fancy 'Letter roll swap (hover)' | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/typewriter.mdx) | Exact duplicate of M21 typewriter | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/basic-number-ticker.mdx) | Exact duplicate of M3 number counter | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/simple-marquee.mdx) | Exact duplicate of M14 marquee | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/wave-text.mdx) | Same as Eldora 'Wavy letters loop' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/number-flow.mdx) | Same as Cult 'Rolling digit spring' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/typewriter-text.mdx) | Exact duplicate of M21 | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scramble-hover.mdx) | Same as Fancy 'Scramble on hover' | research |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/blur-in-text.mdx) | Exact duplicate of M6 | research |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/fade-text.mdx) | Plain fade (not allowed) | research |
+| [link](https://ui.indie-starter.dev/docs/text-animation) | Indie UI (MIT © Indie UI): gradual spacing, typing, staggered fade, rotate words, letter/word pull-up, blur-in, fade up/down — all duplicates of Eldora candidates or M6/M12/M21; eye-catching buttons = shimmer/shine duplicates | research |
+| [link](https://demos.gsap.com/demo/text-masking) | exact duplicate of M23 line-by-line mask slide | research |
+| [link](https://demos.gsap.com/demo/responsive-line-splits-on-scroll) | exact duplicate of M23 (autoSplit is a technique, same motion) | research |
+| [link](https://demos.gsap.com/demo/animate-text) | exact duplicate of M12 split stagger | research |
+| [link](https://demos.gsap.com/demo/revert-after-animation) | SplitText housekeeping | research |
+| [link](https://demos.gsap.com/demo/ignore-nested-elements) | SplitText housekeeping | research |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/svg-graph/index.js) | bar + counter = M26/M3 duplicates | research |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/text/scramble/index.js) | same as an-block-scramble / gs-scramble-hover | research |
+| [link](https://www.awwwards.com/inspiration/title-scroll-on-svg-path-new-york-city-times) | exact duplicate of M39 text on a moving curved path | research |
+| [link](https://www.awwwards.com/inspiration/particles-typography-animation-maria-joao-abrantes) | same as M45 particle text | research |
+| [link](https://www.awwwards.com/inspiration/text-reveal-animation-oaksun-studio) | line mask reveal = M23 | research |
+| [link](https://www.awwwards.com/elements/typography/) | 'Sleutelaar hero text', 'Massive Japanese typography', 'Kinetic hero typography' etc. have no text description; too vague to rebuild faithfully | research |
+| [link](https://magicui.design/docs/components/text-animate) | exact duplicate of M6 (words rise ~20-40px from blur(10px) to sharp, staggered, on enter) (candidate mui-001) | research |
+| [link](https://21st.dev/@educalvolpz/components/blur-out-up.md) | exact duplicate of M6 (words lift out of blur and drift up, staggered) (candidate 21m-386) | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/blur-out-up.mdx) | exact duplicate of M6 (per-word blur + upward drift, staggered) (candidate ox-146) | research |
+| [link](https://21st.dev/@paceui/components/reveal-text.md) | exact duplicate of M12 (SplitText chars/words/lines staggered up into place) (candidate 21m-370) | research |
+| [link](https://21st.dev/@ibelick/components/text-shimmer-wave.md) | exact duplicate of M49 (a shimmer band travelling through the text) (candidate 21m-2796) | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shine-text.mdx) | exact duplicate of M49 (clipped gradient light sweeping letters on a loop) (candidate ox-205) | research |
+| [link](https://magicui.design/docs/components/animated-shiny-text) | exact duplicate of M49 (narrow bright band sweeping muted text on a loop) (candidate mui-015) | research |
+| [link](https://motion-primitives.com/docs/text-shimmer) | exact duplicate of M49 (background-clip shimmer band looping across text) (candidate mp-014) | research |
+| [link](https://ui.aceternity.com/components/loader) | exact duplicate of M49 (shimmer band looping across a status line) (candidate ace-016) | research |
+| [link](https://reactbits.dev/text-animations/decrypted-text) | exact duplicate of M22 (ScrambleText already locks letters left-to-right from random glyphs) (candidate rb-033) | research |
+| [link](https://21st.dev/@kokonutd/components/matrix-text.md) | exact duplicate of M22 (characters cycle through random glyphs before settling) (candidate 21m-n449) | research |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/texts/matrix-text.mdx) | exact duplicate of M22 (ScrambleText with chars "01"; glyph set is only a parameter) (candidate ox-109) | research |
+| [link](https://github.com/codrops/TypeShuffleAnimation) | exact duplicate of M58 (M58 is built from this demo) (candidate codrops-TypeShuffleAnimation-1) | research |
+| [link](https://21st.dev/@arihantcodes_1f7b8c4d/components/accordion-generative.md) | exact duplicate of M21 (char-by-char reveal with trailing caret) (candidate 21m-365) | research |
+| [link](https://21st.dev/@ziegfiroyt/components/terminal1.md) | typed commands + printed output lines = M21 + M9 combined, no new motion (candidate 21m-n1122) | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/terminal-animation.mdx) | typed commands + printed output lines = M21 + M9 combined, no new motion (candidate ox-063) | research |
+| [link](https://21st.dev/@dillionverma/components/text-reveal.md) | exact duplicate of M20 (words fade in one by one, scrubbed to scroll) (candidate 21m-2470) | research |
+| [link](https://github.com/codrops/ScrollBlurTypography) | exact duplicate of M57 (M57 is built from this demo) (candidate codrops-ScrollBlurTypography-1) | research |
+| [link](https://21st.dev/@danielpetho/components/marquee-along-svg-path/marquee-along-svg-path-mapping.md) | exact duplicate of M39 (words travel continuously along an SVG path, faster with scroll) (candidate 21m-14) | research |
+| [link](https://21st.dev/@danielpetho/components/text-along-path/circle.md) | exact duplicate of M39 (text moves along an SVG path with scroll) (candidate 21m-2161) | research |
+| [link](https://21st.dev/@wensity/components/text-path.md) | exact duplicate of M39 (text tiles along a wave path, looping) (candidate 21m-2252) | research |
+| [link](https://21st.dev/@cnippet-dev/components/scroll-velocity-text/pill-marquee.md) | exact duplicate of M14 (marquee speed/direction follows scroll velocity) (candidate 21m-2223) | research |
+| [link](https://21st.dev/@dillionverma/components/morphing-text.md) | exact duplicate of M59 (blur + threshold goo crossfade between words) (candidate 21m-2777) | research |
+| [link](https://21st.dev/@edwinvakayil/components/morph-texts.md) | exact duplicate of M59 (words morph through a goo filter) (candidate 21m-2835) | research |
+| [link](https://21st.dev/@ncdai/components/apple-hello-effect.md) | real-brand copy (Apple "hello" lettering); generic handwriting draw kept as 21m-460 (candidate 21m-2797) | research |
+| [link](https://www.hover.dev/components/text) | layout utility (text fitted to container width), not a motion (candidate ox-275) | research |
+| [link](https://motion-primitives.com/docs/text-effect) | retriggerable preset wrapper around existing blur/slide/scale reveals (M6/M12), no new motion (candidate mp-007) | research |
+| [link](https://21st.dev/@jahed/components/hover-text-reveal-1.md) | too vague to rebuild ("characters gradually reveal on hover"); covered by kept hover letter effects (candidate 21m-2527) | research |
+| [link](https://21st.dev/@xubohuah/components/neon-rgbtext-effect.md) | static RGB split + glow (no motion); animated neon flicker kept as am-text-flicker (candidate 21m-1460) | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/text-gif.mdx) | needs real video/GIF footage inside letters; image-in-letters version kept (21m-435, rb-001) (candidate ox-065) | research |
+| [link](https://21st.dev/@chamaac/components/gif-text.md) | needs real video/GIF footage inside letters; image-in-letters version kept (21m-435, rb-001) (candidate 21m-2858) | research |
+| [link](https://21st.dev/@minhxthanh/components/dynamic-text-slider.md) | needs real video inside headline words; image-in-letters version kept (21m-435, rb-001) (candidate 21m-n1113) | research |
+| [link](https://magicui.design/docs/components/video-text) | needs real video inside a giant word; image-in-letters version kept (21m-435, rb-001) (candidate mui-023) | research |
+| [link](https://www.awwwards.com/inspiration/text-mask-video-malta-personal-trainer) | needs real video inside letters; image-in-letters version kept (21m-435, rb-001) (candidate aw-032) | research |
+| [link](https://21st.dev/@motiondotdev/components/motion-scroll-horizontal.md) | Exact duplicate of M11: Sticky horizontal gallery — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@manuarora700/components/parallax-scroll.md) | Exact duplicate of M42: Two-column opposite grid — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@erikvalencia1/components/layer-parallax-hero.md) | Exact duplicate of M7: Layer parallax hero — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@manuarora700/components/container-scroll-animation.md) | Exact duplicate of 21m-1402: Container rotate 3D scroll — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@pulkitxm/components/scroll-linked-video-scrubber.md) | Exact duplicate of M27: Video scrubber — same mechanism, trigger and result. | research |
+| [link](https://www.awwwards.com/inspiration/stack-card-scroll-bloom-2) | exact duplicate of M40 sticky stacking cards | research |
+| [link](https://www.awwwards.com/inspiration/card-stacking-swag-2) | exact duplicate of M40 | research |
+| [link](https://www.awwwards.com/inspiration/stacking-cards-faktory) | exact duplicate of M40 (sticky positioning stack) | research |
+| [link](https://www.awwwards.com/inspiration/service-cards-stacking-scroll-animation-oaksun-studio) | exact duplicate of M40 | research |
+| [link](https://www.awwwards.com/inspiration/sticky-section-with-background-colour-transition-finiam) | exact duplicate of M10 pinned background colour shift | research |
+| [link](https://www.awwwards.com/inspiration/mica-change-background-color-on-scroll) | exact duplicate of M10 | research |
+| [link](https://www.awwwards.com/inspiration/sticky-progress-bar-that-updates-on-scroll-scratch) | exact duplicate of M26 progress fill | research |
+| [link](https://www.awwwards.com/inspiration/title-scroll-on-svg-path-new-york-city-times) | exact duplicate of M39 text on a moving curved path | research |
+| [link](https://www.awwwards.com/inspiration/morphing-animation-on-scroll-quantox) | same as M53 SVG shape morph (scroll scrubbed) | research |
+| [link](https://www.awwwards.com/inspiration/testimonials-parallax-marcus-lorenzet-portfolio) | plain parallax = M7 | research |
+| [link](https://www.awwwards.com/inspiration/scroll-scrub-animation-kaito-note-portfolio) | scroll scrub of 3D frames = M27 | research |
+| [link](https://www.awwwards.com/inspiration/3d-product-scroll-animation-bunta-beer) | 3D product turned by scroll = F2/F3 (needs a 3D model) | research |
+| [link](https://www.awwwards.com/inspiration/product-details-scroll-experience-som) | 3D product travel = F3 | research |
+| [link](https://codepen.io/collection/bNPYOw) | GreenSock demo pens via search (parallax, image zoom, slide-in panels, scroll typewriter) all duplicate existing M7/M28/X1/M21 | research |
+| [link](https://github.com/codrops/Blueprint-FixedBackgroundScrollingLayout) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/GridLayoutScrollableContent) | Reviewed; motion is an exact duplicate of an existing code or of a kept candidate | research |
+| [link](https://demos.gsap.com/demo/image-sequence) | exact duplicate of M27 frame-sequence scrub | research |
+| [link](https://demos.gsap.com/demo/motionpath-waypoints) | exact duplicate of M35 / F1 waypoint travel | research |
+| [link](https://demos.gsap.com/demo/scroll-waypoints) | exact duplicate of F1 waypoint travel (Flip between placeholders) | research |
+| [link](https://demos.gsap.com/demo/threejs-scroll-waypoints) | exact duplicate of F1/F3 | research |
+| [link](https://demos.gsap.com/demo/horizontal-scrolling-gallery) | exact duplicate of M11/M41 | research |
+| [link](https://demos.gsap.com/demo/shader-on-scroll) | same as M55 WebGL shift on scroll | research |
+| [link](https://demos.gsap.com/demo/observe-events) | Observer event demo, motion covered by gs-swipe-sections | research |
+| [link](https://demos.gsap.com/demo/smooth-scrolling) | ScrollSmoother engine; lag/speed covered by gs-lag-trail, gs-in-frame-parallax | research |
+| [link](https://demos.gsap.com/demo/animate-scroll-position) | scrollTo utility, no visual motion | research |
+| [link](https://demos.gsap.com/demo/link-to-scroll-progress) | scrub basics | research |
+| [link](https://lenis.darkroom.engineering/) | smooth scroll engine (already used); only snap/horizontal/infinite options yield motion candidates | research |
+| [link](https://scroll.locomotive.ca/docs/examples) | examples are CodeSandbox usage demos (parallax, scroll-call, progress) - parallax = M7; progress var kept | research |
+| [link](https://ui.aceternity.com/components/parallax-hero-images-2) | redirects to homepage (Pro / unreachable) | research |
+| [link](https://animata.design/docs/scroll/stacked-sections) | Exact duplicate of M40 | research |
+| [link](https://www.hover.dev/components/carousels) | Exact duplicate: Horizontal scroll carousel — exact duplicate of M11 | research |
+| [link](https://skiper-ui.com/v1/skiper16) | Exact duplicate: Card stack scroll — exact duplicate of M40 | research |
+| [link](https://skiper-ui.com/v1/skiper30) | Exact duplicate: Oliver parallax — exact duplicate of M7 | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/stacking-cards.mdx) | Exact duplicate of M40 sticky stacking cards | research |
+| [link](https://21st.dev/@danielpetho/components/stacking-cards.md) | exact duplicate of M40: cards pin and covered cards shrink | research |
+| [link](https://github.com/codrops/StickySections) | exact duplicate of M40: covered section shrinks and dims | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scrollable-card-stack.mdx) | exact duplicate of 21m-1070 (Snap stack with blur): same snapping card stack | research |
+| [link](https://ui.aceternity.com/components/parallax-scroll) | exact duplicate of codrops-ColumnScroll-1 (Alternate column scroll): same 3-column grid with middle column reversed | research |
+| [link](https://21st.dev/@smammar/components/scroll-reel-testimonials.md) | exact duplicate of codrops-ColumnScroll-1 (Alternate column scroll): same counter-scrolling columns | research |
+| [link](https://github.com/codrops/SmoothScrollAnimations) | exact duplicate of gs-in-frame-parallax (image plan): same image panning inside its frame | research |
+| [link](https://gsap.com/docs/v3/Plugins/ScrollSmoother/) | exact duplicate of codrops-ElasticGridScroll-1 (Elastic grid columns lag): same per-element scroll lag | research |
+| [link](https://demos.gsap.com/demo/velocity-skew) | exact duplicate of 21m-1335 (image plan): same velocity skew on grid images | research |
+| [link](https://www.awwwards.com/inspiration/scale-down-on-scroll-animation-michela-tartaglia) | exact duplicate of gs-panel-overscroll-shrink (Pinned panel shrink-back with overscroll): same covered section scaling to rounded card | research |
+| [link](https://21st.dev/@lovesickfromthe6ix/components/full-screen-scroll-fx.md) | exact duplicate of 21m-1345 (Pinned wipe slider): same pinned full-screen slides changing by scroll | research |
+| [link](https://21st.dev/@scrollxui/components/features-with-panel.md) | exact duplicate of aw-055 (Split screen, one half sticky): sticky media crossfades per list item | research |
+| [link](https://21st.dev/@youcefbnm/components/scroll-autoplay.md) | exact duplicate of aw-055 (Split screen, one half sticky): stacked items crossfade by scroll position | research |
+| [link](https://21st.dev/@daiwiikharihar/components/scroll-triggered-video-hero.md) | exact duplicate of aw-055 (Split screen, one half sticky): sticky media crossfades per section (video version) | research |
+| [link](https://21st.dev/@ruixen.ui/components/scroll-faqaccordion.md) | exact duplicate of 21m-1901 (Centre-expanding timeline): item expands when it reaches the centre | research |
+| [link](https://21st.dev/@arunachalam/components/scroll-expansion-hero.md) | exact duplicate of rb-045 (Scroll-expand media to full bleed (mid-page)): media expands to full while title splits apart | research |
+| [link](https://21st.dev/@ishamsu/components/immersive-scroll-gallery.md) | exact duplicate of 21m-1352 (Zoom parallax cluster): images scale up at different rates from the centre | research |
+| [link](https://21st.dev/@youcefbnm/components/hero-gallery-scroll-animation.md) | exact duplicate of M31: tilted card flattens to face the viewer on scroll | research |
+| [link](https://ui.aceternity.com/components/container-scroll-animation) | exact duplicate of M31: tilted screen flattens on scroll | research |
+| [link](https://21st.dev/@ruixen.ui/components/container-text-scroll.md) | exact duplicate of M31: block tilts flat within its container on scroll | research |
+| [link](https://www.awwwards.com/inspiration/grid-scroll-schlusselberndt) | exact duplicate of codrops-ScrollAnimationsGrid-7 (Grid rows roll on X through perspective): tiles tilt in, flatten at centre, tilt out | research |
+| [link](https://21st.dev/@ruixen.ui/components/scroll-tilted-grid.md) | exact duplicate of codrops-ScrollAnimationsGrid-7 (Grid rows roll on X through perspective): tiles tilt in, flatten at centre, tilt out | research |
+| [link](https://www.awwwards.com/inspiration/3d-scroll-carousel-xiloteca-trevigiana) | exact duplicate of codrops-3DCarousel-1 (On-scroll 3D carousel): ring of cards rotated by scroll | research |
+| [link](https://21st.dev/@daiwiikharihar/components/cinematic-orbit-hero.md) | exact duplicate of codrops-3DCarousel-1 (On-scroll 3D carousel): images on a 3D ellipse/ring rotated by scroll | research |
+| [link](https://reactbits.dev/components/circular-gallery) | exact duplicate of 21m-1084 (image plan): curved WebGL circular gallery | research |
+| [link](https://magicui.design/docs/components/marquee) | exact duplicate of 21m-105 (image plan): tilted 3D marquee columns | research |
+| [link](https://raw.githubusercontent.com/syntaxUI/syntaxui/main/src/app/(docs)/animations/skewed-infinite-scroll/page.mdx) | exact duplicate of 21m-105 (image plan): items on a tilted plane scrolling continuously | research |
+| [link](https://motion-primitives.com/docs/infinite-slider) | exact duplicate of M14: vertical direction of the same marquee | research |
+| [link](https://magicui.design/docs/components/scroll-based-velocity) | exact duplicate of M14: marquee whose speed and direction follow scroll | research |
+| [link](https://demos.gsap.com/demo/directional-marquee) | exact duplicate of M14: marquee reverses with scroll direction | research |
+| [link](https://magicui.design/docs/components/scroll-progress) | exact duplicate of M26: top bar fills with page scroll | research |
+| [link](https://ui.aceternity.com/components/timeline) | exact duplicate of M26: timeline line fills with scroll | research |
+| [link](https://21st.dev/@manuarora700/components/tracing-beam.md) | exact duplicate of ace-052 (Tracing beam with velocity length): tracing beam with speed-scaled length | research |
+| [link](https://21st.dev/@reuno-ui/components/svg-follow-scroll.md) | exact duplicate of M8: SVG line draws along the page with scroll | research |
+| [link](https://skiper-ui.com/v1/skiper19) | exact duplicate of M8: SVG line draws along the page with scroll | research |
+| [link](https://21st.dev/@joyco/components/image-sequence.md) | exact duplicate of M27: same scrub result; progressive loading is a technique | research |
+| [link](https://21st.dev/@kedhareswer/components/magic-hour.md) | exact duplicate of M27: video scrub with damping (kit film player already does this) | research |
+| [link](https://github.com/codrops/OneElementScroll) | exact duplicate of F1: one image Flips between placeholder waypoints | research |
+| [link](https://github.com/codrops/Exhibition) | exact duplicate of codrops-RoomDisplay-1 (image plan): camera moves between walls of a 3D room | research |
+| [link](https://www.awwwards.com/inspiration/infinite-canvas-gallery-navigation-cusp) | exact duplicate of 21m-1341 (image plan): endless draggable 2D image grid | research |
+| [link](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) | exact duplicate of codrops-ScrollLoopMenu-1 (Infinite scroll loop menu): page wraps back to the start seamlessly | research |
+| [link](https://21st.dev/@manuarora700/components/hero-parallax.md) | exact duplicate of ace-049 (Hero parallax card rows): tilted card rows slide opposite and straighten | research |
+| [link](https://21st.dev/@patrickthomasdunn1988/components/desert-drift.md) | needs a 3D car/vehicle model and scene (no placeholder shows it) | research |
+| [link](https://www.awwwards.com/inspiration/3d-scroll-and-drag-interaction-kkl-luzern-immersive-venue) | needs a 3D venue scene/model to tour | research |
+| [link](https://21st.dev/@ssychui/components/project-index.md) | Exact duplicate of 21m-1192: Floating cover beside row — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@manuarora700/components/focus-cards.md) | Exact duplicate of 21m-948: Focus cards — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@avanishverma4/components/pixel-hover-effect.md) | Exact duplicate of 21m-261: Pixel hover fill — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@manuarora700/components/direction-aware-hover.md) | Exact duplicate of 21m-2000: Direction-aware hover — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/community/components/s/ascii) | ~170 "ASCII editor" baked video loops of user images; kept one generic candidate (ASCII image with wave/ripple/shimmer/pulse/flicker modes); the rest are the same effect on different pictures. | research |
+| [link](https://www.awwwards.com/inspiration/pixelated-image-reveal-dolsten-co) | exact duplicate of M43 Pixelated → sharp (scroll-triggered pixel-to-sharp image reveal) | research |
+| [link](https://www.awwwards.com/inspiration/mouse-move-fluid-effect-house-of-dreamers) | same as M67 flowmap liquid trail | research |
+| [link](https://www.awwwards.com/inspiration/cursor-liquid-effect) | same as M67 flowmap liquid trail | research |
+| [link](https://www.awwwards.com/inspiration/image-reveal-hover-effect-project-page-tilt) | same as M51 3D card tilt-rotate | research |
+| [link](https://www.awwwards.com/inspiration/dynamic-image-trail-hero-interaction-elespacio-3) | same mechanism as aw cursor image trail (KOTA) candidate | research |
+| [link](https://www.awwwards.com/inspiration/image-trail-effect-makemepulse) | same as cursor image trail candidate | research |
+| [link](https://github.com/codrops/Blueprint-BackgroundSlideshow) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/Blueprint-FullWidthImageSlider) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/GammaGallery) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/GridLayoutAnimation) | Reviewed; motion is an exact duplicate of an existing code or of a kept candidate | research |
+| [link](https://github.com/codrops/ImageRevealHover) | Reviewed; motion is an exact duplicate of an existing code or of a kept candidate | research |
+| [link](https://demos.gsap.com/demo/flip-gallery-modal) | exact duplicate of M54 grid to detail | research |
+| [link](https://demos.gsap.com/demo/simple-grid-flip-modal) | exact duplicate of M54 | research |
+| [link](https://reactbits.dev/components/tilted-card) | exact duplicate of M51 | research |
+| [link](https://reactbits.dev/components/reflective-card) | needs webcam | research |
+| [link](https://reactbits.dev/components/carousel) | generic carousel UI | research |
+| [link](https://motion-primitives.com/docs/carousel) | Plain drag carousel, no distinct motion | research |
+| [link](https://animata.design/docs/card/tilted-card) | Duplicate of M51 | research |
+| [link](https://animata.design/docs/feature-cards/tilted-card) | Duplicate of M51 | research |
+| [link](https://animata.design/docs/image/image-box-shadow) | Trivial hover shadow | research |
+| [link](https://animata.design/docs/carousel/image-carousel) | Plain carousel | research |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/primitives/effects/tilt.mdx) | Exact duplicate: Tilt — exact duplicate of M51 | research |
+| [link](https://www.hover.dev/components/other) | Exact duplicate: Mouse image trail — same motion as Fancy 'Cursor image trail' | research |
+| [link](https://skiper-ui.com/v1/skiper47) | Exact duplicate: Perspective carousel — same as SmoothUI 'Coverflow carousel' | research |
+| [link](https://skiper-ui.com/v1/skiper52) | Exact duplicate: Expand on hover (horizontal) — same as SmoothUI 'Expanding panel gallery' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/tilt-card.mdx) | Exact duplicate of M51 | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/cursor-image-trail.mdx) | Same as Fancy 'Cursor image trail' | research |
+| [link](https://ui.lukacho.com/components) | No LICENSE found (no public repo located); listed motions (marquee, grid beam, custom cursor, image swiper) duplicate other candidates | research |
+| [link](https://www.awwwards.com/inspiration/cursor-image-trail-effect-kota-1-1) | exact duplicate of codrops-ImageTrailEffects-1 (Mouse image trail (6 styles)): same spawn-and-fade cursor trail | research |
+| [link](https://reactbits.dev/animations/image-trail) | exact duplicate of codrops-ImageTrailEffects-1 (Mouse image trail (6 styles)): same spawn-and-fade cursor trail | research |
+| [link](https://animata.design/docs/image/trailing-image) | exact duplicate of codrops-ImageTrailEffects-1 (Mouse image trail (6 styles)): same spawn-and-fade cursor trail | research |
+| [link](https://reactbits.dev/animations/image-trail) | exact duplicate of codrops-MotionTrailAnimations-3 (Trail: speed-based brightness/throw): same speed brightness + throw trail | research |
+| [link](https://reactbits.dev/animations/image-trail) | exact duplicate of codrops-MotionTrailAnimations-4 (Trail: oriented to direction): same direction-oriented trail | research |
+| [link](https://reactbits.dev/animations/image-trail) | exact duplicate of codrops-MotionTrailAnimations-7 (Trail: 3D depth recede): same 3D tilt/depth trail | research |
+| [link](https://www.awwwards.com/inspiration/list-image-hover) | exact duplicate of gs-hover-image-preview (Cursor-tracking image preview list): same list-hover image following cursor with velocity tilt | research |
+| [link](https://21st.dev/@daiwiikharihar/components/cinematic-list.md) | exact duplicate of aw-087 (Menu hover fullscreen preview): same list hover full-screen background image | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/coverflow-carousel.mdx) | exact duplicate of 21m-16 (Coverflow flip-stack): same coverflow | research |
+| [link](https://21st.dev/@ruixen.ui/components/coverflow-carousel.md) | exact duplicate of 21m-6 (Inverted-perspective coverflow): same inverted/reversed coverflow | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/three-d-carousel.mdx) | exact duplicate of aw-105 (3D carousel thrown with physics): same drag-spun 3D cylinder with inertia | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/carousel/box-carousel.mdx) | exact duplicate of ox-004 (CSS 3D box turn): same 3D box turning 90° per slide | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/orbital-image-wheel.mdx) | exact duplicate of aw-104 (Rotating product wheel): same drag wheel with inertia and top highlight | research |
+| [link](https://ui.aceternity.com/components/card-stack) | exact duplicate of gs-deck-cycle (Card deck cycle): same front-card-to-back cycle | research |
+| [link](https://21st.dev/@motiondotdev/components/motion-card-stack.md) | exact duplicate of ox-183 (Flick-to-back photo stack): same swipe top photo to back of stack | research |
+| [link](https://www.hover.dev/components/cards) | exact duplicate of rb-073 (Swipe stack): same swipe-away stack | research |
+| [link](https://skiper-ui.com/v1/skiper48) | exact duplicate of rb-073 (Swipe stack): same swipe-away stack | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/hover-expand.mdx) | exact duplicate of 21m-1092 (Hover expand panels with vertical labels): same hover-expand panels with vertical labels | research |
+| [link](https://ui.aceternity.com/labs/interface-crafts-cards) | exact duplicate of 21m-1081 (Squeeze accordion): same select-to-widen row of cards | research |
+| [link](https://21st.dev/@manuarora700/components/lens.md) | exact duplicate of ace-055 (Lens magnifier loupe): same cursor zoom loupe | research |
+| [link](https://21st.dev/@baozhouqi/components/magnifier-lens.md) | exact duplicate of aw-092 (Glass lens refraction): same refracting lens following cursor | research |
+| [link](https://21st.dev/@dhileepkumargm/components/frosted-image-reveal-1.md) | exact duplicate of 21m-1263 (Circular blur-mask reveal): same cursor-cleared area through blur/frost | research |
+| [link](https://21st.dev/@unlumen/components/side-by-side-slide.md) | exact duplicate of mp-043 (Draggable / hover compare slider): same spring-follow compare divider | research |
+| [link](https://demos.gsap.com/demo/image-mask-on-scroll) | exact duplicate of M46: scroll wipe between two images, same visual as the existing before/after slider | research |
+| [link](https://reactbits.dev/components/morph-slider) | exact duplicate of M66: displacement-texture melt between images | research |
+| [link](https://21st.dev/@rahil1202/components/water-ripple-image.md) | exact duplicate of M69: looping water ripples over an image | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/dither-image.mdx) | exact duplicate of 21m-321 (Dither image scroll resolve): dither bit-depth resolving to full image | research |
+| [link](https://ui.aceternity.com/components/dither-shader) | exact duplicate of ace-063 (Ordered dither image): duotone is a colour option of the same dither shader | research |
+| [link](https://21st.dev/@saurabh-2607/components/great-ui-ascii-image.md) | exact duplicate of ace-066 (Image to ASCII art): same live image-to-ASCII render | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/filter/pixelate-svg-filter.mdx) | exact duplicate of M43: pixelated to sharp (SVG filter instead of canvas, same visual) | research |
+| [link](https://www.awwwards.com/inspiration/texture-hover-reveal-duten) | exact duplicate of codrops-DoubleImageHoverEffects-1 (Double image hover clip + filter (11)): hover mask reveal of a second (texture) image | research |
+| [link](https://ui.aceternity.com/components/expandable-card) | exact duplicate of M54: card morphs into an enlarged detail panel | research |
+| [link](https://ui.aceternity.com/components/apple-cards-carousel) | exact duplicate of M54: card morphs into a full-screen detail sheet | research |
+| [link](https://ui.aceternity.com/components/parallax-hero-images) | exact duplicate of ox-015 (Mouse-depth floating collage): same pointer depth-parallax collage | research |
+| [link](https://www.awwwards.com/inspiration/auto-draggable-carousel-elisava) | exact duplicate of an-auto-drift-carousel (Auto-drift grab carousel): same self-drifting grab carousel | research |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/community/motion-carousel.mdx) | exact duplicate of gs-center-scale-loop (Seamless loop carousel with centre scale): same scale-on-centre carousel | research |
+| [link](https://animata.design/docs/image/zoom-image) | exact duplicate of an-085 (Photo booth hover zoom): zoom in/out is a direction of the same hover zoom | research |
+| [link](https://reactbits.dev/components/spotlight-card) | exact duplicate of micro candidate mp-045 / ace-089 (Cursor spotlight inside card): card UI effect, belongs to micro | research |
+| [link](https://reactbits.dev/components/border-glow) | exact duplicate of micro candidate ox-295 / ace-100 (pointer border glow): card UI effect, belongs to micro | research |
+| [link](https://ui.aceternity.com/components/direction-aware-hover) | exact duplicate of micro candidate codrops-DirectionAwareHoverEffect-1: same direction-aware caption overlay | research |
+| [link](https://ui.aceternity.com/components/focus-cards) | exact duplicate of micro candidate 21m-948 (Hover dims siblings): same blur-the-rest focus cards | research |
+| [link](https://www.awwwards.com/inspiration/autoplay-video-on-hover-accordion) | needs real video clips (panel motion itself is kept as 21m-1081 squeeze accordion) | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/hover-video-player.mdx) | needs real video clips (hover-to-play video tile); no placeholder shows it | research |
+| [link](https://21st.dev/@altered-data/components/sakura.md) | exact duplicate of M52 animated gradient mesh (soft colour blobs drifting and blending) | research |
+| [link](https://21st.dev/@moumensoliman/components/floating-gradient-shadcnui.md) | exact duplicate of M52 (blurred colour blobs drift and scale) | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/background/animated-gradient-svg.mdx) | exact duplicate of M52 (blurred colour blobs drift on loops) | research |
+| [link](https://animata.design/docs/background/blurry-blob) | exact duplicate of M52 (blurred blobs scaling on loops) | research |
+| [link](https://21st.dev/@h0bb5/components/cool-blob-effect.md) | exact duplicate of M52 (blurred blobs morphing on keyframes) | research |
+| [link](https://motion-primitives.com/docs/glow-effect) | exact duplicate of M37 breathing glow (halo scale/opacity yoyo) | research |
+| [link](https://magicui.design/docs/components/border-beam) | exact duplicate of M64 (light segment runs round a border forever) | research |
+| [link](https://www.hover.dev/components/other) | exact duplicate of M70 film grain (moving noise overlay) | research |
+| [link](https://github.com/codrops/GooeyCursor) | exact duplicate of M65 (built from this demo) | research |
+| [link](https://www.awwwards.com/inspiration/cursor-with-smoke-effect-distortion) | exact duplicate of M67 flowmap liquid trail | research |
+| [link](https://reactbits.dev/backgrounds/side-rays) | direction-only variant of M61 light rays (rays from the side); add "side" to M61 directions | research |
+| [link](https://reactbits.dev/backgrounds/pixel-snow) | exact duplicate of M15 (falling snow particles) | research |
+| [link](https://github.com/codrops/AboveBeneath) | exact duplicate of M15 (rising bubbles) | research |
+| [link](https://animata.design/docs/list/orbiting-items) | exact duplicate of M33 orbit ring (items orbit with counter-rotation) | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/circling-elements.mdx) | exact duplicate of M33 orbit ring (upright satellites on a circle) | research |
+| [link](https://21st.dev/@reuno-ui/components/skiper39.md) | needs a walking-figure sprite sheet asset we lack | research |
+| [link](https://skiper-ui.com/v1/skiper39) | needs a walking-figure sprite sheet asset we lack | research |
+| [link](https://motion-primitives.com/docs/scroll-progress) | exact duplicate of M26 progress fill (scroll progress bar) | research |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/integrations.mdx) | icon marquee rows = M14 marquee strip around a static tile (exact duplicate) | research |
+| [link](https://21st.dev/@kokonutd/components/background-paths.md) | Exact duplicate of 21m-399: Background paths — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@ruixen.ui/components/rotating-gradient-right.md) | Exact duplicate of 21m-636: Rotating conic glow behind — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@karthikmudunuri/components/orbit-rotation.md) | Exact duplicate of 21m-786: Dotted orbits of icons — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/community/components/s/shader) | ~100+ "Shader Builder" presets are the same 30-odd shader styles in different palettes; kept one candidate per style (Mesh drift, Waves, Silk, Plasma, Metaballs, Fluted glass, Flow field, Voronoi, Rings, Colour panels, Halftone CMYK/Dots, Simplex/Perlin/Neuro noise, Smoke ring, God rays, Swirl, Spiral, Orb, Caustics, Warp stripes, Pulsing border, Dot grid/orbit, Water, Liquid metal, Gem smoke, Heatmap, Paper texture, Grain gradient), palette-only copies skipped. | research |
+| [link](https://21st.dev/community/components/s/gradient) | ~60 "Gradient Builder" pure-CSS static gradients (Bloom Field, Silk Blend, Axis Blend, Core Glow, Echo Rings, Orbit Sweep, Layered Tide styles) are static backgrounds, not motion; skipped. | research |
+| [link](https://21st.dev/community/components/s/ascii) | ~170 "ASCII editor" baked video loops of user images; kept one generic candidate (ASCII image with wave/ripple/shimmer/pulse/flicker modes); the rest are the same effect on different pictures. | research |
+| [link](https://21st.dev/community/components/s/globe) | COBE/R3F globe variants with badges, emoji, polaroids, flights etc. are data-widget dressings of one rotating dot-globe; kept dot-globe + marker-pulse only. Real-brand logo shaders (e.g. Next.js, Snapchat) skipped. | research |
+| [link](https://magicui.design/docs/components/flickering-grid) | exact duplicate of M60 | research |
+| [link](https://magicui.design/docs/components/light-rays) | exact duplicate of M61 | research |
+| [link](https://magicui.design/docs/components/progressive-blur) | static, no motion | research |
+| [link](https://magicui.design/docs/components/backlight) | static glow | research |
+| [link](https://magicui.design/docs/components/noise-texture) | static grain (M70 covers animated) | research |
+| [link](https://magicui.design/docs/components/hexagon-pattern) | static SVG pattern | research |
+| [link](https://magicui.design/docs/components/striped-pattern) | static SVG pattern | research |
+| [link](https://magicui.design/docs/components/dot-pattern) | static | research |
+| [link](https://magicui.design/docs/components/grid-pattern) | static | research |
+| [link](https://ui.aceternity.com/components/grid-and-dot-backgrounds) | static pattern, no motion | research |
+| [link](https://ui.aceternity.com/components/scales) | static line-pattern background, no motion | research |
+| [link](https://ui.aceternity.com/components/webcam-pixel-grid) | needs live webcam input | research |
+| [link](https://reactbits.dev/backgrounds/light-rays) | exact duplicate of M61 | research |
+| [link](https://reactbits.dev/animations/noise) | exact duplicate of M70 | research |
+| [link](https://animata.design/docs/background/dot) | Static pattern | research |
+| [link](https://animata.design/docs/background/grid) | Static pattern | research |
+| [link](https://animata.design/docs/background/diagonal-lines) | Static pattern | research |
+| [link](https://animata.design/docs/background/zigzag) | Static pattern | research |
+| [link](https://animata.design/docs/container/fibonacci-lines) | Static pattern | research |
+| [link](https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/cobe-globe.mdx) | 3D globe widget, covered by Magic UI fork | research |
+| [link](https://syntaxui.com/effects/background) | Static CSS patterns (bricks, dots, grid): no motion | research |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/timeline-50K-stars/index.js) | performance stress test | research |
+| [link](https://www.awwwards.com/inspiration/mouse-move-fluid-effect-house-of-dreamers) | same as M67 flowmap liquid trail | research |
+| [link](https://www.awwwards.com/inspiration/cursor-liquid-effect) | same as M67 flowmap liquid trail | research |
+| [link](https://www.awwwards.com/inspiration/hero-gradient-hazey-1) | WebGL gradient = M52 animated gradient mesh | research |
+| [link](https://www.awwwards.com/inspiration/animated-background-verticite-architecture) | blurred looping gradient = M52 | research |
+| [link](https://21st.dev/@patrick-xin/components/morphing-dialog.md) | Exact duplicate of M54: card grows into a full-screen detail view (Flip), same trigger and result. | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/expandable-screen.mdx) | Exact duplicate of M54: card/button morphs into a full-screen view and back. | research |
+| [link](https://github.com/codrops/AnimatedGridLayout) | Exact duplicate of M54: grid card enlarges to fill the content area, shrinks back on close. | research |
+| [link](https://github.com/codrops/LayersAnimation) | Exact duplicate of M63: stacked layers wipe up with polygon clip-path one after another. | research |
+| [link](https://github.com/codrops/LiquidDistortion) | Exact duplicate of M66 displacement-map swap (map scales up, crossfade, relaxes). | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-zoom-transition.mdx) | Exact duplicate of M56 WebGL zoom-blur transition (vertical-progress zoom wash). | research |
+| [link](https://21st.dev/@gughigug/components/sunset-skyline-hero.md) | Exact duplicate of X10 zoom into a window (camera pushes through a window into the next scene). | research |
+| [link](https://21st.dev/@educalvolpz/components/shader-reveal-transition.md) | Collection of shader transitions (noise, zoom, circle, wipe, luma, planetary, stripes, push); each style is kept as its own entry. | research |
+| [link](https://animista.net/play/exits/fade-out) | Plain fade-out (optionally with a short move): fade alone is not allowed as a motion; X12 covers fade-based handovers. | research |
+| [link](https://animista.net/play/exits/slide-out-fwd) | Exact duplicate of X4 zoom-through (element flies forward through the camera). | research |
+| [link](https://21st.dev/@educalvolpz/components/sdf-circle-transition.md) | Exact duplicate of X6 circle iris (soft-edged circle shader reveal). | research |
+| [link](https://github.com/codrops/PixelTransition) | Exact duplicate of I6 pixel transition (this Codrops demo is the source of I6). | research |
+| [link](https://21st.dev/@luv-jeri/components/pixel-swap.md) | Exact duplicate of X8 / M17 pixel dissolve (staggered pixel tile clip swap). | research |
+| [link](https://github.com/codrops/GlitchSlideshow) | Exact duplicate of X9 RGB glitch cut (stacked copies tear with clip rectangles). | research |
+| [link](https://21st.dev/@framecn/components/zoom-through-transition.md) | (research pass) Exact duplicate of X4: Zoom through centre — same mechanism, trigger and result. | research |
+| [link](https://www.awwwards.com/inspiration/fullscreen-overlay-menu-with-diagonal-slide-transition) | (research pass) same mechanism as X7 diagonal wipe | research |
+| [link](https://www.awwwards.com/inspiration/pixel-page-transition-vivid-page-by-fooror) | (research pass) same as X8 pixel dissolve | research |
+| [link](https://www.awwwards.com/inspiration/image-and-page-transitions-nord-quantique) | (research pass) pixel masking = X8 pixel dissolve | research |
+| [link](https://www.awwwards.com/awwwards/collections/transitions/) | (research pass) 'Page flip' (seasoned.koto.studio) = M2 3D page flip; other entries titled only 'Page Transition' with no readable description | research |
+| [link](https://github.com/codrops/astro-shop-view-transitions) | (research pass) Browser View Transitions shared-element morph = same result as M54 Flip layout morph (exact duplicate) | research |
+| [link](https://demos.gsap.com/demo/observe-events) | (research pass) Observer event demo, motion covered by gs-swipe-sections | research |
+| [link](https://barba.js.org/examples/) | (research pass) only 2 CodePen examples (Sync sliding, Once upon a router) - CodePen blocked; sync sliding = same as sw-parallel-slideshow | research |
+| [link](https://swup.js.org/getting-started/demos/) | (research pass) basic fade = X12; multiple/forms/inline-forms/infinite-scroll-cache are functional demos | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/sdf-circle-transition.mdx) | (research pass) Exact duplicate of X6 circle iris | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-circle-transition.mdx) | (research pass) Same as SmoothUI 'Warped circle reveal' / X6 | research |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text18.module.css) | Exact duplicate of M21 typewriter / caret (word types and deletes with a blinking caret). | research |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/jeremyssocial_ugly-bullfrog-62.html) | Exact duplicate of M21 typewriter / caret (code types and deletes in a loop). | research |
+| [link](https://21st.dev/@designali-in/components/loading-overlay.md) | Exact duplicate of I10 (percentage counts to 100, then the overlay clips out). | research |
+| [link](https://21st.dev/@gaxocif204/components/preloader.md) | Exact duplicate of the I1 / engine loader exit (panel slides up off screen when ready). | research |
+| [link](https://21st.dev/@mdafsarx/components/counter-loader.md) | Exact duplicate of M48 odometer roll (big counter digits roll in a grid). | research |
+| [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress28.module.css) | Exact duplicate of M26 progress fill (box fills bottom to top, then fades). | research |
+| [link](https://github.com/codrops/RapidLayersAnimation) | Exact duplicate of I7 / M63 rapid layers (this Codrops demo is their source). | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/motion-loader.mdx) | Pack of 12 mini loaders; its distinct pieces (cradle, hourglass, orbit) are kept as single entries. | research |
+| [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/Nawsome_wet-mayfly-23.html) | Needs an illustrated character asset (running figure in a wheel); not a brand-site motion. | research |
+| [link](https://21st.dev/@elements-/components/loader-terminal-decode.md) | (research pass) Exact duplicate of M22: Terminal decode loader — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/community/components/s/spinner) | (research pass) Dozens of tiny UI spinners (dots, bars, arcs, rings) skipped as app-UI widgets except those with a distinct shape idea usable as a brand loader. | research |
+| [link](https://21st.dev/community/components/s/loader) | (research pass) 8-bit/retro UI kit pieces, skeletons, tooltips, dropdowns, tabs, toasts, forms, tables, date pickers and other pure app-UI widgets skipped per brief. | research |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ellipsis.vue) | (research pass) plain dot fade spinner (app-UI) | research |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ring2.vue) | (research pass) plain spinning ring (app-UI) | research |
+| [link](https://github.com/vineethtrv/css-loader) | (research pass) ~330 circle/bubble/line/rect/objects/graph/skeleton spinners skipped as generic app-UI spinners; text (18) and progress (30) categories reviewed, distinct ones kept; cl text03/04/07/08/10/11 are colour/shape variants of kept ones; progress02-30 others are plain fills/stripes/balls | research |
+| [link](https://github.com/loadingio/css-spinner) | (research pass) circle/default/dual-ring/ellipsis/facebook/grid/ring/spinner: generic app spinners (kept ripple/heart/hourglass/roller) | research |
+| [link](https://ui.aceternity.com/components/sliding-loader) | (research pass) redirects to homepage (Pro / unreachable) | research |
+| [link](https://uiverse.io/loaders) | (research pass) uiverse.io site returns 403 to fetch; used the official MIT galaxy repo (https://github.com/uiverse-io/galaxy) instead. ~3,100 elements scanned by tags/keyframes; most are near-identical spinners, ripple and shine buttons, social icons and checkbox/toggle UI, so only distinct motion families were kept | research |
+| [link](https://reactbits.dev/animations/blob-cursor) | Exact duplicate of existing M65 (Blob cursor): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@chamaac/components/shimmer-button.md) | Exact duplicate of existing M49 (Shimmer text button): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@animbits/components/loaders-skeleton.md) | Exact duplicate of existing M49 (Skeleton shimmer): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@dillionverma/components/shine-border.md) | Exact duplicate of existing M64 (Shine border): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@shadcnspace/components/button-33.md) | Exact duplicate of existing M64 (Spinning conic border): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@originui/components/tabs/vertical-tabs.md) | Exact duplicate of existing M64 (Rainbow border button): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@nexus-ui/components/nebula-cta-glow.md) | Exact duplicate of existing M37 (Nebula glow button): same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@sh20raj/components/optimized-tilt-card.md) | Exact duplicate of existing M51 (Tilt card with pointer sheen): same mechanism, trigger and result. | research |
+| [link](https://ui.aceternity.com/components/comet-card) | Exact duplicate of existing M51 (Comet-style tilt card): same mechanism, trigger and result. | research |
+| [link](https://github.com/codrops/ButtonStylesInspiration) | Pack of hover styles; every motion in it is an exact duplicate of a kept entry (fx-button-bubble, hv-sweep, ox-100, fx-input-trace, an-049), its URL is listed in their also_seen_at. | research |
+| [link](https://ui.aceternity.com/components/tailwindcss-buttons) | Pack of hover styles; every motion in it is an exact duplicate of a kept entry (fx-button-shine, hv-grow-shadow, an-045, mp-034), its URL is listed in their also_seen_at. | research |
+| [link](https://raw.githubusercontent.com/syntaxUI/syntaxui/main/src/app/(docs)/animations/hovers/jiggle/page.mdx) | Pack of hover styles; every motion in it is an exact duplicate of a kept entry (ac-tada, hv-buzz, hv-pop, ac-swing), its URL is listed in their also_seen_at. | research |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/cursor.mdx) | Exact duplicate of the kit's engine Cursor (dot + lagging follower with data-cursor label). | research |
+| [link](https://21st.dev/@moumensoliman/components/liquid-cursor.md) | Exact duplicate of M65: Gooey liquid cursor — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@dillionverma/components/shimmer-button.md) | Exact duplicate of 21m-340: Perimeter shimmer — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@patrickthomasdunn1988/components/wilderness.md) | Exact duplicate of 21m-444: Hover parallax hero layers — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@sona-ui/components/stagger-text.md) | Exact duplicate of 21m-446: Hover stagger vertical roll — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@radiumcoders/components/animated-testimonials.md) | Exact duplicate of 21m-948: Hover focus quote — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@manuarora700/components/focus-cards.md) | Exact duplicate of 21m-948: Focus cards — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@avanishverma4/components/pixel-hover-effect.md) | Exact duplicate of 21m-261: Pixel hover fill — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@tom_ui/components/flow-button.md) | Exact duplicate of 21m-2263: Flowing dashed border — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/@manuarora700/components/direction-aware-hover.md) | Exact duplicate of 21m-2000: Direction-aware hover — same mechanism, trigger and result. | research |
+| [link](https://21st.dev/community/components/s/spinner) | Dozens of tiny UI spinners (dots, bars, arcs, rings) skipped as app-UI widgets except those with a distinct shape idea usable as a brand loader. | research |
+| [link](https://21st.dev/community/components/s/loader) | 8-bit/retro UI kit pieces, skeletons, tooltips, dropdowns, tabs, toasts, forms, tables, date pickers and other pure app-UI widgets skipped per brief. | research |
+| [link](https://github.com/codrops/AnimatedAnimals) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/AnimatedMenuIcon) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/AnimatedSVGIcons) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/AudioVisualizers) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/BalloonButton) | Needs a Blender-baked cloth simulation asset (three.js); no placeholder possible | research |
+| [link](https://github.com/codrops/Blueprint-ElasticContentSlider) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/Blueprint-HorizontalDropDownMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/Blueprint-NestedAccordion) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/Blueprint-SlidePushMenus) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/Blueprint-VerticalIconMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/BookPreview) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/CSSProgress) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/Calendario) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/CheckoutConcepts) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ColorExtraction) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/CreativeButtons) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/DialogEffects) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/DotNavigationStyles) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/DragDropInteractions) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ExpandingSearchBar) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/FilterableProductGrid) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/FullWidthTabs) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/FullscreenForm) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/GeekyGlasses) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/GoogleNexusWebsiteMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/HorizontalSlideOutMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/IconHoverEffects) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ImageRevealHover) | Reviewed; motion is an exact duplicate of an existing code or of a kept candidate | research |
+| [link](https://github.com/codrops/Interactive3DMallMap) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/InteractiveColoringConcept) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/MinimalForm) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ModalWindowEffects) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/MultiElementSelection) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/MultiLevelPushMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/MultiboxMenu) | Reviewed; motion is an exact duplicate of an existing code or of a kept candidate | research |
+| [link](https://github.com/codrops/MusicalInteractions) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/NaturalLanguageForm) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/NotificationStyles) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/PasswordStrengthVisualization) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/PricingTablesInspiration) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ProductComparison) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ProductGridLayout) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/PullToShare) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/RecordPlayer) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/ResponsiveIconGrid) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ResponsiveMultiColumnForm) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ResponsiveMultiLevelMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/SearchUIEffects) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/SeatPreview) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/SelectInspiration) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/SimpleDropDownEffects) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/SliderPagination) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/SurfReport) | Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion | research |
+| [link](https://github.com/codrops/TextInputEffects) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/TooltipAnimations) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/TooltipMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/TooltipStylesInspiration) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/ViewModeSwitch) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://github.com/codrops/YouTubeLeftSideMenu) | App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) — no new section motion | research |
+| [link](https://magicui.design/docs/components/shimmer-button) | exact duplicate of M64 | research |
+| [link](https://magicui.design/docs/components/bento-grid) | layout; hover lift only | research |
+| [link](https://ui.aceternity.com/components/sticky-banner) | app-UI widget (banner hides on scroll; same mechanism as floating navbar) | research |
+| [link](https://ui.aceternity.com/components/feature-sections-free) | layouts only; motion covered by card/bento candidates | research |
+| [link](https://ui.aceternity.com/components/bento-grid) | only hover nudge kept; layout itself not motion | research |
+| [link](https://reactbits.dev/animations/magnet) | exact duplicate of M71 | research |
+| [link](https://reactbits.dev/components/elastic-slider) | app UI widget | research |
+| [link](https://reactbits.dev/components/curved-input) | app UI widget | research |
+| [link](https://reactbits.dev/micro/squish-switch) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/peek-rating) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/spring-check) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/rubber-segment) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/slide-commit) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/warm-tooltip) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/scrub-field) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/code-slots) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/wake-slider) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/comet-dial) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/swipe-row) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/glide-select) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/status-mark) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/call-chip) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/swipe-toast) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/prompt-bar) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/voice-pill) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/thought-line) | pure app-UI widget | research |
+| [link](https://reactbits.dev/micro/refine-frame) | pure app-UI widget | research |
+| [link](https://motion-primitives.com/docs/magnetic) | Exact duplicate of M71 (magnetic button + inner text parallax) | research |
+| [link](https://motion-primitives.com/docs/accordion) | App-UI widget (accordion height) | research |
+| [link](https://motion-primitives.com/docs/dialog) | App-UI modal (scale-in dialog) | research |
+| [link](https://motion-primitives.com/docs/carousel) | Plain drag carousel, no distinct motion | research |
+| [link](https://animata.design/docs/container/animated-dock) | Duplicate of mp dock | research |
+| [link](https://animata.design/docs/container/nav-tabs) | Duplicate of mp hover pill | research |
+| [link](https://animata.design/docs/card/github-card-shiny) | Duplicate of mp cursor spotlight | research |
+| [link](https://animata.design/docs/container/cursor-tracker) | Duplicate of the engine cursor label | research |
+| [link](https://animata.design/docs/button/algolia-blue-button) | Real-brand copy | research |
+| [link](https://animata.design/docs/button/algolia-white-button) | Real-brand copy | research |
+| [link](https://animata.design/docs/button/toggle-switch) | App UI | research |
+| [link](https://animata.design/docs/button/external-link-button) | Trivial hover | research |
+| [link](https://animata.design/docs/image/image-box-shadow) | Trivial hover shadow | research |
+| [link](https://animata.design/docs/progress/spinner) | App UI | research |
+| [link](https://animata.design/docs/overlay/modal) | App UI | research |
+| [link](https://animata.design/docs/section/pricing) | Layout, not motion | research |
+| [link](https://animata.design/docs/bento-grid) | Layouts, not motion | research |
+| [link](https://animata.design/docs/accordion/faq) | App UI | research |
+| [link](https://animata.design/docs/card/notification-card) | App UI | research |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/primitives/effects/tilt.mdx) | Exact duplicate: Tilt — exact duplicate of M51 | research |
+| [link](https://www.hover.dev/components/countdown) | Exact duplicate: Shifting countdown — same as Animate UI 'Sliding number' | research |
+| [link](https://www.hover.dev/components/links) | Exact duplicate: Reveal links (letter roll) — same as Fancy 'Letter roll swap (hover)' | research |
+| [link](https://www.hover.dev/components/other) | Exact duplicate: Mouse image trail — same motion as Fancy 'Cursor image trail' | research |
+| [link](https://www.hover.dev/components/tabs) | Exact duplicate: Slide tabs — same as Kokonut 'Morphing nav pill' | research |
+| [link](https://skiper-ui.com/v1/skiper47) | Exact duplicate: Perspective carousel — same as SmoothUI 'Coverflow carousel' | research |
+| [link](https://skiper-ui.com/v1/skiper58) | Exact duplicate: Text roll navigation — same as Fancy 'Letter roll swap (hover)' | research |
+| [link](https://skiper-ui.com/v1/skiper59) | Exact duplicate: Drawing cursor effect — same as SmoothUI 'Drawing cursor stroke' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/magnetic-button.mdx) | Exact duplicate of M71 | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/tilt-card.mdx) | Exact duplicate of M51 | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/border-beam.mdx) | Same as Cult 'Border beam comet' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/gooey-filter.mdx) | Same as Fancy 'Gooey panel merge' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/cursor-image-trail.mdx) | Same as Fancy 'Cursor image trail' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/wave-text.mdx) | Same as Eldora 'Wavy letters loop' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/number-flow.mdx) | Same as Cult 'Rolling digit spring' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/typewriter-text.mdx) | Exact duplicate of M21 | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scramble-hover.mdx) | Same as Fancy 'Scramble on hover' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/progressive-blur.mdx) | Same as Cult 'Progressive edge blur' | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/sdf-circle-transition.mdx) | Exact duplicate of X6 circle iris | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-circle-transition.mdx) | Same as SmoothUI 'Warped circle reveal' / X6 | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scroll-reveal-paragraph.mdx) | Plain fade/translate on view (not allowed as motion) | research |
+| [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/) | ~110 other SmoothUI entries are app widgets (inputs, dialogs, AI chat UI, toasts, pickers): out of scope | research |
+| [link](https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/) | Magnetic, fade, slide, zoom, blur, auto-height effects: exact duplicates (M71, plain reveals, M19) or app UI; base/radix/headless folders are app primitives | research |
+| [link](https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/) | ~60 Cult UI entries are app widgets/mockups (polls, kanban, inputs, device mockups, toasts): out of scope; globe/dock covered by Magic UI fork | research |
+| [link](https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/ai/) | AI chat inputs, pickers, file upload, tweet card: app UI | research |
+| [link](https://www.hover.dev/components/buttons) | Hover.dev PRO items skipped (paid): Neu Follow, Wet Paint, Marquee, Dot Expand, Load, Magnet, Gradient Shadow, Splash, Rounded Slide, Shiny, AI buttons; PRO cards/carousels/heros/features/nav/other/loaders likewise | research |
+| [link](https://ui.lukacho.com/components) | No LICENSE found (no public repo located); listed motions (marquee, grid beam, custom cursor, image swiper) duplicate other candidates | research |
+| [link](https://ui.spectrumhq.in/) | Spectrum UI (Apache-2.0) is mostly app widgets (kanban, toasts, steppers); its motion items (number ticker, tilt card, metal button, beam card) duplicate other candidates | research |
+| [link](https://www.animate-ui.com/) | Docs read from GitHub repo (site is client-rendered) | research |
+| [link](https://demos.gsap.com/demo/flip-gallery-modal) | exact duplicate of M54 grid to detail | research |
+| [link](https://demos.gsap.com/demo/simple-grid-flip-modal) | exact duplicate of M54 | research |
+| [link](https://demos.gsap.com/demo/cursor-follower) | engine Cursor already does a quickTo follower | research |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/draggable-playground/index.js) | drag settings playground, motion covered by gs-throw-inertia | research |
+| [link](https://raw.githubusercontent.com/juliangarnier/anime/master/examples/text/scramble/index.js) | same as an-block-scramble / gs-scramble-hover | research |
+| [link](https://ianlunn.github.io/Hover/) | Icon Grow/Shrink/Pulse/Pulse Grow/Pulse Shrink/Push/Pop/Bounce/Rotate/Grow Rotate/Float/Sink/Bob/Hang/Wobble/Buzz/Fade: identical to the 2D effects, only applied to the icon - exact duplicates | research |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/button-slide-left.vue) | cssfx button-slide-* = same motion as hv-sweep | research |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/text-underline.vue) | cssfx text-underline/overline = same as hv-underline / hv-overline | research |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ellipsis.vue) | plain dot fade spinner (app-UI) | research |
+| [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ring2.vue) | plain spinning ring (app-UI) | research |
+| [link](https://github.com/vineethtrv/css-loader) | ~330 circle/bubble/line/rect/objects/graph/skeleton spinners skipped as generic app-UI spinners; text (18) and progress (30) categories reviewed, distinct ones kept; cl text03/04/07/08/10/11 are colour/shape variants of kept ones; progress02-30 others are plain fills/stripes/balls | research |
+| [link](https://github.com/loadingio/css-spinner) | circle/default/dual-ring/ellipsis/facebook/grid/ring/spinner: generic app spinners (kept ripple/heart/hourglass/roller) | research |
+| [link](https://gsap.com/docs/v3/Eases/CustomWiggle/) | doc page returned 404 shell to curl; wiggle covered via gs-magnetic-wiggle demo | research |
+| [link](https://www.awwwards.com/inspiration/mouse-move-fluid-effect-house-of-dreamers) | same as M67 flowmap liquid trail | research |
+| [link](https://www.awwwards.com/inspiration/cursor-liquid-effect) | same as M67 flowmap liquid trail | research |
+| [link](https://www.awwwards.com/inspiration/image-reveal-hover-effect-project-page-tilt) | same as M51 3D card tilt-rotate | research |
+| [link](https://www.awwwards.com/inspiration/fullscreen-overlay-menu-with-diagonal-slide-transition) | same mechanism as X7 diagonal wipe | research |
+| [link](https://www.awwwards.com/inspiration/dynamic-image-trail-hero-interaction-elespacio-3) | same mechanism as aw cursor image trail (KOTA) candidate | research |
+| [link](https://www.awwwards.com/inspiration/image-trail-effect-makemepulse) | same as cursor image trail candidate | research |
+| [link](https://www.awwwards.com/inspiration/3d-product-scroll-animation-bunta-beer) | 3D product turned by scroll = F2/F3 (needs a 3D model) | research |
+| [link](https://www.awwwards.com/inspiration/product-details-scroll-experience-som) | 3D product travel = F3 | research |
+| [link](https://codepen.io/collection/bNPYOw) | GreenSock demo pens via search (parallax, image zoom, slide-in panels, scroll typewriter) all duplicate existing M7/M28/X1/M21 | research |
+| [link](https://magicui.design/docs/components/lens) | exact duplicate of ace-055 (image group) | research |
+| [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/image/image-trail.mdx) | exact duplicate of codrops-ImageTrailEffects-1 (image group) | research |
+| [link](https://21st.dev/@rmahammad/components/lens-card.md) | exact duplicate of aw-092 (image group) | research |

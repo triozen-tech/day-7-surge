@@ -23,9 +23,13 @@ function Demo({ d }: { d: MotionDef }) {
       <section ref={root} id={d.code.toLowerCase()} className="relative h-[220vh] border-t border-white/10" data-record-time="1.2" data-record-label={d.code}>
         <ScrubRoot.Provider value={root}>
           <div className="sticky top-0 h-[100svh] overflow-hidden">
+            {/* keeps the frame alive while a finished scrub holds still (never-frozen rule) */}
             {label}
             <div className="absolute inset-x-[clamp(16px,4vw,56px)] bottom-[6vh] top-[clamp(150px,22vh,210px)]">
               <d.C />
+            </div>
+            <div className="fx-pan pointer-events-none absolute inset-[-6%] z-10 opacity-60 mix-blend-screen" aria-hidden>
+              <div className="lab-glow absolute inset-0" />
             </div>
           </div>
         </ScrubRoot.Provider>

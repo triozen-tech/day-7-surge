@@ -1,1 +1,3954 @@
-{"rows":[],"skipped":[]}
+{
+ "rows": [
+  {
+   "code": "M75",
+   "category": "Reveals",
+   "name": "Product rises from behind a horizon",
+   "variant_of": "M1",
+   "source_site": "Welly",
+   "source_url": "https://www.awwwards.com/inspiration/scroll-triggered-animation-product-reveal-welly",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M76",
+   "category": "Reveals",
+   "name": "Product rises in front of giant type",
+   "variant_of": "M25",
+   "source_site": "Jetson by Mute",
+   "source_url": "https://www.awwwards.com/inspiration/jetson-by-mute-jetson-by-mute-4",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M77",
+   "category": "Reveals",
+   "name": "Image seen through the headline",
+   "variant_of": "M24",
+   "source_site": "Mediterranean Dream",
+   "source_url": "https://www.awwwards.com/inspiration/big-image-with-text-reveal-on-scroll-mediterranean-dream",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M78",
+   "category": "Reveals",
+   "name": "Letterbox band opens",
+   "variant_of": "M18",
+   "source_site": "Balans Kitchen",
+   "source_url": "https://www.awwwards.com/inspiration/clip-path-scroll-animation-balans-kitchen-1",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M79",
+   "category": "Reveals",
+   "name": "Full-bleed hero shrinks into its frame",
+   "variant_of": "M13",
+   "source_site": "Stella Domo",
+   "source_url": "https://www.awwwards.com/inspiration/stella-domo-zoom-out-hero-image-on-scroll-effect",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M80",
+   "category": "Reveals",
+   "name": "Zoom-out reveals the gallery",
+   "variant_of": "M28",
+   "source_site": "Ueno",
+   "source_url": "https://www.awwwards.com/inspiration/zoom-out-gallery-scroll",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M81",
+   "category": "Reveals",
+   "name": "Media opens between two words",
+   "variant_of": "M28",
+   "source_site": "Fancy Components",
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/media-between-text.mdx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2024 Daniel Petho (Fancy Components) \u2014 idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M82",
+   "category": "Reveals",
+   "name": "Block reveal (two-phase box wipe)",
+   "variant_of": "M1",
+   "source_site": "Codrops (github.com/codrops)",
+   "source_url": "https://github.com/codrops/BlockRevealers",
+   "type": "inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) | demo: https://tympanus.net/Development/BlockRevealers/)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M83",
+   "category": "Reveals",
+   "name": "Paper-tear headline reveal",
+   "variant_of": "M62",
+   "source_site": "21st.dev (Tiger Tear Reveal)",
+   "source_url": "https://21st.dev/@kedhareswer/components/tiger-tear-reveal.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M84",
+   "category": "Reveals",
+   "name": "Folded flyer unfolds",
+   "variant_of": "M2",
+   "source_site": "Codrops (github.com/codrops)",
+   "source_url": "https://github.com/codrops/3DRestaurantMenu",
+   "type": "inspired, no code copied (source: MIT (stated in README, no LICENSE file) | demo: http://tympanus.net/Tutorials/3DRestaurantMenu/)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M85",
+   "category": "Reveals",
+   "name": "Sticky text with clip-path image steps",
+   "variant_of": "M18",
+   "source_site": "Balans Kitchen",
+   "source_url": "https://www.awwwards.com/inspiration/clip-path-scroll-animation-with-sticky-layout-balans-kitchen-1",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M86",
+   "category": "Reveals",
+   "name": "Pinned list with cross-swapping visual",
+   "variant_of": "M29",
+   "source_site": "Columbus Travel",
+   "source_url": "https://www.awwwards.com/inspiration/animated-pinned-services-section-columbus-travel",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M87",
+   "category": "Reveals",
+   "name": "Images pass a fixed title",
+   "variant_of": "M7",
+   "source_site": "The Happy Few",
+   "source_url": "https://www.awwwards.com/inspiration/sticky-gallery-the-happy-few-the-happy-few",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M88",
+   "category": "Reveals",
+   "name": "Stacking cards tilt back in 3D",
+   "variant_of": "M40",
+   "source_site": "Naya Studio",
+   "source_url": "https://www.awwwards.com/inspiration/services-3d-scene-and-stacking-cards-scroll-naya-studio",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M89",
+   "category": "Reveals",
+   "name": "Batched viewport stagger",
+   "variant_of": "M34",
+   "source_site": "GSAP demos",
+   "source_url": "https://demos.gsap.com/demo/stagger-items-in-on-scroll",
+   "type": "inspired, no code copied (source: GSAP free standard licence; demo code is author-owned (GreenSock) - look & learn, rebuild ourselves)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M90",
+   "category": "Text effects",
+   "name": "Dual curtain text wipe",
+   "variant_of": "M104",
+   "source_site": "21st.dev (Dual Wipe Reveal)",
+   "source_url": "https://21st.dev/@soralabs/components/dual-wipe-reveal.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M91",
+   "category": "Text effects",
+   "name": "Layout-pushing word flip",
+   "variant_of": "M106",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/layout-text-flip",
+   "type": "inspired, no code copied (source: Aceternity licence (proprietary) \u2014 look and learn only, rebuild from description)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M92",
+   "category": "Text effects",
+   "name": "Mask-filled heading, word wipe",
+   "variant_of": "M119",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/masked-heading",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M93",
+   "category": "Text effects",
+   "name": "Paper-fold from bottom hinge (words)",
+   "variant_of": "M122",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/fold-text",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M94",
+   "category": "Text effects",
+   "name": "Scroll-scrubbed letter swap",
+   "variant_of": "U33",
+   "source_site": "Fancy Components",
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/scroll-and-swap.mdx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2024 Daniel Petho (Fancy Components) \u2014 idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M95",
+   "category": "Text effects",
+   "name": "Short slide-down stack",
+   "variant_of": "M113",
+   "source_site": "Animata",
+   "source_url": "https://animata.design/docs/text/short-slide-down",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M96",
+   "category": "Text effects",
+   "name": "Word pull-up",
+   "variant_of": "M124",
+   "source_site": "Eldora UI",
+   "source_url": "https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/word-pull-up-text.mdx",
+   "type": "inspired, no code copied (source: MIT \u00a9 Mudunuri Bhaskara Karthikeya Varma (Eldora UI) \u2014 idea only)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M97",
+   "category": "Text effects",
+   "name": "3D rotating phrase swap",
+   "variant_of": "M23",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/rotating-text",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M98",
+   "category": "Text effects",
+   "name": "Blur-in characters, no travel",
+   "variant_of": "M6",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/text-animate",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M99",
+   "category": "Text effects",
+   "name": "Bottom-up letters staircase",
+   "variant_of": "M12",
+   "source_site": "Animata",
+   "source_url": "https://animata.design/docs/text/bottom-up-letters",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M100",
+   "category": "Text effects",
+   "name": "Box reveal wipe",
+   "variant_of": "M1",
+   "source_site": "Magic UI",
+   "source_url": "https://v3.magicui.design/docs/components/box-reveal",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M101",
+   "category": "Text effects",
+   "name": "Char flip-up (rotateX 90 -> 0)",
+   "variant_of": "M12",
+   "source_site": "Motion Primitives",
+   "source_url": "https://motion-primitives.com/docs/text-effect",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M102",
+   "category": "Text effects",
+   "name": "Chars stretch down from above",
+   "variant_of": "M12",
+   "source_site": "Codrops (github.com/codrops)",
+   "source_url": "https://github.com/codrops/OnScrollTypographyAnimations",
+   "type": "inspired, no code copied (source: MIT (LICENSE file, \"Copyright (c) 2009 - <year> Codrops\") | Set 1 | demo: https://tympanus.net/codrops/?p=69734)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M103",
+   "category": "Text effects",
+   "name": "Circular text ring",
+   "variant_of": "M39",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/circular-text",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M104",
+   "category": "Text effects",
+   "name": "Colour block line wipe",
+   "variant_of": "M23",
+   "source_site": "21st.dev (Text Block Animation)",
+   "source_url": "https://21st.dev/@daiwiikharihar/components/text-block-animation.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M105",
+   "category": "Text effects",
+   "name": "Echo-trail entrance",
+   "variant_of": "M6",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/echo-text",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M106",
+   "category": "Text effects",
+   "name": "Flip words (blur-out up, letters in)",
+   "variant_of": "M59",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/flip-words",
+   "type": "inspired, no code copied (source: Aceternity licence (proprietary) \u2014 look and learn only, rebuild from description)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M107",
+   "category": "Text effects",
+   "name": "Focus-blur resolve with blur exit",
+   "variant_of": "M50",
+   "source_site": "Animata",
+   "source_url": "https://animata.design/docs/text/focus-blur-resolve",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M108",
+   "category": "Text effects",
+   "name": "Focus-in with tracking (Animista)",
+   "variant_of": "M6",
+   "source_site": "Animista",
+   "source_url": "https://animista.net/play/text/focus-in",
+   "type": "inspired, no code copied (source: Animista: generated CSS free for personal & commercial use under FreeBSD licence (c) 2017 Ana Travas - we rebuild in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M109",
+   "category": "Text effects",
+   "name": "Hand-drawn marker annotation",
+   "variant_of": "M8",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/highlighter",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M110",
+   "category": "Text effects",
+   "name": "Handwriting draw",
+   "variant_of": "M8",
+   "source_site": "21st.dev (Handwriting SVG)",
+   "source_url": "https://21st.dev/@pulkitxm/components/handwriting-svg.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M111",
+   "category": "Text effects",
+   "name": "Headline splits in half",
+   "variant_of": "M23",
+   "source_site": "Dora Expo",
+   "source_url": "https://www.awwwards.com/inspiration/split-text-in-half-with-scroll-effect-dora-expo-ai-era-web-design",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M112",
+   "category": "Text effects",
+   "name": "Inline image text reveal",
+   "variant_of": "M20",
+   "source_site": "21st.dev (ImgText Reveal Scroll Animation)",
+   "source_url": "https://21st.dev/@ajith66310/components/imgtext-reveal-scroll-animation.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M113",
+   "category": "Text effects",
+   "name": "Kinetic centre build",
+   "variant_of": "M12",
+   "source_site": "Animata",
+   "source_url": "https://animata.design/docs/text/kinetic-center-build",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M114",
+   "category": "Text effects",
+   "name": "Letter roll-up on hover",
+   "variant_of": "M12",
+   "source_site": "Baunfire",
+   "source_url": "https://www.awwwards.com/inspiration/text-animation-hover-effect",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M115",
+   "category": "Text effects",
+   "name": "Letter scroll reveal",
+   "variant_of": "M20",
+   "source_site": "Skiper UI",
+   "source_url": "https://skiper-ui.com/v1/skiper31",
+   "type": "inspired, no code copied (source: Skiper UI site terms: all rights reserved, no reproduction \u2014 LOOK AND LEARN ONLY (free item))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M116",
+   "category": "Text effects",
+   "name": "Line-by-line slide-left",
+   "variant_of": "M23",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/text-animate",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M117",
+   "category": "Text effects",
+   "name": "Marker highlight sweep",
+   "variant_of": "M20",
+   "source_site": "Fancy Components",
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/text-highlighter.mdx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2024 Daniel Petho (Fancy Components) \u2014 idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M118",
+   "category": "Text effects",
+   "name": "Marker highlight sweeps words",
+   "variant_of": "M20",
+   "source_site": "Sol",
+   "source_url": "https://www.awwwards.com/inspiration/scroll-based-text-highlight-sol",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M119",
+   "category": "Text effects",
+   "name": "Mask-filled heading, word rise",
+   "variant_of": "M23",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/masked-heading",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M120",
+   "category": "Text effects",
+   "name": "One word in a sentence changes",
+   "variant_of": "M23",
+   "source_site": "Money in Check",
+   "source_url": "https://www.awwwards.com/inspiration/everything-changes-scroll-driven-typography-money-in-check-a-novel-by-oscar-perez",
+   "type": "inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code))",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M121",
+   "category": "Text effects",
+   "name": "Panning image inside type",
+   "variant_of": "M24",
+   "source_site": "21st.dev (Image Text)",
+   "source_url": "https://21st.dev/@animbits/components/image-text.md",
+   "type": "inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M122",
+   "category": "Text effects",
+   "name": "Paper-fold line unfold (top hinge)",
+   "variant_of": "M31",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/fold-text",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M123",
+   "category": "Text effects",
+   "name": "Per-char fade-in-blur rise",
+   "variant_of": "M6",
+   "source_site": "Motion Primitives",
+   "source_url": "https://motion-primitives.com/docs/text-effect",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M124",
+   "category": "Text effects",
+   "name": "Per-character slide-up (unmasked)",
+   "variant_of": "M12",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/text-animate",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M125",
+   "category": "Text effects",
+   "name": "Per-line slide-up (no mask)",
+   "variant_of": "M23",
+   "source_site": "Motion Primitives",
+   "source_url": "https://motion-primitives.com/docs/text-effect",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M126",
+   "category": "Text effects",
+   "name": "Per-word blur dissolve-in",
+   "variant_of": "M6",
+   "source_site": "Motion Primitives",
+   "source_url": "https://motion-primitives.com/docs/text-effect",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M127",
+   "category": "Text effects",
+   "name": "Rainbow sweep settling to ink",
+   "variant_of": "M49",
+   "source_site": "Magic UI",
+   "source_url": "https://magicui.design/docs/components/dia-text-reveal",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) Magic UI (magicuidesign/magicui LICENSE.md) - idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M128",
+   "category": "Text effects",
+   "name": "Rolling drum text",
+   "variant_of": "M12",
+   "source_site": "GSAP demos",
+   "source_url": "https://demos.gsap.com/demo/rolling-text",
+   "type": "inspired, no code copied (source: GSAP free standard licence; demo code is author-owned (GreenSock) - look & learn, rebuild ourselves)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M129",
+   "category": "Text effects",
+   "name": "Rotated line reveal",
+   "variant_of": "M23",
+   "source_site": "Codrops (github.com/codrops)",
+   "source_url": "https://github.com/codrops/SuperfluidLayout",
+   "type": "inspired, no code copied (source: MIT (LICENSE file, \"Copyright (c) 2009 - <year> Codrops\") | demo: https://tympanus.net/codrops/?p=55661)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M130",
+   "category": "Text effects",
+   "name": "Rotating word slot",
+   "variant_of": "M58",
+   "source_site": "Fancy Components",
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/text-rotate.mdx",
+   "type": "inspired, no code copied (source: MIT \u00a9 2024 Daniel Petho (Fancy Components) \u2014 idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M131",
+   "category": "Text effects",
+   "name": "Scroll reveal with tilt + blur",
+   "variant_of": "M20",
+   "source_site": "React Bits",
+   "source_url": "https://reactbits.dev/text-animations/scroll-reveal",
+   "type": "inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M132",
+   "category": "Text effects",
+   "name": "Sliced text glass effect",
+   "variant_of": "M16",
+   "source_site": "Codrops (github.com/codrops)",
+   "source_url": "https://github.com/codrops/SlicedTextEffect",
+   "type": "inspired, no code copied (source: MIT (LICENSE file, \"Copyright (c) 2009 - <year> Codrops\") | demo: https://tympanus.net/codrops/?p=74735)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M133",
+   "category": "Text effects",
+   "name": "Sliding digits (per-digit vertical slide)",
+   "variant_of": "M48",
+   "source_site": "Motion Primitives",
+   "source_url": "https://motion-primitives.com/docs/sliding-number",
+   "type": "inspired, no code copied (source: MIT, Copyright (c) 2024 ibelick (motion-primitives LICENCE.md); idea only, rebuilt in GSAP)",
+   "batch": "1",
+   "date": "2026-10-04"
+  },
+  {
+   "code": "M134",
+   "category": "Text effects",
+   "name": "Smooth typewriter (clip sweep)",
+   "variant_of": "M21",
+   "source_site": "Aceternity UI",
+   "source_url": "https://ui.aceternity.com/components/typewriter-effect",
+   "type": "inspired, no code copied (source: Aceternity licence (proprietary) \u2014 look and learn only, rebuild from description)",
+   "batch": "1",
+   "date": "2026-10-04"
+  }
+ ],
+ "skipped": [
+  {
+   "source_url": "https://reactbits.dev/animations/animated-content",
+   "reason": "Exact duplicate of the engine data-reveal (slide from a distance + fade); not a motion code on its own.",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/hero/product-features",
+   "reason": "Card rise = engine data-reveal and hover image zoom = micro; no new reveal motion.",
+   "source_site": "Animata",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/graphs/commit-graph",
+   "reason": "App-UI data widget (commit graph squares).",
+   "source_site": "Animata",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@daiwiikharihar/components/reveal-image-mask.md",
+   "reason": "Exact duplicate of M5 circle / mask wipe (small masked shape blooms to full on scroll).",
+   "source_site": "21st.dev (Reveal Image Mask)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@larsen66/components/hole-reveal-hero.md",
+   "reason": "Exact duplicate of M5 (a hole opens through the section to what is beneath).",
+   "source_site": "21st.dev (Hole reveal Hero )",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/in-view",
+   "reason": "Exact duplicate of M6 text rise from blur (paragraph rises, scales and clears blur).",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@arihantcodes_1f7b8c4d/components/skeleton-reveal.md",
+   "reason": "App-UI skeleton crossfade (skeleton loaders are out of scope).",
+   "source_site": "21st.dev (Skeleton Reveal)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/interavtive-bento-grid-with-hover-and-scroll-effects-pixlspace-creative-studio",
+   "reason": "Exact duplicate of M34 snap-in bento assemble (hover zoom is a micro).",
+   "source_site": "Pixlspace",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@scrollxui/components/hero-with-cards.md",
+   "reason": "Exact duplicate of M4 stack fan-out (photo cards fan out under the headline on load).",
+   "source_site": "21st.dev (Hero Section with Cards)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ImagePixelLoading",
+   "reason": "Exact duplicate of M43 pixelated to sharp (this Codrops demo is its source).",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/grid-zoom-layout",
+   "reason": "Exact duplicate of M54 grid to detail (thumbnail scales up with a content panel, others fade).",
+   "source_site": "Codrops (via Awwwards)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animista.net/play/entrances/fade-in",
+   "reason": "Plain fade (short move optional): fade alone is not allowed as a motion.",
+   "source_site": "Animista",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/in-view",
+   "reason": "Plain slide + fade (engine data-reveal), no new motion.",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/svg-shapes-animated.mdx",
+   "reason": "Exact duplicate of M8 SVG line draw-on.",
+   "source_site": "Cult UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/terminal",
+   "reason": "Exact duplicate of M9 print-out line by line + M21 typewriter.",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/pixelated-image-reveal-dolsten-co",
+   "reason": "(research pass) exact duplicate of M43 Pixelated \u2192 sharp (scroll-triggered pixel-to-sharp image reveal)",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animate.style/",
+   "reason": "(research pass) fadeIn/fadeInUp/Down/Left/Right and slideIn*/slideOut* skipped: exact duplicates of the engine's plain data-reveal (and 'just fade' is banned); fadeOut* likewise",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/fade-content",
+   "reason": "(research pass) plain fade (not allowed as a motion)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scroll-reveal-paragraph.mdx",
+   "reason": "(research pass) Plain fade/translate on view (not allowed as motion)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/",
+   "reason": "(research pass) Magnetic, fade, slide, zoom, blur, auto-height effects: exact duplicates (M71, plain reveals, M19) or app UI; base/radix/headless folders are app primitives",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@cnippet-dev/components/text-scramble/scrambled-stats.md",
+   "reason": "Exact duplicate of M22: Glyph cipher scramble \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@danielpetho/components/basic-number-ticker/fancy-basic-number-ticker.md",
+   "reason": "Exact duplicate of M3: Number ticker \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@sona-ui/components/stagger-text.md",
+   "reason": "Exact duplicate of 21m-446: Hover stagger vertical roll \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@elements-/components/loader-terminal-decode.md",
+   "reason": "Exact duplicate of M22: Terminal decode loader \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@waleedkibhen/components/reading-text-reveal.md",
+   "reason": "Exact duplicate of M20: Reading word highlight \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@jahed/components/animated-svg-text-path.md",
+   "reason": "Exact duplicate of M39: Text along any SVG path \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@shadcnspace/components/animated-text-10.md",
+   "reason": "Exact duplicate of 21m-1508: Scanner bar text \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/text-animation",
+   "reason": "Category listing pages: only the first ~200 components per tag are served in the HTML listing; components beyond that were not reachable without the API key.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/morphing-text",
+   "reason": "exact duplicate of M59",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/marquee",
+   "reason": "basic horizontal marquee = M14 (tilted variant kept)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/text-reveal",
+   "reason": "exact duplicate of M20 scroll-lit statement",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/encrypted-text",
+   "reason": "exact duplicate of M22 scramble/decode",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/typewriter-effect",
+   "reason": "char-by-char variant is exact M21 (smooth clip variant kept)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/terminal",
+   "reason": "typed command + printed output lines = M21 + M9, no new motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/split-text",
+   "reason": "exact duplicate of M12",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/blur-text",
+   "reason": "exact duplicate of M6",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/text-type",
+   "reason": "exact duplicate of M21",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/count-up",
+   "reason": "exact duplicate of M3",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/counter",
+   "reason": "exact duplicate of M48/M3",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/shiny-text",
+   "reason": "exact duplicate of M49",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/curved-loop",
+   "reason": "exact duplicate of M39",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/particle-text",
+   "reason": "exact duplicate of M45",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/text-scramble",
+   "reason": "Exact duplicate of M22 (scramble/decode)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/mask-reveal-up",
+   "reason": "Exact duplicate of M23",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/per-character-rise",
+   "reason": "Exact duplicate of M12",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/typing-text",
+   "reason": "Exact duplicate of M21",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/counter",
+   "reason": "Exact duplicate of M3",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/ticker",
+   "reason": "Exact duplicate of M48",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/gibberish-text",
+   "reason": "Exact duplicate of M22",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/scroll-reveal",
+   "reason": "Exact duplicate of M20",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/text/circular-text",
+   "reason": "Exact duplicate of mp spinning text",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/container/marquee",
+   "reason": "Exact duplicate of M14",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/container/announcement-ribbon",
+   "reason": "Marquee, duplicate of M14",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/card/swap-text-card",
+   "reason": "Duplicate of swap text",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/countdown",
+   "reason": "Exact duplicate: Shifting countdown \u2014 same as Animate UI 'Sliding number'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/links",
+   "reason": "Exact duplicate: Reveal links (letter roll) \u2014 same as Fancy 'Letter roll swap (hover)'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper58",
+   "reason": "Exact duplicate: Text roll navigation \u2014 same as Fancy 'Letter roll swap (hover)'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/typewriter.mdx",
+   "reason": "Exact duplicate of M21 typewriter",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/text/basic-number-ticker.mdx",
+   "reason": "Exact duplicate of M3 number counter",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/simple-marquee.mdx",
+   "reason": "Exact duplicate of M14 marquee",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/wave-text.mdx",
+   "reason": "Same as Eldora 'Wavy letters loop'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/number-flow.mdx",
+   "reason": "Same as Cult 'Rolling digit spring'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/typewriter-text.mdx",
+   "reason": "Exact duplicate of M21",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scramble-hover.mdx",
+   "reason": "Same as Fancy 'Scramble on hover'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/blur-in-text.mdx",
+   "reason": "Exact duplicate of M6",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/fade-text.mdx",
+   "reason": "Plain fade (not allowed)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.indie-starter.dev/docs/text-animation",
+   "reason": "Indie UI (MIT \u00a9 Indie UI): gradual spacing, typing, staggered fade, rotate words, letter/word pull-up, blur-in, fade up/down \u2014 all duplicates of Eldora candidates or M6/M12/M21; eye-catching buttons = shimmer/shine duplicates",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/text-masking",
+   "reason": "exact duplicate of M23 line-by-line mask slide",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/responsive-line-splits-on-scroll",
+   "reason": "exact duplicate of M23 (autoSplit is a technique, same motion)",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/animate-text",
+   "reason": "exact duplicate of M12 split stagger",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/revert-after-animation",
+   "reason": "SplitText housekeeping",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/ignore-nested-elements",
+   "reason": "SplitText housekeeping",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/master/examples/svg-graph/index.js",
+   "reason": "bar + counter = M26/M3 duplicates",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/master/examples/text/scramble/index.js",
+   "reason": "same as an-block-scramble / gs-scramble-hover",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/title-scroll-on-svg-path-new-york-city-times",
+   "reason": "exact duplicate of M39 text on a moving curved path",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/particles-typography-animation-maria-joao-abrantes",
+   "reason": "same as M45 particle text",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/text-reveal-animation-oaksun-studio",
+   "reason": "line mask reveal = M23",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/elements/typography/",
+   "reason": "'Sleutelaar hero text', 'Massive Japanese typography', 'Kinetic hero typography' etc. have no text description; too vague to rebuild faithfully",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/text-animate",
+   "reason": "exact duplicate of M6 (words rise ~20-40px from blur(10px) to sharp, staggered, on enter) (candidate mui-001)",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@educalvolpz/components/blur-out-up.md",
+   "reason": "exact duplicate of M6 (words lift out of blur and drift up, staggered) (candidate 21m-386)",
+   "source_site": "21st.dev (Blur Out Up)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/blur-out-up.mdx",
+   "reason": "exact duplicate of M6 (per-word blur + upward drift, staggered) (candidate ox-146)",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@paceui/components/reveal-text.md",
+   "reason": "exact duplicate of M12 (SplitText chars/words/lines staggered up into place) (candidate 21m-370)",
+   "source_site": "21st.dev (Reveal Text)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ibelick/components/text-shimmer-wave.md",
+   "reason": "exact duplicate of M49 (a shimmer band travelling through the text) (candidate 21m-2796)",
+   "source_site": "21st.dev (Text Shimmer Wave)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shine-text.mdx",
+   "reason": "exact duplicate of M49 (clipped gradient light sweeping letters on a loop) (candidate ox-205)",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/animated-shiny-text",
+   "reason": "exact duplicate of M49 (narrow bright band sweeping muted text on a loop) (candidate mui-015)",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/text-shimmer",
+   "reason": "exact duplicate of M49 (background-clip shimmer band looping across text) (candidate mp-014)",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/loader",
+   "reason": "exact duplicate of M49 (shimmer band looping across a status line) (candidate ace-016)",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/text-animations/decrypted-text",
+   "reason": "exact duplicate of M22 (ScrambleText already locks letters left-to-right from random glyphs) (candidate rb-033)",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@kokonutd/components/matrix-text.md",
+   "reason": "exact duplicate of M22 (characters cycle through random glyphs before settling) (candidate 21m-n449)",
+   "source_site": "21st.dev (Matrix Text)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/texts/matrix-text.mdx",
+   "reason": "exact duplicate of M22 (ScrambleText with chars \"01\"; glyph set is only a parameter) (candidate ox-109)",
+   "source_site": "Kokonut UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/TypeShuffleAnimation",
+   "reason": "exact duplicate of M58 (M58 is built from this demo) (candidate codrops-TypeShuffleAnimation-1)",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@arihantcodes_1f7b8c4d/components/accordion-generative.md",
+   "reason": "exact duplicate of M21 (char-by-char reveal with trailing caret) (candidate 21m-365)",
+   "source_site": "21st.dev (Accordion Generative)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ziegfiroyt/components/terminal1.md",
+   "reason": "typed commands + printed output lines = M21 + M9 combined, no new motion (candidate 21m-n1122)",
+   "source_site": "21st.dev (Terminal Typewriter)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/terminal-animation.mdx",
+   "reason": "typed commands + printed output lines = M21 + M9 combined, no new motion (candidate ox-063)",
+   "source_site": "Cult UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@dillionverma/components/text-reveal.md",
+   "reason": "exact duplicate of M20 (words fade in one by one, scrubbed to scroll) (candidate 21m-2470)",
+   "source_site": "21st.dev (Text Reveal)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ScrollBlurTypography",
+   "reason": "exact duplicate of M57 (M57 is built from this demo) (candidate codrops-ScrollBlurTypography-1)",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@danielpetho/components/marquee-along-svg-path/marquee-along-svg-path-mapping.md",
+   "reason": "exact duplicate of M39 (words travel continuously along an SVG path, faster with scroll) (candidate 21m-14)",
+   "source_site": "21st.dev (Marquee Along SVG Path)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@danielpetho/components/text-along-path/circle.md",
+   "reason": "exact duplicate of M39 (text moves along an SVG path with scroll) (candidate 21m-2161)",
+   "source_site": "21st.dev (Text Along Path)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@wensity/components/text-path.md",
+   "reason": "exact duplicate of M39 (text tiles along a wave path, looping) (candidate 21m-2252)",
+   "source_site": "21st.dev (Text Path)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@cnippet-dev/components/scroll-velocity-text/pill-marquee.md",
+   "reason": "exact duplicate of M14 (marquee speed/direction follows scroll velocity) (candidate 21m-2223)",
+   "source_site": "21st.dev (Scroll Velocity Text)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@dillionverma/components/morphing-text.md",
+   "reason": "exact duplicate of M59 (blur + threshold goo crossfade between words) (candidate 21m-2777)",
+   "source_site": "21st.dev (Morphing Text)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@edwinvakayil/components/morph-texts.md",
+   "reason": "exact duplicate of M59 (words morph through a goo filter) (candidate 21m-2835)",
+   "source_site": "21st.dev (Morph Text)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ncdai/components/apple-hello-effect.md",
+   "reason": "real-brand copy (Apple \"hello\" lettering); generic handwriting draw kept as 21m-460 (candidate 21m-2797)",
+   "source_site": "21st.dev (Apple Hello Effect)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/text",
+   "reason": "layout utility (text fitted to container width), not a motion (candidate ox-275)",
+   "source_site": "Hover.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/text-effect",
+   "reason": "retriggerable preset wrapper around existing blur/slide/scale reveals (M6/M12), no new motion (candidate mp-007)",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@jahed/components/hover-text-reveal-1.md",
+   "reason": "too vague to rebuild (\"characters gradually reveal on hover\"); covered by kept hover letter effects (candidate 21m-2527)",
+   "source_site": "21st.dev (Hover Text Reveal)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@xubohuah/components/neon-rgbtext-effect.md",
+   "reason": "static RGB split + glow (no motion); animated neon flicker kept as am-text-flicker (candidate 21m-1460)",
+   "source_site": "21st.dev (NeonRGBTextEffect)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/text-gif.mdx",
+   "reason": "needs real video/GIF footage inside letters; image-in-letters version kept (21m-435, rb-001) (candidate ox-065)",
+   "source_site": "Cult UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@chamaac/components/gif-text.md",
+   "reason": "needs real video/GIF footage inside letters; image-in-letters version kept (21m-435, rb-001) (candidate 21m-2858)",
+   "source_site": "21st.dev (Gif Text)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@minhxthanh/components/dynamic-text-slider.md",
+   "reason": "needs real video inside headline words; image-in-letters version kept (21m-435, rb-001) (candidate 21m-n1113)",
+   "source_site": "21st.dev (Dynamic Text Slider)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/video-text",
+   "reason": "needs real video inside a giant word; image-in-letters version kept (21m-435, rb-001) (candidate mui-023)",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/text-mask-video-malta-personal-trainer",
+   "reason": "needs real video inside letters; image-in-letters version kept (21m-435, rb-001) (candidate aw-032)",
+   "source_site": "Malta Personal Trainer",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@motiondotdev/components/motion-scroll-horizontal.md",
+   "reason": "Exact duplicate of M11: Sticky horizontal gallery \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/parallax-scroll.md",
+   "reason": "Exact duplicate of M42: Two-column opposite grid \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@erikvalencia1/components/layer-parallax-hero.md",
+   "reason": "Exact duplicate of M7: Layer parallax hero \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/container-scroll-animation.md",
+   "reason": "Exact duplicate of 21m-1402: Container rotate 3D scroll \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@pulkitxm/components/scroll-linked-video-scrubber.md",
+   "reason": "Exact duplicate of M27: Video scrubber \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/stack-card-scroll-bloom-2",
+   "reason": "exact duplicate of M40 sticky stacking cards",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/card-stacking-swag-2",
+   "reason": "exact duplicate of M40",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/stacking-cards-faktory",
+   "reason": "exact duplicate of M40 (sticky positioning stack)",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/service-cards-stacking-scroll-animation-oaksun-studio",
+   "reason": "exact duplicate of M40",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/sticky-section-with-background-colour-transition-finiam",
+   "reason": "exact duplicate of M10 pinned background colour shift",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/mica-change-background-color-on-scroll",
+   "reason": "exact duplicate of M10",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/sticky-progress-bar-that-updates-on-scroll-scratch",
+   "reason": "exact duplicate of M26 progress fill",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/title-scroll-on-svg-path-new-york-city-times",
+   "reason": "exact duplicate of M39 text on a moving curved path",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/morphing-animation-on-scroll-quantox",
+   "reason": "same as M53 SVG shape morph (scroll scrubbed)",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/testimonials-parallax-marcus-lorenzet-portfolio",
+   "reason": "plain parallax = M7",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/scroll-scrub-animation-kaito-note-portfolio",
+   "reason": "scroll scrub of 3D frames = M27",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/3d-product-scroll-animation-bunta-beer",
+   "reason": "3D product turned by scroll = F2/F3 (needs a 3D model)",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/product-details-scroll-experience-som",
+   "reason": "3D product travel = F3",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://codepen.io/collection/bNPYOw",
+   "reason": "GreenSock demo pens via search (parallax, image zoom, slide-in panels, scroll typewriter) all duplicate existing M7/M28/X1/M21",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-FixedBackgroundScrollingLayout",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GridLayoutScrollableContent",
+   "reason": "Reviewed; motion is an exact duplicate of an existing code or of a kept candidate",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/image-sequence",
+   "reason": "exact duplicate of M27 frame-sequence scrub",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/motionpath-waypoints",
+   "reason": "exact duplicate of M35 / F1 waypoint travel",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/scroll-waypoints",
+   "reason": "exact duplicate of F1 waypoint travel (Flip between placeholders)",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/threejs-scroll-waypoints",
+   "reason": "exact duplicate of F1/F3",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/horizontal-scrolling-gallery",
+   "reason": "exact duplicate of M11/M41",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/shader-on-scroll",
+   "reason": "same as M55 WebGL shift on scroll",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/observe-events",
+   "reason": "Observer event demo, motion covered by gs-swipe-sections",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/smooth-scrolling",
+   "reason": "ScrollSmoother engine; lag/speed covered by gs-lag-trail, gs-in-frame-parallax",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/animate-scroll-position",
+   "reason": "scrollTo utility, no visual motion",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/link-to-scroll-progress",
+   "reason": "scrub basics",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://lenis.darkroom.engineering/",
+   "reason": "smooth scroll engine (already used); only snap/horizontal/infinite options yield motion candidates",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://scroll.locomotive.ca/docs/examples",
+   "reason": "examples are CodeSandbox usage demos (parallax, scroll-call, progress) - parallax = M7; progress var kept",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/parallax-hero-images-2",
+   "reason": "redirects to homepage (Pro / unreachable)",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/scroll/stacked-sections",
+   "reason": "Exact duplicate of M40",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/carousels",
+   "reason": "Exact duplicate: Horizontal scroll carousel \u2014 exact duplicate of M11",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper16",
+   "reason": "Exact duplicate: Card stack scroll \u2014 exact duplicate of M40",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper30",
+   "reason": "Exact duplicate: Oliver parallax \u2014 exact duplicate of M7",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/stacking-cards.mdx",
+   "reason": "Exact duplicate of M40 sticky stacking cards",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@danielpetho/components/stacking-cards.md",
+   "reason": "exact duplicate of M40: cards pin and covered cards shrink",
+   "source_site": "21st.dev (Stacking Cards)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/StickySections",
+   "reason": "exact duplicate of M40: covered section shrinks and dims",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scrollable-card-stack.mdx",
+   "reason": "exact duplicate of 21m-1070 (Snap stack with blur): same snapping card stack",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/parallax-scroll",
+   "reason": "exact duplicate of codrops-ColumnScroll-1 (Alternate column scroll): same 3-column grid with middle column reversed",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@smammar/components/scroll-reel-testimonials.md",
+   "reason": "exact duplicate of codrops-ColumnScroll-1 (Alternate column scroll): same counter-scrolling columns",
+   "source_site": "21st.dev (Scroll Reel Testimonials)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SmoothScrollAnimations",
+   "reason": "exact duplicate of gs-in-frame-parallax (image plan): same image panning inside its frame",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://gsap.com/docs/v3/Plugins/ScrollSmoother/",
+   "reason": "exact duplicate of codrops-ElasticGridScroll-1 (Elastic grid columns lag): same per-element scroll lag",
+   "source_site": "GSAP docs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/velocity-skew",
+   "reason": "exact duplicate of 21m-1335 (image plan): same velocity skew on grid images",
+   "source_site": "GSAP demos",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/scale-down-on-scroll-animation-michela-tartaglia",
+   "reason": "exact duplicate of gs-panel-overscroll-shrink (Pinned panel shrink-back with overscroll): same covered section scaling to rounded card",
+   "source_site": "Michela Tartaglia",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@lovesickfromthe6ix/components/full-screen-scroll-fx.md",
+   "reason": "exact duplicate of 21m-1345 (Pinned wipe slider): same pinned full-screen slides changing by scroll",
+   "source_site": "21st.dev (Full Screen Scroll FX)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@scrollxui/components/features-with-panel.md",
+   "reason": "exact duplicate of aw-055 (Split screen, one half sticky): sticky media crossfades per list item",
+   "source_site": "21st.dev (Features With Panel)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@youcefbnm/components/scroll-autoplay.md",
+   "reason": "exact duplicate of aw-055 (Split screen, one half sticky): stacked items crossfade by scroll position",
+   "source_site": "21st.dev (Scroll Autoplay)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@daiwiikharihar/components/scroll-triggered-video-hero.md",
+   "reason": "exact duplicate of aw-055 (Split screen, one half sticky): sticky media crossfades per section (video version)",
+   "source_site": "21st.dev (Scroll-Triggered Video Hero)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ruixen.ui/components/scroll-faqaccordion.md",
+   "reason": "exact duplicate of 21m-1901 (Centre-expanding timeline): item expands when it reaches the centre",
+   "source_site": "21st.dev (Scroll FAQ Accordion)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@arunachalam/components/scroll-expansion-hero.md",
+   "reason": "exact duplicate of rb-045 (Scroll-expand media to full bleed (mid-page)): media expands to full while title splits apart",
+   "source_site": "21st.dev (Scroll media expansion hero)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ishamsu/components/immersive-scroll-gallery.md",
+   "reason": "exact duplicate of 21m-1352 (Zoom parallax cluster): images scale up at different rates from the centre",
+   "source_site": "21st.dev (Immersive Scroll Gallery)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@youcefbnm/components/hero-gallery-scroll-animation.md",
+   "reason": "exact duplicate of M31: tilted card flattens to face the viewer on scroll",
+   "source_site": "21st.dev (Hero Gallery Scroll Animation)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/container-scroll-animation",
+   "reason": "exact duplicate of M31: tilted screen flattens on scroll",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ruixen.ui/components/container-text-scroll.md",
+   "reason": "exact duplicate of M31: block tilts flat within its container on scroll",
+   "source_site": "21st.dev (Container Text Scroll)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/grid-scroll-schlusselberndt",
+   "reason": "exact duplicate of codrops-ScrollAnimationsGrid-7 (Grid rows roll on X through perspective): tiles tilt in, flatten at centre, tilt out",
+   "source_site": "Schl\u00fcsselBerndt",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ruixen.ui/components/scroll-tilted-grid.md",
+   "reason": "exact duplicate of codrops-ScrollAnimationsGrid-7 (Grid rows roll on X through perspective): tiles tilt in, flatten at centre, tilt out",
+   "source_site": "21st.dev (ScrollTiltedGrid)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/3d-scroll-carousel-xiloteca-trevigiana",
+   "reason": "exact duplicate of codrops-3DCarousel-1 (On-scroll 3D carousel): ring of cards rotated by scroll",
+   "source_site": "Xiloteca Trevigiana",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@daiwiikharihar/components/cinematic-orbit-hero.md",
+   "reason": "exact duplicate of codrops-3DCarousel-1 (On-scroll 3D carousel): images on a 3D ellipse/ring rotated by scroll",
+   "source_site": "21st.dev (Cinematic Orbit Hero)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/circular-gallery",
+   "reason": "exact duplicate of 21m-1084 (image plan): curved WebGL circular gallery",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/marquee",
+   "reason": "exact duplicate of 21m-105 (image plan): tilted 3D marquee columns",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/syntaxUI/syntaxui/main/src/app/(docs)/animations/skewed-infinite-scroll/page.mdx",
+   "reason": "exact duplicate of 21m-105 (image plan): items on a tilted plane scrolling continuously",
+   "source_site": "Syntax UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/infinite-slider",
+   "reason": "exact duplicate of M14: vertical direction of the same marquee",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/scroll-based-velocity",
+   "reason": "exact duplicate of M14: marquee whose speed and direction follow scroll",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/directional-marquee",
+   "reason": "exact duplicate of M14: marquee reverses with scroll direction",
+   "source_site": "GSAP demos",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/scroll-progress",
+   "reason": "exact duplicate of M26: top bar fills with page scroll",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/timeline",
+   "reason": "exact duplicate of M26: timeline line fills with scroll",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/tracing-beam.md",
+   "reason": "exact duplicate of ace-052 (Tracing beam with velocity length): tracing beam with speed-scaled length",
+   "source_site": "21st.dev (Tracing Beam)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@reuno-ui/components/svg-follow-scroll.md",
+   "reason": "exact duplicate of M8: SVG line draws along the page with scroll",
+   "source_site": "21st.dev (Svg follow scroll)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper19",
+   "reason": "exact duplicate of M8: SVG line draws along the page with scroll",
+   "source_site": "Skiper UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@joyco/components/image-sequence.md",
+   "reason": "exact duplicate of M27: same scrub result; progressive loading is a technique",
+   "source_site": "21st.dev (Image Sequence)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@kedhareswer/components/magic-hour.md",
+   "reason": "exact duplicate of M27: video scrub with damping (kit film player already does this)",
+   "source_site": "21st.dev (Magic Hour)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/OneElementScroll",
+   "reason": "exact duplicate of F1: one image Flips between placeholder waypoints",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Exhibition",
+   "reason": "exact duplicate of codrops-RoomDisplay-1 (image plan): camera moves between walls of a 3D room",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/infinite-canvas-gallery-navigation-cusp",
+   "reason": "exact duplicate of 21m-1341 (image plan): endless draggable 2D image grid",
+   "source_site": "CUSP",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+   "reason": "exact duplicate of codrops-ScrollLoopMenu-1 (Infinite scroll loop menu): page wraps back to the start seamlessly",
+   "source_site": "GSAP docs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/hero-parallax.md",
+   "reason": "exact duplicate of ace-049 (Hero parallax card rows): tilted card rows slide opposite and straighten",
+   "source_site": "21st.dev (Hero Parallax)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@patrickthomasdunn1988/components/desert-drift.md",
+   "reason": "needs a 3D car/vehicle model and scene (no placeholder shows it)",
+   "source_site": "21st.dev (Desert Drift)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/3d-scroll-and-drag-interaction-kkl-luzern-immersive-venue",
+   "reason": "needs a 3D venue scene/model to tour",
+   "source_site": "KKL Luzern",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ssychui/components/project-index.md",
+   "reason": "Exact duplicate of 21m-1192: Floating cover beside row \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/focus-cards.md",
+   "reason": "Exact duplicate of 21m-948: Focus cards \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@avanishverma4/components/pixel-hover-effect.md",
+   "reason": "Exact duplicate of 21m-261: Pixel hover fill \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/direction-aware-hover.md",
+   "reason": "Exact duplicate of 21m-2000: Direction-aware hover \u2014 same mechanism, trigger and result.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/ascii",
+   "reason": "~170 \"ASCII editor\" baked video loops of user images; kept one generic candidate (ASCII image with wave/ripple/shimmer/pulse/flicker modes); the rest are the same effect on different pictures.",
+   "source_site": "21st",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/pixelated-image-reveal-dolsten-co",
+   "reason": "exact duplicate of M43 Pixelated \u2192 sharp (scroll-triggered pixel-to-sharp image reveal)",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/mouse-move-fluid-effect-house-of-dreamers",
+   "reason": "same as M67 flowmap liquid trail",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/cursor-liquid-effect",
+   "reason": "same as M67 flowmap liquid trail",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/image-reveal-hover-effect-project-page-tilt",
+   "reason": "same as M51 3D card tilt-rotate",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/dynamic-image-trail-hero-interaction-elespacio-3",
+   "reason": "same mechanism as aw cursor image trail (KOTA) candidate",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/image-trail-effect-makemepulse",
+   "reason": "same as cursor image trail candidate",
+   "source_site": "awards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-BackgroundSlideshow",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-FullWidthImageSlider",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GammaGallery",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GridLayoutAnimation",
+   "reason": "Reviewed; motion is an exact duplicate of an existing code or of a kept candidate",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ImageRevealHover",
+   "reason": "Reviewed; motion is an exact duplicate of an existing code or of a kept candidate",
+   "source_site": "codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/flip-gallery-modal",
+   "reason": "exact duplicate of M54 grid to detail",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/simple-grid-flip-modal",
+   "reason": "exact duplicate of M54",
+   "source_site": "gsapcss",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/tilted-card",
+   "reason": "exact duplicate of M51",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/reflective-card",
+   "reason": "needs webcam",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/carousel",
+   "reason": "generic carousel UI",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/carousel",
+   "reason": "Plain drag carousel, no distinct motion",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/card/tilted-card",
+   "reason": "Duplicate of M51",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/feature-cards/tilted-card",
+   "reason": "Duplicate of M51",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/image/image-box-shadow",
+   "reason": "Trivial hover shadow",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/carousel/image-carousel",
+   "reason": "Plain carousel",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/primitives/effects/tilt.mdx",
+   "reason": "Exact duplicate: Tilt \u2014 exact duplicate of M51",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/other",
+   "reason": "Exact duplicate: Mouse image trail \u2014 same motion as Fancy 'Cursor image trail'",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper47",
+   "reason": "Exact duplicate: Perspective carousel \u2014 same as SmoothUI 'Coverflow carousel'",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper52",
+   "reason": "Exact duplicate: Expand on hover (horizontal) \u2014 same as SmoothUI 'Expanding panel gallery'",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/tilt-card.mdx",
+   "reason": "Exact duplicate of M51",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/cursor-image-trail.mdx",
+   "reason": "Same as Fancy 'Cursor image trail'",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.lukacho.com/components",
+   "reason": "No LICENSE found (no public repo located); listed motions (marquee, grid beam, custom cursor, image swiper) duplicate other candidates",
+   "source_site": "uilibs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/cursor-image-trail-effect-kota-1-1",
+   "reason": "exact duplicate of codrops-ImageTrailEffects-1 (Mouse image trail (6 styles)): same spawn-and-fade cursor trail",
+   "source_site": "KOTA",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/image-trail",
+   "reason": "exact duplicate of codrops-ImageTrailEffects-1 (Mouse image trail (6 styles)): same spawn-and-fade cursor trail",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/image/trailing-image",
+   "reason": "exact duplicate of codrops-ImageTrailEffects-1 (Mouse image trail (6 styles)): same spawn-and-fade cursor trail",
+   "source_site": "Animata",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/image-trail",
+   "reason": "exact duplicate of codrops-MotionTrailAnimations-3 (Trail: speed-based brightness/throw): same speed brightness + throw trail",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/image-trail",
+   "reason": "exact duplicate of codrops-MotionTrailAnimations-4 (Trail: oriented to direction): same direction-oriented trail",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/image-trail",
+   "reason": "exact duplicate of codrops-MotionTrailAnimations-7 (Trail: 3D depth recede): same 3D tilt/depth trail",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/list-image-hover",
+   "reason": "exact duplicate of gs-hover-image-preview (Cursor-tracking image preview list): same list-hover image following cursor with velocity tilt",
+   "source_site": "Roche Musique",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@daiwiikharihar/components/cinematic-list.md",
+   "reason": "exact duplicate of aw-087 (Menu hover fullscreen preview): same list hover full-screen background image",
+   "source_site": "21st.dev (Cinematic List)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/coverflow-carousel.mdx",
+   "reason": "exact duplicate of 21m-16 (Coverflow flip-stack): same coverflow",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ruixen.ui/components/coverflow-carousel.md",
+   "reason": "exact duplicate of 21m-6 (Inverted-perspective coverflow): same inverted/reversed coverflow",
+   "source_site": "21st.dev (Coverflow Carousel)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/three-d-carousel.mdx",
+   "reason": "exact duplicate of aw-105 (3D carousel thrown with physics): same drag-spun 3D cylinder with inertia",
+   "source_site": "Cult UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/carousel/box-carousel.mdx",
+   "reason": "exact duplicate of ox-004 (CSS 3D box turn): same 3D box turning 90\u00b0 per slide",
+   "source_site": "Fancy Components",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/orbital-image-wheel.mdx",
+   "reason": "exact duplicate of aw-104 (Rotating product wheel): same drag wheel with inertia and top highlight",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/card-stack",
+   "reason": "exact duplicate of gs-deck-cycle (Card deck cycle): same front-card-to-back cycle",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@motiondotdev/components/motion-card-stack.md",
+   "reason": "exact duplicate of ox-183 (Flick-to-back photo stack): same swipe top photo to back of stack",
+   "source_site": "21st.dev (Card stack)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/cards",
+   "reason": "exact duplicate of rb-073 (Swipe stack): same swipe-away stack",
+   "source_site": "Hover.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper48",
+   "reason": "exact duplicate of rb-073 (Swipe stack): same swipe-away stack",
+   "source_site": "Skiper UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/hover-expand.mdx",
+   "reason": "exact duplicate of 21m-1092 (Hover expand panels with vertical labels): same hover-expand panels with vertical labels",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/labs/interface-crafts-cards",
+   "reason": "exact duplicate of 21m-1081 (Squeeze accordion): same select-to-widen row of cards",
+   "source_site": "Aceternity UI Labs",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/lens.md",
+   "reason": "exact duplicate of ace-055 (Lens magnifier loupe): same cursor zoom loupe",
+   "source_site": "21st.dev (Lens)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@baozhouqi/components/magnifier-lens.md",
+   "reason": "exact duplicate of aw-092 (Glass lens refraction): same refracting lens following cursor",
+   "source_site": "21st.dev (MagnifierLens)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@dhileepkumargm/components/frosted-image-reveal-1.md",
+   "reason": "exact duplicate of 21m-1263 (Circular blur-mask reveal): same cursor-cleared area through blur/frost",
+   "source_site": "21st.dev (Frosted Image Reveal)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@unlumen/components/side-by-side-slide.md",
+   "reason": "exact duplicate of mp-043 (Draggable / hover compare slider): same spring-follow compare divider",
+   "source_site": "21st.dev (Side By Side Slide)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/image-mask-on-scroll",
+   "reason": "exact duplicate of M46: scroll wipe between two images, same visual as the existing before/after slider",
+   "source_site": "GSAP demos",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/morph-slider",
+   "reason": "exact duplicate of M66: displacement-texture melt between images",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@rahil1202/components/water-ripple-image.md",
+   "reason": "exact duplicate of M69: looping water ripples over an image",
+   "source_site": "21st.dev (WaterRippleImage)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/dither-image.mdx",
+   "reason": "exact duplicate of 21m-321 (Dither image scroll resolve): dither bit-depth resolving to full image",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/dither-shader",
+   "reason": "exact duplicate of ace-063 (Ordered dither image): duotone is a colour option of the same dither shader",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@saurabh-2607/components/great-ui-ascii-image.md",
+   "reason": "exact duplicate of ace-066 (Image to ASCII art): same live image-to-ASCII render",
+   "source_site": "21st.dev (Great UI ASCII Image)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/filter/pixelate-svg-filter.mdx",
+   "reason": "exact duplicate of M43: pixelated to sharp (SVG filter instead of canvas, same visual)",
+   "source_site": "Fancy Components",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/texture-hover-reveal-duten",
+   "reason": "exact duplicate of codrops-DoubleImageHoverEffects-1 (Double image hover clip + filter (11)): hover mask reveal of a second (texture) image",
+   "source_site": "Duten",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/expandable-card",
+   "reason": "exact duplicate of M54: card morphs into an enlarged detail panel",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/apple-cards-carousel",
+   "reason": "exact duplicate of M54: card morphs into a full-screen detail sheet",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/parallax-hero-images",
+   "reason": "exact duplicate of ox-015 (Mouse-depth floating collage): same pointer depth-parallax collage",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/auto-draggable-carousel-elisava",
+   "reason": "exact duplicate of an-auto-drift-carousel (Auto-drift grab carousel): same self-drifting grab carousel",
+   "source_site": "Elisava",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/community/motion-carousel.mdx",
+   "reason": "exact duplicate of gs-center-scale-loop (Seamless loop carousel with centre scale): same scale-on-centre carousel",
+   "source_site": "Animate UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/image/zoom-image",
+   "reason": "exact duplicate of an-085 (Photo booth hover zoom): zoom in/out is a direction of the same hover zoom",
+   "source_site": "Animata",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/spotlight-card",
+   "reason": "exact duplicate of micro candidate mp-045 / ace-089 (Cursor spotlight inside card): card UI effect, belongs to micro",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/border-glow",
+   "reason": "exact duplicate of micro candidate ox-295 / ace-100 (pointer border glow): card UI effect, belongs to micro",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/direction-aware-hover",
+   "reason": "exact duplicate of micro candidate codrops-DirectionAwareHoverEffect-1: same direction-aware caption overlay",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/focus-cards",
+   "reason": "exact duplicate of micro candidate 21m-948 (Hover dims siblings): same blur-the-rest focus cards",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/autoplay-video-on-hover-accordion",
+   "reason": "needs real video clips (panel motion itself is kept as 21m-1081 squeeze accordion)",
+   "source_site": "Accordion",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/hover-video-player.mdx",
+   "reason": "needs real video clips (hover-to-play video tile); no placeholder shows it",
+   "source_site": "Cult UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@altered-data/components/sakura.md",
+   "reason": "exact duplicate of M52 animated gradient mesh (soft colour blobs drifting and blending)",
+   "source_site": "21st.dev (Sakura)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@moumensoliman/components/floating-gradient-shadcnui.md",
+   "reason": "exact duplicate of M52 (blurred colour blobs drift and scale)",
+   "source_site": "21st.dev (Floating Gradient)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/background/animated-gradient-svg.mdx",
+   "reason": "exact duplicate of M52 (blurred colour blobs drift on loops)",
+   "source_site": "Fancy Components",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/background/blurry-blob",
+   "reason": "exact duplicate of M52 (blurred blobs scaling on loops)",
+   "source_site": "Animata",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@h0bb5/components/cool-blob-effect.md",
+   "reason": "exact duplicate of M52 (blurred blobs morphing on keyframes)",
+   "source_site": "21st.dev (Cool Blob Effect)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/glow-effect",
+   "reason": "exact duplicate of M37 breathing glow (halo scale/opacity yoyo)",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/border-beam",
+   "reason": "exact duplicate of M64 (light segment runs round a border forever)",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/other",
+   "reason": "exact duplicate of M70 film grain (moving noise overlay)",
+   "source_site": "Hover.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GooeyCursor",
+   "reason": "exact duplicate of M65 (built from this demo)",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/cursor-with-smoke-effect-distortion",
+   "reason": "exact duplicate of M67 flowmap liquid trail",
+   "source_site": "Awwwards element",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/backgrounds/side-rays",
+   "reason": "direction-only variant of M61 light rays (rays from the side); add \"side\" to M61 directions",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/backgrounds/pixel-snow",
+   "reason": "exact duplicate of M15 (falling snow particles)",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/AboveBeneath",
+   "reason": "exact duplicate of M15 (rising bubbles)",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/list/orbiting-items",
+   "reason": "exact duplicate of M33 orbit ring (items orbit with counter-rotation)",
+   "source_site": "Animata",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/circling-elements.mdx",
+   "reason": "exact duplicate of M33 orbit ring (upright satellites on a circle)",
+   "source_site": "Fancy Components",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@reuno-ui/components/skiper39.md",
+   "reason": "needs a walking-figure sprite sheet asset we lack",
+   "source_site": "21st.dev (Canvas Crowd)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper39",
+   "reason": "needs a walking-figure sprite sheet asset we lack",
+   "source_site": "Skiper UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/scroll-progress",
+   "reason": "exact duplicate of M26 progress fill (scroll progress bar)",
+   "source_site": "Motion Primitives",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/integrations.mdx",
+   "reason": "icon marquee rows = M14 marquee strip around a static tile (exact duplicate)",
+   "source_site": "Eldora UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@kokonutd/components/background-paths.md",
+   "reason": "Exact duplicate of 21m-399: Background paths \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@ruixen.ui/components/rotating-gradient-right.md",
+   "reason": "Exact duplicate of 21m-636: Rotating conic glow behind \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@karthikmudunuri/components/orbit-rotation.md",
+   "reason": "Exact duplicate of 21m-786: Dotted orbits of icons \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/shader",
+   "reason": "~100+ \"Shader Builder\" presets are the same 30-odd shader styles in different palettes; kept one candidate per style (Mesh drift, Waves, Silk, Plasma, Metaballs, Fluted glass, Flow field, Voronoi, Rings, Colour panels, Halftone CMYK/Dots, Simplex/Perlin/Neuro noise, Smoke ring, God rays, Swirl, Spiral, Orb, Caustics, Warp stripes, Pulsing border, Dot grid/orbit, Water, Liquid metal, Gem smoke, Heatmap, Paper texture, Grain gradient), palette-only copies skipped.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/gradient",
+   "reason": "~60 \"Gradient Builder\" pure-CSS static gradients (Bloom Field, Silk Blend, Axis Blend, Core Glow, Echo Rings, Orbit Sweep, Layered Tide styles) are static backgrounds, not motion; skipped.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/ascii",
+   "reason": "~170 \"ASCII editor\" baked video loops of user images; kept one generic candidate (ASCII image with wave/ripple/shimmer/pulse/flicker modes); the rest are the same effect on different pictures.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/globe",
+   "reason": "COBE/R3F globe variants with badges, emoji, polaroids, flights etc. are data-widget dressings of one rotating dot-globe; kept dot-globe + marker-pulse only. Real-brand logo shaders (e.g. Next.js, Snapchat) skipped.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/flickering-grid",
+   "reason": "exact duplicate of M60",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/light-rays",
+   "reason": "exact duplicate of M61",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/progressive-blur",
+   "reason": "static, no motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/backlight",
+   "reason": "static glow",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/noise-texture",
+   "reason": "static grain (M70 covers animated)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/hexagon-pattern",
+   "reason": "static SVG pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/striped-pattern",
+   "reason": "static SVG pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/dot-pattern",
+   "reason": "static",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/grid-pattern",
+   "reason": "static",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/grid-and-dot-backgrounds",
+   "reason": "static pattern, no motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/scales",
+   "reason": "static line-pattern background, no motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/webcam-pixel-grid",
+   "reason": "needs live webcam input",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/backgrounds/light-rays",
+   "reason": "exact duplicate of M61",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/noise",
+   "reason": "exact duplicate of M70",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/background/dot",
+   "reason": "Static pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/background/grid",
+   "reason": "Static pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/background/diagonal-lines",
+   "reason": "Static pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/background/zigzag",
+   "reason": "Static pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/container/fibonacci-lines",
+   "reason": "Static pattern",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/karthikmudunuri/eldoraui/main/apps/www/content/docs/components/cobe-globe.mdx",
+   "reason": "3D globe widget, covered by Magic UI fork",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://syntaxui.com/effects/background",
+   "reason": "Static CSS patterns (bricks, dots, grid): no motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/master/examples/timeline-50K-stars/index.js",
+   "reason": "performance stress test",
+   "source_site": "GSAP / CSS",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/mouse-move-fluid-effect-house-of-dreamers",
+   "reason": "same as M67 flowmap liquid trail",
+   "source_site": "Awwwards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/cursor-liquid-effect",
+   "reason": "same as M67 flowmap liquid trail",
+   "source_site": "Awwwards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/hero-gradient-hazey-1",
+   "reason": "WebGL gradient = M52 animated gradient mesh",
+   "source_site": "Awwwards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/animated-background-verticite-architecture",
+   "reason": "blurred looping gradient = M52",
+   "source_site": "Awwwards",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@patrick-xin/components/morphing-dialog.md",
+   "reason": "Exact duplicate of M54: card grows into a full-screen detail view (Flip), same trigger and result.",
+   "source_site": "21st.dev (Morphing Dialog)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/expandable-screen.mdx",
+   "reason": "Exact duplicate of M54: card/button morphs into a full-screen view and back.",
+   "source_site": "Cult UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/AnimatedGridLayout",
+   "reason": "Exact duplicate of M54: grid card enlarges to fill the content area, shrinks back on close.",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/LayersAnimation",
+   "reason": "Exact duplicate of M63: stacked layers wipe up with polygon clip-path one after another.",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/LiquidDistortion",
+   "reason": "Exact duplicate of M66 displacement-map swap (map scales up, crossfade, relaxes).",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-zoom-transition.mdx",
+   "reason": "Exact duplicate of M56 WebGL zoom-blur transition (vertical-progress zoom wash).",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@gughigug/components/sunset-skyline-hero.md",
+   "reason": "Exact duplicate of X10 zoom into a window (camera pushes through a window into the next scene).",
+   "source_site": "21st.dev (Sunset Skyline Hero)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@educalvolpz/components/shader-reveal-transition.md",
+   "reason": "Collection of shader transitions (noise, zoom, circle, wipe, luma, planetary, stripes, push); each style is kept as its own entry.",
+   "source_site": "21st.dev (Shader Reveal Transition)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animista.net/play/exits/fade-out",
+   "reason": "Plain fade-out (optionally with a short move): fade alone is not allowed as a motion; X12 covers fade-based handovers.",
+   "source_site": "Animista",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animista.net/play/exits/slide-out-fwd",
+   "reason": "Exact duplicate of X4 zoom-through (element flies forward through the camera).",
+   "source_site": "Animista",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@educalvolpz/components/sdf-circle-transition.md",
+   "reason": "Exact duplicate of X6 circle iris (soft-edged circle shader reveal).",
+   "source_site": "21st.dev (SDF Circle Transition)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/PixelTransition",
+   "reason": "Exact duplicate of I6 pixel transition (this Codrops demo is the source of I6).",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@luv-jeri/components/pixel-swap.md",
+   "reason": "Exact duplicate of X8 / M17 pixel dissolve (staggered pixel tile clip swap).",
+   "source_site": "21st.dev (Pixel Swap)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GlitchSlideshow",
+   "reason": "Exact duplicate of X9 RGB glitch cut (stacked copies tear with clip rectangles).",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@framecn/components/zoom-through-transition.md",
+   "reason": "(research pass) Exact duplicate of X4: Zoom through centre \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/fullscreen-overlay-menu-with-diagonal-slide-transition",
+   "reason": "(research pass) same mechanism as X7 diagonal wipe",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/pixel-page-transition-vivid-page-by-fooror",
+   "reason": "(research pass) same as X8 pixel dissolve",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/image-and-page-transitions-nord-quantique",
+   "reason": "(research pass) pixel masking = X8 pixel dissolve",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/awwwards/collections/transitions/",
+   "reason": "(research pass) 'Page flip' (seasoned.koto.studio) = M2 3D page flip; other entries titled only 'Page Transition' with no readable description",
+   "source_site": "Awwwards / galleries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/astro-shop-view-transitions",
+   "reason": "(research pass) Browser View Transitions shared-element morph = same result as M54 Flip layout morph (exact duplicate)",
+   "source_site": "Codrops",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/observe-events",
+   "reason": "(research pass) Observer event demo, motion covered by gs-swipe-sections",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://barba.js.org/examples/",
+   "reason": "(research pass) only 2 CodePen examples (Sync sliding, Once upon a router) - CodePen blocked; sync sliding = same as sw-parallel-slideshow",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://swup.js.org/getting-started/demos/",
+   "reason": "(research pass) basic fade = X12; multiple/forms/inline-forms/infinite-scroll-cache are functional demos",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/sdf-circle-transition.mdx",
+   "reason": "(research pass) Exact duplicate of X6 circle iris",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-circle-transition.mdx",
+   "reason": "(research pass) Same as SmoothUI 'Warped circle reveal' / X6",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text18.module.css",
+   "reason": "Exact duplicate of M21 typewriter / caret (word types and deletes with a blinking caret).",
+   "source_site": "CSS Loaders (cssloaders.github.io)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/jeremyssocial_ugly-bullfrog-62.html",
+   "reason": "Exact duplicate of M21 typewriter / caret (code types and deletes in a loop).",
+   "source_site": "Uiverse.io",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@designali-in/components/loading-overlay.md",
+   "reason": "Exact duplicate of I10 (percentage counts to 100, then the overlay clips out).",
+   "source_site": "21st.dev (Loading Overlay)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@gaxocif204/components/preloader.md",
+   "reason": "Exact duplicate of the I1 / engine loader exit (panel slides up off screen when ready).",
+   "source_site": "21st.dev (Preloader)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@mdafsarx/components/counter-loader.md",
+   "reason": "Exact duplicate of M48 odometer roll (big counter digits roll in a grid).",
+   "source_site": "21st.dev (counter loader)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress28.module.css",
+   "reason": "Exact duplicate of M26 progress fill (box fills bottom to top, then fades).",
+   "source_site": "CSS Loaders (cssloaders.github.io)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/RapidLayersAnimation",
+   "reason": "Exact duplicate of I7 / M63 rapid layers (this Codrops demo is their source).",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/motion-loader.mdx",
+   "reason": "Pack of 12 mini loaders; its distinct pieces (cradle, hourglass, orbit) are kept as single entries.",
+   "source_site": "SmoothUI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/Nawsome_wet-mayfly-23.html",
+   "reason": "Needs an illustrated character asset (running figure in a wheel); not a brand-site motion.",
+   "source_site": "Uiverse.io",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@elements-/components/loader-terminal-decode.md",
+   "reason": "(research pass) Exact duplicate of M22: Terminal decode loader \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/spinner",
+   "reason": "(research pass) Dozens of tiny UI spinners (dots, bars, arcs, rings) skipped as app-UI widgets except those with a distinct shape idea usable as a brand loader.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/loader",
+   "reason": "(research pass) 8-bit/retro UI kit pieces, skeletons, tooltips, dropdowns, tabs, toasts, forms, tables, date pickers and other pure app-UI widgets skipped per brief.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ellipsis.vue",
+   "reason": "(research pass) plain dot fade spinner (app-UI)",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ring2.vue",
+   "reason": "(research pass) plain spinning ring (app-UI)",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/vineethtrv/css-loader",
+   "reason": "(research pass) ~330 circle/bubble/line/rect/objects/graph/skeleton spinners skipped as generic app-UI spinners; text (18) and progress (30) categories reviewed, distinct ones kept; cl text03/04/07/08/10/11 are colour/shape variants of kept ones; progress02-30 others are plain fills/stripes/balls",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/loadingio/css-spinner",
+   "reason": "(research pass) circle/default/dual-ring/ellipsis/facebook/grid/ring/spinner: generic app spinners (kept ripple/heart/hourglass/roller)",
+   "source_site": "GSAP demos / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/sliding-loader",
+   "reason": "(research pass) redirects to homepage (Pro / unreachable)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://uiverse.io/loaders",
+   "reason": "(research pass) uiverse.io site returns 403 to fetch; used the official MIT galaxy repo (https://github.com/uiverse-io/galaxy) instead. ~3,100 elements scanned by tags/keyframes; most are near-identical spinners, ripple and shine buttons, social icons and checkbox/toggle UI, so only distinct motion families were kept",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/blob-cursor",
+   "reason": "Exact duplicate of existing M65 (Blob cursor): same mechanism, trigger and result.",
+   "source_site": "React Bits",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@chamaac/components/shimmer-button.md",
+   "reason": "Exact duplicate of existing M49 (Shimmer text button): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Shimmer Button)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@animbits/components/loaders-skeleton.md",
+   "reason": "Exact duplicate of existing M49 (Skeleton shimmer): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Skeleton Loader)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@dillionverma/components/shine-border.md",
+   "reason": "Exact duplicate of existing M64 (Shine border): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Shine Border)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@shadcnspace/components/button-33.md",
+   "reason": "Exact duplicate of existing M64 (Spinning conic border): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Generate AI Button)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@originui/components/tabs/vertical-tabs.md",
+   "reason": "Exact duplicate of existing M64 (Rainbow border button): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Tabs)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@nexus-ui/components/nebula-cta-glow.md",
+   "reason": "Exact duplicate of existing M37 (Nebula glow button): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Nebula CTA Glow)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@sh20raj/components/optimized-tilt-card.md",
+   "reason": "Exact duplicate of existing M51 (Tilt card with pointer sheen): same mechanism, trigger and result.",
+   "source_site": "21st.dev (Optimized Tilt Card)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/comet-card",
+   "reason": "Exact duplicate of existing M51 (Comet-style tilt card): same mechanism, trigger and result.",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ButtonStylesInspiration",
+   "reason": "Pack of hover styles; every motion in it is an exact duplicate of a kept entry (fx-button-bubble, hv-sweep, ox-100, fx-input-trace, an-049), its URL is listed in their also_seen_at.",
+   "source_site": "Codrops (github.com/codrops)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/tailwindcss-buttons",
+   "reason": "Pack of hover styles; every motion in it is an exact duplicate of a kept entry (fx-button-shine, hv-grow-shadow, an-045, mp-034), its URL is listed in their also_seen_at.",
+   "source_site": "Aceternity UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/syntaxUI/syntaxui/main/src/app/(docs)/animations/hovers/jiggle/page.mdx",
+   "reason": "Pack of hover styles; every motion in it is an exact duplicate of a kept entry (ac-tada, hv-buzz, hv-pop, ac-swing), its URL is listed in their also_seen_at.",
+   "source_site": "Syntax UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/cursor.mdx",
+   "reason": "Exact duplicate of the kit's engine Cursor (dot + lagging follower with data-cursor label).",
+   "source_site": "Animate UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@moumensoliman/components/liquid-cursor.md",
+   "reason": "Exact duplicate of M65: Gooey liquid cursor \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@dillionverma/components/shimmer-button.md",
+   "reason": "Exact duplicate of 21m-340: Perimeter shimmer \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@patrickthomasdunn1988/components/wilderness.md",
+   "reason": "Exact duplicate of 21m-444: Hover parallax hero layers \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@sona-ui/components/stagger-text.md",
+   "reason": "Exact duplicate of 21m-446: Hover stagger vertical roll \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@radiumcoders/components/animated-testimonials.md",
+   "reason": "Exact duplicate of 21m-948: Hover focus quote \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/focus-cards.md",
+   "reason": "Exact duplicate of 21m-948: Focus cards \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@avanishverma4/components/pixel-hover-effect.md",
+   "reason": "Exact duplicate of 21m-261: Pixel hover fill \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@tom_ui/components/flow-button.md",
+   "reason": "Exact duplicate of 21m-2263: Flowing dashed border \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@manuarora700/components/direction-aware-hover.md",
+   "reason": "Exact duplicate of 21m-2000: Direction-aware hover \u2014 same mechanism, trigger and result.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/spinner",
+   "reason": "Dozens of tiny UI spinners (dots, bars, arcs, rings) skipped as app-UI widgets except those with a distinct shape idea usable as a brand loader.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/community/components/s/loader",
+   "reason": "8-bit/retro UI kit pieces, skeletons, tooltips, dropdowns, tabs, toasts, forms, tables, date pickers and other pure app-UI widgets skipped per brief.",
+   "source_site": "21st.dev",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/AnimatedAnimals",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/AnimatedMenuIcon",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/AnimatedSVGIcons",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/AudioVisualizers",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/BalloonButton",
+   "reason": "Needs a Blender-baked cloth simulation asset (three.js); no placeholder possible",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-ElasticContentSlider",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-HorizontalDropDownMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-NestedAccordion",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-SlidePushMenus",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Blueprint-VerticalIconMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/BookPreview",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/CSSProgress",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Calendario",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/CheckoutConcepts",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ColorExtraction",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/CreativeButtons",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/DialogEffects",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/DotNavigationStyles",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/DragDropInteractions",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ExpandingSearchBar",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/FilterableProductGrid",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/FullWidthTabs",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/FullscreenForm",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GeekyGlasses",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/GoogleNexusWebsiteMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/HorizontalSlideOutMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/IconHoverEffects",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ImageRevealHover",
+   "reason": "Reviewed; motion is an exact duplicate of an existing code or of a kept candidate",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/Interactive3DMallMap",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/InteractiveColoringConcept",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/MinimalForm",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ModalWindowEffects",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/MultiElementSelection",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/MultiLevelPushMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/MultiboxMenu",
+   "reason": "Reviewed; motion is an exact duplicate of an existing code or of a kept candidate",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/MusicalInteractions",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/NaturalLanguageForm",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/NotificationStyles",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/PasswordStrengthVisualization",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/PricingTablesInspiration",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ProductComparison",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ProductGridLayout",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/PullToShare",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/RecordPlayer",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ResponsiveIconGrid",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ResponsiveMultiColumnForm",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ResponsiveMultiLevelMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SearchUIEffects",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SeatPreview",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SelectInspiration",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SimpleDropDownEffects",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SliderPagination",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/SurfReport",
+   "reason": "Product-specific app concept / needs audio, MIDI or specific illustration assets; no reusable brand-site motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/TextInputEffects",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/TooltipAnimations",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/TooltipMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/TooltipStylesInspiration",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/ViewModeSwitch",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/codrops/YouTubeLeftSideMenu",
+   "reason": "App-UI widget / form / basic blueprint layout, or its motion duplicates a kept candidate (hover, menu, modal, dropdown, notification, input) \u2014 no new section motion",
+   "source_site": "Codrops (GitHub)",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/shimmer-button",
+   "reason": "exact duplicate of M64",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/bento-grid",
+   "reason": "layout; hover lift only",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/sticky-banner",
+   "reason": "app-UI widget (banner hides on scroll; same mechanism as floating navbar)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/feature-sections-free",
+   "reason": "layouts only; motion covered by card/bento candidates",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.aceternity.com/components/bento-grid",
+   "reason": "only hover nudge kept; layout itself not motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/animations/magnet",
+   "reason": "exact duplicate of M71",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/elastic-slider",
+   "reason": "app UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/components/curved-input",
+   "reason": "app UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/squish-switch",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/peek-rating",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/spring-check",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/rubber-segment",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/slide-commit",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/warm-tooltip",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/scrub-field",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/code-slots",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/wake-slider",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/comet-dial",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/swipe-row",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/glide-select",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/status-mark",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/call-chip",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/swipe-toast",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/prompt-bar",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/voice-pill",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/thought-line",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://reactbits.dev/micro/refine-frame",
+   "reason": "pure app-UI widget",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/magnetic",
+   "reason": "Exact duplicate of M71 (magnetic button + inner text parallax)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/accordion",
+   "reason": "App-UI widget (accordion height)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/dialog",
+   "reason": "App-UI modal (scale-in dialog)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://motion-primitives.com/docs/carousel",
+   "reason": "Plain drag carousel, no distinct motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/container/animated-dock",
+   "reason": "Duplicate of mp dock",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/container/nav-tabs",
+   "reason": "Duplicate of mp hover pill",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/card/github-card-shiny",
+   "reason": "Duplicate of mp cursor spotlight",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/container/cursor-tracker",
+   "reason": "Duplicate of the engine cursor label",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/button/algolia-blue-button",
+   "reason": "Real-brand copy",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/button/algolia-white-button",
+   "reason": "Real-brand copy",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/button/toggle-switch",
+   "reason": "App UI",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/button/external-link-button",
+   "reason": "Trivial hover",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/image/image-box-shadow",
+   "reason": "Trivial hover shadow",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/progress/spinner",
+   "reason": "App UI",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/overlay/modal",
+   "reason": "App UI",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/section/pricing",
+   "reason": "Layout, not motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/bento-grid",
+   "reason": "Layouts, not motion",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/accordion/faq",
+   "reason": "App UI",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://animata.design/docs/card/notification-card",
+   "reason": "App UI",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/primitives/effects/tilt.mdx",
+   "reason": "Exact duplicate: Tilt \u2014 exact duplicate of M51",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/countdown",
+   "reason": "Exact duplicate: Shifting countdown \u2014 same as Animate UI 'Sliding number'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/links",
+   "reason": "Exact duplicate: Reveal links (letter roll) \u2014 same as Fancy 'Letter roll swap (hover)'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/other",
+   "reason": "Exact duplicate: Mouse image trail \u2014 same motion as Fancy 'Cursor image trail'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/tabs",
+   "reason": "Exact duplicate: Slide tabs \u2014 same as Kokonut 'Morphing nav pill'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper47",
+   "reason": "Exact duplicate: Perspective carousel \u2014 same as SmoothUI 'Coverflow carousel'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper58",
+   "reason": "Exact duplicate: Text roll navigation \u2014 same as Fancy 'Letter roll swap (hover)'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://skiper-ui.com/v1/skiper59",
+   "reason": "Exact duplicate: Drawing cursor effect \u2014 same as SmoothUI 'Drawing cursor stroke'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/magnetic-button.mdx",
+   "reason": "Exact duplicate of M71",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/tilt-card.mdx",
+   "reason": "Exact duplicate of M51",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/border-beam.mdx",
+   "reason": "Same as Cult 'Border beam comet'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/gooey-filter.mdx",
+   "reason": "Same as Fancy 'Gooey panel merge'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/cursor-image-trail.mdx",
+   "reason": "Same as Fancy 'Cursor image trail'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/wave-text.mdx",
+   "reason": "Same as Eldora 'Wavy letters loop'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/number-flow.mdx",
+   "reason": "Same as Cult 'Rolling digit spring'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/typewriter-text.mdx",
+   "reason": "Exact duplicate of M21",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scramble-hover.mdx",
+   "reason": "Same as Fancy 'Scramble on hover'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/progressive-blur.mdx",
+   "reason": "Same as Cult 'Progressive edge blur'",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/sdf-circle-transition.mdx",
+   "reason": "Exact duplicate of X6 circle iris",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-circle-transition.mdx",
+   "reason": "Same as SmoothUI 'Warped circle reveal' / X6",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/scroll-reveal-paragraph.mdx",
+   "reason": "Plain fade/translate on view (not allowed as motion)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/",
+   "reason": "~110 other SmoothUI entries are app widgets (inputs, dialogs, AI chat UI, toasts, pickers): out of scope",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/apps/www/content/docs/components/animate/",
+   "reason": "Magnetic, fade, slide, zoom, blur, auto-height effects: exact duplicates (M71, plain reveals, M19) or app UI; base/radix/headless folders are app primitives",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/nolly-studio/cult-ui/main/apps/www/content/docs/components/",
+   "reason": "~60 Cult UI entries are app widgets/mockups (polls, kanban, inputs, device mockups, toasts): out of scope; globe/dock covered by Magic UI fork",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/content/docs/ai/",
+   "reason": "AI chat inputs, pickers, file upload, tweet card: app UI",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.hover.dev/components/buttons",
+   "reason": "Hover.dev PRO items skipped (paid): Neu Follow, Wet Paint, Marquee, Dot Expand, Load, Magnet, Gradient Shadow, Splash, Rounded Slide, Shiny, AI buttons; PRO cards/carousels/heros/features/nav/other/loaders likewise",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.lukacho.com/components",
+   "reason": "No LICENSE found (no public repo located); listed motions (marquee, grid beam, custom cursor, image swiper) duplicate other candidates",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ui.spectrumhq.in/",
+   "reason": "Spectrum UI (Apache-2.0) is mostly app widgets (kanban, toasts, steppers); its motion items (number ticker, tilt card, metal button, beam card) duplicate other candidates",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.animate-ui.com/",
+   "reason": "Docs read from GitHub repo (site is client-rendered)",
+   "source_site": "UI libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/flip-gallery-modal",
+   "reason": "exact duplicate of M54 grid to detail",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/simple-grid-flip-modal",
+   "reason": "exact duplicate of M54",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://demos.gsap.com/demo/cursor-follower",
+   "reason": "engine Cursor already does a quickTo follower",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/master/examples/draggable-playground/index.js",
+   "reason": "drag settings playground, motion covered by gs-throw-inertia",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/master/examples/text/scramble/index.js",
+   "reason": "same as an-block-scramble / gs-scramble-hover",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://ianlunn.github.io/Hover/",
+   "reason": "Icon Grow/Shrink/Pulse/Pulse Grow/Pulse Shrink/Push/Pop/Bounce/Rotate/Grow Rotate/Float/Sink/Bob/Hang/Wobble/Buzz/Fade: identical to the 2D effects, only applied to the icon - exact duplicates",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/button-slide-left.vue",
+   "reason": "cssfx button-slide-* = same motion as hv-sweep",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/text-underline.vue",
+   "reason": "cssfx text-underline/overline = same as hv-underline / hv-overline",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ellipsis.vue",
+   "reason": "plain dot fade spinner (app-UI)",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ring2.vue",
+   "reason": "plain spinning ring (app-UI)",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/vineethtrv/css-loader",
+   "reason": "~330 circle/bubble/line/rect/objects/graph/skeleton spinners skipped as generic app-UI spinners; text (18) and progress (30) categories reviewed, distinct ones kept; cl text03/04/07/08/10/11 are colour/shape variants of kept ones; progress02-30 others are plain fills/stripes/balls",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://github.com/loadingio/css-spinner",
+   "reason": "circle/default/dual-ring/ellipsis/facebook/grid/ring/spinner: generic app spinners (kept ripple/heart/hourglass/roller)",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://gsap.com/docs/v3/Eases/CustomWiggle/",
+   "reason": "doc page returned 404 shell to curl; wiggle covered via gs-magnetic-wiggle demo",
+   "source_site": "GSAP / CSS libraries",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/mouse-move-fluid-effect-house-of-dreamers",
+   "reason": "same as M67 flowmap liquid trail",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/cursor-liquid-effect",
+   "reason": "same as M67 flowmap liquid trail",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/image-reveal-hover-effect-project-page-tilt",
+   "reason": "same as M51 3D card tilt-rotate",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/fullscreen-overlay-menu-with-diagonal-slide-transition",
+   "reason": "same mechanism as X7 diagonal wipe",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/dynamic-image-trail-hero-interaction-elespacio-3",
+   "reason": "same mechanism as aw cursor image trail (KOTA) candidate",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/image-trail-effect-makemepulse",
+   "reason": "same as cursor image trail candidate",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/3d-product-scroll-animation-bunta-beer",
+   "reason": "3D product turned by scroll = F2/F3 (needs a 3D model)",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://www.awwwards.com/inspiration/product-details-scroll-experience-som",
+   "reason": "3D product travel = F3",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://codepen.io/collection/bNPYOw",
+   "reason": "GreenSock demo pens via search (parallax, image zoom, slide-in panels, scroll typewriter) all duplicate existing M7/M28/X1/M21",
+   "source_site": "Awwwards and award sites",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://magicui.design/docs/components/lens",
+   "reason": "exact duplicate of ace-055 (image group)",
+   "source_site": "Magic UI",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/image/image-trail.mdx",
+   "reason": "exact duplicate of codrops-ImageTrailEffects-1 (image group)",
+   "source_site": "Fancy Components",
+   "batch": "research"
+  },
+  {
+   "source_url": "https://21st.dev/@rmahammad/components/lens-card.md",
+   "reason": "exact duplicate of aw-092 (image group)",
+   "source_site": "21st.dev (Lens Card)",
+   "batch": "research"
+  }
+ ]
+}

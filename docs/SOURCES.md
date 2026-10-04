@@ -146,3 +146,25 @@ Four research passes read 21st.dev (≈110 category pages, ≈2,550 component pa
 | TailGrids, daisyUI | MIT | not mined (blocks are Pro / no section blocks) |
 | Kometa UI | no public repo, licence unclear | skipped |
 | Godly, Land-book, Lapa Ninja | could not be read (blocked / redirect) | not used |
+
+## Motion library (MOTION-MENU §L, `/lab/motion`; research 2026-10-04)
+
+Every motion is **rebuilt from scratch in GSAP** (no framer-motion, no copied code), even when the source is MIT. Sources were looked at to learn what moves and when; code, names and assets are ours. Only exact duplicates were skipped (548); variants keep their own code with a "variant of" note (see `docs/MOTION-LOG.md`).
+
+| Source | Licence | How we used it |
+|---|---|---|
+| Codrops tutorials + demos (2020+ repos) | MIT | ideas, rebuilt in GSAP |
+| Codrops repos 2013–2019 | Codrops own licence (no redistribution) | ideas only |
+| Two Codrops repos | GPLv3 | ideas only, no code |
+| Magic UI, Motion Primitives, Animata, Fancy Components, Cult UI, Eldora UI, Kokonut UI, SmoothUI, uiverse, Syntax UI | MIT | ideas, rebuilt in GSAP |
+| anime.js, cssfx, CSS Loaders, Lenis, Locomotive Scroll, Barba.js, swup | MIT | ideas, rebuilt in GSAP |
+| React Bits, Animate UI | MIT + Commons Clause | ideas only |
+| Aceternity UI, Skiper UI, 21st.dev | proprietary / unclear | look and learn only |
+| GSAP showcase demos, CodePen pens | per-author / GSAP licence | look and learn only |
+| Awwwards, FWA, CSS Design Awards sites | all rights reserved | motion ideas only |
+| Hover.css | free for open source; commercial use needs a paid licence | ideas only |
+| Animate.css | Hippocratic 2.1 | ideas only |
+| Animista | FreeBSD | ideas, rebuilt |
+| loading.io | CC0 | ideas, rebuilt |
+| Hover.dev | own licence | ideas only |
+| CodePen search, tympanus.net live pages, Godly | blocked / could not be read | not used |
