@@ -5,5 +5,8 @@ import type { MotionDef } from "../types";
 import { DEFS as LOADER_B3_4 } from "../loader-b3-4";
 import { DEFS as LOADER_B3_5 } from "../loader-b3-5";
 import { DEFS as LOADER_B14_1 } from "../loader-b14-1";
+import { DEFS as LOADER_B17_3 } from "../loader-b17-3";
+import { DEFS as LOADER_B17_4 } from "../loader-b17-4";
+import { DEFS as LOADER_B17_5 } from "../loader-b17-5";
 
-export const DEFS: MotionDef[] = ([...LOADER_B3_4, ...LOADER_B3_5, ...LOADER_B14_1] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...LOADER_B3_4, ...LOADER_B3_5, ...LOADER_B14_1, ...LOADER_B17_3, ...LOADER_B17_4, ...LOADER_B17_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));

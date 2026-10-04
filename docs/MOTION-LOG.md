@@ -4,18 +4,18 @@ Every motion in `docs/MOTION-MENU.md` (M75+, X19+, I11+, U01+), where its idea c
 Source of truth: `docs/motion-log.json` → `node scripts/motion-log.mjs` writes this file and `docs/motion-log.csv`.
 No code was copied from any source; "inspired" = motion idea rebuilt from scratch in GSAP (see `docs/SOURCES.md` for licences).
 
-**959 motions · 1319 skipped**
+**1019 motions · 1319 skipped**
 
 | Group | Motions |
 |---|---|
 | Text effects | 231 |
-| Backgrounds & ambient | 187 |
-| Hover, buttons & cursor (U) | 154 |
+| Backgrounds & ambient | 206 |
+| Hover, buttons & cursor (U) | 164 |
 | Image effects | 120 |
 | Scroll & pinned | 95 |
-| Transitions (X) | 77 |
+| Transitions (X) | 85 |
 | Reveals | 68 |
-| Loaders (I) | 27 |
+| Loaders (I) | 50 |
 
 | Batch | Motions |
 |---|---|
@@ -34,6 +34,7 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | 13 | 60 |
 | 15 | 60 |
 | 16 | 60 |
+| 17 | 60 |
 | 14 | 59 |
 
 ## Motions
@@ -999,6 +1000,66 @@ No code was copied from any source; "inspired" = motion idea rebuilt from scratc
 | M773 | Backgrounds & ambient | Engraving hatch sphere |  | 21st.dev (Hero Burin Hatch) | [link](https://21st.dev/@nikolas-sapa/components/hero-burin-hatch.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 16 | 2026-10-04 |
 | M774 | Backgrounds & ambient | SDF slice cross-section |  | 21st.dev (Clipping) | [link](https://21st.dev/@vgpu/components/clipping.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 16 | 2026-10-04 |
 | M775 | Backgrounds & ambient | Rotating wireframe solid |  | 21st.dev (Wireframe Forms) | [link](https://21st.dev/@mengto/components/wireframe-forms/wireframe-forms-sphere.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 16 | 2026-10-04 |
+| M776 | Backgrounds & ambient | Glass fractal solid |  | 21st.dev (Glass Fractal) | [link](https://21st.dev/@vgpu/components/glass-fractal.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| M777 | Backgrounds & ambient | Crystalline field |  | 21st.dev (CrystallineFieldHero) | [link](https://21st.dev/@dhileepkumargm/components/crystalline-field-hero.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M778 | Backgrounds & ambient | Clockwork gears |  | 21st.dev (ChronosEngine) | [link](https://21st.dev/@dhileepkumargm/components/chronos-engine.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M779 | Backgrounds & ambient | Jellyfish |  | 21st.dev (jelly fish) | [link](https://21st.dev/@univolveit/components/jelly-fish.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M780 | Backgrounds & ambient | Fractal fly-through | F4 | 21st.dev (SymmetryEngine) | [link](https://21st.dev/@dhileepkumargm/components/symmetry-engine.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M781 | Backgrounds & ambient | Lightning |  | React Bits | [link](https://reactbits.dev/backgrounds/lightning) | inspired, no code copied (source: React Bits: MIT + Commons Clause v1.0 (c) 2026 David Haz - free to use in a website; may not sell/redistribute the components themselves. We rebuild from description only.) | 17 | 2026-10-04 |
+| M782 | Backgrounds & ambient | Voronoi cells |  | 21st.dev (Voronoi) | [link](https://21st.dev/@paper-design/components/voronoi.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: apache-2.0) | 17 | 2026-10-04 |
+| M783 | Backgrounds & ambient | 3D gradient circles | M638 | 21st.dev (Comet Hero) | [link](https://21st.dev/@tonyzebastian/components/comet-hero.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M784 | Backgrounds & ambient | HUD reticle | X17 | 21st.dev (Animated HUD Targeting UI) | [link](https://21st.dev/@isaiahbjork/components/animated-hud-targeting-ui.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M785 | Backgrounds & ambient | Flip-disc matrix | M17 | 21st.dev (Flip Disk Matrix) | [link](https://21st.dev/@daiwiikharihar/components/flip-disk-matrix.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| M786 | Backgrounds & ambient | ASCII plasma field | M52 | 21st.dev (Background ASCII Plasma) | [link](https://21st.dev/@nikolas-sapa/components/background-ascii-plasma.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: no-license) | 17 | 2026-10-04 |
+| M787 | Backgrounds & ambient | ASCII image near cursor | M786 | 21st.dev (Background ASCII Dither) | [link](https://21st.dev/@nikolas-sapa/components/background-ascii-dither.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| M788 | Backgrounds & ambient | Shape-shifter box | M53 | Animata | [link](https://animata.design/docs/hero/shape-shifter) | inspired, no code copied (source: MIT, Copyright (c) Animata (codse/animata LICENSE.md); idea only, rebuilt in GSAP) | 17 | 2026-10-04 |
+| M789 | Backgrounds & ambient | Screensaver bounce |  | Fancy Components | [link](https://raw.githubusercontent.com/DanielPetho/fancy/main/src/content/docs/components/blocks/screensaver.mdx) | inspired, no code copied (source: MIT © 2024 Daniel Petho (Fancy Components) — idea only, rebuilt in GSAP) | 17 | 2026-10-04 |
+| M790 | Backgrounds & ambient | Hand-drawn map with snowfall |  | 21st.dev (ArcticMapPattern) | [link](https://21st.dev/@dhileepkumargm/components/arctic-map-pattern.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| M791 | Backgrounds & ambient | Scroll-velocity spiral | M55 | Codrops (github.com/codrops) | [link](https://github.com/codrops/ScrollSpiral) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: https://tympanus.net/codrops/?p=30761) | 17 | 2026-10-04 |
+| M792 | Backgrounds & ambient | Scroll digit stream | M35 | 21st.dev (Digit Stream) | [link](https://21st.dev/@tkachukkateryna14/components/digit-stream.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| M793 | Backgrounds & ambient | Aurora chart fill | M181 | 21st.dev (Aurora Flow Chart) | [link](https://21st.dev/@nikolas-sapa/components/chart-area-aurora.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| M794 | Backgrounds & ambient | Brush cursor paints | M65 | Awwwards element | [link](https://www.awwwards.com/inspiration/interactive-brush-cursor) | inspired, no code copied (source: motion idea only, site all rights reserved (Awwwards element = video + title/tags; motion rebuilt from title, tags and description, not from code)) | 17 | 2026-10-04 |
+| X96 | Transitions (X) | Thanos snap disintegrate | X8 | 21st.dev (Thanos snap effect) | [link](https://21st.dev/@bart-krakowski/components/thanos-snap-effect.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| X97 | Transitions (X) | Hinge fall away | X1 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PageTransitions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/PageTransitions/) | 17 | 2026-10-04 |
+| X98 | Transitions (X) | Newspaper spin out / in | X5 | Codrops (github.com/codrops) | [link](https://github.com/codrops/PageTransitions) | inspired, no code copied (source: Codrops licence (free to integrate in personal/commercial projects; no as-is resale/redistribution) \| demo: http://tympanus.net/Development/PageTransitions/) | 17 | 2026-10-04 |
+| X99 | Transitions (X) | Two-stack 3D lift slider | M29 | Codrops (github.com/codrops) | [link](https://github.com/codrops/StackSlider) | inspired, no code copied (source: MIT (stated in README, no LICENSE file) \| demo: http://tympanus.net/Development/StackSlider) | 17 | 2026-10-04 |
+| X100 | Transitions (X) | Cloth peel reveal | X11 | 21st.dev (Cloth Peel Reveal) | [link](https://21st.dev/@kedhareswer/components/cloth-peel-reveal.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| X101 | Transitions (X) | Planetary swirl | X11 | SmoothUI | [link](https://raw.githubusercontent.com/educlopez/smoothui/main/apps/docs/content/docs/components/shader-reveal-planetary-transition.mdx) | inspired, no code copied (source: MIT © 2024 Eduardo Calvo (SmoothUI) — idea only) | 17 | 2026-10-04 |
+| X102 | Transitions (X) | Roll-out |  | Animista | [link](https://animista.net/play/exits/roll-out) | inspired, no code copied (source: Animista: generated CSS free for personal & commercial use under FreeBSD licence (c) 2017 Ana Travas - we rebuild in GSAP) | 17 | 2026-10-04 |
+| X103 | Transitions (X) | Anticipation pop-out |  | Animate.css | [link](https://animate.style/) | inspired, no code copied (source: Animate.css Hippocratic License 2.1 (c) 2021 Daniel Eden - idea only, rebuilt in GSAP) | 17 | 2026-10-04 |
+| I38 | Loaders (I) | Radar sweep |  | 21st.dev (LoadingRadar) | [link](https://21st.dev/@ruhith369/components/loading-radar.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| I39 | Loaders (I) | Signal arc over logos |  | 21st.dev (Agent Wave Loader) | [link](https://21st.dev/@rorogogogo/components/agent-wave-loader.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| I40 | Loaders (I) | Bracket squeeze | I1 | CSS Loaders (cssloaders.github.io) | [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text16.module.css) | inspired, no code copied (source: CSS Loaders (vineethtrv/css-loader) MIT (c) 2021 CSS Loaders) | 17 | 2026-10-04 |
+| I41 | Loaders (I) | Dropping i-dot | I1 | CSS Loaders (cssloaders.github.io) | [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/text/text05.module.css) | inspired, no code copied (source: CSS Loaders (vineethtrv/css-loader) MIT (c) 2021 CSS Loaders) | 17 | 2026-10-04 |
+| I42 | Loaders (I) | Ice melt gate | I10 | 21st.dev (Zero Melt Preloader) | [link](https://21st.dev/@kedhareswer/components/zero-melt-preloader.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| I43 | Loaders (I) | Checklist loader | I10 | Aceternity UI | [link](https://ui.aceternity.com/components/multi-step-loader) | inspired, no code copied (source: Aceternity licence (proprietary) — look and learn only, rebuild from description) | 17 | 2026-10-04 |
+| I44 | Loaders (I) | Dot wave |  | cssfx | [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-wave.vue) | inspired, no code copied (source: cssfx MIT (c) 2019 Jonathan Olaleye) | 17 | 2026-10-04 |
+| I45 | Loaders (I) | Balancing ball |  | CSS Loaders (cssloaders.github.io) | [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress17.module.css) | inspired, no code copied (source: CSS Loaders (vineethtrv/css-loader) MIT (c) 2021 CSS Loaders) | 17 | 2026-10-04 |
+| I46 | Loaders (I) | Bouncing block in track | M26 | CSS Loaders (cssloaders.github.io) | [link](https://raw.githubusercontent.com/vineethtrv/css-loader/master/src/loaders/progress/progress01.module.css) | inspired, no code copied (source: CSS Loaders (vineethtrv/css-loader) MIT (c) 2021 CSS Loaders) | 17 | 2026-10-04 |
+| I47 | Loaders (I) | Dash ring |  | cssfx | [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-ring.vue) | inspired, no code copied (source: cssfx MIT (c) 2019 Jonathan Olaleye) | 17 | 2026-10-04 |
+| I48 | Loaders (I) | Fill-and-flip box |  | cssfx | [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-box.vue) | inspired, no code copied (source: cssfx MIT (c) 2019 Jonathan Olaleye) | 17 | 2026-10-04 |
+| I49 | Loaders (I) | Newton's cradle |  | cssfx | [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-cradle.vue) | inspired, no code copied (source: cssfx MIT (c) 2019 Jonathan Olaleye) | 17 | 2026-10-04 |
+| I50 | Loaders (I) | Orbit with pulsing core |  | cssfx | [link](https://raw.githubusercontent.com/jolaleye/cssfx/master/effects/loader-orbit.vue) | inspired, no code copied (source: cssfx MIT (c) 2019 Jonathan Olaleye) | 17 | 2026-10-04 |
+| I51 | Loaders (I) | Day-night scene loader | M10 | Uiverse.io | [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/Admin12121_stupid-mouse-29.html) | inspired, no code copied (source: MIT © 2023 Uiverse.io (galaxy repo) — idea only) | 17 | 2026-10-04 |
+| I52 | Loaders (I) | Falling dominoes |  | Uiverse.io | [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/Zadrus_bad-penguin-12.html) | inspired, no code copied (source: MIT © 2023 Uiverse.io (galaxy repo) — idea only) | 17 | 2026-10-04 |
+| I53 | Loaders (I) | Delivery truck | M14 | Uiverse.io | [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/vinodjangid07_popular-owl-27.html) | inspired, no code copied (source: MIT © 2023 Uiverse.io (galaxy repo) — idea only) | 17 | 2026-10-04 |
+| I54 | Loaders (I) | Constellation blink | M15 | Syntax UI | [link](https://raw.githubusercontent.com/syntaxUI/syntaxui/main/src/app/(docs)/components/loaders/constellation/page.mdx) | inspired, no code copied (source: MIT (syntaxUI/syntaxui repo) — idea only) | 17 | 2026-10-04 |
+| I55 | Loaders (I) | Runway takeoff progress | M26 | 21st.dev (Runway Loader) | [link](https://21st.dev/@aicanvas/components/runway-loader.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| I56 | Loaders (I) | Surveillance eye | M70 | Uiverse.io | [link](https://raw.githubusercontent.com/uiverse-io/galaxy/main/loaders/0xnihilism_brown-puma-30.html) | inspired, no code copied (source: MIT © 2023 Uiverse.io (galaxy repo) — idea only) | 17 | 2026-10-04 |
+| I57 | Loaders (I) | DNA helix dots |  | 21st.dev (Helix Loader) | [link](https://21st.dev/@elements-/components/loader-helix.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| I58 | Loaders (I) | Snake on dot grid |  | 21st.dev (Snake Loader) | [link](https://21st.dev/@yura/components/snake-loader.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| I59 | Loaders (I) | Tetris stack |  | 21st.dev (Tetris Loader) | [link](https://21st.dev/@itaizeilig/components/tetris-loader.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| I60 | Loaders (I) | Weaving threads |  | 21st.dev (Weave Spinner) | [link](https://21st.dev/@minhxthanh/components/weave-spinner.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| U156 | Hover, buttons & cursor (U) | Squash-stretch liquid toggle |  | 21st.dev (Liquid Switch) | [link](https://21st.dev/@liquefy-ui/components/liquid-switch.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| U157 | Hover, buttons & cursor (U) | Balloon pop on hover |  | 21st.dev (Balloons Pop background) | [link](https://21st.dev/@ashishrajwaniai01/components/balloons-pop-background.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| U158 | Hover, buttons & cursor (U) | Fleeing target |  | 21st.dev (Cursor: Floating target) | [link](https://21st.dev/@motiondotdev/components/motion-cursor-floating-target.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| U159 | Hover, buttons & cursor (U) | Marching ants border |  | 21st.dev (Marching Dashes Border) | [link](https://21st.dev/@shadcnspace/components/shine-border-07.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: MIT) | 17 | 2026-10-04 |
+| U160 | Hover, buttons & cursor (U) | Zoom-depth tabs |  | 21st.dev (ZoomDepthTabs) | [link](https://21st.dev/@ruixen.ui/components/zoom-depth-tabs.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| U161 | Hover, buttons & cursor (U) | Drill-in list |  | 21st.dev (Drilldown Menu) | [link](https://21st.dev/@ruixen.ui/components/drilldown-menu.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
+| U162 | Hover, buttons & cursor (U) | Vault lock reveal |  | 21st.dev (Vault Lock) | [link](https://21st.dev/@amanshakya307/components/vault-lock.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: Custom (non-redistribution)) | 17 | 2026-10-04 |
+| U163 | Hover, buttons & cursor (U) | Fish swim on hover |  | 21st.dev (Fishy Button) | [link](https://21st.dev/@maxim.bort.devel/components/fishy-button.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| U164 | Hover, buttons & cursor (U) | Living weather icons |  | 21st.dev (Animated Weather Icons) | [link](https://21st.dev/@dev.yadhakim/components/animated-weather-icons.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: unknown) | 17 | 2026-10-04 |
+| U165 | Hover, buttons & cursor (U) | viewBox zoom |  | 21st.dev (SVG viewBox) | [link](https://21st.dev/@motiondotdev/components/motion-svg-viewbox.md) | inspired, no code copied (source: look and learn only (author-owned); page lists licence: mit) | 17 | 2026-10-04 |
 
 ## Skipped
 
