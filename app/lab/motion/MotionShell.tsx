@@ -60,7 +60,7 @@ export default function MotionShell({ slug, defs }: { slug: string; defs: Motion
         </div>
         <div className="relative">
           <p className="text-[13px] uppercase tracking-[0.2em] text-white/50">Motion lab · hidden (noindex)</p>
-          <h1 className="mt-4 text-[clamp(52px,8vw,128px)] font-[800] leading-[0.9] tracking-[-0.03em]" style={{ fontFamily: "Space Grotesk Variable" }}>
+          <h1 className="fx-drift mt-4 text-[clamp(52px,8vw,128px)] font-[800] leading-[0.9] tracking-[-0.03em]" style={{ fontFamily: "Space Grotesk Variable" }}>
             {g?.name ?? "Motion"}
           </h1>
           <p className="mx-auto mt-4 max-w-[52ch] text-white/65">{defs.length} motions from docs/MOTION-MENU.md, each a small live demo built with GSAP.</p>
