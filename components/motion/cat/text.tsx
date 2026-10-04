@@ -10,5 +10,10 @@ import { DEFS as TEXT_B2_1 } from "../text-b2-1";
 import { DEFS as TEXT_B6_3 } from "../text-b6-3";
 import { DEFS as TEXT_B6_4 } from "../text-b6-4";
 import { DEFS as TEXT_B6_5 } from "../text-b6-5";
+import { DEFS as TEXT_B7_1 } from "../text-b7-1";
+import { DEFS as TEXT_B7_2 } from "../text-b7-2";
+import { DEFS as TEXT_B7_3 } from "../text-b7-3";
+import { DEFS as TEXT_B7_4 } from "../text-b7-4";
+import { DEFS as TEXT_B7_5 } from "../text-b7-5";
 
-export const DEFS: MotionDef[] = ([...TEXT_B1_2, ...TEXT_B1_3, ...TEXT_B1_4, ...TEXT_B1_5, ...TEXT_B2_1, ...TEXT_B6_3, ...TEXT_B6_4, ...TEXT_B6_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...TEXT_B1_2, ...TEXT_B1_3, ...TEXT_B1_4, ...TEXT_B1_5, ...TEXT_B2_1, ...TEXT_B6_3, ...TEXT_B6_4, ...TEXT_B6_5, ...TEXT_B7_1, ...TEXT_B7_2, ...TEXT_B7_3, ...TEXT_B7_4, ...TEXT_B7_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
