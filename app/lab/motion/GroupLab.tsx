@@ -17,6 +17,7 @@ const PAGES: Record<string, ComponentType> = {
   b1: dynamic(() => import("@/components/motion/cat/b1").then((m) => function L() { return <MotionShell slug="b1" defs={m.DEFS} />; })),
   b2: dynamic(() => import("@/components/motion/cat/b2").then((m) => function L() { return <MotionShell slug="b2" defs={m.DEFS} />; })),
   b3: dynamic(() => import("@/components/motion/cat/b3").then((m) => function L() { return <MotionShell slug="b3" defs={m.DEFS} />; })),
+  b4: dynamic(() => import("@/components/motion/cat/b4").then((m) => function L() { return <MotionShell slug="b4" defs={m.DEFS} />; })),
 };
 
 export default function GroupLab({ slug }: { slug: string }) {
