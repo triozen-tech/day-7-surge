@@ -9,5 +9,8 @@ import { DEFS as IMAGE_B10_2 } from "../image-b10-2";
 import { DEFS as IMAGE_B10_3 } from "../image-b10-3";
 import { DEFS as IMAGE_B10_4 } from "../image-b10-4";
 import { DEFS as IMAGE_B10_5 } from "../image-b10-5";
+import { DEFS as IMAGE_B11_1 } from "../image-b11-1";
+import { DEFS as IMAGE_B11_2 } from "../image-b11-2";
+import { DEFS as IMAGE_B11_3 } from "../image-b11-3";
 
-export const DEFS: MotionDef[] = ([...IMAGE_B2_3, ...IMAGE_B2_4, ...IMAGE_B10_1, ...IMAGE_B10_2, ...IMAGE_B10_3, ...IMAGE_B10_4, ...IMAGE_B10_5] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...IMAGE_B2_3, ...IMAGE_B2_4, ...IMAGE_B10_1, ...IMAGE_B10_2, ...IMAGE_B10_3, ...IMAGE_B10_4, ...IMAGE_B10_5, ...IMAGE_B11_1, ...IMAGE_B11_2, ...IMAGE_B11_3] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
