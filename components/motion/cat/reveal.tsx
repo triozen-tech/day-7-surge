@@ -6,5 +6,8 @@ import { DEFS as REVEAL_B1_1 } from "../reveal-b1-1";
 import { DEFS as REVEAL_B1_2 } from "../reveal-b1-2";
 import { DEFS as REVEAL_B5_1 } from "../reveal-b5-1";
 import { DEFS as REVEAL_B5_2 } from "../reveal-b5-2";
+import { DEFS as REVEAL_B6_1 } from "../reveal-b6-1";
+import { DEFS as REVEAL_B6_2 } from "../reveal-b6-2";
+import { DEFS as REVEAL_B6_3 } from "../reveal-b6-3";
 
-export const DEFS: MotionDef[] = ([...REVEAL_B1_1, ...REVEAL_B1_2, ...REVEAL_B5_1, ...REVEAL_B5_2] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
+export const DEFS: MotionDef[] = ([...REVEAL_B1_1, ...REVEAL_B1_2, ...REVEAL_B5_1, ...REVEAL_B5_2, ...REVEAL_B6_1, ...REVEAL_B6_2, ...REVEAL_B6_3] as MotionDef[]).sort((a, b) => a.code[0].localeCompare(b.code[0]) || parseInt(a.code.slice(1)) - parseInt(b.code.slice(1)));
