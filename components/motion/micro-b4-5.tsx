@@ -56,7 +56,7 @@ const CSS = `
 .u61-off .u61-hue,.u61-off .u61-ring,.u61-off .u61-comet{animation-play-state:paused}
 
 html.is-static .b4g5u-glow,html.is-static .u56-film,html.is-static .u61-hue,html.is-static .u61-ring,html.is-static .u61-comet{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b4g5u-glow,.u56-film,.u61-hue,.u61-ring,.u61-comet{animation:none}
   .u51-fill,.u51-lab,.u51-arr,.u50-tab .u50-lab{transition:none}
 }

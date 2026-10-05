@@ -25,7 +25,7 @@ const CLUSTER = [
   { i: 2, w: 30, h: 25, x: -22.5, y: 27.5, s: 8 },
   { i: 3, w: 15, h: 15, x: 25, y: 22.5, s: 9 },
 ];
-const GL11_CSS = `.gl11-kb{animation:gl11-kb 5.6s ease-in-out infinite alternate}.gl11-kb.alt{animation-duration:7.4s;animation-direction:alternate-reverse}@keyframes gl11-kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.1) translate(-2%,-1.5%)}}.is-static .gl11-kb{animation:none}@media (prefers-reduced-motion:reduce){.gl11-kb{animation:none}}`;
+const GL11_CSS = `.gl11-kb{animation:gl11-kb 5.6s ease-in-out infinite alternate}.gl11-kb.alt{animation-duration:7.4s;animation-direction:alternate-reverse}@keyframes gl11-kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.1) translate(-2%,-1.5%)}}.is-static .gl11-kb{animation:none}html.is-static {.gl11-kb{animation:none}}`;
 
 /** GL11 · A centre image and six satellites zoom at different speeds with the scroll until the centre fills the screen. */
 function GL11() {
@@ -221,7 +221,7 @@ const ROOMS = [
   { w: 26, t: "Balcony", d: "Planters from Khurja" },
   { w: 32, t: "Terrace", d: "Evening light over Fort Kochi" },
 ];
-const GL13_CSS = `.gl13-kb img{animation:gl13-kb 5s ease-in-out infinite alternate}.gl13-kb.alt img{animation-duration:6.8s;animation-direction:alternate-reverse}@keyframes gl13-kb{from{transform:scale(1.04)}to{transform:scale(1.14) translate(-2%,0)}}.gl13-roll{display:inline-block;animation:gl13-roll .55s cubic-bezier(.22,1,.36,1)}@keyframes gl13-roll{from{transform:translateY(100%)}}.is-static .gl13-kb img,.is-static .gl13-roll{animation:none}@media (prefers-reduced-motion:reduce){.gl13-kb img,.gl13-roll{animation:none}}`;
+const GL13_CSS = `.gl13-kb img{animation:gl13-kb 5s ease-in-out infinite alternate}.gl13-kb.alt img{animation-duration:6.8s;animation-direction:alternate-reverse}@keyframes gl13-kb{from{transform:scale(1.04)}to{transform:scale(1.14) translate(-2%,0)}}.gl13-roll{display:inline-block;animation:gl13-roll .55s cubic-bezier(.22,1,.36,1)}@keyframes gl13-roll{from{transform:translateY(100%)}}.is-static .gl13-kb img,.is-static .gl13-roll{animation:none}html.is-static {.gl13-kb img,.gl13-roll{animation:none}}`;
 
 /** GL13 · The section pins and a single row of mixed-width images slides sideways (skewing with scroll speed); 03/12 counter bottom-right. */
 function GL13() {
@@ -313,7 +313,7 @@ const PIECES = [
   { n: "Rain teapot", p: "₹3,100", i: 1 },
   { n: "Pebble cups, set of 4", p: "₹2,400", i: 0 },
 ];
-const GL14_CSS = `.gl14-kb img{animation:gl14-kb 4.8s ease-in-out infinite alternate}.gl14-kb.alt img{animation-duration:6.4s;animation-direction:alternate-reverse}@keyframes gl14-kb{from{transform:scale(1.03)}to{transform:scale(1.13) translate(1.5%,-1.5%)}}.is-static .gl14-kb img{animation:none}@media (prefers-reduced-motion:reduce){.gl14-kb img{animation:none}}`;
+const GL14_CSS = `.gl14-kb img{animation:gl14-kb 4.8s ease-in-out infinite alternate}.gl14-kb.alt img{animation-duration:6.4s;animation-direction:alternate-reverse}@keyframes gl14-kb{from{transform:scale(1.03)}to{transform:scale(1.13) translate(1.5%,-1.5%)}}.is-static .gl14-kb img{animation:none}html.is-static {.gl14-kb img{animation:none}}`;
 
 /** GL14 · A 4-column grid; picking a tile morphs the grid into a slideshow (that tile large, the rest a thumbnail row). Auto-plays. */
 function GL14() {

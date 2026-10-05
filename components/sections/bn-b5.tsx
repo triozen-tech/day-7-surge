@@ -37,7 +37,7 @@ const BN11_CSS = `
 @keyframes bn11-scan{from{left:8%}to{left:92%}}
 html.is-static .bn11-ping,html.is-static .bn11-wave,html.is-static .bn11-scan{animation:none}
 html.is-static .bn11-ping{opacity:0}
-@media (prefers-reduced-motion:reduce){.bn11-ping,.bn11-wave,.bn11-scan{animation:none}.bn11-ping{opacity:0}}
+html.is-static {.bn11-ping,.bn11-wave,.bn11-scan{animation:none}.bn11-ping{opacity:0}}
 `;
 
 /** A seamless wave over 2 periods of 1200 units (sine terms divide 1200, so the two halves match). */

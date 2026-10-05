@@ -35,7 +35,7 @@ const KB = `.ps4kb img{animation:ps4kbs 4.6s ease-in-out infinite alternate,ps4k
 @keyframes ps4in{from{opacity:0;transform:scale(1.04)}}@keyframes ps4up{from{opacity:0;transform:translateY(10px)}}
 .ps4scroll{animation:ps4scroll 9s linear infinite}@keyframes ps4scroll{from{transform:translateY(0)}to{transform:translateY(-50%)}}
 html.is-static .ps4kb img,html.is-static .ps4scroll{animation:none}
-@media (prefers-reduced-motion:reduce){.ps4kb img,.ps4scroll{animation:none}}`;
+html.is-static {.ps4kb img,.ps4scroll{animation:none}}`;
 
 /* ───────────────────────────── PS17 · Collection tree browser ───────────────────────────── */
 

@@ -42,7 +42,7 @@ const NV_CSS = `
 .nvb5-float{animation:nvb5-float 2.6s ease-in-out infinite alternate}
 @keyframes nvb5-float{from{translate:0 -6px}to{translate:0 8px}}
 html.is-static .nvb5-in,html.is-static .nvb5-bump,html.is-static .nvb5-sweep,html.is-static .nvb5-float{animation:none}
-@media (prefers-reduced-motion: reduce){.nvb5-in,.nvb5-bump,.nvb5-sweep,.nvb5-float{animation:none}}
+html.is-static {.nvb5-in,.nvb5-bump,.nvb5-sweep,.nvb5-float{animation:none}}
 `;
 
 /* ───────────────────────── NV18 · Nav with mini-cart dropdown ───────────────────────── */

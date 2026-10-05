@@ -47,7 +47,7 @@ const NV_CSS = `
 .nvb4-caret{animation:nvb4-caret 1s steps(1) infinite}
 @keyframes nvb4-caret{50%{opacity:0}}
 html.is-static .nvb4-in,html.is-static .nvb4-caret{animation:none}
-@media (prefers-reduced-motion: reduce){.nvb4-in,.nvb4-caret{animation:none}}
+html.is-static {.nvb4-in,.nvb4-caret{animation:none}}
 `;
 
 /* ───────────────────────── NV13 · Infinite loop scroll menu ───────────────────────── */

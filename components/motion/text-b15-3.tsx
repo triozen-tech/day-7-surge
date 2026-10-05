@@ -26,7 +26,7 @@ const CSS = `
 @keyframes m687-bob{0%{transform:translate3d(0,-38%,0) scale(.85)}100%{transform:translate3d(0,38%,0) scale(1.1)}}
 .m687-off .m687-run,.m687-off .m687-blob{animation-play-state:paused}
 html.is-static .b15g3-glow,html.is-static .m686-scan,html.is-static .m687-run,html.is-static .m687-blob{animation:none}
-@media (prefers-reduced-motion: reduce){.b15g3-glow,.m686-scan,.m687-run,.m687-blob{animation:none}}
+html.is-static {.b15g3-glow,.m686-scan,.m687-run,.m687-blob{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

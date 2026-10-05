@@ -50,7 +50,7 @@ const AP03_CSS = `.ap03-scan{animation:ap03-scan 1.8s ease-in-out infinite alter
 .ap03-stamp{animation:ap03-stamp .45s cubic-bezier(.2,.9,.25,1.3)}@keyframes ap03-stamp{from{transform:scale(1.8) rotate(-20deg);opacity:0}to{transform:none;opacity:1}}
 .ap03-float{animation:ap03-float 4.6s ease-in-out infinite alternate}@keyframes ap03-float{from{translate:0 -6px;rotate:-1deg}to{translate:0 8px;rotate:1.5deg}}
 .is-static .ap03-scan,.is-static .ap03-stamp,.is-static .ap03-float{animation:none}.is-static .ap03-scan{opacity:0}
-@media (prefers-reduced-motion:reduce){.ap03-scan,.ap03-stamp,.ap03-float{animation:none}.ap03-scan{opacity:0}}`;
+html.is-static {.ap03-scan,.ap03-stamp,.ap03-float{animation:none}.ap03-scan{opacity:0}}`;
 
 const PERKS = [
   ["Order ahead, skip the queue", "Your usual is ready when you walk in."],

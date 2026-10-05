@@ -33,7 +33,7 @@ function NL05() {
         @keyframes nl05-up { from { transform: translateY(0) } to { transform: translateY(-50%) } }
         .nl05-up { animation: nl05-up var(--d, 24s) linear infinite; }
         html.is-static .nl05-up { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nl05-up { animation: none; } }
+        html.is-static { .nl05-up { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 items-center gap-[clamp(40px,5vw,80px)] md:grid-cols-12">
         <div className="md:col-span-6">

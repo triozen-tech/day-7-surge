@@ -55,7 +55,7 @@ function TM01() {
         .tm01 [data-m-img] img { animation: tm01-kb 7s ease-in-out infinite alternate; }
         @keyframes tm01-kb { from { transform: scale(1.02); } to { transform: scale(1.12) translate(-2%, -2%); } }
         html.is-static .tm01 [data-m-img] img { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .tm01 [data-m-img] img { animation: none; } }
+        html.is-static { .tm01 [data-m-img] img { animation: none; } }
       `}</style>
       <div className="tm01 grid grid-cols-1 gap-[clamp(40px,5vw,96px)] md:grid-cols-12">
         <div className="grid grid-cols-3 gap-[clamp(10px,1.4vw,22px)] md:col-span-7">

@@ -21,7 +21,7 @@ function Glow({ code, color = "#4f8dff" }: { code: string; color?: string }) {
 .${c}{position:absolute;inset:-20%;pointer-events:none;background:radial-gradient(40% 45% at 50% 50%, ${color}5c, transparent 70%);animation:${c}-k 3.2s linear infinite alternate}
 @keyframes ${c}-k{from{transform:translate3d(-14%,-6%,0) scale(1)}to{transform:translate3d(14%,8%,0) scale(1.15)}}
 html.is-static .${c}{animation:none}
-@media (prefers-reduced-motion: reduce){.${c}{animation:none}}
+html.is-static {.${c}{animation:none}}
 `}</style>
       <div className={c} aria-hidden />
     </>

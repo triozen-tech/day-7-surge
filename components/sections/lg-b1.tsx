@@ -74,7 +74,7 @@ function LG01() {
         @keyframes lg01-out { from { transform: rotateX(0); opacity: 1; } to { transform: rotateX(90deg); opacity: 0; } }
         html.is-static .lg01-in, html.is-static .lg01-out { animation: none; }
         html.is-static .lg01-out { display: none; }
-        @media (prefers-reduced-motion: reduce) { .lg01-in, .lg01-out { animation: none; } .lg01-out { display: none; } }
+        html.is-static { .lg01-in, .lg01-out { animation: none; } .lg01-out { display: none; } }
       `}</style>
       <div className="mx-auto max-w-[980px] text-center">
         <H className="text-[clamp(44px,5.6vw,96px)]">Found on the best shelves.</H>
@@ -131,7 +131,7 @@ function LG02() {
         @keyframes lg02-up { from { transform: translateY(0); } to { transform: translateY(-50%); } }
         .lg02-col:hover .lg02-track { animation-play-state: paused; }
         html.is-static .lg02-track { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .lg02-track { animation: none; } }
+        html.is-static { .lg02-track { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 items-center gap-[clamp(40px,5vw,96px)] md:grid-cols-12">
         <div className="md:col-span-6">

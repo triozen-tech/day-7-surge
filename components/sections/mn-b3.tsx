@@ -36,7 +36,7 @@ const MN04_CSS = `
 .mn04-track{animation:mn04-slide 36s linear infinite}
 @keyframes mn04-slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 html.is-static .mn04-track{animation:none}
-@media (prefers-reduced-motion: reduce){.mn04-track{animation:none}}
+html.is-static {.mn04-track{animation:none}}
 `;
 
 const Hours = ({ children }: { children: React.ReactNode }) => <p className="mt-2 text-[14px] font-[600] uppercase tracking-[0.12em] text-[var(--sx-accent)]">{children}</p>;

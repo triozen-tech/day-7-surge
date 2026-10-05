@@ -34,7 +34,7 @@ const VD_CSS = `.vd2-play{animation:vd2-push 6s ease-in-out infinite alternate}@
 .vd2-bar{transform-origin:left;animation:vd2-bar var(--d,4s) linear infinite}@keyframes vd2-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .vd2-glow{animation:vd2-glow 3.4s ease-in-out infinite alternate}@keyframes vd2-glow{from{opacity:.55;scale:.92}to{opacity:1;scale:1.08}}
 .is-static .vd2-play,.is-static .vd2-sweep,.is-static .vd2-bar,.is-static .vd2-glow{animation:none}
-@media (prefers-reduced-motion:reduce){.vd2-play,.vd2-sweep,.vd2-bar,.vd2-glow{animation:none}}`;
+html.is-static {.vd2-play,.vd2-sweep,.vd2-bar,.vd2-glow{animation:none}}`;
 
 /** A placeholder "autoplay video": a scene that pushes in, a light sweep across it and a running progress bar. */
 function Clip({ i, d = 4, className = "" }: { i: number; d?: number; className?: string }) {

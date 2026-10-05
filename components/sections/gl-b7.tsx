@@ -16,7 +16,7 @@ const CSS = `.gl7kb img{animation:gl7kbs 5.6s linear infinite alternate,gl7kbt 3
 .gl7ch{display:inline-block;animation:gl7ch .8s cubic-bezier(.16,1,.3,1) both}@keyframes gl7ch{from{translate:0 110%}to{translate:0 0}}
 .gl7in{animation:gl7in .7s ease-out both}@keyframes gl7in{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}
 html.is-static .gl7kb img,html.is-static .gl7glow,html.is-static .gl7ch,html.is-static .gl7in{animation:none}
-@media (prefers-reduced-motion:reduce){.gl7kb img,.gl7glow,.gl7ch,.gl7in{animation:none}}`;
+html.is-static {.gl7kb img,.gl7glow,.gl7ch,.gl7in{animation:none}}`;
 
 const SLIDES = [
   { t: "Zanskar", d: "Kora 800-fill down parka", p: "₹18,900", i: 3 },

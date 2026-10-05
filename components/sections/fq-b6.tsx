@@ -14,7 +14,7 @@ const CSS = `.fq6glow{animation:fq6gx 6.6s linear infinite alternate,fq6gs 4.1s 
 .fq6kb [data-m-img] img{animation:fq6kb 5.2s ease-in-out infinite alternate}@keyframes fq6kb{from{translate:-3% 1.5%}to{translate:3% -1.5%}}
 .fq6caret{animation:fq6caret .9s steps(1) infinite}@keyframes fq6caret{50%{opacity:0}}
 html.is-static .fq6glow,html.is-static .fq6kb [data-m-img] img,html.is-static .fq6caret{animation:none}
-@media (prefers-reduced-motion:reduce){.fq6glow,.fq6kb [data-m-img] img,.fq6caret{animation:none}}`;
+html.is-static {.fq6glow,.fq6kb [data-m-img] img,.fq6caret{animation:none}}`;
 
 const TOPICS = [
   { t: "Delivery & assembly", pic: 0, label: "Delivery", qs: ["When will my sofa arrive?", "Do you carry it upstairs?", "Is assembly included?", "Can I pick a delivery slot?"] },

@@ -1,8 +1,7 @@
 "use client";
 
 // CC · Contact layouts (docs/SECTION-MENU.md), batch 5. Maps are drawn here (SVG streets and pins, never map tiles);
-// the forms type a sample message by themselves while on screen. Loops stop in ?static=1 and under
-// prefers-reduced-motion (the finished text shows).
+// the forms type a sample message by themselves while on screen. Loops stop in ?static=1 (the finished text shows).
 import { useEffect, useRef, useState } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -39,7 +38,7 @@ const CC_CSS = `.cc5-route{stroke-dasharray:14 12;animation:cc5-route 1.2s linea
 .cc5-caret{animation:cc5-caret .8s steps(1) infinite}@keyframes cc5-caret{50%{opacity:0}}
 .cc5-light{background:linear-gradient(110deg,transparent 30%,rgba(255,226,180,.32) 48%,transparent 66%) 0 0/260% 100%;animation:cc5-light 4.4s linear infinite}@keyframes cc5-light{from{background-position:140% 0}to{background-position:-40% 0}}
 .is-static .cc5-route,.is-static .cc5-caret{animation:none}.is-static .cc5-ping,.is-static .cc5-light{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.cc5-route,.cc5-caret{animation:none}.cc5-ping,.cc5-light{animation:none;opacity:0}}`;
+html.is-static {.cc5-route,.cc5-caret{animation:none}.cc5-ping,.cc5-light{animation:none;opacity:0}}`;
 
 /* ── CC09 ─────────────────────────────────────────────────────────────── */
 

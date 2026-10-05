@@ -37,7 +37,7 @@ const HR_CSS = `
 .hrb7-in{animation:hrb7-in .55s cubic-bezier(.2,.8,.2,1) both}
 @keyframes hrb7-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 html.is-static .hrb7-blob,html.is-static .hrb7-blob2,html.is-static .hrb7-in{animation:none}
-@media (prefers-reduced-motion: reduce){.hrb7-blob,.hrb7-blob2,.hrb7-in{animation:none}}
+html.is-static {.hrb7-blob,.hrb7-blob2,.hrb7-in{animation:none}}
 `;
 
 /* ───────────────────────── HR44 · Waitlist cover page ───────────────────────── */

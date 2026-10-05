@@ -28,7 +28,7 @@ function PR10() {
         .pr10-dot { animation: pr10-dot 1.2s ease-in-out infinite; }
         html.is-static .pr10-sweep, html.is-static .pr10-dot { animation: none; opacity: 0; }
         html.is-static .pr10-dot { opacity: 1; }
-        @media (prefers-reduced-motion: reduce) { .pr10-sweep, .pr10-dot { animation: none; } .pr10-sweep { opacity: 0; } }
+        html.is-static { .pr10-sweep, .pr10-dot { animation: none; } .pr10-sweep { opacity: 0; } }
       `}</style>
       <div className="mx-auto max-w-[900px] text-center">
         <H className="text-[clamp(40px,4.8vw,78px)]">Fresh beans, on a schedule.</H>

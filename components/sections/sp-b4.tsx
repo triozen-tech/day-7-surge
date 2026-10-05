@@ -85,7 +85,7 @@ function SP13() {
         @keyframes sp13-breathe { 0%,100% { translate: 0 0 } 50% { translate: 0 -12px } }
         .sp13-top { animation: sp13-breathe 2.3s ease-in-out infinite; }
         html.is-static .sp13-top { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp13-top { animation: none; } }
+        html.is-static { .sp13-top { animation: none; } }
       `}</style>
       <H className="max-w-[18ch] text-[clamp(40px,4.8vw,80px)]">Skin, in the words of our patients.</H>
       <div className="mt-[clamp(40px,6vw,88px)] grid grid-cols-1 items-center gap-[clamp(40px,7vw,120px)] md:grid-cols-2">
@@ -207,7 +207,7 @@ function SP14() {
         @keyframes sp14-fill { from { transform: scaleY(0) } to { transform: scaleY(1) } }
         .sp14-fill { transform-origin: 50% 100%; animation: sp14-fill ${SP14_MS}ms linear both; }
         html.is-static .sp14-fill { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp14-fill { animation: none; } }
+        html.is-static { .sp14-fill { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 md:grid-cols-[120px_minmax(0,1fr)]">
         {/* rail */}
@@ -278,7 +278,7 @@ function SP15() {
         .sp15-ring { animation: sp15-ring 1.6s ease-out infinite; }
         .sp15-blob { animation: sp15-blob 9s linear infinite; }
         html.is-static .sp15-cam, html.is-static .sp15-light, html.is-static .sp15-ring, html.is-static .sp15-blob { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp15-cam, .sp15-light, .sp15-ring, .sp15-blob { animation: none; } }
+        html.is-static { .sp15-cam, .sp15-light, .sp15-ring, .sp15-blob { animation: none; } }
         html.is-static .sp15-light { opacity: 0; }
       `}</style>
       <div className="flex flex-wrap items-end justify-between gap-6">

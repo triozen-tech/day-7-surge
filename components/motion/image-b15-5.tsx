@@ -26,7 +26,7 @@ const CSS = `
 @keyframes b15i5-drift{0%{transform:translate3d(-8%,-5%,0) scale(1)}100%{transform:translate3d(8%,6%,0) scale(1.16)}}
 .b15i5-dot{position:absolute;left:0;top:0;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;border:2px solid rgba(255,255,255,.95);background:rgba(255,255,255,.18);box-shadow:0 0 0 6px rgba(255,255,255,.08),0 4px 14px rgba(0,0,0,.4);pointer-events:none;z-index:400;opacity:0}
 html.is-static .b15i5-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b15i5-glow{animation:none}}
+html.is-static {.b15i5-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

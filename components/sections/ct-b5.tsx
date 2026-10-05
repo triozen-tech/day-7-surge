@@ -47,7 +47,7 @@ function CT10() {
         @keyframes ct10-nudge { 0%, 100% { transform: translateX(0) } 50% { transform: translateX(18px) } }
         .ct10-arrow { animation: ct10-nudge 0.8s ease-in-out infinite; }
         html.is-static .ct10-arrow { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .ct10-arrow { animation: none; } }
+        html.is-static { .ct10-arrow { animation: none; } }
       `}</style>
       <div className="rounded-[calc(var(--sx-radius,18px)*1.6)] bg-[var(--sx-accent)] px-[clamp(24px,4vw,72px)] py-[clamp(48px,6vw,96px)] text-[var(--sx-accent-text)]">
         <div className="flex flex-wrap items-end justify-between gap-6">

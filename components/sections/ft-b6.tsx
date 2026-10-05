@@ -1,7 +1,7 @@
 "use client";
 
 // FT · Feature layouts, batch 6 (FT24–FT26). Icon-led feature sections; icons are simple inline SVGs drawn here.
-// The active item cycles by itself while on screen; CSS loops stop under ?static=1 and prefers-reduced-motion.
+// The active item cycles by itself while on screen; CSS loops stop under ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -34,7 +34,7 @@ const FT6_CSS = `
 .ft6-kb{animation:ft6-kb 5s linear infinite alternate}
 @keyframes ft6-kb{from{scale:1}to{scale:1.12}}
 html.is-static .ft6-glow,html.is-static .ft6-kb{animation:none}
-@media (prefers-reduced-motion:reduce){.ft6-glow,.ft6-kb{animation:none}}
+html.is-static {.ft6-glow,.ft6-kb{animation:none}}
 `;
 const glow = (pct = 40) => `radial-gradient(closest-side, color-mix(in srgb, var(--sx-accent) ${pct}%, transparent), transparent)`;
 

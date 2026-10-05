@@ -34,7 +34,7 @@ const CSS = `
 .m173-p[data-on] .m173-meta{opacity:1;transform:none;transition-delay:.45s}
 html.is-static .b2g4i-glow{animation:none}
 html.is-static .m173-p,html.is-static .m173-img,html.is-static .m173-lab,html.is-static .m173-meta{transition:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b2g4i-glow{animation:none}
   .m173-p,.m173-img,.m173-lab,.m173-meta{transition:none}
 }

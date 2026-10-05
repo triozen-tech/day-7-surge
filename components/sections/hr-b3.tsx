@@ -94,7 +94,7 @@ const HR25_CSS = `
 .hr25-bob{animation:hr25-bob var(--d,5s) ease-in-out infinite alternate;animation-delay:var(--dl,0s)}
 @keyframes hr25-bob{from{translate:0 -14px;rotate:var(--r0,0deg)}to{translate:0 14px;rotate:var(--r1,0deg)}}
 html.is-static .hr25-bob{animation:none}
-@media (prefers-reduced-motion:reduce){.hr25-bob{animation:none}}
+html.is-static {.hr25-bob{animation:none}}
 `;
 
 const HR25_PICS = [
@@ -145,7 +145,7 @@ const HR26_CSS = `
 .hr26-glow{animation:hr26-glow 4.4s ease-in-out infinite alternate}
 @keyframes hr26-glow{from{opacity:.55;transform:scale(1)}to{opacity:.9;transform:scale(1.08)}}
 html.is-static .hr26-glow{animation:none}
-@media (prefers-reduced-motion:reduce){.hr26-glow{animation:none}}
+html.is-static {.hr26-glow{animation:none}}
 `;
 
 /** HR26 · A radial-masked photo glow at the top; a chocolate-bar wrapper tilted in 3D (rotateX 12, rotateZ -12) floats
@@ -206,7 +206,7 @@ const HR27_CSS = `
 .hr27-play{animation:hr27-play 14s linear infinite}
 @keyframes hr27-play{from{width:18%}to{width:78%}}
 html.is-static .hr27-bar,html.is-static .hr27-play{animation:none}
-@media (prefers-reduced-motion:reduce){.hr27-bar,.hr27-play{animation:none}}
+html.is-static {.hr27-bar,.hr27-play{animation:none}}
 `;
 
 /** HR27 · Centred headline (small line + huge line); below it one large rounded device frame tipped back ~20°. On
@@ -294,7 +294,7 @@ const HR28_CSS = `
 .hr28-float{animation:hr28-float 3.6s ease-in-out infinite alternate}
 @keyframes hr28-float{from{translate:0 -10px}to{translate:0 10px}}
 html.is-static .hr28-float{animation:none}
-@media (prefers-reduced-motion:reduce){.hr28-float{animation:none}}
+html.is-static {.hr28-float{animation:none}}
 `;
 
 /** HR28 · One row: giant headline alone on the left, copy + two CTAs on the right, both bottom-aligned. Below, a

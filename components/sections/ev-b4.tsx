@@ -1,7 +1,7 @@
 "use client";
 
 // EV · Event layouts (docs/SECTION-MENU.md), batch 4. One card at a time RSVPs by itself while on screen (its count
-// ticks up); loops stop in ?static=1 and under prefers-reduced-motion.
+// ticks up); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Avatar, Btn, H, P, Sec } from "./kit";
@@ -31,7 +31,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 const EV_CSS = `.ev4-date{background-image:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.35) 48%,transparent 66%);background-size:260% 100%;animation:ev4-sweep 2.4s linear infinite;animation-delay:var(--dl,0s)}@keyframes ev4-sweep{from{background-position:130% 0}to{background-position:-30% 0}}
 .ev4-bump{display:inline-block;animation:ev4-bump .45s cubic-bezier(.2,.8,.2,1)}@keyframes ev4-bump{from{transform:translateY(-70%);opacity:0}to{transform:none;opacity:1}}
 .is-static .ev4-date,.is-static .ev4-bump{animation:none}
-@media (prefers-reduced-motion:reduce){.ev4-date,.ev4-bump{animation:none}}`;
+html.is-static {.ev4-date,.ev4-bump{animation:none}}`;
 
 const EVENTS = [
   { c: "Workshop", m: "OCT", d: "12", w: "Sat", t: "Throw your first mug", time: "10:00 – 13:00", loc: "The kiln room, Indiranagar", n: 18, people: ["Ira Menon", "Kabir Shah", "Tara Bose"] },

@@ -54,7 +54,7 @@ function NV01() {
         .nv01-photo img { animation: nv01-pan 8s ease-in-out infinite alternate; }
         @keyframes nv01-pan { from { transform: scale(1.04) translate(-1.5%, 0); } to { transform: scale(1.12) translate(1.5%, -1.5%); } }
         html.is-static .nv01-photo img { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nv01-photo img { animation: none; } }
+        html.is-static { .nv01-photo img { animation: none; } }
       `}</style>
       {/* top bar of the open panel */}
       <div className="flex items-center justify-between border-b border-[var(--sx-line)] pb-5">
@@ -269,7 +269,7 @@ function NV03() {
         .nv03-bg img { animation: nv03-drift 9s ease-in-out infinite alternate; }
         @keyframes nv03-drift { from { transform: scale(1.02); } to { transform: scale(1.1) translate(-2%, -1%); } }
         html.is-static .nv03-bg img { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nv03-bg img { animation: none; } }
+        html.is-static { .nv03-bg img { animation: none; } }
       `}</style>
       <div className="relative min-h-[clamp(620px,100svh,940px)]">
         <div className="nv03-bg absolute inset-y-0 right-0 w-full md:w-[52%]">

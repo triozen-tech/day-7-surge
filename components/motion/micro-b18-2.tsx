@@ -76,7 +76,7 @@ const CSS = `
 .u189-i.on+.u189-lab{opacity:1;transform:none}
 
 html.is-static .b18g2-glow,html.is-static .u180-flow,html.is-static .u180-sp,html.is-static .u182-spark,html.is-static .u183-beat.liked,html.is-static .u188-teeth{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b18g2-glow,.u180-flow,.u180-sp,.u182-spark,.u183-beat.liked,.u188-teeth{animation:none}
   .u182-b,.u189-back,.u189-gl,.u189-lab{transition:none}
 }

@@ -60,7 +60,7 @@ const DAYS = [
   },
 ];
 
-const EV01_CSS = `.ev01-row{position:relative;isolation:isolate}.ev01-row::before{content:"";position:absolute;inset:0 -16px;z-index:-1;border-radius:12px;opacity:0;transition:opacity .8s ease;background:linear-gradient(100deg,color-mix(in srgb,var(--sx-accent) 6%,transparent) 20%,color-mix(in srgb,var(--sx-accent) 22%,transparent) 50%,color-mix(in srgb,var(--sx-accent) 6%,transparent) 80%) 0 0/250% 100%;animation:ev01-sheen 2.2s linear infinite}.ev01-row.is-on::before{opacity:1}@keyframes ev01-sheen{from{background-position:110% 0}to{background-position:-10% 0}}.is-static .ev01-row::before{animation:none}@media (prefers-reduced-motion:reduce){.ev01-row::before{animation:none}}`;
+const EV01_CSS = `.ev01-row{position:relative;isolation:isolate}.ev01-row::before{content:"";position:absolute;inset:0 -16px;z-index:-1;border-radius:12px;opacity:0;transition:opacity .8s ease;background:linear-gradient(100deg,color-mix(in srgb,var(--sx-accent) 6%,transparent) 20%,color-mix(in srgb,var(--sx-accent) 22%,transparent) 50%,color-mix(in srgb,var(--sx-accent) 6%,transparent) 80%) 0 0/250% 100%;animation:ev01-sheen 2.2s linear infinite}.ev01-row.is-on::before{opacity:1}@keyframes ev01-sheen{from{background-position:110% 0}to{background-position:-10% 0}}.is-static .ev01-row::before{animation:none}html.is-static {.ev01-row::before{animation:none}}`;
 
 /** EV01 · Agenda list grouped by day: a big day heading on the left of each block, rows of time, title, location and tag on the right. */
 function EV01() {
@@ -124,7 +124,7 @@ const PERKS = [
   ["Fennick Bikes", "Free cycle hire around the lake"],
 ];
 
-const EV02_CSS = `.ev02-ticket{position:relative;overflow:hidden}.ev02-ticket::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 38%,rgba(255,255,255,.09) 50%,transparent 62%) 0 0/260% 100%;animation:ev02-sheen 3.2s linear infinite}.ev02-ticket:nth-child(2)::after{animation-delay:-1s}.ev02-ticket:nth-child(3)::after{animation-delay:-2s}@keyframes ev02-sheen{from{background-position:120% 0}to{background-position:-20% 0}}.is-static .ev02-ticket::after{animation:none;opacity:0}@media (prefers-reduced-motion:reduce){.ev02-ticket::after{animation:none;opacity:0}}`;
+const EV02_CSS = `.ev02-ticket{position:relative;overflow:hidden}.ev02-ticket::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 38%,rgba(255,255,255,.09) 50%,transparent 62%) 0 0/260% 100%;animation:ev02-sheen 3.2s linear infinite}.ev02-ticket:nth-child(2)::after{animation-delay:-1s}.ev02-ticket:nth-child(3)::after{animation-delay:-2s}@keyframes ev02-sheen{from{background-position:120% 0}to{background-position:-20% 0}}.is-static .ev02-ticket::after{animation:none;opacity:0}html.is-static {.ev02-ticket::after{animation:none;opacity:0}}`;
 
 /** EV02 · Ticket cards: three perforated ticket tiers (the first SOLD OUT under a stamp), partner perks grid below. */
 function EV02() {

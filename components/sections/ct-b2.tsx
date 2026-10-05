@@ -40,7 +40,7 @@ function CT07() {
         @keyframes ct07-flow { from { stroke-dashoffset: 1.08 } to { stroke-dashoffset: 0 } }
         .ct07-pulse { stroke-dasharray: .08 1; animation: ct07-flow 2.6s linear infinite; }
         html.is-static .ct07-pulse { display: none; }
-        @media (prefers-reduced-motion: reduce) { .ct07-pulse { display: none; } }
+        html.is-static { .ct07-pulse { display: none; } }
       `}</style>
       <div ref={wrap} className="relative h-[180vh]">
         <div className="sticky top-0 h-svh min-h-[640px] overflow-hidden">

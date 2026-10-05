@@ -26,7 +26,7 @@ const CSS = `
 .m324-grain{position:absolute;inset:-50%;background-image:${GRAIN};opacity:.16;animation:m324-grain .8s steps(4) infinite}
 @keyframes m324-grain{0%{transform:translate(0,0)}25%{transform:translate(-4%,3%)}50%{transform:translate(3%,-5%)}75%{transform:translate(-2%,-2%)}100%{transform:translate(4%,4%)}}
 html.is-static .b7g3-glow,html.is-static .b7g3-top,html.is-static .m321-orbit,html.is-static .m324-grain{animation:none}
-@media (prefers-reduced-motion: reduce){.b7g3-glow,.b7g3-top,.m321-orbit,.m324-grain{animation:none}.m321-tilt{transition:none}}
+html.is-static {.b7g3-glow,.b7g3-top,.m321-orbit,.m324-grain{animation:none}.m321-tilt{transition:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow above covering content. */

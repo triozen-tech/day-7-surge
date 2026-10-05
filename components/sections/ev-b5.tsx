@@ -1,7 +1,7 @@
 "use client";
 
 // EV · Events layouts (docs/SECTION-MENU.md), batch 5. The calendar spotlights one event after another by itself while
-// on screen (a hover takes over); loops stop in ?static=1 and under prefers-reduced-motion.
+// on screen (a hover takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, Sec } from "./kit";
@@ -30,7 +30,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 const EV_CSS = `.ev5-sweep{background:linear-gradient(120deg,transparent 30%,color-mix(in srgb,var(--sx-accent) 22%,transparent) 50%,transparent 70%) 0 0/250% 250%;animation:ev5-sweep 3.4s linear infinite}@keyframes ev5-sweep{from{background-position:120% 120%}to{background-position:-20% -20%}}
 .ev5-in{animation:ev5-in .5s cubic-bezier(.2,.8,.2,1) both}@keyframes ev5-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .is-static .ev5-sweep{animation:none;opacity:0}.is-static .ev5-in{animation:none}
-@media (prefers-reduced-motion:reduce){.ev5-sweep{animation:none;opacity:0}.ev5-in{animation:none}}`;
+html.is-static {.ev5-sweep{animation:none;opacity:0}.ev5-in{animation:none}}`;
 
 type Ev = { day: number; time: string; title: string; price: string; seats: string; loud?: boolean };
 const EVENTS: Ev[] = [

@@ -76,7 +76,7 @@ const CARET_CSS = `
 .pd04-fill{transform-origin:left;animation:pd04-fill 2.2s linear both}
 @keyframes pd04-fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 html.is-static .pd04-caret{animation:none}
-@media (prefers-reduced-motion: reduce){.pd04-caret{animation:none}}
+html.is-static {.pd04-caret{animation:none}}
 `;
 
 const PD04_TEXT = [...PD04_LINES.map((l) => `${l.c}  ·  ${l.n}`), PD04_RESULT];

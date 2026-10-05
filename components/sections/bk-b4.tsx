@@ -1,7 +1,7 @@
 "use client";
 
 // BK · Booking layouts (docs/SECTION-MENU.md), batch 4. The picker selects a day and a slot by itself while on screen
-// (a click takes over); loops stop in ?static=1 and under prefers-reduced-motion.
+// (a click takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -33,7 +33,7 @@ const BK_CSS = `.bk4-chip{animation:bk4-snap .5s cubic-bezier(.2,.9,.25,1.15) bo
 .bk4-glow{animation:bk4-glow 5s ease-in-out infinite alternate}@keyframes bk4-glow{from{translate:-18% -10%}to{translate:22% 12%}}
 .bk4-glow2{animation:bk4-glow 3.4s ease-in-out infinite alternate-reverse}
 .is-static .bk4-chip,.is-static .bk4-unfold,.is-static .bk4-glow,.is-static .bk4-glow2{animation:none}
-@media (prefers-reduced-motion:reduce){.bk4-chip,.bk4-unfold,.bk4-glow,.bk4-glow2{animation:none}}`;
+html.is-static {.bk4-chip,.bk4-unfold,.bk4-glow,.bk4-glow2{animation:none}}`;
 
 const DAYS = [
   { d: "Mon", n: "05", off: true },

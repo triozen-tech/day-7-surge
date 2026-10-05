@@ -24,7 +24,7 @@ const CSS = `
 .b10g5i-user .b10g5i-dot{opacity:0!important}
 .m524-head{background-image:linear-gradient(100deg,#ffffff 0%,#ffd6a8 22%,#a9dcff 46%,#f4e9ff 70%,#ffd6a8 100%);background-size:220% 100%;background-position:0% 50%;-webkit-background-clip:text;background-clip:text;color:transparent}
 html.is-static .b10g5i-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b10g5i-glow{animation:none}}
+html.is-static {.b10g5i-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

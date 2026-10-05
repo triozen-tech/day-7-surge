@@ -1,8 +1,7 @@
 "use client";
 
 // JR · Journal & editorial layouts (docs/SECTION-MENU.md), batch 6. The archive table opens one row after another by
-// itself while on screen (a click takes over); the long-read's beam follows the scroll. Loops stop in ?static=1 and
-// under prefers-reduced-motion (the first row then shows open and the beam full).
+// itself while on screen (a click takes over); the long-read's beam follows the scroll. Loops stop in ?static=1 (the first row then shows open and the beam full).
 import { useEffect, useRef, useState } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { Odometer } from "../fx/text";
@@ -34,7 +33,7 @@ const JR_CSS = `.jr6-glow{background:radial-gradient(closest-side,color-mix(in s
 .jr6-glow2{animation-duration:4.4s;animation-direction:alternate-reverse}
 .jr6-ping{animation:jr6-ping 1.5s cubic-bezier(0,0,.2,1) infinite}@keyframes jr6-ping{from{transform:scale(1);opacity:.7}to{transform:scale(3);opacity:0}}
 .is-static .jr6-glow{animation:none}.is-static .jr6-ping{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.jr6-glow{animation:none}.jr6-ping{animation:none;opacity:0}}`;
+html.is-static {.jr6-glow{animation:none}.jr6-ping{animation:none;opacity:0}}`;
 
 const ISSUES = [
   { y: 2026, n: 64, t: "The Night Shift", type: "Print", s: "Bakers, signal-men and radio hosts: twelve people whose working day starts at ten pm.", i: 3 },

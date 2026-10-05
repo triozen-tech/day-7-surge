@@ -107,7 +107,7 @@ const CSS = `
 .u147-pv{transition:opacity .5s}
 
 html.is-static .b14g5-glow,html.is-static .u141-row{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b14g5-glow,.u141-row{animation:none}
   .u136-c,.u137-b,.u138-t,.u139-s,.u141-in,.u142-b,.u142-ar,.u143-hl,.u145-ar,.u147-i,.u147-pv{transition:none}
   .u137-b::before,.u137-b::after{animation:none!important}

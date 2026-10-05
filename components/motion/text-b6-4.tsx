@@ -45,7 +45,7 @@ const CSS = `
 .m273-tube{--g:1;box-shadow:0 0 calc(var(--g)*10px) #6ee7ff,inset 0 0 calc(var(--g)*10px) #6ee7ff;border-color:#c8f6ff}
 
 html.is-static .b6g4-glow,html.is-static .m267-col,html.is-static .m267-bar{animation:none}
-@media (prefers-reduced-motion: reduce){.b6g4-glow,.m267-col,.m267-bar{animation:none}}
+html.is-static {.b6g4-glow,.m267-col,.m267-bar{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow above the content. */

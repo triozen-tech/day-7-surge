@@ -34,7 +34,7 @@ const LG_CSS = `
 @keyframes lgb7-sheen{from{background-position:150% 0}to{background-position:-50% 0}}
 html.is-static .lgb7-glow{animation:none}
 html.is-static .lgb7-sheen{animation:none;opacity:0}
-@media (prefers-reduced-motion: reduce){.lgb7-glow{animation:none}.lgb7-sheen{animation:none;opacity:0}}
+html.is-static {.lgb7-glow{animation:none}.lgb7-sheen{animation:none;opacity:0}}
 `;
 
 const CERTS = [

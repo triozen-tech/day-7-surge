@@ -209,7 +209,7 @@ function NV05() {
         .nv05-sway { animation: nv05-sway 3.1s ease-in-out infinite alternate; }
         @keyframes nv05-sway { from { translate: 0 -6px; } to { translate: 0 6px; } }
         html.is-static .nv05-in, html.is-static .nv05-feat, html.is-static .nv05-sway { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nv05-in, .nv05-feat, .nv05-sway { animation: none; } }
+        html.is-static { .nv05-in, .nv05-feat, .nv05-sway { animation: none; } }
       `}</style>
       {/* the bar */}
       <div className="flex items-center justify-between gap-6 border-b border-[var(--sx-line)] px-[clamp(20px,5vw,96px)] py-[clamp(18px,2vw,28px)]">
@@ -311,7 +311,7 @@ function NV06() {
         .nv06-glow { animation: nv06-spin 14s linear infinite; }
         @keyframes nv06-spin { to { transform: rotate(1turn); } }
         html.is-static .nv06-glow { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nv06-glow { animation: none; } }
+        html.is-static { .nv06-glow { animation: none; } }
       `}</style>
       <div className="pointer-events-none absolute left-1/2 top-[30%] aspect-square w-[min(80vw,1000px)] -translate-x-1/2 -translate-y-1/2 opacity-60 blur-[90px]">
         <div className="nv06-glow h-full w-full rounded-full bg-[conic-gradient(from_0deg,color-mix(in_srgb,var(--sx-accent)_70%,transparent),transparent_30%,color-mix(in_srgb,var(--sx-accent)_35%,#8a5cf6)_55%,transparent_80%,color-mix(in_srgb,var(--sx-accent)_70%,transparent))]" />
@@ -429,7 +429,7 @@ function NV07() {
         .nv07-glow { animation: nv07-glow 4.4s ease-in-out infinite alternate; }
         @keyframes nv07-glow { from { transform: translate(-12%, 6%) scale(.9); } to { transform: translate(14%, -8%) scale(1.15); } }
         html.is-static .nv07-pic, html.is-static .nv07-glow { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nv07-pic, .nv07-glow { animation: none; } }
+        html.is-static { .nv07-pic, .nv07-glow { animation: none; } }
       `}</style>
       <div ref={stage} className="relative h-[clamp(640px,94svh,920px)] overflow-hidden">
         {/* the page under the menu */}
@@ -510,7 +510,7 @@ function NV08() {
         .nv08-arrow { animation: nv08-arrow 1.7s ease-in-out infinite alternate; }
         @keyframes nv08-arrow { from { translate: -6px 6px; } to { translate: 6px -6px; } }
         html.is-static .nv08-pic, html.is-static .nv08-arrow { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .nv08-pic, .nv08-arrow { animation: none; } }
+        html.is-static { .nv08-pic, .nv08-arrow { animation: none; } }
       `}</style>
       <div className="flex items-center justify-between pb-[clamp(16px,2vw,26px)]">
         <span className="sx-display text-[clamp(24px,2vw,32px)] font-[800] tracking-[0.04em]">Rhea Atelier</span>

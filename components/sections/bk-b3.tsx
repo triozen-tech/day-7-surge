@@ -1,7 +1,7 @@
 "use client";
 
 // BK · Booking layouts (docs/SECTION-MENU.md), batch 3. House style: no phone numbers or real addresses; invented
-// venue and people. Every loop stops in ?static=1 and under prefers-reduced-motion.
+// venue and people. Every loop stops in ?static=1.
 import { useRef } from "react";
 import { ShimmerButton } from "../fx/more";
 import { H, P, Sec } from "./kit";
@@ -12,7 +12,7 @@ const BK_CSS = `.bk3-glow{animation:bk3-glow 5.2s ease-in-out infinite alternate
 .bk3-glow2{animation:bk3-glow2 3.6s ease-in-out infinite alternate}@keyframes bk3-glow2{from{opacity:.35;transform:translate(10%,30%)}to{opacity:.85;transform:translate(-14%,-6%)}}
 .bk3-dot{animation:bk3-dot 1.4s ease-in-out infinite}@keyframes bk3-dot{0%,100%{opacity:1;scale:1}50%{opacity:.35;scale:.6}}
 .is-static .bk3-glow,.is-static .bk3-glow2,.is-static .bk3-dot{animation:none}
-@media (prefers-reduced-motion:reduce){.bk3-glow,.bk3-glow2,.bk3-dot{animation:none}}`;
+html.is-static {.bk3-glow,.bk3-glow2,.bk3-dot{animation:none}}`;
 
 // ── BK04 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 const CONTACT = [

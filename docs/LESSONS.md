@@ -62,3 +62,4 @@ Short rules learned the hard way on Days 1–7. `/new-site` and every round star
 42. **rembg on macOS hangs with no error** when it enables Apple's CoreML engine: `npm run cutout` forces the CPU (scripts/cutout.py). BiRefNet on CPU ≈ 2 min for a 2.7k image (`--fast` u2net ≈ 1 s). Frost/condensation/glass come out semi-transparent: shoot cut-out angles of frosty or glassy products on a plain mid-grey background and check on dark AND light.
 
 <!-- Add new lessons below this line at the end of each day: "N. rule — why (Day NN)". -->
+- **Never honour the OS reduce-motion setting; only `?static=1` disables motion.** It is ON by default on many Windows machines, so live sites opened as flat static pages. `prefersReducedMotion()` is `?static` only; CSS uses `html.is-static { … }` (set by the engine); `npm run check` fails on any `prefers-reduced-motion` / reduce `matchMedia`.

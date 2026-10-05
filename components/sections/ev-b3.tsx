@@ -29,7 +29,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 
 const EV_CSS = `.ev3-p img{scale:1.14;animation:ev3-pan var(--d,6s) ease-in-out infinite alternate}@keyframes ev3-pan{from{translate:-4% 2%}to{translate:4% -2%}}
 .is-static .ev3-p img{animation:none}
-@media (prefers-reduced-motion:reduce){.ev3-p img{animation:none}}`;
+html.is-static {.ev3-p img{animation:none}}`;
 
 // ── EV04 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 const PARTS = [

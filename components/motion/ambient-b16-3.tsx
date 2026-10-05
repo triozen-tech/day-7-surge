@@ -49,7 +49,7 @@ const CSS = `
 @keyframes m746-shade{0%{opacity:.34}100%{opacity:0}}
 
 html.is-static .b16g3-glow,html.is-static .b16g3-run,html.is-static .m746-pan,html.is-static .m746-w,html.is-static .m746-w::after{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b16g3-glow,.b16g3-run,.m746-pan,.m746-w,.m746-w::after{animation:none}
 }
 `;

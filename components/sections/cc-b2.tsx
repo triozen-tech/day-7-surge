@@ -17,7 +17,7 @@ const CC03_CSS = `
 .cc03-pulse{transform-origin:center;transform-box:fill-box;animation:cc03-pulse 1.8s ease-out infinite}
 @keyframes cc03-pulse{from{transform:scale(.4);opacity:.9}to{transform:scale(2.6);opacity:0}}
 html.is-static .cc03-route,html.is-static .cc03-pulse{animation:none}
-@media (prefers-reduced-motion:reduce){.cc03-route,.cc03-pulse{animation:none}}
+html.is-static {.cc03-route,.cc03-pulse{animation:none}}
 `;
 
 /** Hand-drawn city map (SVG): blocks, two parks, a river, main roads, the courier route and the café pin. */

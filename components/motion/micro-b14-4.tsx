@@ -93,7 +93,7 @@ const CSS = `
 .u135-t.on .u135-ar{transform:translateX(8px) rotate(-45deg)}
 
 html.is-static .b14g4-glow,html.is-static .u124-dot::before,html.is-static .u124-dot::after,html.is-static .u124-core,html.is-static .u132-sway{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b14g4-glow,.u124-dot::before,.u124-dot::after,.u124-core,.u132-sway{animation:none}
   .u125-b,.u127-f img,.u127-cap,.u128-c,.u128-t,.u128-c img,.u130-i,.u131-it,.u133-a,.u134-a,.u134-sh,.u135-t,.u135-ar{transition:none}
 }

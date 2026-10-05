@@ -39,7 +39,7 @@ const NV_CSS = `
 .nvb7-bump{animation:nvb7-bump .5s cubic-bezier(.2,.8,.2,1)}
 @keyframes nvb7-bump{0%{transform:scale(1)}40%{transform:scale(1.35)}100%{transform:scale(1)}}
 html.is-static .nvb7-glow,html.is-static .nvb7-glow2,html.is-static .nvb7-bump{animation:none}
-@media (prefers-reduced-motion: reduce){.nvb7-glow,.nvb7-glow2,.nvb7-bump{animation:none}}
+html.is-static {.nvb7-glow,.nvb7-glow2,.nvb7-bump{animation:none}}
 `;
 
 const Glow = ({ className = "", alt = false }: { className?: string; alt?: boolean }) => (

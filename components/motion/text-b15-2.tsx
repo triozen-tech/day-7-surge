@@ -30,7 +30,7 @@ const CSS = `
 @keyframes m675-shine{0%{background-position:120% 0}100%{background-position:-120% 0}}
 .m675-off .m675-d,.m675-off .m675-face::after{animation-play-state:paused}
 html.is-static .b15t2-glow,html.is-static .m675-d,html.is-static .m675-face::after{animation:none}
-@media (prefers-reduced-motion: reduce){.b15t2-glow,.m675-d,.m675-face::after{animation:none}}
+html.is-static {.b15t2-glow,.m675-d,.m675-face::after{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

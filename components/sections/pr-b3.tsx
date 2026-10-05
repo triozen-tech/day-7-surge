@@ -195,7 +195,7 @@ function PR09() {
         @keyframes pr09-spin { to { transform: translate(-50%, -50%) rotate(360deg) } }
         .pr09-halo { animation: pr09-spin 14s linear infinite; }
         html.is-static .pr09-halo { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .pr09-halo { animation: none; } }
+        html.is-static { .pr09-halo { animation: none; } }
       `}</style>
       <div
         className="pr09-halo pointer-events-none absolute left-1/2 top-[56%] aspect-square w-[min(1100px,90vw)] rounded-full opacity-60 blur-[40px]"

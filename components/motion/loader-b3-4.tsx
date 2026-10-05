@@ -28,7 +28,7 @@ const CSS = `
 .i15-wave.b{animation-duration:2.6s;animation-direction:reverse}
 @keyframes i15-w{0%{transform:translateX(0)}100%{transform:translateX(-100px)}}
 html.is-static .b3g4l-glow,html.is-static .i13-pan,html.is-static .i15-wave{animation:none}
-@media (prefers-reduced-motion: reduce){.b3g4l-glow,.i13-pan,.i15-wave{animation:none}}
+html.is-static {.b3g4l-glow,.i13-pan,.i15-wave{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

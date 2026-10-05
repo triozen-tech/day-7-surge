@@ -38,7 +38,7 @@ const BLEND = [
   { n: "Monsooned Malabar", p: 8, d: "earth, low acid" },
 ];
 // two loops with different periods: hatching that slides inside every segment + a sheen across the whole bar
-const ST07_CSS = `.st07-hatch{background-image:repeating-linear-gradient(115deg,rgba(255,255,255,.24) 0 3px,transparent 3px 16px);background-size:60px 100%;animation:st07-hatch 1.3s linear infinite}@keyframes st07-hatch{to{background-position:60px 0}}.st07-sheen{background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%) 0 0/40% 100% no-repeat;animation:st07-sheen 4.2s ease-in-out infinite}@keyframes st07-sheen{from{background-position:-60% 0}to{background-position:160% 0}}.is-static .st07-hatch,.is-static .st07-sheen{animation:none}.is-static .st07-sheen{opacity:0}@media (prefers-reduced-motion:reduce){.st07-hatch,.st07-sheen{animation:none}}`;
+const ST07_CSS = `.st07-hatch{background-image:repeating-linear-gradient(115deg,rgba(255,255,255,.24) 0 3px,transparent 3px 16px);background-size:60px 100%;animation:st07-hatch 1.3s linear infinite}@keyframes st07-hatch{to{background-position:60px 0}}.st07-sheen{background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%) 0 0/40% 100% no-repeat;animation:st07-sheen 4.2s ease-in-out infinite}@keyframes st07-sheen{from{background-position:-60% 0}to{background-position:160% 0}}.is-static .st07-hatch,.is-static .st07-sheen{animation:none}.is-static .st07-sheen{opacity:0}html.is-static {.st07-hatch,.st07-sheen{animation:none}}`;
 
 /** ST07 · One full-width bar split into proportional segments; label + percentage under each. Segments unfold, one highlights in turn. */
 function ST07() {
@@ -110,7 +110,7 @@ const LEDGER = [
   { ing: "Milk", who: "Nandi Hills dairy", where: "Chikkaballapur", km: 46 },
 ];
 const MAX_KM = 1600;
-const ST08_CSS = `.st08-run{animation:st08-run var(--d,2.4s) linear infinite}@keyframes st08-run{from{left:0}to{left:100%}}.is-static .st08-run{animation:none;left:100%}@media (prefers-reduced-motion:reduce){.st08-run{animation:none;left:100%}}`;
+const ST08_CSS = `.st08-run{animation:st08-run var(--d,2.4s) linear infinite}@keyframes st08-run{from{left:0}to{left:100%}}.is-static .st08-run{animation:none;left:100%}html.is-static {.st08-run{animation:none;left:100%}}`;
 
 /** ST08 · A ledger: ingredient, producer, region, km in hairline columns, with a distance bar per row; rows light up in turn. */
 function ST08() {

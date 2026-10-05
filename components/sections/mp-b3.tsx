@@ -1,7 +1,7 @@
 "use client";
 
 // MP · Map layouts (docs/SECTION-MENU.md), batch 3. Maps are drawn here (SVG dots, shapes, streets), never tiles or
-// an embedded map. Loops stop in ?static=1 and under prefers-reduced-motion.
+// an embedded map. Loops stop in ?static=1.
 import { useEffect, useMemo, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -34,7 +34,7 @@ const MP_CSS = `.mp3-arc{stroke-dasharray:.16 1.2;animation:mp3-fly var(--d,2.4s
 .mp3-ring{transform-box:fill-box;transform-origin:center;animation:mp3-ring 1.6s ease-out infinite}@keyframes mp3-ring{from{transform:scale(1);opacity:.8}to{transform:scale(2.6);opacity:0}}
 .is-static .mp3-arc{animation:none;stroke-dasharray:none;opacity:.55}
 .is-static .mp3-pulse,.is-static .mp3-wave,.is-static .mp3-ring{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.mp3-arc{animation:none;stroke-dasharray:none;opacity:.55}.mp3-pulse,.mp3-wave,.mp3-ring{animation:none;opacity:0}}`;
+html.is-static {.mp3-arc{animation:none;stroke-dasharray:none;opacity:.55}.mp3-pulse,.mp3-wave,.mp3-ring{animation:none;opacity:0}}`;
 
 // ── MP05 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 // Continents as soft ellipses on a 100 × 50 equirectangular grid: (cx, cy, rx, ry). Rough on purpose: read as "world".

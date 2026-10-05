@@ -13,7 +13,7 @@ const CSS = `.pr7glow{animation:pr7gx 6.6s linear infinite alternate,pr7gs 3.9s 
 @keyframes pr7gx{from{translate:-34% -4%}to{translate:34% 8%}}@keyframes pr7gs{from{scale:.8}to{scale:1.22}}
 .pr7in{animation:pr7in .55s cubic-bezier(.2,.7,.2,1) both}@keyframes pr7in{from{opacity:0;translate:0 10px}to{opacity:1;translate:0 0}}
 html.is-static .pr7glow,html.is-static .pr7in{animation:none}
-@media (prefers-reduced-motion:reduce){.pr7glow,.pr7in{animation:none}}`;
+html.is-static {.pr7glow,.pr7in{animation:none}}`;
 
 const PLANS = [
   { k: "Monthly", save: "", price: "₹3,400", note: "Billed every month · cancel anytime", total: "₹3,400" },

@@ -67,7 +67,7 @@ const CSS = `
 .u48-b{position:absolute;left:0;top:0;color:#c6ff5c}
 
 html.is-static .b4g4-glow,html.is-static .u38-wave{animation:none}
-@media (prefers-reduced-motion: reduce){.b4g4-glow,.u38-wave{animation:none}.u39-book,.u42-card,.u42-pic,.u43-img,.u46-head,.u38-label{transition:none}}
+html.is-static {.b4g4-glow,.u38-wave{animation:none}.u39-book,.u42-card,.u42-pic,.u43-img,.u46-head,.u38-label{transition:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

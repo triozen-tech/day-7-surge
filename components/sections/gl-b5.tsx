@@ -48,7 +48,7 @@ const CSS = `.gl5kb img{animation:gl5kbs 4.4s linear infinite alternate,gl5kbt 3
 .gl5mq{animation:gl5mq 36s linear infinite}@keyframes gl5mq{from{translate:0 0}to{translate:-50% 0}}
 .gl5halo{animation:gl5spin 14s linear infinite}@keyframes gl5spin{from{rotate:0deg}to{rotate:360deg}}
 html.is-static .gl5kb img,html.is-static .gl5mq,html.is-static .gl5halo{animation:none}
-@media (prefers-reduced-motion:reduce){.gl5kb img,.gl5mq,.gl5halo{animation:none}}`;
+html.is-static {.gl5kb img,.gl5mq,.gl5halo{animation:none}}`;
 
 /** A placeholder photo whose image drifts slowly (two loops of different periods, so it never looks frozen). */
 function Shot({ i, w = 1000, h = 1250, alt = false, className = "" }: { i: number; w?: number; h?: number; alt?: boolean; className?: string }) {

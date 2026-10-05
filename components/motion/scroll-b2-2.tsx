@@ -25,7 +25,7 @@ function Glow({ code, color, at = "50% 45%", className = "" }: { code: string; c
   const c = `${code}-glow`;
   const css = `.${c}{position:absolute;inset:-25%;pointer-events:none;background:radial-gradient(circle at ${at},${color} 0%,transparent 52%);animation:${c} 4.6s linear infinite alternate;will-change:transform}
 @keyframes ${c}{0%{transform:translate3d(-9%,-5%,0) scale(1)}100%{transform:translate3d(9%,6%,0) scale(1.18)}}
-html.is-static .${c}{animation:none}@media (prefers-reduced-motion: reduce){.${c}{animation:none}}`;
+html.is-static .${c}{animation:none}html.is-static {.${c}{animation:none}}`;
   return (
     <>
       <style>{css}</style>
@@ -704,7 +704,7 @@ function m156Path(level: number, tilt: number, amp: number, t: number) {
 const M156_BUBBLES = Array.from({ length: 12 }, (_, k) => ({ x: 118 + ((k * 37) % 168), r: 2 + (k % 3), dur: 2.4 + (k % 4) * 0.55, delay: -(k * 0.37) }));
 const M156_CSS = `.m156-b{animation:m156-rise var(--d) linear infinite;animation-delay:var(--dl)}
 @keyframes m156-rise{0%{transform:translate3d(0,0,0);opacity:0}10%{opacity:.85}100%{transform:translate3d(6px,-400px,0);opacity:.85}}
-html.is-static .m156-b{animation:none}@media (prefers-reduced-motion: reduce){.m156-b{animation:none}}`;
+html.is-static .m156-b{animation:none}html.is-static {.m156-b{animation:none}}`;
 function M156() {
   const root = useRef<HTMLDivElement>(null);
   const liq = useRef<SVGPathElement>(null);

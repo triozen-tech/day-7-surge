@@ -22,7 +22,7 @@ const CSS = `
 .b3g2t-dot{position:absolute;left:0;top:0;width:20px;height:20px;margin:-10px 0 0 -10px;border-radius:50%;border:2px solid rgba(255,255,255,.95);background:rgba(255,255,255,.2);box-shadow:0 0 0 6px rgba(255,255,255,.1),0 4px 14px rgba(0,0,0,.45);pointer-events:none;z-index:45;opacity:0}
 .b3g2t-chip{position:absolute;right:20px;bottom:18px;z-index:46;padding:7px 14px;border-radius:999px;background:rgba(5,8,15,.62);backdrop-filter:blur(8px);color:#fff;font:600 12px/1 ${GROTESK};letter-spacing:.14em;text-transform:uppercase;pointer-events:none}
 html.is-static .b3g2t-glow,html.is-static .b3g2t-kb{animation:none}
-@media (prefers-reduced-motion: reduce){.b3g2t-glow,.b3g2t-kb{animation:none}}
+html.is-static {.b3g2t-glow,.b3g2t-kb{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

@@ -33,7 +33,7 @@ const BN10_CSS = `
 .bn10-pulse{animation:bn10-pulse 1.8s ease-in-out infinite}
 @keyframes bn10-pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.35);opacity:.15}}
 .is-static .bn10-mq,.is-static .bn10-beam,.is-static .bn10-pulse{animation:none}
-@media (prefers-reduced-motion:reduce){.bn10-mq,.bn10-beam,.bn10-pulse{animation:none}}`;
+html.is-static {.bn10-mq,.bn10-beam,.bn10-pulse{animation:none}}`;
 
 /** Steps an index every `ms` while `ref` is on screen (stops off screen and in ?static=1). */
 function useTick(ref: React.RefObject<HTMLElement | null>, ms: number) {

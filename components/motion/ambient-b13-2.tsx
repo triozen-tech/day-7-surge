@@ -34,7 +34,7 @@ const CSS = `
 
 html.is-static .b13g2a-glow,html.is-static .m663-pulse{animation:none}
 html.is-static .b13g2a-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b13g2a-glow,.m663-pulse{animation:none}
   .b13g2a-dot{display:none}
 }

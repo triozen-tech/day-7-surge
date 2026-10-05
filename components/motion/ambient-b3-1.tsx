@@ -51,7 +51,7 @@ const CSS = `
 
 html.is-static .b3g1-glow,html.is-static .m195-set,html.is-static .m195-rot,html.is-static .m195-mote,html.is-static .m202-breathe,html.is-static .m206-blob,html.is-static .m206-grain{animation:none}
 html.is-static .m195-mote{opacity:.6}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b3g1-glow,.m195-set,.m195-rot,.m195-mote,.m202-breathe,.m206-blob,.m206-grain{animation:none}
   .m195-mote{opacity:.6}
 }

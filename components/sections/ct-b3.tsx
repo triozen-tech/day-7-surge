@@ -62,7 +62,7 @@ function CT08() {
         .ct08-ring { transform-origin: ${(IN.x0 + IN.x1) / 2}px ${(IN.y0 + IN.y1) / 2}px; animation: ct08-ring 4.2s cubic-bezier(.55,0,.9,.6) infinite; }
         html.is-static .ct08-beam, html.is-static .ct08-ring { animation: none; }
         html.is-static .ct08-ring { opacity: 0; }
-        @media (prefers-reduced-motion: reduce) { .ct08-beam, .ct08-ring { animation: none; } .ct08-ring { opacity: 0; } }
+        html.is-static { .ct08-beam, .ct08-ring { animation: none; } .ct08-ring { opacity: 0; } }
       `}</style>
       <div className="relative h-[clamp(640px,96svh,960px)] overflow-hidden">
         {/* back wall: the flickering grid sits exactly in the vanishing box */}

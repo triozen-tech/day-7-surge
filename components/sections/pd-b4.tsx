@@ -32,7 +32,7 @@ const PD_CSS = `
 .pdb4-stripes{background-image:repeating-linear-gradient(-45deg,rgba(255,255,255,.22) 0 12px,transparent 12px 26px);background-size:36.77px 36.77px;animation:pdb4-move .9s linear infinite}
 @keyframes pdb4-move{to{background-position:36.77px 0}}
 html.is-static .pdb4-stripes{animation:none}
-@media (prefers-reduced-motion: reduce){.pdb4-stripes{animation:none}}
+html.is-static {.pdb4-stripes{animation:none}}
 `;
 
 const PD05_PHASES = [

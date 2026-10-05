@@ -38,7 +38,7 @@ const CSS = `.sp5kb img{animation:sp5kbs 4.4s linear infinite alternate,sp5kbt 3
 .sp5in{animation:sp5in .6s cubic-bezier(.2,.7,.2,1) both}@keyframes sp5in{from{opacity:0;translate:0 14px}to{opacity:1;translate:0 0}}
 .sp5mq{animation:sp5mq 30s linear infinite}@keyframes sp5mq{from{translate:0 0}to{translate:-50% 0}}
 html.is-static .sp5kb img,html.is-static .sp5fill,html.is-static .sp5in,html.is-static .sp5mq{animation:none}
-@media (prefers-reduced-motion:reduce){.sp5kb img,.sp5fill,.sp5in,.sp5mq{animation:none}}`;
+html.is-static {.sp5kb img,.sp5fill,.sp5in,.sp5mq{animation:none}}`;
 
 /** Placeholder photo with a slow two-loop drift. */
 function Shot({ i, className = "" }: { i: number; className?: string }) {

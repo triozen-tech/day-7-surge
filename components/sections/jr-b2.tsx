@@ -91,7 +91,7 @@ function JR03() {
 
 // ── JR04 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 const JR04_CSS = `.jr04-ring{animation:jr04-ring 1.6s ease-in-out infinite alternate}@keyframes jr04-ring{from{box-shadow:inset 0 0 0 0 var(--sx-accent)}to{box-shadow:inset 0 0 0 3px var(--sx-accent)}}
-.is-static .jr04-ring{animation:none}@media (prefers-reduced-motion:reduce){.jr04-ring{animation:none}}`;
+.is-static .jr04-ring{animation:none}html.is-static {.jr04-ring{animation:none}}`;
 
 /** JR04 · Fluid importance grid: articles in an irregular 6-column grid; the lead spans 4 columns and two rows, others
  *  span 2–4 columns; text-only cards (quote, essay, list) mix with image cards. Tiles snap in; a "Now reading" ring

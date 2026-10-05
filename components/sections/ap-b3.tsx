@@ -1,7 +1,7 @@
 "use client";
 
 // AP · App layouts (docs/SECTION-MENU.md), batch 3. Platform icons are simple generic device drawings (never a
-// platform's real logo). Loops stop in ?static=1 and under prefers-reduced-motion.
+// platform's real logo). Loops stop in ?static=1.
 import { useEffect, useRef } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { H, P, Sec } from "./kit";
@@ -10,7 +10,7 @@ import type { SectionDef } from "./types";
 
 const AP_CSS = `.ap3-sheen{background:linear-gradient(115deg,transparent 35%,color-mix(in srgb,var(--sx-accent) 22%,transparent) 50%,transparent 65%) 0 0/300% 100%;animation:ap3-sheen 3.2s linear infinite;animation-delay:var(--dl,0s)}@keyframes ap3-sheen{from{background-position:120% 0}to{background-position:-20% 0}}
 .is-static .ap3-sheen{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.ap3-sheen{animation:none;opacity:0}}`;
+html.is-static {.ap3-sheen{animation:none;opacity:0}}`;
 
 /** Generic device glyphs (stroke drawings), one per platform. */
 function Glyph({ k }: { k: number }) {

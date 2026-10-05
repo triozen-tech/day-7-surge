@@ -25,7 +25,7 @@ function Glow({ code, color, at = "50% 45%", className = "" }: { code: string; c
   const c = `${code}-glow`;
   const css = `.${c}{position:absolute;inset:-25%;pointer-events:none;background:radial-gradient(circle at ${at},${color} 0%,transparent 52%);animation:${c} 4.6s linear infinite alternate;will-change:transform}
 @keyframes ${c}{0%{transform:translate3d(-9%,-5%,0) scale(1)}100%{transform:translate3d(9%,6%,0) scale(1.18)}}
-html.is-static .${c}{animation:none}@media (prefers-reduced-motion: reduce){.${c}{animation:none}}`;
+html.is-static .${c}{animation:none}html.is-static {.${c}{animation:none}}`;
   return (
     <>
       <style>{css}</style>
@@ -459,7 +459,7 @@ function M427() {
   const right = [M427_S[0], ...[...M427_S].reverse()];
   return (
     <div ref={root} className="relative h-full w-full overflow-hidden rounded-[24px] bg-[#080a0f]">
-      <style>{`.m427-kb{animation:m427kb 5s linear infinite alternate}@keyframes m427kb{0%{transform:scale(1.04)}100%{transform:scale(1.14) translateX(-2%)}}html.is-static .m427-kb{animation:none}@media (prefers-reduced-motion: reduce){.m427-kb{animation:none}}`}</style>
+      <style>{`.m427-kb{animation:m427kb 5s linear infinite alternate}@keyframes m427kb{0%{transform:scale(1.04)}100%{transform:scale(1.14) translateX(-2%)}}html.is-static .m427-kb{animation:none}html.is-static {.m427-kb{animation:none}}`}</style>
       <div className="absolute inset-0 grid grid-cols-2">
         <div className="relative overflow-hidden">
           <div className="m427-l absolute inset-x-0 top-0 flex h-full flex-col will-change-transform">

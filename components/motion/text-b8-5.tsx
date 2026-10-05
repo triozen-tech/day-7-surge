@@ -38,7 +38,7 @@ const CSS = `
 .m399-off .m399-top,.m399-off .m399-bot,.m399-off .m399-seam{animation-play-state:paused}
 html.is-static .b8g5-glow,html.is-static .m399-top,html.is-static .m399-bot{animation:none}
 html.is-static .m399-seam{animation:none;transform:scaleX(1)}
-@media (prefers-reduced-motion: reduce){.b8g5-glow,.m399-top,.m399-bot{animation:none}.m399-seam{animation:none;transform:scaleX(1)}}
+html.is-static {.b8g5-glow,.m399-top,.m399-bot{animation:none}.m399-seam{animation:none;transform:scaleX(1)}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

@@ -16,7 +16,7 @@ const RINGS = [
   { v: 72, suf: "%", k: "Fine lines", d: "noticed softer lines around the eyes", t: 4.4 },
   { v: 98, suf: "%", k: "Gentle", d: "had no redness, even on sensitive skin", t: 7.4 },
 ];
-const ST09_CSS = `.st09-orbit{animation:st09-orbit linear infinite}@keyframes st09-orbit{to{transform:rotate(360deg)}}.st09-glow{animation:st09-glow 3.2s ease-in-out infinite alternate}@keyframes st09-glow{from{opacity:.25;transform:scale(.9)}to{opacity:.7;transform:scale(1.08)}}.is-static .st09-orbit,.is-static .st09-glow{animation:none}@media (prefers-reduced-motion:reduce){.st09-orbit,.st09-glow{animation:none}}`;
+const ST09_CSS = `.st09-orbit{animation:st09-orbit linear infinite}@keyframes st09-orbit{to{transform:rotate(360deg)}}.st09-glow{animation:st09-glow 3.2s ease-in-out infinite alternate}@keyframes st09-glow{from{opacity:.25;transform:scale(.9)}to{opacity:.7;transform:scale(1.08)}}.is-static .st09-orbit,.is-static .st09-glow{animation:none}html.is-static {.st09-orbit,.st09-glow{animation:none}}`;
 
 /** ST09 · Left-aligned heading, then four large circular rings whose arcs fill to a value with the number counting inside. */
 function ST09() {
@@ -82,7 +82,7 @@ const BLEND = [
   { k: "Clove & pepper", v: 7, d: "Just enough to lift the finish", c: "#5b3b2e" },
   { k: "Fennel", v: 5, d: "A cooling note to round it off", c: "#c6c08a" },
 ];
-const ST10_CSS = `.st10-spin{animation:st10-spin 26s linear infinite}@keyframes st10-spin{to{transform:rotate(360deg)}}.is-static .st10-spin{animation:none}@media (prefers-reduced-motion:reduce){.st10-spin{animation:none}}`;
+const ST10_CSS = `.st10-spin{animation:st10-spin 26s linear infinite}@keyframes st10-spin{to{transform:rotate(360deg)}}.is-static .st10-spin{animation:none}html.is-static {.st10-spin{animation:none}}`;
 
 /** ST10 · A donut chart with a big centre number (left) beside a legend list with values and short notes (right). */
 function ST10() {

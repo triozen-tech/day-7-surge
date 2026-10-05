@@ -116,7 +116,7 @@ const CSS = `
 @keyframes u12-vid{0%{transform:scale(1.25) translate(-8%,0)}100%{transform:scale(1.25) translate(8%,-4%)}}
 
 html.is-static .b4g1u-glow,html.is-static .u02-spin,html.is-static .u11-kb,html.is-static .u12-show>img,html.is-static .u12-vid{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b4g1u-glow,.u02-spin,.u11-kb,.u12-show>img,.u12-vid{animation:none}
   .u02-disc,.u02-sleeve,.u05-img,.u06-l,.u08-so,.u08-panel,.u09-p,.u10-img,.u10-bx,.u11-d,.u11-col,.u11-ml{transition:none}
 }

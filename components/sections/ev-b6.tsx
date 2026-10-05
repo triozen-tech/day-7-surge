@@ -1,7 +1,7 @@
 "use client";
 
 // EV · Events & roadmap layouts (docs/SECTION-MENU.md), batch 6. Cards fly in and lock into their quarter; then the
-// roadmap spotlights one drop after another by itself while on screen. Loops stop in ?static=1 and prefers-reduced-motion.
+// roadmap spotlights one drop after another by itself while on screen. Loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -31,7 +31,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 const EV_CSS = `.ev6-glow{background:radial-gradient(closest-side,color-mix(in srgb,var(--sx-accent) 40%,transparent),transparent);animation:ev6-glow 6s linear infinite alternate}@keyframes ev6-glow{from{translate:-40% 0}to{translate:40% -10%}}
 .ev6-now{background:repeating-linear-gradient(-45deg,color-mix(in srgb,var(--sx-accent) 55%,transparent) 0 8px,transparent 8px 16px);background-size:200% 100%;animation:ev6-now 1.6s linear infinite}@keyframes ev6-now{to{background-position:-45px 0}}
 .is-static .ev6-glow,.is-static .ev6-now{animation:none}
-@media (prefers-reduced-motion:reduce){.ev6-glow,.ev6-now{animation:none}}`;
+html.is-static {.ev6-glow,.ev6-now{animation:none}}`;
 
 type Status = "Live" | "In production" | "Sampling" | "Planned";
 const STATUS: Record<Status, string> = {

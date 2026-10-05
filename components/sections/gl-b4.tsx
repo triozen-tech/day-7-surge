@@ -40,7 +40,7 @@ const CSS = `.gl4kb{animation:gl4kbs 4.6s ease-in-out infinite alternate,gl4kbt 
 .gl4sheen{animation:gl4sheen 2.6s ease-in-out infinite}@keyframes gl4sheen{from{translate:-140% 0}to{translate:240% 0}}
 @keyframes gl4up{from{transform:translateY(105%)}}@keyframes gl4fade{from{opacity:0;transform:translateY(10px)}}
 html.is-static .gl4kb,html.is-static .gl4pan,html.is-static .gl4sheen{animation:none}
-@media (prefers-reduced-motion:reduce){.gl4kb,.gl4pan,.gl4sheen{animation:none}}`;
+html.is-static {.gl4kb,.gl4pan,.gl4sheen{animation:none}}`;
 
 /* ───────────────────────────── GL19 · Make-way expanding grid ───────────────────────────── */
 

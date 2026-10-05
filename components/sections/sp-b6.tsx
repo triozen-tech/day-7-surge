@@ -41,7 +41,7 @@ const CSS = `.sp6kb img{animation:sp6kbs 4.6s linear infinite alternate,sp6kbt 3
 .sp6in{animation:sp6in .7s cubic-bezier(.2,.7,.2,1) both}@keyframes sp6in{from{opacity:0;translate:24px 0}to{opacity:1;translate:0 0}}
 .sp6scan{animation:sp6scan 2.4s linear infinite}@keyframes sp6scan{from{translate:0 -100%}to{translate:0 100%}}
 html.is-static .sp6kb img,html.is-static .sp6glow,html.is-static .sp6fill,html.is-static .sp6in,html.is-static .sp6scan{animation:none}
-@media (prefers-reduced-motion:reduce){.sp6kb img,.sp6glow,.sp6fill,.sp6in,.sp6scan{animation:none}}`;
+html.is-static {.sp6kb img,.sp6glow,.sp6fill,.sp6in,.sp6scan{animation:none}}`;
 
 /** Placeholder photo with a slow two-loop drift. */
 function Shot({ i, className = "" }: { i: number; className?: string }) {

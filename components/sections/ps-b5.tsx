@@ -57,7 +57,7 @@ const PS19_CSS = `
 @keyframes ps19-sheen{from{transform:translateX(-120%) skewX(-14deg)}to{transform:translateX(330%) skewX(-14deg)}}
 html.is-static .ps19-pan,html.is-static .ps19-sheen{animation:none}
 html.is-static .ps19-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.ps19-pan,.ps19-sheen{animation:none}.ps19-sheen{opacity:0}}
+html.is-static {.ps19-pan,.ps19-sheen{animation:none}.ps19-sheen{opacity:0}}
 `;
 
 /** PS19 · A material library: filter chips by material type above a 6-column grid of square swatches (fabric, wood,
@@ -150,7 +150,7 @@ const PS20_CSS = `
 .ps20-tape{animation:ps20-tape 1.6s linear infinite}
 @keyframes ps20-tape{to{stroke-dashoffset:-28}}
 html.is-static .ps20-tape{animation:none}
-@media (prefers-reduced-motion:reduce){.ps20-tape{animation:none}}
+html.is-static {.ps20-tape{animation:none}}
 `;
 
 const PS20_COLS = ["Chest", "Waist", "Hips", "Length"] as const;

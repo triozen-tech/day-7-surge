@@ -28,7 +28,7 @@ const CSS = `
 .m533-kb{animation:m533-kb 6s linear infinite alternate;will-change:transform}
 @keyframes m533-kb{0%{transform:scale(1.03)}100%{transform:scale(1.13) translate3d(-2%,1%,0)}}
 html.is-static .b11g1-glow,html.is-static .m533-kb{animation:none}
-@media (prefers-reduced-motion: reduce){.b11g1-glow,.m533-kb{animation:none}}
+html.is-static {.b11g1-glow,.m533-kb{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

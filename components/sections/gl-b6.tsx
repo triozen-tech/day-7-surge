@@ -54,7 +54,7 @@ const CSS = `.gl6kb img{animation:gl6s 4.4s linear infinite alternate,gl6t 3.1s 
 .gl6swap{animation:gl6sw 1.1s cubic-bezier(.22,1,.36,1) both}
 @keyframes gl6sw{from{opacity:.2;scale:1.18}to{opacity:1;scale:1}}
 html.is-static .gl6kb img,html.is-static .gl6glow,html.is-static .gl6swap{animation:none}
-@media (prefers-reduced-motion:reduce){.gl6kb img,.gl6glow,.gl6swap{animation:none}}`;
+html.is-static {.gl6kb img,.gl6glow,.gl6swap{animation:none}}`;
 
 /** A placeholder photo whose image drifts slowly (two loops of different periods, so it never looks frozen). */
 function Shot({ i, w = 1000, h = 1250, alt = false, className = "" }: { i: number; w?: number; h?: number; alt?: boolean; className?: string }) {

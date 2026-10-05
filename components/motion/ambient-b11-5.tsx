@@ -60,7 +60,7 @@ const CSS = `
 @keyframes m583-spin{0%{transform:rotate(var(--a0))}100%{transform:rotate(calc(var(--a0) + 360deg))}}
 
 html.is-static .b11g5-glow,html.is-static .b11g5-run,html.is-static .m581-light{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b11g5-glow,.b11g5-run,.m581-light{animation:none}
 }
 `;

@@ -1,7 +1,7 @@
 "use client";
 
 // VD · Video layouts (docs/SECTION-MENU.md), batch 5. The "video" is a moving placeholder (drifting scene + light pass +
-// running progress), never an external file; loops stop in ?static=1 and under prefers-reduced-motion.
+// running progress), never an external file; loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -12,7 +12,7 @@ const VD_CSS = `.vd5-light{background:linear-gradient(105deg,transparent 30%,rgb
 .vd5-prog{transform-origin:0 50%;animation:vd5-prog 14s linear infinite}@keyframes vd5-prog{from{transform:scaleX(.08)}to{transform:scaleX(1)}}
 .vd5-ring{animation:vd5-ring 1.6s cubic-bezier(0,0,.2,1) infinite}@keyframes vd5-ring{from{transform:scale(1);opacity:.6}to{transform:scale(1.7);opacity:0}}
 .is-static .vd5-light,.is-static .vd5-ring{animation:none;opacity:0}.is-static .vd5-prog{animation:none;transform:scaleX(.35)}
-@media (prefers-reduced-motion:reduce){.vd5-light,.vd5-ring{animation:none;opacity:0}.vd5-prog{animation:none;transform:scaleX(.35)}}`;
+html.is-static {.vd5-light,.vd5-ring{animation:none;opacity:0}.vd5-prog{animation:none;transform:scaleX(.35)}}`;
 
 /** Running timecode while the section is on screen (frozen at a sensible value in ?static=1). */
 function useTimecode(ref: React.RefObject<HTMLElement | null>) {

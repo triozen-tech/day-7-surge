@@ -35,7 +35,7 @@ const PD_CSS = `
 @keyframes pdb6-ping{from{transform:scale(1);opacity:.7}to{transform:scale(1.9);opacity:0}}
 html.is-static .pdb6-glow,html.is-static .pdb6-ping{animation:none}
 html.is-static .pdb6-ping{opacity:0}
-@media (prefers-reduced-motion: reduce){.pdb6-glow,.pdb6-ping{animation:none}.pdb6-ping{opacity:0}}
+html.is-static {.pdb6-glow,.pdb6-ping{animation:none}.pdb6-ping{opacity:0}}
 `;
 
 const Glow = ({ className = "" }: { className?: string }) => (

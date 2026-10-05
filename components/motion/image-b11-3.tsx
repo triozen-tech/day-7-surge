@@ -26,7 +26,7 @@ const CSS = `
 .m558-layer{position:absolute;inset:0;overflow:hidden;border-radius:18px;transform-origin:50% 50%;will-change:transform}
 .m560-blur{position:absolute;inset:0;filter:blur(10px);transform:scale(1.06)}
 html.is-static .b11i3-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b11i3-glow{animation:none}}
+html.is-static {.b11i3-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

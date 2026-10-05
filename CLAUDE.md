@@ -15,6 +15,8 @@ Desktop (1440×900 and 1920×1080) is the priority. **Reels are recorded only on
 
 **Before anything else, every day and every round: read `docs/LESSONS.md`** (rules learned on earlier days). At the end of a day, add the day's new lessons to it.
 
+**Motion is always on (permanent rule).** Never honour the OS reduce-motion setting; only `?static=1` disables motion. `prefersReducedMotion()` in `lib/gsap.ts` is the ONLY switch (true only with `?static`); no `prefers-reduced-motion` media query or `matchMedia` anywhere else (`npm run check` fails on it). Why: that setting is ON by default on many Windows machines and turned the live sites into flat static pages.
+
 ## How the kit is organised
 
 | Folder | What | Change per site? |

@@ -34,7 +34,7 @@ const CSS = `
 .m720-wrap{filter:drop-shadow(0 22px 26px rgba(0,0,0,.5))}
 .m720-flap{filter:drop-shadow(-5px -5px 7px rgba(0,0,0,.32))}
 html.is-static .b16i1-glow,html.is-static .b16i1-kb{animation:none}
-@media (prefers-reduced-motion: reduce){.b16i1-glow,.b16i1-kb{animation:none}}
+html.is-static {.b16i1-glow,.b16i1-kb{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

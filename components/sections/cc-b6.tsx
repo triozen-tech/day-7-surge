@@ -2,7 +2,7 @@
 
 // CC · Contact layouts, batch 6 (CC11–CC12). Contact through named people (a vCard that opens by itself) and through a
 // voice note (a record button under light rays). No phone numbers anywhere: call-backs and .example emails only.
-// Loops stop in ?static=1 and under prefers-reduced-motion.
+// Loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { MagneticButton } from "../fx/layout";
@@ -46,7 +46,7 @@ const CC6_CSS = `
 @keyframes cc6-blink{50%{opacity:.2}}
 html.is-static .cc6-glow,html.is-static .cc6-tilt,html.is-static .cc6-bar,html.is-static .cc6-blink{animation:none}
 html.is-static .cc6-ping{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.cc6-glow,.cc6-tilt,.cc6-bar,.cc6-blink{animation:none}.cc6-ping{animation:none;opacity:0}}
+html.is-static {.cc6-glow,.cc6-tilt,.cc6-bar,.cc6-blink{animation:none}.cc6-ping{animation:none;opacity:0}}
 `;
 
 /* ───────────────────────── CC11 · People grid with vCard overlay ───────────────────────── */

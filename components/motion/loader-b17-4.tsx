@@ -66,7 +66,7 @@ const CSS = `
 @keyframes i57-r{from{scale:1 1}to{scale:1 -1}}
 
 html.is-static .b17g4-root *,html.is-static .b17g4-glow{animation:none!important}
-@media (prefers-reduced-motion: reduce){.b17g4-root *,.b17g4-glow{animation:none!important}}
+html.is-static {.b17g4-root *,.b17g4-glow{animation:none!important}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

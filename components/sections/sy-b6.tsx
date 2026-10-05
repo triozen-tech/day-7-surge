@@ -53,7 +53,7 @@ const CSS = `.sy6glow{animation:sy6g 8s linear infinite alternate}
 .sy6kb img{animation:sy6k 4.4s linear infinite alternate}
 @keyframes sy6k{from{scale:1.05;translate:-3% 0}to{scale:1.2;translate:3% 0}}
 html.is-static .sy6glow,html.is-static .sy6bar,html.is-static .sy6pulse,html.is-static .sy6ring,html.is-static .sy6kb img{animation:none}
-@media (prefers-reduced-motion:reduce){.sy6glow,.sy6bar,.sy6pulse,.sy6ring,.sy6kb img{animation:none}}`;
+html.is-static {.sy6glow,.sy6bar,.sy6pulse,.sy6ring,.sy6kb img{animation:none}}`;
 
 /* ───────────────────────────── SY15 · Logo-led expandable history ───────────────────────────── */
 

@@ -23,7 +23,7 @@ const CSS = `
 .x38-tab{transition:color .3s}.x38-tab.on{color:#fff}
 html.is-static .b3g3x-glow,html.is-static .b3g3x-dot::after{animation:none}
 html.is-static .b3g3x-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b3g3x-glow,.b3g3x-dot::after{animation:none}
   .b3g3x-dot{display:none}
 }

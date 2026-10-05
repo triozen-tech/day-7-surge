@@ -45,7 +45,7 @@ const CSS = `
 .i46-blk{animation:i46-bounce 1.3s cubic-bezier(.6,0,.4,1) infinite alternate}
 @keyframes i46-bounce{0%{left:0%;transform:scaleX(1)}50%{transform:scaleX(1.5)}100%{left:75%;transform:scaleX(1)}}
 html.is-static .b17g3-glow,html.is-static .i38-sweep,html.is-static .i38-blip,html.is-static .i40-l,html.is-static .i40-r,html.is-static .i41-dot,html.is-static .i41-stem,html.is-static .i43-spin,html.is-static .i44-d,html.is-static .i45-bar,html.is-static .i45-ball,html.is-static .i46-blk{animation:none}
-@media (prefers-reduced-motion: reduce){.b17g3-glow,.i38-sweep,.i38-blip,.i40-l,.i40-r,.i41-dot,.i41-stem,.i43-spin,.i44-d,.i45-bar,.i45-ball,.i46-blk{animation:none}}
+html.is-static {.b17g3-glow,.i38-sweep,.i38-blip,.i40-l,.i40-r,.i41-dot,.i41-stem,.i43-spin,.i44-d,.i45-bar,.i45-ball,.i46-blk{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

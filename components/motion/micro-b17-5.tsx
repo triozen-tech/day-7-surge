@@ -86,7 +86,7 @@ const CSS = `
 @keyframes u165-ping{0%{transform:scale(.6);opacity:.9}100%{transform:scale(3.2);opacity:0}}
 
 html.is-static .b17g5-glow,html.is-static .u159-ants rect,html.is-static .u163-bub,html.is-static .u164-rays,html.is-static .u164-core,html.is-static .u164-drop,html.is-static .u164-bolt,html.is-static .u164-sky,html.is-static .u164-cl1,html.is-static .u164-cl2,html.is-static .u164-wind,html.is-static .u165-pulse{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b17g5-glow,.u159-ants rect,.u163-bub,.u164-rays,.u164-core,.u164-drop,.u164-bolt,.u164-sky,.u164-cl1,.u164-cl2,.u164-wind,.u165-pulse{animation:none}
   .u156-sw,.u159-k,.u160-t,.u160-p,.u163-b{transition:none}
 }

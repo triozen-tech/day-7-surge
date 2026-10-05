@@ -41,7 +41,7 @@ const CSS = `
 .m483-in{animation:m483-counter 6s ease-in-out infinite alternate;animation-play-state:paused}
 .m483[data-on] .m483-blob,.m483[data-on] .m483-in{animation-play-state:running}
 html.is-static .b10g2-glow,html.is-static .b10g2-top,html.is-static .m483-blob,html.is-static .m483-in{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b10g2-glow,.b10g2-top,.m483-blob,.m483-in{animation:none}
 }
 `;

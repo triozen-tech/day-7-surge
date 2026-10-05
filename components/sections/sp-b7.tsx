@@ -14,7 +14,7 @@ const CSS = `.sp7kb img{animation:sp7kbs 5s linear infinite alternate,sp7kbt 3.1
 .sp7glow{animation:sp7gx 6.4s linear infinite alternate,sp7gs 3.7s ease-in-out infinite alternate}
 @keyframes sp7gx{from{translate:-28% -6%}to{translate:28% 10%}}@keyframes sp7gs{from{scale:.82}to{scale:1.22}}
 html.is-static .sp7kb img,html.is-static .sp7glow{animation:none}
-@media (prefers-reduced-motion:reduce){.sp7kb img,.sp7glow{animation:none}}`;
+html.is-static {.sp7kb img,.sp7glow{animation:none}}`;
 
 const STORIES = [
   { q: "I came for the filter coffee and stayed for the Thursday poetry nights. Six years now.", who: "Meera Pillai", tag: "Regular since 2019", i: 1 },

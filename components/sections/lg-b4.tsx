@@ -186,7 +186,7 @@ function LG07() {
           </div>
         </div>
         <div className="md:col-span-7">
-          <style>{`@keyframes lgb4-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}html.is-static [class*="lgb4-in"]{animation:none!important}@media (prefers-reduced-motion: reduce){[class*="lgb4-in"]{animation:none!important}}`}</style>
+          <style>{`@keyframes lgb4-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}html.is-static [class*="lgb4-in"]{animation:none!important}html.is-static {[class*="lgb4-in"]{animation:none!important}}`}</style>
           <div className="mx-auto grid max-w-[680px] grid-cols-3 gap-[clamp(10px,1.4vw,20px)] p-[clamp(8px,1.4vw,20px)]">
             {LG07_FARMS.map((x, k) => {
               const on = k === a;

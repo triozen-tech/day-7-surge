@@ -14,7 +14,7 @@ const CSS = `
 .b2s1-glow{position:absolute;inset:-25%;pointer-events:none;background:radial-gradient(38% 42% at 32% 38%,var(--g1,rgba(79,141,255,.42)),transparent 70%),radial-gradient(34% 40% at 70% 66%,var(--g2,rgba(255,122,89,.2)),transparent 70%);animation:b2s1-drift 6s linear infinite alternate;will-change:transform}
 @keyframes b2s1-drift{0%{transform:translate3d(-7%,-5%,0) scale(1)}100%{transform:translate3d(7%,6%,0) scale(1.15)}}
 html.is-static .b2s1-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b2s1-glow{animation:none}}
+html.is-static {.b2s1-glow{animation:none}}
 `;
 
 function Stage({ r, children, g1, g2 }: { r?: RefObject<HTMLDivElement | null>; children: ReactNode; g1?: string; g2?: string }) {

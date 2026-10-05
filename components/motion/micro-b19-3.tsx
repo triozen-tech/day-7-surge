@@ -64,7 +64,7 @@ const CSS = `
 .u260-t.on{opacity:1;transform:none}
 
 html.is-static .b19g3-glow,html.is-static .u256-bulb{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b19g3-glow,.u256-bulb{animation:none}
   .u250-col,.u252-b,.u258-box,.u258-w,.u260-t{transition:none}
 }

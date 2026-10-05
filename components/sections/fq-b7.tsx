@@ -16,7 +16,7 @@ const CSS = `.fq7glow{animation:fq7gx 6.3s linear infinite alternate,fq7gs 3.8s 
 @keyframes fq7type{from{width:0}to{width:calc(var(--n) * 1ch)}}
 .fq7caret{animation:fq7caret .8s steps(1) infinite}@keyframes fq7caret{50%{opacity:0}}
 html.is-static .fq7glow,html.is-static .fq7type,html.is-static .fq7caret{animation:none}
-@media (prefers-reduced-motion:reduce){.fq7glow,.fq7type,.fq7caret{animation:none}}`;
+html.is-static {.fq7glow,.fq7type,.fq7caret{animation:none}}`;
 
 const QA = [
   { n: 12, key: "retinol", q: "Can I layer this under a retinol at night?", a: "Yes. Apply the serum first, wait a minute, then your retinol. The ceramides actually cut down the flaking I used to get.", who: "Ira Menon", when: "1 day ago", help: 48 },

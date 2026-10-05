@@ -45,7 +45,7 @@ const CSS = `
 
 html.is-static .b14u2-glow,html.is-static .u103-b,html.is-static .u104-w1,html.is-static .u104-w2{animation:none}
 html.is-static .b14u2-dot,html.is-static .b14u2-gdot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b14u2-glow,.u103-b,.u104-w1,.u104-w2{animation:none}
   .b14u2-dot,.b14u2-gdot{display:none}
   .u109-l,.u109-l .u109-s,.u110-th,.u110-mc{transition:none}

@@ -23,7 +23,7 @@ function Glow({ code, color, at = "50% 45%", blend = false }: { code: string; co
   const c = `${code}-glow`;
   const css = `.${c}{position:absolute;inset:-25%;pointer-events:none;background:radial-gradient(circle at ${at},${color} 0%,transparent 52%);animation:${c} 4.8s linear infinite alternate;will-change:transform${blend ? ";mix-blend-mode:screen" : ""}}
 @keyframes ${c}{0%{transform:translate3d(-9%,-5%,0) scale(1)}100%{transform:translate3d(9%,6%,0) scale(1.18)}}
-html.is-static .${c}{animation:none}@media (prefers-reduced-motion: reduce){.${c}{animation:none}}`;
+html.is-static .${c}{animation:none}html.is-static {.${c}{animation:none}}`;
   return (
     <>
       <style>{css}</style>
@@ -593,7 +593,7 @@ const HALO_CSS = `
 .m192-halo{position:absolute;inset:-10px;overflow:hidden;filter:blur(26px);opacity:.85}
 .m192-ring{position:absolute;inset:0;overflow:hidden}
 html.is-static .m192-spin{animation:none}
-@media (prefers-reduced-motion: reduce){.m192-spin{animation:none}}
+html.is-static {.m192-spin{animation:none}}
 `;
 function M192() {
   const root = useRef<HTMLDivElement>(null);

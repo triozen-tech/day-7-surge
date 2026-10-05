@@ -49,7 +49,7 @@ const CC07_CSS = `
 .cc07-ping{animation:cc07-ping 1.6s ease-out infinite}
 @keyframes cc07-ping{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
 html.is-static .cc07-orb,html.is-static .cc07-ping{animation:none}
-@media (prefers-reduced-motion:reduce){.cc07-orb,.cc07-ping{animation:none}}
+html.is-static {.cc07-orb,.cc07-ping{animation:none}}
 `;
 
 const CC07_METHODS = [
@@ -123,7 +123,7 @@ const CC08_CSS = `
 @keyframes cc08-breathe{from{scale:1}to{scale:1.025}}
 html.is-static .cc08-sweep,html.is-static .cc08-breathe{animation:none}
 html.is-static .cc08-sweep{opacity:0}
-@media (prefers-reduced-motion:reduce){.cc08-sweep,.cc08-breathe{animation:none}.cc08-sweep{opacity:0}}
+html.is-static {.cc08-sweep,.cc08-breathe{animation:none}.cc08-sweep{opacity:0}}
 `;
 
 const CC08_METHODS = [

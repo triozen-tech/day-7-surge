@@ -27,7 +27,7 @@ const CSS = `
 .b12g1-dot{position:absolute;left:0;top:0;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;border:2px solid rgba(255,255,255,.95);background:rgba(255,255,255,.18);box-shadow:0 0 0 6px rgba(255,255,255,.08),0 4px 14px rgba(0,0,0,.4);pointer-events:none;z-index:45;opacity:0;transition:opacity .25s}
 .m596-wave{position:absolute;left:0;bottom:0;width:200%;will-change:transform}
 html.is-static .b12g1-glow{animation:none}
-@media (prefers-reduced-motion: reduce){ .b12g1-glow{animation:none} }
+html.is-static { .b12g1-glow{animation:none} }
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

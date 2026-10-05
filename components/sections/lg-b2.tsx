@@ -105,7 +105,7 @@ function LG04() {
         .lg04-sheen { background: linear-gradient(105deg, transparent 30%, rgba(255,255,255,.2) 48%, transparent 66%); background-size: 260% 100%; animation: lg04-sheen 3.4s linear infinite; }
         @keyframes lg04-sheen { from { background-position: 130% 0; } to { background-position: -130% 0; } }
         html.is-static .lg04-sheen { animation: none; opacity: 0; }
-        @media (prefers-reduced-motion: reduce) { .lg04-sheen { animation: none; opacity: 0; } }
+        html.is-static { .lg04-sheen { animation: none; opacity: 0; } }
       `}</style>
       <div className="grid grid-cols-1 items-end gap-6 md:grid-cols-12">
         <H className="text-[clamp(44px,5.6vw,96px)] md:col-span-7">Poured in good company.</H>

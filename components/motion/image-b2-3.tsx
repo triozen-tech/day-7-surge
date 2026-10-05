@@ -37,7 +37,7 @@ const CSS = `
 html.is-static .b2g3i-glow{animation:none}
 html.is-static .m163-a{clip-path:inset(0% 0% 0% 100%)!important;transition:none}
 html.is-static .m163-b{filter:none;transition:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b2g3i-glow{animation:none}
   .m163-a{clip-path:inset(0% 0% 0% 100%)!important;transition:none}
   .m163-b{filter:none;transition:none}

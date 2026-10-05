@@ -23,7 +23,7 @@ const CSS = `
 @keyframes b3g5-drift{0%{transform:translate3d(-8%,-5%,0) scale(1)}100%{transform:translate3d(8%,6%,0) scale(1.16)}}
 .b3g5-hide{visibility:hidden}
 html.is-static .b3g5-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b3g5-glow{animation:none}}
+html.is-static {.b3g5-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

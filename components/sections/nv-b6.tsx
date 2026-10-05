@@ -40,7 +40,7 @@ const NV_CSS = `
 .nvb6-glow2{animation:nvb6-glow2 3.4s linear infinite alternate}
 @keyframes nvb6-glow2{from{transform:translate(14%,10%) scale(1.1)}to{transform:translate(-18%,-6%) scale(.86)}}
 html.is-static .nvb6-in,html.is-static .nvb6-glow,html.is-static .nvb6-glow2{animation:none}
-@media (prefers-reduced-motion: reduce){.nvb6-in,.nvb6-glow,.nvb6-glow2{animation:none}}
+html.is-static {.nvb6-in,.nvb6-glow,.nvb6-glow2{animation:none}}
 `;
 
 /** Big soft accent glow that drifts linearly behind the content. */

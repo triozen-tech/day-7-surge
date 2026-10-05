@@ -12,7 +12,7 @@ import type { SectionDef } from "./types";
 
 /* ───────────────────────────── GL07 · Pinned wordmark under a scrolling 5-column grid ───────────────────────────── */
 
-const GL07_CSS = `.gl07-word{background:linear-gradient(100deg,var(--sx-text) 35%,var(--sx-accent) 50%,var(--sx-text) 65%) 0 0/300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gl07-shine 4.5s linear infinite}@keyframes gl07-shine{from{background-position:100% 0}to{background-position:0% 0}}.is-static .gl07-word{animation:none;background-position:100% 0}@media (prefers-reduced-motion:reduce){.gl07-word{animation:none}}`;
+const GL07_CSS = `.gl07-word{background:linear-gradient(100deg,var(--sx-text) 35%,var(--sx-accent) 50%,var(--sx-text) 65%) 0 0/300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gl07-shine 4.5s linear infinite}@keyframes gl07-shine{from{background-position:100% 0}to{background-position:0% 0}}.is-static .gl07-word{animation:none;background-position:100% 0}html.is-static {.gl07-word{animation:none}}`;
 const GL07_COLS = [
   { off: "14%", pics: [1, 3, 0] },
   { off: "0%", pics: [3, 2, 1] },
@@ -75,7 +75,7 @@ const ROOMS = [
   { n: "Tower Room", d: "36 m² · 360° view", p: "₹16,200" },
   { n: "Pool Villa", d: "110 m² · plunge pool", p: "₹42,000" },
 ];
-const GL08_CSS = `.gl08-kb{animation:gl08-kb 7s ease-in-out infinite alternate}@keyframes gl08-kb{from{transform:scale(1.04)}to{transform:scale(1.14) translate(-1.5%,-1%)}}.is-static .gl08-kb{animation:none}@media (prefers-reduced-motion:reduce){.gl08-kb{animation:none}}`;
+const GL08_CSS = `.gl08-kb{animation:gl08-kb 7s ease-in-out infinite alternate}@keyframes gl08-kb{from{transform:scale(1.04)}to{transform:scale(1.14) translate(-1.5%,-1%)}}.is-static .gl08-kb{animation:none}html.is-static {.gl08-kb{animation:none}}`;
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 const ease = (t: number) => 1 - Math.pow(1 - t, 3);
 
@@ -169,7 +169,7 @@ const COURSES = [
   { t: "Garden", n: "Jackfruit biryani", d: "Young jackfruit layered with saffron rice, sealed in dough and opened at the table.", i: 2 },
   { t: "Sweet", n: "Jaggery & coffee", d: "Nolen gur ice cream, Coorg coffee crumb, a thin sheet of burnt sugar.", i: 3 },
 ];
-const GL09_CSS = `.gl09-kb{animation:gl09-kb 6s ease-in-out infinite alternate}@keyframes gl09-kb{from{transform:scale(1.04)}to{transform:scale(1.16) translate(-2%,-1%)}}.gl09-in{animation:gl09-in .8s .25s cubic-bezier(.22,1,.36,1) both}@keyframes gl09-in{from{opacity:0;transform:translateY(18px)}}.is-static .gl09-kb,.is-static .gl09-in{animation:none}@media (prefers-reduced-motion:reduce){.gl09-kb,.gl09-in{animation:none}}`;
+const GL09_CSS = `.gl09-kb{animation:gl09-kb 6s ease-in-out infinite alternate}@keyframes gl09-kb{from{transform:scale(1.04)}to{transform:scale(1.16) translate(-2%,-1%)}}.gl09-in{animation:gl09-in .8s .25s cubic-bezier(.22,1,.36,1) both}@keyframes gl09-in{from{opacity:0;transform:translateY(18px)}}.is-static .gl09-kb,.is-static .gl09-in{animation:none}html.is-static {.gl09-kb,.gl09-in{animation:none}}`;
 
 /** GL09 · One tall panel is wide with title + copy, the rest are thin strips with rotated labels; it auto-advances. */
 function GL09() {

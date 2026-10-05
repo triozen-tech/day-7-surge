@@ -17,7 +17,7 @@ const CSS = `
 @keyframes b8g4-drift{0%{transform:translate3d(-7%,-5%,0) scale(1)}100%{transform:translate3d(7%,6%,0) scale(1.15)}}
 .m397-out{color:transparent;-webkit-text-stroke:1.5px rgba(234,245,255,.75)}
 html.is-static .b8g4-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b8g4-glow{animation:none}}
+html.is-static {.b8g4-glow{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

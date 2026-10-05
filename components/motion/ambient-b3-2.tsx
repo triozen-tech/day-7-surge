@@ -34,7 +34,7 @@ const CSS = `
 @keyframes m209-shine{from{transform:translate3d(-120%,0,0)}to{transform:translate3d(120%,0,0)}}
 .m209-field{-webkit-mask-image:radial-gradient(50% 72% at 50% 0%,#000 25%,transparent 100%);mask-image:radial-gradient(50% 72% at 50% 0%,#000 25%,transparent 100%)}
 html.is-static .b3g2a-glow,html.is-static .m207-col,html.is-static .m209-shine{animation:none}
-@media (prefers-reduced-motion: reduce){.b3g2a-glow,.m207-col,.m209-shine{animation:none}}
+html.is-static {.b3g2a-glow,.m207-col,.m209-shine{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

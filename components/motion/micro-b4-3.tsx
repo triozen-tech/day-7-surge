@@ -55,7 +55,7 @@ const CSS = `
 .u35-l.on .u35-s path,.u35-l:hover .u35-s path{stroke-dashoffset:0}
 
 html.is-static .b4g3u-glow,html.is-static .b4g3u-spin,html.is-static .b4g3u-eq span{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b4g3u-glow,.b4g3u-spin,.b4g3u-eq span{animation:none}
   .u28-l,.u28-u,.u30-b,.u30-f,.u30-a,.u31-it,.u32-w,.u32-p,.u35-l,.u35-u,.u35-s path{transition:none!important}
 }

@@ -18,7 +18,7 @@ const CSS = `
 .b17t3-kb{animation:b17t3-kb 6s linear infinite alternate}
 @keyframes b17t3-kb{to{transform:scale(1.08) translate(-2%,1%)}}
 html.is-static .b17t3-glow,html.is-static .b17t3-kb{animation:none}
-@media (prefers-reduced-motion: reduce){.b17t3-glow,.b17t3-kb{animation:none}}
+html.is-static {.b17t3-glow,.b17t3-kb{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

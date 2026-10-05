@@ -36,7 +36,7 @@ const TM_CSS = `
 .tmb6-glow2{animation:tmb6-glow2 3.6s linear infinite alternate}
 @keyframes tmb6-glow2{from{transform:translate(12%,14%) scale(1.12)}to{transform:translate(-16%,-10%) scale(.86)}}
 html.is-static .tmb6-glow,html.is-static .tmb6-glow2{animation:none}
-@media (prefers-reduced-motion: reduce){.tmb6-glow,.tmb6-glow2{animation:none}}
+html.is-static {.tmb6-glow,.tmb6-glow2{animation:none}}
 `;
 
 const Glow = ({ className = "", alt = false }: { className?: string; alt?: boolean }) => (

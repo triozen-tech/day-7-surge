@@ -33,7 +33,7 @@ const CSS = `
 .m517-card[data-on]{transform:scale(1.14);border-color:rgba(255,200,120,.9);box-shadow:0 0 0 1px rgba(255,200,120,.5),0 24px 60px rgba(255,170,80,.28)}
 html.is-static .b10g4i-glow{animation:none}
 html.is-static .m517-card{transition:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b10g4i-glow{animation:none}
   .m517-card{transition:none}
 }

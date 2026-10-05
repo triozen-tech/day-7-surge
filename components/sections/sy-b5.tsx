@@ -39,7 +39,7 @@ const CSS = `.sy5kb img{animation:sy5kbs 4.6s linear infinite alternate,sy5kbt 3
 .sy5orbit{animation:sy5spin 36s linear infinite}.sy5counter{animation:sy5spin 36s linear infinite reverse}
 @keyframes sy5spin{from{rotate:0deg}to{rotate:360deg}}
 html.is-static .sy5kb img,html.is-static .sy5fill,html.is-static .sy5in,html.is-static .sy5orbit,html.is-static .sy5counter{animation:none}
-@media (prefers-reduced-motion:reduce){.sy5kb img,.sy5fill,.sy5in,.sy5orbit,.sy5counter{animation:none}}`;
+html.is-static {.sy5kb img,.sy5fill,.sy5in,.sy5orbit,.sy5counter{animation:none}}`;
 
 /* ───────────────────────────── SY13 · Year selector timeline ───────────────────────────── */
 

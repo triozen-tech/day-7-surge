@@ -48,7 +48,7 @@ const CSS = `
 
 html.is-static .b17g1-glow,html.is-static .b17g1-run,html.is-static .m778-sp,html.is-static .m778-flash,html.is-static .m784-scan,html.is-static .m784-blip{animation:none}
 html.is-static .m785-d{transition:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b17g1-glow,.b17g1-run,.m778-sp,.m778-flash,.m784-scan,.m784-blip{animation:none}
   .m785-d{transition:none}
 }

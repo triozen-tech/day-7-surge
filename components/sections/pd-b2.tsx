@@ -37,7 +37,7 @@ function PD03() {
         .pd03-chip { animation: pd03-chip 2.6s ease-in-out infinite alternate; }
         @keyframes pd03-chip { from { translate: 0 -5px; } to { translate: 0 5px; } }
         html.is-static .pd03-fill, html.is-static .pd03-pic, html.is-static .pd03-chip { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .pd03-fill, .pd03-pic, .pd03-chip { animation: none; } }
+        html.is-static { .pd03-fill, .pd03-pic, .pd03-chip { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 items-end gap-6 md:grid-cols-12">
         <H className="text-[clamp(48px,6vw,104px)] md:col-span-7">Fresh coffee, on a loop.</H>

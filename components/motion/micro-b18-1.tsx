@@ -112,7 +112,7 @@ const CSS = `
 
 html.is-static .b18g1-glow,html.is-static .u176-scan,html.is-static .u176-sp,html.is-static .u176-ic,html.is-static .u176-ring,html.is-static .u176-sk{animation:none}
 html.is-static .u176-scan{transform:translateX(50%)}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b18g1-glow,.u176-scan,.u176-sp,.u176-ic,.u176-ring,.u176-sk{animation:none}
   .u176-scan{transform:translateX(50%)}
 }

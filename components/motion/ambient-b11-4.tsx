@@ -40,7 +40,7 @@ const CSS = `
 @keyframes m573-spin{0%{transform:rotate(var(--a0))}100%{transform:rotate(calc(var(--a0) + 360deg))}}
 
 html.is-static .b11g4-glow,html.is-static .m566-halo,html.is-static .m566-edge,html.is-static .m573-orbit{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b11g4-glow,.m566-halo,.m566-edge,.m573-orbit{animation:none}
 }
 `;

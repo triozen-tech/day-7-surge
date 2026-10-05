@@ -45,7 +45,7 @@ const CSS = `
 .m250-cone{background:conic-gradient(from 150deg at 50% 0%,transparent 0deg,var(--lc) 22deg,var(--lc) 38deg,transparent 60deg);-webkit-mask-image:linear-gradient(to bottom,#000 10%,transparent 92%);mask-image:linear-gradient(to bottom,#000 10%,transparent 92%);transform-origin:50% 0}
 .m245-fb{background-image:radial-gradient(circle,rgba(5,7,14,.55) 32%,transparent 36%);background-size:12px 12px}
 html.is-static .b6r2-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b6r2-glow{animation:none}}
+html.is-static {.b6r2-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

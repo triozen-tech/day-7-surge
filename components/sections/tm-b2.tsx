@@ -37,7 +37,7 @@ const TM03_CSS = `
 .tm03-face { animation: tm03-face 4.6s ease-in-out infinite alternate; }
 @keyframes tm03-face { from { transform: scale(1.04) translate(-2%, 1%); } to { transform: scale(1.16) translate(2%, -2%); } }
 html.is-static .tm03-ring, html.is-static .tm03-ring-r, html.is-static .tm03-face { animation: none; }
-@media (prefers-reduced-motion: reduce) { .tm03-ring, .tm03-ring-r, .tm03-face { animation: none; } }
+html.is-static { .tm03-ring, .tm03-ring-r, .tm03-face { animation: none; } }
 `;
 
 /** TM03 · Pinned founders wheel: three portraits sit on a big wheel centred below the bottom edge; scrolling rotates the
@@ -155,7 +155,7 @@ function TM04() {
         .tm04-pan { animation: tm04-pan 3.8s ease-in-out infinite alternate; }
         @keyframes tm04-pan { from { translate: -1.5% 0; } to { translate: 1.5% -1%; } }
         html.is-static .tm04-img, html.is-static .tm04-pan { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .tm04-img, .tm04-pan { animation: none; } }
+        html.is-static { .tm04-img, .tm04-pan { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 items-end gap-6 md:grid-cols-12">
         <H className="text-[clamp(52px,6.6vw,116px)] md:col-span-7">The hands behind the menu.</H>

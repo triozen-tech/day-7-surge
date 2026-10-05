@@ -2,7 +2,7 @@
 
 // VD · Video layouts (docs/SECTION-MENU.md), batch 6. The "video" is a moving placeholder (drifting scene + light pass +
 // running progress), never an external file. The index opens its lightbox player and steps through episodes by itself
-// while on screen (clicks take over); loops stop in ?static=1 and under prefers-reduced-motion.
+// while on screen (clicks take over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { scene } from "../fx/shared";
@@ -15,7 +15,7 @@ const VD_CSS = `.vd6-glow{background:radial-gradient(closest-side,color-mix(in s
 .vd6-prog{transform-origin:0 50%;animation:vd6-prog 12s linear infinite}@keyframes vd6-prog{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
 .vd6-ring{animation:vd6-ring 1.6s cubic-bezier(0,0,.2,1) infinite}@keyframes vd6-ring{from{transform:scale(1);opacity:.6}to{transform:scale(1.7);opacity:0}}
 .is-static .vd6-glow{animation:none}.is-static .vd6-light,.is-static .vd6-ring{animation:none;opacity:0}.is-static .vd6-prog{animation:none;transform:scaleX(.35)}
-@media (prefers-reduced-motion:reduce){.vd6-glow{animation:none}.vd6-light,.vd6-ring{animation:none;opacity:0}.vd6-prog{animation:none;transform:scaleX(.35)}}`;
+html.is-static {.vd6-glow{animation:none}.vd6-light,.vd6-ring{animation:none;opacity:0}.vd6-prog{animation:none;transform:scaleX(.35)}}`;
 
 /** Running timecode while the section is on screen (a fixed value in ?static=1). */
 function useTimecode(ref: React.RefObject<HTMLElement | null>, from = 48) {

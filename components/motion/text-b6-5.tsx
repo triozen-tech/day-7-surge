@@ -46,7 +46,7 @@ ${DRUM_KF}
 .m284-spin{animation:m284-spin 30s linear infinite}
 @keyframes m284-spin{to{transform:rotate(360deg)}}
 html.is-static .b6g5-glow,html.is-static .m280-drum,html.is-static .m284-spin{animation:none}
-@media (prefers-reduced-motion: reduce){.b6g5-glow,.m280-drum,.m284-spin{animation:none}.m282-top,.m282-bot,.m282-line{transition:none}}
+html.is-static {.b6g5-glow,.m280-drum,.m284-spin{animation:none}.m282-top,.m282-bot,.m282-line{transition:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). */

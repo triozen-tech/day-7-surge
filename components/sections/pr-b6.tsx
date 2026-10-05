@@ -35,7 +35,7 @@ const CSS = `.pr6glow{animation:pr6gx 6.4s linear infinite alternate,pr6gs 3.9s 
 .pr6fill{animation:pr6fill var(--d) linear forwards}@keyframes pr6fill{from{scale:0 1}to{scale:1 1}}
 .pr6bob{animation:pr6bob 3.4s ease-in-out infinite alternate}@keyframes pr6bob{from{translate:0 -6px;rotate:-4deg}to{translate:0 8px;rotate:3deg}}
 html.is-static .pr6glow,html.is-static .pr6fill,html.is-static .pr6bob{animation:none}
-@media (prefers-reduced-motion:reduce){.pr6glow,.pr6fill,.pr6bob{animation:none}}`;
+html.is-static {.pr6glow,.pr6fill,.pr6bob{animation:none}}`;
 
 const PERKS = ["1 kg of fresh-roasted beans, ground or whole", "Roasted on Monday, at your door by Thursday", "Swap the origin any month from your account", "Skip, pause or cancel in two taps", "Free delivery across 140 cities"];
 

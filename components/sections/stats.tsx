@@ -10,7 +10,7 @@ import type { SectionDef } from "./types";
 
 const vars = (o: Record<string, string>) => o as CSSProperties;
 
-const ST01_CSS = `.st01-shine{background:linear-gradient(100deg,var(--sx-text) 40%,var(--sx-accent) 50%,var(--sx-text) 60%) 0 0/300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:st01-shine 3.2s linear infinite}@keyframes st01-shine{from{background-position:100% 0}to{background-position:0% 0}}.is-static .st01-shine{animation:none;background-position:100% 0}@media (prefers-reduced-motion:reduce){.st01-shine{animation:none}}`;
+const ST01_CSS = `.st01-shine{background:linear-gradient(100deg,var(--sx-text) 40%,var(--sx-accent) 50%,var(--sx-text) 60%) 0 0/300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:st01-shine 3.2s linear infinite}@keyframes st01-shine{from{background-position:100% 0}to{background-position:0% 0}}.is-static .st01-shine{animation:none;background-position:100% 0}html.is-static {.st01-shine{animation:none}}`;
 
 /** ST01 · Big numbers row: four stats split by vertical hairlines, each number counts up. */
 function ST01() {
@@ -103,7 +103,7 @@ const ST03_CSS = `
 @keyframes st03-marq{to{transform:translateX(-50%)}}
 .st03-marq{animation:st03-marq 22s linear infinite}
 .is-static .st03-marq{animation:none}
-@media (prefers-reduced-motion:reduce){.st03-marq{animation:none}}
+html.is-static {.st03-marq{animation:none}}
 `;
 function ST03() {
   const r = useRef<HTMLDivElement>(null);
@@ -247,7 +247,7 @@ const ST05_CSS = `
 @keyframes st05-marq{to{transform:translateX(-50%)}}
 .st05-marq{animation:st05-marq 30s linear infinite}
 .is-static .st05-marq{animation:none}
-@media (prefers-reduced-motion:reduce){.st05-marq{animation:none}}
+html.is-static {.st05-marq{animation:none}}
 `;
 function ST05() {
   const r = useRef<HTMLDivElement>(null);
@@ -290,7 +290,7 @@ function ST05() {
   );
 }
 
-const ST06_CSS = `.st06-sheen{position:relative;overflow:hidden}.st06-sheen::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);animation:st06-sweep 2.6s ease-in-out infinite}@keyframes st06-sweep{to{transform:translateX(120%)}}.is-static .st06-sheen::after{animation:none;opacity:0}@media (prefers-reduced-motion:reduce){.st06-sheen::after{animation:none;opacity:0}}`;
+const ST06_CSS = `.st06-sheen{position:relative;overflow:hidden}.st06-sheen::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);animation:st06-sweep 2.6s ease-in-out infinite}@keyframes st06-sweep{to{transform:translateX(120%)}}.is-static .st06-sheen::after{animation:none;opacity:0}html.is-static {.st06-sheen::after{animation:none;opacity:0}}`;
 
 /** ST06 · Comparison bars: "ours vs regular" horizontal bars that grow to their value while the numbers count. */
 function ST06() {

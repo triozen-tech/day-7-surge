@@ -520,7 +520,7 @@ const PS08_CSS = `
 .ps08-dot::before{content:"";position:absolute;inset:-6px;border-radius:999px;border:2px solid #fff;opacity:.8;animation:ps08-pulse 2s cubic-bezier(.22,1,.36,1) infinite}
 @keyframes ps08-pulse{0%{transform:scale(.7);opacity:.9}100%{transform:scale(1.9);opacity:0}}
 .is-static .ps08-dot::before{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.ps08-dot::before{animation:none;opacity:0}}
+html.is-static {.ps08-dot::before{animation:none;opacity:0}}
 `;
 function PS08() {
   const r = useRef<HTMLDivElement>(null);

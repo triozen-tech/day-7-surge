@@ -24,7 +24,7 @@ const CSS = `
 .m335-float{animation:m335-bob 3.2s ease-in-out infinite alternate}
 @keyframes m335-bob{0%{transform:translateY(-10px) rotate(-1.5deg)}100%{transform:translateY(10px) rotate(1.5deg)}}
 html.is-static .b7g4-glow,html.is-static .m335-float{animation:none}
-@media (prefers-reduced-motion: reduce){.b7g4-glow,.m335-float{animation:none}}
+html.is-static {.b7g4-glow,.m335-float{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). */

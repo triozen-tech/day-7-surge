@@ -18,7 +18,7 @@ const NOTES = [
   { i: 2, n: "Ninety days", d: "Rested in amber glass before the first bottle is filled." },
 ];
 // chip images breathe on two periods; the preview card drifts on a third
-const SY07_CSS = `.sy07-chip img{animation:sy07-kb 4.6s ease-in-out infinite alternate}.sy07-chip:nth-of-type(even) img{animation-duration:6.2s}@keyframes sy07-kb{from{transform:scale(1.1) translateX(-6%)}to{transform:scale(1.35) translateX(6%)}}.is-static .sy07-chip img{animation:none}@media (prefers-reduced-motion:reduce){.sy07-chip img{animation:none}}`;
+const SY07_CSS = `.sy07-chip img{animation:sy07-kb 4.6s ease-in-out infinite alternate}.sy07-chip:nth-of-type(even) img{animation-duration:6.2s}@keyframes sy07-kb{from{transform:scale(1.1) translateX(-6%)}to{transform:scale(1.35) translateX(6%)}}.is-static .sy07-chip img{animation:none}html.is-static {.sy07-chip img{animation:none}}`;
 
 function Chip({ k, on }: { k: number; on: boolean }) {
   return (
@@ -118,7 +118,7 @@ const CHAPTERS = [
   { t: "Nilgiri", meta: "Blue Mountains · 1,800 m", d: "Brisk and clean, frost-picked in January.", i: 2, side: "md:ml-[14%]" },
   { t: "Kangra", meta: "Dhauladhar foothills · 1,300 m", d: "A rare green tea, sweet as cut grass.", i: 1, side: "md:ml-auto md:mr-[12%]" },
 ];
-const SY08_CSS = `.sy08-kb img{animation:sy08-kb 5.4s ease-in-out infinite alternate}.sy08-kb.alt img{animation-duration:7.2s;animation-direction:alternate-reverse}@keyframes sy08-kb{from{transform:scale(1.05)}to{transform:scale(1.18) translate(2%,-2%)}}.is-static .sy08-kb img{animation:none}@media (prefers-reduced-motion:reduce){.sy08-kb img{animation:none}}`;
+const SY08_CSS = `.sy08-kb img{animation:sy08-kb 5.4s ease-in-out infinite alternate}.sy08-kb.alt img{animation-duration:7.2s;animation-direction:alternate-reverse}@keyframes sy08-kb{from{transform:scale(1.05)}to{transform:scale(1.18) translate(2%,-2%)}}.is-static .sy08-kb img{animation:none}html.is-static {.sy08-kb img{animation:none}}`;
 
 /** SY08 · A big centred title holds still while chapter images scroll behind it; the title swaps to the chapter on screen. */
 function SY08() {

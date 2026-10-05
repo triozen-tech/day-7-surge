@@ -64,7 +64,7 @@ function CT09() {
         @keyframes ct09-spin { to { transform: rotate(360deg) } }
         .ct09-spin { animation: ct09-spin 14s linear infinite; }
         html.is-static .ct09-spin { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .ct09-spin { animation: none; } }
+        html.is-static { .ct09-spin { animation: none; } }
       `}</style>
       <div data-m-card className="relative mx-auto grid max-w-[1240px] grid-cols-1 items-stretch gap-[clamp(28px,3vw,48px)] overflow-hidden rounded-[calc(var(--sx-radius)+10px)] border border-[var(--sx-line)] bg-[var(--sx-surface)] p-[clamp(20px,2.4vw,36px)] md:grid-cols-[minmax(0,1.25fr)_minmax(0,1fr)]">
         {/* a slow rotating light inside the card (large, soft) keeps the frame alive */}

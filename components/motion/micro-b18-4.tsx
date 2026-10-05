@@ -89,7 +89,7 @@ const CSS = `
 .u213-k{position:absolute;inset:0;backface-visibility:hidden}
 
 html.is-static .b18g4-glow,html.is-static .u204-live,html.is-static .u211-tip{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b18g4-glow,.u204-live,.u211-tip{animation:none}
   .u208-k,.u209-b,.u210-t,.u211-k,.u211-tip,.u212-card,.u212-c{transition:none}
 }

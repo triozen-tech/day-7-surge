@@ -23,7 +23,7 @@ const CSS = `
 .b13g5-c{container-type:size}
 html.is-static .b13g5-glow,html.is-static .b13g5-dot::after{animation:none}
 html.is-static .b13g5-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b13g5-glow,.b13g5-dot::after{animation:none}
   .b13g5-dot{display:none}
 }

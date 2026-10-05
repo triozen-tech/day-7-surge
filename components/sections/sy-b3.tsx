@@ -16,7 +16,7 @@ const ROOMS = [
   { t: "The kitchen", i: 1, h: "Supper from the hillside.", d: "Our cook, Nanda Thakur, works from the walled garden and the village market. Rajma on Sundays, apricot tart when the trees allow.", m: "Seven-course supper · ₹3,200 a guest" },
   { t: "The forest", i: 2, h: "Walks that start at the gate.", d: "Three marked trails through oak and pine, from a forty-minute loop to a full day to the ridge. Packed lunches and walking sticks are ours to lend.", m: "Guided dawn walk · ₹900" },
 ];
-const SY09_CSS = `.sy09-kb{animation:sy09-kb 6s ease-in-out infinite alternate}.sy09-kb.alt{animation-duration:4.6s;animation-direction:alternate-reverse}@keyframes sy09-kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-2.5%,-2%)}}.is-static .sy09-kb{animation:none}@media (prefers-reduced-motion:reduce){.sy09-kb{animation:none}}`;
+const SY09_CSS = `.sy09-kb{animation:sy09-kb 6s ease-in-out infinite alternate}.sy09-kb.alt{animation-duration:4.6s;animation-direction:alternate-reverse}@keyframes sy09-kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-2.5%,-2%)}}.is-static .sy09-kb{animation:none}html.is-static {.sy09-kb{animation:none}}`;
 
 /** SY09 · Three chapters: a rounded full-width image with a big title sticks near the top while a two-column copy block scrolls up beneath it. */
 function SY09() {
@@ -66,7 +66,7 @@ const YEARS = [
   { y: "2009", h: "Single-estate bars", d: "We start naming the farm on every wrapper and paying growers above the fair-trade floor. The 70% Idukki wins its first award.", i: [2, 0, 3, 1] },
   { y: "2024", h: "Third generation, same pan", d: "Meera Varghese runs the factory now. The original pan hangs by the door; the Kottayam 72 still costs less than a cinema ticket.", i: [0, 3, 1, 2] },
 ];
-const SY10_CSS = `.sy10-beam{background:linear-gradient(180deg,transparent,var(--sx-accent) 20%,#e2b450 50%,var(--sx-accent) 80%,transparent);background-size:100% 300px;animation:sy10-beam 1.8s linear infinite}@keyframes sy10-beam{to{background-position:0 300px}}.sy10-kb img{animation:sy10-kb 5s ease-in-out infinite alternate}.sy10-kb.alt img{animation-duration:6.8s;animation-direction:alternate-reverse}@keyframes sy10-kb{from{transform:scale(1.04)}to{transform:scale(1.2) translate(3%,-2%)}}.is-static .sy10-beam,.is-static .sy10-kb img{animation:none}@media (prefers-reduced-motion:reduce){.sy10-beam,.sy10-kb img{animation:none}}`;
+const SY10_CSS = `.sy10-beam{background:linear-gradient(180deg,transparent,var(--sx-accent) 20%,#e2b450 50%,var(--sx-accent) 80%,transparent);background-size:100% 300px;animation:sy10-beam 1.8s linear infinite}@keyframes sy10-beam{to{background-position:0 300px}}.sy10-kb img{animation:sy10-kb 5s ease-in-out infinite alternate}.sy10-kb.alt img{animation-duration:6.8s;animation-direction:alternate-reverse}@keyframes sy10-kb{from{transform:scale(1.04)}to{transform:scale(1.2) translate(3%,-2%)}}.is-static .sy10-beam,.is-static .sy10-kb img{animation:none}html.is-static {.sy10-beam,.sy10-kb img{animation:none}}`;
 
 /** SY10 · Intro, then entries: a huge year sticks on the left (with a dot on a vertical line) while text + a 2×2 image grid scroll on the right; the line fills with a gradient beam. */
 function SY10() {

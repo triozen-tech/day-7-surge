@@ -73,7 +73,7 @@ const CSS = `
 
 html.is-static .b16g2-glow,html.is-static .b16g2-top,html.is-static .m731-wob,html.is-static .m731-r,html.is-static .m731-c,html.is-static .m731-band,html.is-static .m731-band-in,html.is-static .m731-lines,html.is-static .m731-rec,html.is-static .m735-w,html.is-static .m735-b,html.is-static .m736-spin{animation:none}
 html.is-static .b16g2-dot,html.is-static .m731-band,html.is-static .m735-b{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b16g2-glow,.b16g2-top,.m731-wob,.m731-r,.m731-c,.m731-band,.m731-band-in,.m731-lines,.m731-rec,.m735-w,.m735-b,.m736-spin{animation:none}
   .b16g2-dot,.m731-band,.m735-b{display:none}
 }

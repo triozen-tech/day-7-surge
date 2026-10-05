@@ -80,7 +80,7 @@ function FT21() {
   return (
     <Sec innerRef={r} theme="paper" font="grotesk" className="py-[clamp(72px,9vw,140px)]" style={{ ["--sx-accent" as string]: "#3f6b4f", ["--sx-accent-text" as string]: "#f4efe6" }}>
       {/* a large soft glow drifts linearly behind the grid so the section never sits still on camera */}
-      <style>{`.ft21-glow{animation:ft21-glow 5.5s linear infinite alternate}@keyframes ft21-glow{from{transform:translate(-18%,-10%) scale(.9)}to{transform:translate(22%,14%) scale(1.15)}}html.is-static .ft21-glow{animation:none}@media (prefers-reduced-motion:reduce){.ft21-glow{animation:none}}`}</style>
+      <style>{`.ft21-glow{animation:ft21-glow 5.5s linear infinite alternate}@keyframes ft21-glow{from{transform:translate(-18%,-10%) scale(.9)}to{transform:translate(22%,14%) scale(1.15)}}html.is-static .ft21-glow{animation:none}html.is-static {.ft21-glow{animation:none}}`}</style>
       <div aria-hidden className="ft21-glow pointer-events-none absolute left-[20%] top-[25%] aspect-square w-[46vw] rounded-full bg-[radial-gradient(closest-side,color-mix(in_srgb,var(--sx-accent)_38%,transparent),transparent)]" />
       <div className="grid grid-cols-1 items-end gap-[clamp(24px,4vw,64px)] md:grid-cols-12">
         <H className="text-[clamp(40px,5vw,84px)] md:col-span-7">Calm, built into your day.</H>
@@ -132,7 +132,7 @@ const FT22_CSS = `
 @keyframes ft22-sheen{from{transform:translateX(-60%) skewX(-12deg)}to{transform:translateX(520%) skewX(-12deg)}}
 html.is-static .ft22-pan,html.is-static .ft22-sheen{animation:none}
 html.is-static .ft22-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.ft22-pan,.ft22-sheen{animation:none}.ft22-sheen{opacity:0}}
+html.is-static {.ft22-pan,.ft22-sheen{animation:none}.ft22-sheen{opacity:0}}
 `;
 
 /** FT22 · A four-column row: one narrow column holds the heading and text (vertically centred), the other three hold a
@@ -193,7 +193,7 @@ const FT23_CSS = `
 .ft23-kb{animation:ft23-kb var(--d,5s) ease-in-out infinite alternate}
 @keyframes ft23-kb{from{scale:1.03;translate:-2% 2%}to{scale:1.15;translate:2% -3%}}
 html.is-static .ft23-kb{animation:none}
-@media (prefers-reduced-motion:reduce){.ft23-kb{animation:none}}
+html.is-static {.ft23-kb{animation:none}}
 `;
 
 const FT23_PICS = [

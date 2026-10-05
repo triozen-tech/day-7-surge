@@ -22,7 +22,7 @@ const CSS = `
 @keyframes x61-pan{0%{transform:scale(1.08) translate3d(-3%,0,0)}100%{transform:scale(1.16) translate3d(3%,-2%,0)}}
 html.is-static .b13g3x-glow,html.is-static .b13g3x-dot::after,html.is-static .x61-poster{animation:none}
 html.is-static .b13g3x-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b13g3x-glow,.b13g3x-dot::after,.x61-poster{animation:none}
   .b13g3x-dot{display:none}
 }

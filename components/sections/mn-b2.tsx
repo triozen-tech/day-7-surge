@@ -29,7 +29,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 
 const MN03_CSS = `.mn03-dot{animation:mn03-dot 1.4s ease-in-out infinite}@keyframes mn03-dot{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--sx-accent) 55%,transparent)}50%{box-shadow:0 0 0 8px transparent}}
 .mn03-glow{animation:mn03-glow 5s ease-in-out infinite alternate}@keyframes mn03-glow{from{translate:-8% -4%;opacity:.55}to{translate:10% 6%;opacity:1}}
-.is-static .mn03-dot,.is-static .mn03-glow{animation:none}@media (prefers-reduced-motion:reduce){.mn03-dot,.mn03-glow{animation:none}}`;
+.is-static .mn03-dot,.is-static .mn03-glow{animation:none}html.is-static {.mn03-dot,.mn03-glow{animation:none}}`;
 
 const MENUS = [
   { n: "À la carte", d: "Wood-fired plates, changed every Thursday", m: "PDF · 2 pages" },

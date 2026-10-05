@@ -95,7 +95,7 @@ function AN02() {
         .an02-band{background-image:repeating-linear-gradient(-45deg,rgba(255,255,255,.07) 0 18px,transparent 18px 44px);background-size:124px 124px;animation:an02-band 3s linear infinite}
         @keyframes an02-band{to{background-position:124px 0}}
         html.is-static .an02-band{animation:none}
-        @media (prefers-reduced-motion: reduce){.an02-band{animation:none}}
+        html.is-static {.an02-band{animation:none}}
       `}</style>
       <div className="relative bg-[var(--sx-accent)] text-[var(--sx-accent-text)]">
         <div aria-hidden className="an02-band absolute inset-0" />

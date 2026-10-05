@@ -1,7 +1,7 @@
 "use client";
 
 // MN · Menu layouts (docs/SECTION-MENU.md), batch 5. The "tonight" card moves along the week by itself while on
-// screen (a hover takes over); loops stop in ?static=1 and under prefers-reduced-motion.
+// screen (a hover takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -31,7 +31,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 const MN_CSS = `.mn5-bar{transform-origin:0 50%;animation:mn5-bar 1.5s linear both}@keyframes mn5-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .mn5-sweep{background:linear-gradient(100deg,transparent 30%,color-mix(in srgb,var(--sx-accent) 38%,transparent) 50%,transparent 70%) 0 0/260% 100%;animation:mn5-sweep 3.6s linear infinite}@keyframes mn5-sweep{from{background-position:130% 0}to{background-position:-30% 0}}
 .is-static .mn5-bar{animation:none;transform:scaleX(1)}.is-static .mn5-sweep{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.mn5-bar{animation:none}.mn5-sweep{animation:none;opacity:0}}`;
+html.is-static {.mn5-bar{animation:none}.mn5-sweep{animation:none;opacity:0}}`;
 
 /** Simple line icons for each offer (stroke drawings). */
 function Ico({ k }: { k: number }) {

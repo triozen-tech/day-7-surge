@@ -32,7 +32,7 @@ const CSS = `
 .m481-tile.on .m481-tag,.m481-tile:hover .m481-tag{opacity:1;transform:none}
 html.is-static .b10g1i-glow,html.is-static .m478-pin::after,html.is-static .m479-ticks{animation:none}
 html.is-static .m481-img{transition:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b10g1i-glow,.m478-pin::after,.m479-ticks{animation:none}
   .m481-img{transition:none}
 }

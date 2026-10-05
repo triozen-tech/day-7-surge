@@ -31,7 +31,7 @@ function PD01() {
         .pd01-hub { animation: pd01-breathe 3.2s ease-in-out infinite alternate; }
         @keyframes pd01-breathe { from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--sx-accent) 0%, transparent), 0 0 60px -10px color-mix(in srgb, var(--sx-accent) 30%, transparent); } to { box-shadow: 0 0 0 18px color-mix(in srgb, var(--sx-accent) 10%, transparent), 0 0 120px 0 color-mix(in srgb, var(--sx-accent) 45%, transparent); } }
         html.is-static .pd01-beam, html.is-static .pd01-hub { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .pd01-beam, .pd01-hub { animation: none; } }
+        html.is-static { .pd01-beam, .pd01-hub { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 items-center gap-[clamp(40px,5vw,80px)] md:grid-cols-12">
         <div className="md:col-span-5">
@@ -159,7 +159,7 @@ function PD02() {
         .pd02-glow { animation: pd02-glow 3.4s ease-in-out infinite alternate; }
         @keyframes pd02-glow { from { scale: .85; opacity: .6; } to { scale: 1.1; opacity: 1; } }
         html.is-static .pd02-bob, html.is-static .pd02-glow { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .pd02-bob, .pd02-glow { animation: none; } }
+        html.is-static { .pd02-bob, .pd02-glow { animation: none; } }
       `}</style>
       <div className="flex flex-wrap items-end justify-between gap-6">
         <H className="max-w-[12ch] text-[clamp(48px,6vw,104px)]">One bottle, four steps.</H>

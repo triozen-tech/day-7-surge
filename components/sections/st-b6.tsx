@@ -20,7 +20,7 @@ const CSS = `.st6glow{animation:st6g 8.5s linear infinite alternate}
 .st6ring{animation:st6spin 9s linear infinite}
 @keyframes st6spin{from{rotate:0deg}to{rotate:360deg}}
 html.is-static .st6glow,html.is-static .st6spark,html.is-static .st6rail,html.is-static .st6run,html.is-static .st6ring{animation:none}
-@media (prefers-reduced-motion:reduce){.st6glow,.st6spark,.st6rail,.st6run,.st6ring{animation:none}}`;
+html.is-static {.st6glow,.st6spark,.st6rail,.st6run,.st6ring{animation:none}}`;
 
 /* ───────────────────────────── ST14 · Split headline + metric card grid ───────────────────────────── */
 

@@ -16,7 +16,7 @@ const CSS = `
 .m159-sway{animation:m159-sway 7s linear infinite alternate}
 @keyframes m159-sway{0%{transform:rotate(-4deg)}100%{transform:rotate(4deg)}}
 html.is-static .b2g3s-glow,html.is-static .m159-sway{animation:none}
-@media (prefers-reduced-motion: reduce){.b2g3s-glow,.m159-sway{animation:none}}
+html.is-static {.b2g3s-glow,.m159-sway{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). */

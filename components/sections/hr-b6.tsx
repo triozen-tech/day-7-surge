@@ -29,7 +29,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 }
 
 /* Shared CSS loops (the never-frozen safety net): a big accent glow that travels linearly, and slow Ken Burns pushes.
-   All stop under html.is-static and prefers-reduced-motion. */
+   All stop under html.is-static. */
 const HR6_CSS = `
 .hr6-glow{animation:hr6-glow 4.2s linear infinite alternate}
 @keyframes hr6-glow{from{translate:-14% -8%}to{translate:16% 10%}}
@@ -43,7 +43,7 @@ const HR6_CSS = `
 @keyframes hr6-wave{from{opacity:.35}to{opacity:1}}
 html.is-static .hr6-glow,html.is-static .hr6-glow2,html.is-static .hr6-kb,html.is-static .hr6-wave{animation:none}
 html.is-static .hr6-bar{animation:none;transform:scaleX(1)}
-@media (prefers-reduced-motion:reduce){.hr6-glow,.hr6-glow2,.hr6-kb,.hr6-wave{animation:none}.hr6-bar{animation:none;transform:scaleX(1)}}
+html.is-static {.hr6-glow,.hr6-glow2,.hr6-kb,.hr6-wave{animation:none}.hr6-bar{animation:none;transform:scaleX(1)}}
 `;
 
 const glow = (c = "var(--sx-accent)", pct = 45) => `radial-gradient(closest-side, color-mix(in srgb, ${c} ${pct}%, transparent), transparent)`;

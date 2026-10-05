@@ -185,7 +185,7 @@ const CSS = `
 .u237-scan{background:repeating-linear-gradient(0deg,rgba(0,0,0,.45) 0 2px,transparent 2px 4px)}
 
 html.is-static .b19g1-glow,html.is-static .u228-kb,html.is-static .u229-ring,html.is-static .u233-b,html.is-static .u235-coin,html.is-static .u235-mark,html.is-static .u235-shadow{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b19g1-glow,.u228-kb,.u229-ring,.u233-b,.u235-coin,.u235-mark,.u235-shadow,.u234-top{animation:none!important}
   .u229-card,.u229-line,.u229-lab,.u229-rings,.u233-k,.u233-b,.u233-tag{transition:none}
 }

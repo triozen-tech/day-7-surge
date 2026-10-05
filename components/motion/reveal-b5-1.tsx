@@ -24,7 +24,7 @@ const CSS = `
 .m220-band{position:absolute;left:0;right:0;height:30%;pointer-events:none;z-index:5}
 .m220-l{position:absolute;inset:0}
 html.is-static .b5r1-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b5r1-glow{animation:none}}
+html.is-static {.b5r1-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

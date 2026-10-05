@@ -23,7 +23,7 @@ function Glow({ code, color, at = "50% 45%", className = "", style }: { code: st
   const c = `${code}-glow`;
   const css = `.${c}{position:absolute;inset:-25%;pointer-events:none;background:radial-gradient(circle at ${at},${color} 0%,transparent 52%);animation:${c} 4.6s linear infinite alternate;will-change:transform}
 @keyframes ${c}{0%{transform:translate3d(-9%,-5%,0) scale(1)}100%{transform:translate3d(9%,6%,0) scale(1.18)}}
-html.is-static .${c}{animation:none}@media (prefers-reduced-motion: reduce){.${c}{animation:none}}`;
+html.is-static .${c}{animation:none}html.is-static {.${c}{animation:none}}`;
   return (
     <>
       <style>{css}</style>
@@ -363,7 +363,7 @@ const M227_CSS = `
 .m227-media:not(.big) .m227-ui{opacity:0}
 html.is-static .m227-pulse,html.is-static .m227-prog{animation:none}
 html.is-static .m227-dot{display:none}
-@media (prefers-reduced-motion: reduce){.m227-pulse,.m227-prog{animation:none}.m227-dot{display:none}}
+html.is-static {.m227-pulse,.m227-prog{animation:none}.m227-dot{display:none}}
 `;
 function M227() {
   const root = useRef<HTMLDivElement>(null);

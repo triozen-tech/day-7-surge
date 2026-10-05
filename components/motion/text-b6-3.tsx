@@ -23,7 +23,7 @@ const CSS = `
 .m265-tab.on{color:#fff6ec}
 .m265-tab.on .m265-dotc{background:#ff8a5c}
 html.is-static .b6t3-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b6t3-glow{animation:none}}
+html.is-static {.b6t3-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

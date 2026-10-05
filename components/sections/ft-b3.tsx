@@ -14,7 +14,7 @@ const FT14_CSS = `
 .ft14-rev{animation-direction:reverse}
 @keyframes ft14-run{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 html.is-static .ft14-run{animation:none}
-@media (prefers-reduced-motion:reduce){.ft14-run{animation:none}}
+html.is-static {.ft14-run{animation:none}}
 `;
 
 /** One endless line of tag pills (doubled for a seamless loop). `hot` pills take the accent fill. */
@@ -96,7 +96,7 @@ const FT15_CSS = `
 .ft15-sweep{animation:ft15-sweep 3.4s ease-in-out infinite}
 @keyframes ft15-sweep{from{transform:translateX(-110%)}to{transform:translateX(110%)}}
 html.is-static .ft15-sweep{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.ft15-sweep{animation:none;opacity:0}}
+html.is-static {.ft15-sweep{animation:none;opacity:0}}
 `;
 
 /** One numbered cell beside the FT15 portrait (hairline under the first of each pair). */

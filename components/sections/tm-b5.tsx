@@ -38,7 +38,7 @@ const TM_CSS = `
 .tm5-tip{animation:tm5-tip .45s cubic-bezier(.2,.8,.2,1) both}
 @keyframes tm5-tip{from{opacity:0;margin-top:8px}to{opacity:1;margin-top:0}}
 html.is-static .tm5-roam,html.is-static .tm5-tip{animation:none}
-@media (prefers-reduced-motion: reduce){.tm5-roam,.tm5-tip{animation:none}}
+html.is-static {.tm5-roam,.tm5-tip{animation:none}}
 `;
 
 /* ───────────────────────── TM09 · Team grid with department filter ───────────────────────── */
@@ -295,7 +295,7 @@ function TM10() {
   return (
     <Sec innerRef={r} theme="ink" font="grotesk" className="py-[clamp(72px,9vw,140px)]">
       {/* CSS-only glow loop: keeps the section moving on camera even if the canvas ticker skips frames */}
-      <style>{`.tm10-glow{animation:tm10-glow 4.6s linear infinite alternate}@keyframes tm10-glow{from{transform:translate(-14%,-6%) scale(.9)}to{transform:translate(18%,10%) scale(1.15)}}html.is-static .tm10-glow{animation:none}@media (prefers-reduced-motion:reduce){.tm10-glow{animation:none}}`}</style>
+      <style>{`.tm10-glow{animation:tm10-glow 4.6s linear infinite alternate}@keyframes tm10-glow{from{transform:translate(-14%,-6%) scale(.9)}to{transform:translate(18%,10%) scale(1.15)}}html.is-static .tm10-glow{animation:none}html.is-static {.tm10-glow{animation:none}}`}</style>
       <div aria-hidden className="tm10-glow pointer-events-none absolute right-[8%] top-[18%] aspect-square w-[40vw] rounded-full bg-[radial-gradient(closest-side,color-mix(in_srgb,var(--sx-accent)_34%,transparent),transparent)]" />
       <style>{TM_CSS}</style>
       <div className="grid grid-cols-1 gap-[clamp(24px,3vw,48px)] md:grid-cols-12">

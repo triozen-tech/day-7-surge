@@ -1,6 +1,6 @@
 "use client";
 
-// JR · Journal layouts (docs/SECTION-MENU.md), batch 4. Loops stop in ?static=1 and under prefers-reduced-motion.
+// JR · Journal layouts (docs/SECTION-MENU.md), batch 4. Loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -31,7 +31,7 @@ const JR_CSS = `.jr4-fill{transform-origin:left;animation:jr4-fill var(--d,1.3s)
 .jr4-pic img{animation:jr4-push var(--p,6s) ease-in-out infinite alternate}@keyframes jr4-push{from{scale:1.03;translate:-2.5% 0}to{scale:1.16;translate:2.5% -2%}}
 .jr4-sweep{background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.16) 48%,transparent 66%) 0 0/260% 100%;animation:jr4-sweep var(--s,2.6s) linear infinite}@keyframes jr4-sweep{from{background-position:130% 0}to{background-position:-30% 0}}
 .is-static .jr4-fill,.is-static .jr4-pic img,.is-static .jr4-sweep{animation:none}
-@media (prefers-reduced-motion:reduce){.jr4-fill,.jr4-pic img,.jr4-sweep{animation:none}}`;
+html.is-static {.jr4-fill,.jr4-pic img,.jr4-sweep{animation:none}}`;
 
 // ── JR08 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 const POSTS = [

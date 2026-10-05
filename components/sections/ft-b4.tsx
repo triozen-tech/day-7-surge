@@ -51,7 +51,7 @@ const FT17_CSS = `
 @keyframes ft17-sweep{from{transform:translateX(-40%) skewX(-16deg)}to{transform:translateX(420%) skewX(-16deg)}}
 html.is-static .ft17-bar,html.is-static .ft17-sweep{animation:none}
 html.is-static .ft17-sweep{opacity:0}
-@media (prefers-reduced-motion:reduce){.ft17-bar,.ft17-sweep{animation:none}.ft17-sweep{opacity:0}}
+html.is-static {.ft17-bar,.ft17-sweep{animation:none}.ft17-sweep{opacity:0}}
 `;
 
 const FT17_NOTES = [
@@ -126,7 +126,7 @@ const FT18_CSS = `
 .ft18-read{animation:ft18-read 7s linear infinite alternate}
 @keyframes ft18-read{from{translate:0 0}to{translate:0 -34%}}
 html.is-static .ft18-kb,html.is-static .ft18-read{animation:none}
-@media (prefers-reduced-motion:reduce){.ft18-kb,.ft18-read{animation:none}}
+html.is-static {.ft18-kb,.ft18-read{animation:none}}
 `;
 
 const FT18_STORIES = [
@@ -283,7 +283,7 @@ const FT19_CSS = `
 .ft19-cursor{animation:ft19-cursor 4.4s ease-in-out infinite alternate}
 @keyframes ft19-cursor{from{translate:0 0}to{translate:-180px 90px}}
 html.is-static .ft19-scroll,html.is-static .ft19-cursor{animation:none}
-@media (prefers-reduced-motion:reduce){.ft19-scroll,.ft19-cursor{animation:none}}
+html.is-static {.ft19-scroll,.ft19-cursor{animation:none}}
 `;
 
 const FT19_TEAS = [
@@ -417,7 +417,7 @@ const FT20_CSS = `
 @keyframes ft20-glow{from{transform:translate(-18%,-12%) scale(.9)}to{transform:translate(28%,18%) scale(1.2)}}
 .ft20-glow2{animation:ft20-glow 6.8s ease-in-out infinite alternate-reverse}
 html.is-static .ft20-glow,html.is-static .ft20-glow2{animation:none}
-@media (prefers-reduced-motion:reduce){.ft20-glow,.ft20-glow2{animation:none}}
+html.is-static {.ft20-glow,.ft20-glow2{animation:none}}
 `;
 
 const FT20_LEDGER = [

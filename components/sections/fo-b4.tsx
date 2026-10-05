@@ -46,7 +46,7 @@ function FO12() {
         .fo12-ccw { animation: fo12-ccw var(--d) linear infinite; }
         .fo12-glow { animation: fo12-glow 3.4s ease-in-out infinite; }
         html.is-static .fo12-cw, html.is-static .fo12-ccw, html.is-static .fo12-glow { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .fo12-cw, .fo12-ccw, .fo12-glow { animation: none; } }
+        html.is-static { .fo12-cw, .fo12-ccw, .fo12-glow { animation: none; } }
       `}</style>
 
       <div className="grid grid-cols-1 items-center gap-[clamp(40px,4vw,64px)] md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)]">

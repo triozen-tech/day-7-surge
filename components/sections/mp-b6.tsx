@@ -2,7 +2,7 @@
 
 // MP · Map & location layouts (docs/SECTION-MENU.md), batch 6. Maps are drawn here (SVG), never tiles or embeds. The
 // terroir map spotlights one slope after another and the location card opens into its map and back, both by themselves
-// while on screen (hover / click take over); loops stop in ?static=1 and under prefers-reduced-motion.
+// while on screen (hover / click take over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Price, Sec } from "./kit";
@@ -33,7 +33,7 @@ const MP_CSS = `.mp6-glow{background:radial-gradient(closest-side,color-mix(in s
 .mp6-ping{transform-box:fill-box;transform-origin:center;animation:mp6-ping 1.5s cubic-bezier(0,0,.2,1) infinite}@keyframes mp6-ping{from{transform:scale(1);opacity:.7}to{transform:scale(3.4);opacity:0}}
 .mp6-dash{animation:mp6-dash 3s linear infinite}@keyframes mp6-dash{to{stroke-dashoffset:-48}}
 .is-static .mp6-glow,.is-static .mp6-dash{animation:none}.is-static .mp6-ping{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.mp6-glow,.mp6-dash{animation:none}.mp6-ping{animation:none;opacity:0}}`;
+html.is-static {.mp6-glow,.mp6-dash{animation:none}.mp6-ping{animation:none;opacity:0}}`;
 
 const SLOPES = [
   { n: "North Ridge", pts: "60,80 250,50 300,170 180,230 70,200", c: [168, 140], alt: "1,480 m", soil: "Red laterite", rain: "2,600 mm", cup: "Ridge Washed", notes: "Plum, cocoa nib", price: "₹740" },

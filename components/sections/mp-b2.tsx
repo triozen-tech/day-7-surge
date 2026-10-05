@@ -33,7 +33,7 @@ const MP_CSS = `.mp2-ring{transform-box:fill-box;transform-origin:center;animati
 .mp2-waves{background:repeating-linear-gradient(0deg,transparent 0 22px,color-mix(in srgb,var(--sx-accent) 12%,transparent) 22px 23px);animation:mp2-waves 3.2s linear infinite}@keyframes mp2-waves{to{background-position:0 46px}}
 .mp2-swap{animation:mp2-swap .7s cubic-bezier(.2,.8,.2,1)}@keyframes mp2-swap{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 .is-static .mp2-ring,.is-static .mp2-contour,.is-static .mp2-waves,.is-static .mp2-swap{animation:none}
-@media (prefers-reduced-motion:reduce){.mp2-ring,.mp2-contour,.mp2-waves,.mp2-swap{animation:none}}`;
+html.is-static {.mp2-ring,.mp2-contour,.mp2-waves,.mp2-swap{animation:none}}`;
 
 // ── MP03 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 // A tear-drop tea island (viewBox 0 0 1000 1000), three growing regions to zoom into.

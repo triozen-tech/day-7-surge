@@ -39,10 +39,9 @@ export function loadPlugin<K extends keyof Lazy>(name: K): ReturnType<Lazy[K]> {
   return loaded.get(name) as ReturnType<Lazy[K]>;
 }
 
-/** True when the visitor asked for less motion, or the page is opened with ?static=1 (Round 1 review). */
-export const prefersReducedMotion = () =>
-  typeof window !== "undefined" &&
-  (window.matchMedia("(prefers-reduced-motion: reduce)").matches || new URLSearchParams(window.location.search).has("static"));
+/** True ONLY when the page is opened with ?static=1 (layout review). The OS reduce-motion setting is never used:
+ *  it is ON by default on many Windows machines and turned the live sites into flat static pages. */
+export const prefersReducedMotion = () => typeof window !== "undefined" && new URLSearchParams(window.location.search).has("static");
 
 /** True in ?record=1 (filming): hover/click effects must play by themselves. */
 export const isRecording = () =>

@@ -12,7 +12,7 @@ const CSS = `.st5kb img{animation:st5kbs 4.8s linear infinite alternate,st5kbt 3
 @keyframes st5kbs{from{scale:1.04}to{scale:1.18}}@keyframes st5kbt{from{translate:-3% 2%}to{translate:3% -2.5%}}
 .st5tint{animation:st5tint 2.6s ease-in-out infinite alternate}@keyframes st5tint{from{opacity:.45}to{opacity:.8}}
 html.is-static .st5kb img,html.is-static .st5tint{animation:none}
-@media (prefers-reduced-motion:reduce){.st5kb img,.st5tint{animation:none}}`;
+html.is-static {.st5kb img,.st5tint{animation:none}}`;
 
 const ROWS = [
   { n: "92%", s: "of the cotton in our linen blends is grown rain-fed in Vidarbha, with no canal water at all." },

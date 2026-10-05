@@ -20,7 +20,7 @@ const CSS = `
 .i59-c{position:absolute;width:34px;height:34px;padding:2px}
 .i59-c>i{display:block;width:100%;height:100%;border-radius:6px;background:var(--c);box-shadow:inset 0 -5px 0 rgba(0,0,0,.22),inset 0 3px 0 rgba(255,255,255,.35)}
 html.is-static .b17g5l-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b17g5l-glow{animation:none}}
+html.is-static {.b17g5l-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

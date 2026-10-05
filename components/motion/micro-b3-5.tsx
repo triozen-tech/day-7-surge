@@ -24,7 +24,7 @@ const CSS = `
 .u01-name .u01-bar{transform:scaleX(0);transform-origin:0 50%;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
 .u01-name.on .u01-bar{transform:scaleX(1)}
 html.is-static .b3g5u-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b3g5u-glow{animation:none}.u01-img,.u01-name,.u01-name .u01-bar{transition:none}}
+html.is-static {.b3g5u-glow{animation:none}.u01-img,.u01-name,.u01-name .u01-bar{transition:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

@@ -2,7 +2,7 @@
 
 // JR · Journal layouts (docs/SECTION-MENU.md), batch 5. Both play by themselves while on screen (a category walks
 // through the sidebar; an excerpt opens into its article in place); a click or hover takes over. Loops stop in
-// ?static=1 and under prefers-reduced-motion (the plain list shows).
+// ?static=1 (the plain list shows).
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -34,7 +34,7 @@ const JR_CSS = `.jr5-bar{transform-origin:0 50%;animation:jr5-bar 1.9s linear bo
 .jr5-read{animation:jr5-read 7s linear both}@keyframes jr5-read{from{transform:translateY(0)}to{transform:translateY(-140px)}}
 .jr5-sheen{background:linear-gradient(105deg,transparent 35%,color-mix(in srgb,var(--sx-accent) 30%,transparent) 50%,transparent 65%) 0 0/260% 100%;animation:jr5-sheen 3s linear infinite}@keyframes jr5-sheen{from{background-position:140% 0}to{background-position:-40% 0}}
 .is-static .jr5-bar,.is-static .jr5-caret,.is-static .jr5-read{animation:none}.is-static .jr5-sheen{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.jr5-bar,.jr5-caret,.jr5-read{animation:none}.jr5-sheen{animation:none;opacity:0}}`;
+html.is-static {.jr5-bar,.jr5-caret,.jr5-read{animation:none}.jr5-sheen{animation:none;opacity:0}}`;
 
 /* ── JR10 ─────────────────────────────────────────────────────────────── */
 

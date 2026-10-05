@@ -108,7 +108,7 @@ const CSS = `
 .u102-sz.on{background:#fff;color:#0a0d16;border-color:#fff}
 
 html.is-static .b5g5-glow,html.is-static .u98-blob,html.is-static .u99-spin,html.is-static .u101-kb{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b5g5-glow,.u98-blob,.u99-spin,.u101-kb{animation:none}
   .u91-l,.u91-l::after,.u96-b,.u96-bub,.u97-g::after,.u97-btn,.u97-card,.u98-panel,.u98-panel>*,.u101-l,.u101-ar,.u102-card{transition:none}
 }

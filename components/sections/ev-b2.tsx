@@ -8,7 +8,7 @@ import type { SectionDef } from "./types";
 
 const EV03_CSS = `.ev03-on .ev03-chip{animation:ev03-snap .6s cubic-bezier(.2,.9,.25,1.25) both}@keyframes ev03-snap{from{transform:scale(.4) translateY(10px);opacity:0}to{transform:none;opacity:1}}
 .ev03-live{animation:ev03-live 1.2s ease-in-out infinite}@keyframes ev03-live{50%{opacity:.25}}
-.is-static .ev03-chip,.is-static .ev03-live{animation:none!important}@media (prefers-reduced-motion:reduce){.ev03-chip,.ev03-live{animation:none!important}}`;
+.is-static .ev03-chip,.is-static .ev03-live{animation:none!important}html.is-static {.ev03-chip,.ev03-live{animation:none!important}}`;
 
 type Item =
   | { kind: "show"; t: string; chip: string; live?: boolean; meta: string; i: number; ratio: string }

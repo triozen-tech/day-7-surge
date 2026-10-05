@@ -16,7 +16,7 @@ const CC_CSS = `
 .ccb7-caret{animation:ccb7-caret 1s steps(1) infinite}
 @keyframes ccb7-caret{50%{opacity:0}}
 html.is-static .ccb7-glow,html.is-static .ccb7-glow2,html.is-static .ccb7-caret{animation:none}
-@media (prefers-reduced-motion: reduce){.ccb7-glow,.ccb7-glow2,.ccb7-caret{animation:none}}
+html.is-static {.ccb7-glow,.ccb7-glow2,.ccb7-caret{animation:none}}
 `;
 
 const MESSAGE = "We're furnishing a 40-seat café in Pune and love the Banyan tables. Could you share a trade quote for six, in oiled teak?";

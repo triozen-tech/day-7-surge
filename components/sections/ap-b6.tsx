@@ -1,8 +1,7 @@
 "use client";
 
 // AP · App download layouts (docs/SECTION-MENU.md), batch 6. A QR-first card: the code is drawn here (a decorative
-// pattern, not a real link). A light band keeps sweeping over the QR frame; loops stop in ?static=1 and under
-// prefers-reduced-motion.
+// pattern, not a real link). A light band keeps sweeping over the QR frame; loops stop in ?static=1.
 import { useRef } from "react";
 import { H, P, Sec } from "./kit";
 import { useSectionMotion } from "./motion";
@@ -12,7 +11,7 @@ const AP_CSS = `.ap6-glow{background:radial-gradient(closest-side,color-mix(in s
 .ap6-glow2{background:radial-gradient(closest-side,color-mix(in srgb,var(--sx-accent) 36%,transparent),transparent);animation:ap6-glow2 7s linear infinite alternate}@keyframes ap6-glow2{from{translate:30% 10%}to{translate:-30% -16%}}
 .ap6-shine{background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.85) 48%,color-mix(in srgb,var(--sx-accent) 45%,transparent) 52%,transparent 64%) 0 0/300% 100%;mix-blend-mode:screen;animation:ap6-shine 2.6s linear infinite}@keyframes ap6-shine{from{background-position:120% 0}to{background-position:-20% 0}}
 .is-static .ap6-glow,.is-static .ap6-glow2{animation:none}.is-static .ap6-shine{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.ap6-glow,.ap6-glow2{animation:none}.ap6-shine{animation:none;opacity:0}}`;
+html.is-static {.ap6-glow,.ap6-glow2{animation:none}.ap6-shine{animation:none;opacity:0}}`;
 
 /** A decorative QR-style grid (deterministic): three finder squares + a seeded module pattern. */
 const N = 25;

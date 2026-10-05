@@ -68,7 +68,7 @@ const CSS = `
 .u155-t.on .u155-ic{color:#ffd678}
 
 html.is-static .b15g1-glow{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b15g1-glow{animation:none}
   .u148-k,.u149-b,.u149-lab>span,.u150-b,.u155-t{transition:none}
 }

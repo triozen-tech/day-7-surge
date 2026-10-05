@@ -21,7 +21,7 @@ const CSS = `
 .m255-chip.on{background:#ffe7c2;color:#1a1208;border-color:#ffe7c2}
 .m257-t.on{outline:2px solid #f2d27a;outline-offset:3px}
 html.is-static .b6r3-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b6r3-glow{animation:none}}
+html.is-static {.b6r3-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

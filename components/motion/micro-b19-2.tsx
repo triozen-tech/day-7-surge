@@ -78,7 +78,7 @@ const CSS = `
 @keyframes u249-a{to{--a:360deg}}
 
 html.is-static .b19g2-glow,html.is-static .u240-ring,html.is-static .u242-scan,html.is-static .u242-blink,html.is-static .u245-spin,html.is-static .u249-fb{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b19g2-glow,.u240-ring,.u242-scan,.u242-blink,.u245-spin,.u249-fb{animation:none}
   .u242-card,.u242-card img,.u242-hud,.u242-br,.u242-bar{transition:none}
 }

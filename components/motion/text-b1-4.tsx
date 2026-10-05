@@ -23,7 +23,7 @@ const CSS = `
 .m121-off .m121-c{animation-play-state:paused}
 html.is-static .b1g4-glow,html.is-static .m121-c{animation:none}
 html.is-static .m121-c1{opacity:1;background-size:140% auto;background-position:50% 50%}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b1g4-glow,.m121-c{animation:none}
   .m121-c1{opacity:1;background-size:140% auto;background-position:50% 50%}
 }

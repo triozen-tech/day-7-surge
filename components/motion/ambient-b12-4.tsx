@@ -51,7 +51,7 @@ const CSS = `
 @keyframes m637-spin{0%{transform:translateZ(var(--z)) rotate(0deg)}100%{transform:translateZ(var(--z)) rotate(var(--e))}}
 
 html.is-static .b12g4-glow,html.is-static .b12g4-run,html.is-static .m634-hl,html.is-static .m636-plane,html.is-static .m636-sun,html.is-static .m637-ring{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b12g4-glow,.b12g4-run,.m634-hl,.m636-plane,.m636-sun,.m637-ring{animation:none}
 }
 `;

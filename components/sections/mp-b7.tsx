@@ -14,7 +14,7 @@ const MP_CSS = `
 .mpb7-tick{animation:mpb7-tick .45s cubic-bezier(.2,.8,.2,1)}
 @keyframes mpb7-tick{from{transform:translateY(-60%);opacity:0}to{transform:none;opacity:1}}
 html.is-static .mpb7-glow,html.is-static .mpb7-tick{animation:none}
-@media (prefers-reduced-motion: reduce){.mpb7-glow,.mpb7-tick{animation:none}}
+html.is-static {.mpb7-glow,.mpb7-tick{animation:none}}
 `;
 
 const OFFICES = [

@@ -12,7 +12,7 @@ import type { SectionDef } from "./types";
 const CSS = `.st7glow{animation:st7gx 6s linear infinite alternate,st7gs 3.6s ease-in-out infinite alternate}
 @keyframes st7gx{from{translate:-26% -10%}to{translate:26% 14%}}@keyframes st7gs{from{scale:.82}to{scale:1.2}}
 html.is-static .st7glow{animation:none}
-@media (prefers-reduced-motion:reduce){.st7glow{animation:none}}`;
+html.is-static {.st7glow{animation:none}}`;
 
 type Icon = "leaf" | "drop" | "flower" | "flame" | "wood" | "citrus" | "spark" | "cloud" | "grain";
 const PATHS: Record<Icon, React.ReactNode> = {

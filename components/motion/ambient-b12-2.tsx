@@ -40,7 +40,7 @@ const CSS = `
 @keyframes m608-c{0%{transform:translate3d(-30%,18%,0) rotate(70deg)}100%{transform:translate3d(36%,-30%,0) rotate(118deg)}}
 
 html.is-static .b12g2-glow,html.is-static .m605-lit,html.is-static .m605-beam,html.is-static .m608-b{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b12g2-glow,.m605-lit,.m605-beam,.m608-b{animation:none}
 }
 `;

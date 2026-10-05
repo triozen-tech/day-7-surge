@@ -16,7 +16,7 @@ const HR13_CSS = `
 @keyframes hr13-film{to{background-position:100% 100%,0% 50%,center}}
 .hr13-word{-webkit-background-clip:text;background-clip:text;color:transparent}
 html.is-static .hr13-film{animation:none}
-@media (prefers-reduced-motion:reduce){.hr13-film{animation:none}}
+html.is-static {.hr13-film{animation:none}}
 `;
 const hr13Film = (i: number) => ({
   backgroundImage: `radial-gradient(40% 50% at 30% 40%, color-mix(in srgb, var(--sx-accent) 75%, transparent), transparent 70%), linear-gradient(115deg, transparent 25%, color-mix(in srgb, var(--sx-text) 30%, transparent) 48%, transparent 62%), url("${scene(i, 1600, 1000)}")`,
@@ -86,7 +86,7 @@ const HR14_CSS = `
 .hr14-glow{animation:hr14-glow 2.6s ease-in-out infinite alternate}
 @keyframes hr14-glow{from{transform:scale(.88);opacity:.65}to{transform:scale(1.08);opacity:1}}
 html.is-static .hr14-bob,html.is-static .hr14-glow{animation:none}
-@media (prefers-reduced-motion:reduce){.hr14-bob,.hr14-glow{animation:none}}
+html.is-static {.hr14-bob,.hr14-glow{animation:none}}
 `;
 
 /** HR14 · A giant slogan fills the width; on scroll it cracks and the halves tilt away left/right in 3D, revealing the
@@ -159,7 +159,7 @@ const HR15_CSS = `
 .hr15-bob{animation:hr15-bob 3.4s ease-in-out infinite alternate}
 @keyframes hr15-bob{from{transform:translateY(-8px)}to{transform:translateY(10px)}}
 html.is-static .hr15-sheen,html.is-static .hr15-bob{animation:none}
-@media (prefers-reduced-motion:reduce){.hr15-sheen,.hr15-bob{animation:none}}
+html.is-static {.hr15-sheen,.hr15-bob{animation:none}}
 `;
 
 /** HR15 · Three full-height columns: small copy left, a cut-out can on a big colour disc centre, three huge stacked words
@@ -235,7 +235,7 @@ const HR16_CSS = `
 .hr16-mist.b{animation-duration:10s;animation-direction:alternate-reverse}
 @keyframes hr16-mist{from{transform:translateX(-8%)}to{transform:translateX(8%)}}
 html.is-static .hr16-mist{animation:none}
-@media (prefers-reduced-motion:reduce){.hr16-mist{animation:none}}
+html.is-static {.hr16-mist{animation:none}}
 `;
 
 /** HR16 · Three cut-out landscape layers with the title tucked between the far range and the near hills; every layer
@@ -308,7 +308,7 @@ const HR17_CSS = `
 .hr17-belt{animation:hr17-belt 46s linear infinite}
 @keyframes hr17-belt{to{transform:translateX(-50%)}}
 html.is-static .hr17-belt{animation:none}
-@media (prefers-reduced-motion:reduce){.hr17-belt{animation:none}}
+html.is-static {.hr17-belt{animation:none}}
 `;
 const PANTRY = [
   { l: "MANGO CHUTNEY", p: "₹340", i: 3 },

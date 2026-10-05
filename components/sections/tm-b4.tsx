@@ -160,7 +160,7 @@ const TM_CSS = `
 @keyframes tmb4-pop{from{opacity:0;transform:translateY(10px) scale(.96)}to{opacity:1;transform:none}}
 html.is-static .tmb4-sheen{animation:none;opacity:0}
 html.is-static .tmb4-pop{animation:none}
-@media (prefers-reduced-motion: reduce){.tmb4-sheen{animation:none;opacity:0}.tmb4-pop{animation:none}}
+html.is-static {.tmb4-sheen{animation:none;opacity:0}.tmb4-pop{animation:none}}
 `;
 
 /** TM08 · Heading, text and button; then a 4-column directory of tiny avatar + name items. Hovering a name opens a card

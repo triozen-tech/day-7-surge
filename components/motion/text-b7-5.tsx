@@ -47,7 +47,7 @@ const CSS = `
 100%{visibility:hidden;opacity:0;transform:translateX(62vw)}}
 html.is-static .b7g5-glow,html.is-static .m345-leak,html.is-static .m345-soft,html.is-static .m346-w{animation:none}
 html.is-static .m339-stack,html.is-static .m339-c{transition:none}
-@media (prefers-reduced-motion: reduce){.b7g5-glow,.m345-leak,.m345-soft,.m346-w{animation:none}.m339-stack,.m339-c{transition:none}}
+html.is-static {.b7g5-glow,.m345-leak,.m345-soft,.m346-w{animation:none}.m339-stack,.m339-c{transition:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

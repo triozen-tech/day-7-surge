@@ -35,7 +35,7 @@ const LG_CSS = `
 @keyframes lgb6-in{from{opacity:0;transform:translateY(60%);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
 html.is-static .lgb6-band{animation:none;opacity:0}
 html.is-static .lgb6-in{animation:none}
-@media (prefers-reduced-motion: reduce){.lgb6-band{animation:none;opacity:0}.lgb6-in{animation:none}}
+html.is-static {.lgb6-band{animation:none;opacity:0}.lgb6-in{animation:none}}
 `;
 
 /** Small invented marks (simple shapes, never a real logo). */

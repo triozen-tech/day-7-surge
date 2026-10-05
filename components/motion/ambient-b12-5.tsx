@@ -55,7 +55,7 @@ const CSS = `
 @keyframes m645-caret{50%{opacity:0}}
 
 html.is-static .b12g5-glow,html.is-static .b12g5-run,html.is-static .m643-hub{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b12g5-glow,.b12g5-run,.m643-hub{animation:none}
 }
 `;

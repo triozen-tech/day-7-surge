@@ -47,7 +47,7 @@ const CSS = `
 .m772-b{position:absolute;inset:0;mix-blend-mode:difference;background:repeating-radial-gradient(circle at var(--mx,62%) var(--my,46%),rgba(255,138,92,.95) 0 2px,transparent 2px 9px)}
 
 html.is-static .b16g5-glow,html.is-static .b16g5-run,html.is-static .m771-p,html.is-static .m771-bar,html.is-static .m772-a{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b16g5-glow,.b16g5-run,.m771-p,.m771-bar,.m772-a{animation:none}
 }
 `;

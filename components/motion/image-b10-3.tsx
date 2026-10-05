@@ -44,7 +44,7 @@ const CSS = `
 .m504-dither img{filter:brightness(.5)}
 .m504-bayer{position:absolute;inset:0;mix-blend-mode:plus-lighter;background-image:${BAYER_TILE};background-size:16px 16px;image-rendering:pixelated}
 html.is-static .b10g3-glow,html.is-static .m495-track,html.is-static .m502-hint{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b10g3-glow,.m495-track,.m502-hint{animation:none}
 }
 `;

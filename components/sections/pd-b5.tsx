@@ -35,7 +35,7 @@ const PD_CSS = `
 .pd5-in{animation:pd5-in .7s .15s cubic-bezier(.2,.8,.2,1) both}
 @keyframes pd5-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 html.is-static .pd5-fill,html.is-static .pd5-in{animation:none}
-@media (prefers-reduced-motion: reduce){.pd5-fill,.pd5-in{animation:none}}
+html.is-static {.pd5-fill,.pd5-in{animation:none}}
 `;
 
 /* ───────────────────────── PD06 · Six-step numbered accordion ───────────────────────── */
@@ -59,7 +59,7 @@ function PD06() {
   return (
     <Sec innerRef={r} theme="stone" font="editorial" className="py-[clamp(72px,9vw,140px)]" style={{ ["--pd5-ms" as string]: `${PD06_MS}ms` }}>
       {/* a large soft glow drifts linearly behind the steps so the section never sits still on camera */}
-      <style>{`.pd06-glow{animation:pd06-glow 5s linear infinite alternate}@keyframes pd06-glow{from{transform:translate(-20%,-8%) scale(.9)}to{transform:translate(24%,12%) scale(1.15)}}html.is-static .pd06-glow{animation:none}@media (prefers-reduced-motion:reduce){.pd06-glow{animation:none}}`}</style>
+      <style>{`.pd06-glow{animation:pd06-glow 5s linear infinite alternate}@keyframes pd06-glow{from{transform:translate(-20%,-8%) scale(.9)}to{transform:translate(24%,12%) scale(1.15)}}html.is-static .pd06-glow{animation:none}html.is-static {.pd06-glow{animation:none}}`}</style>
       <div aria-hidden className="pd06-glow pointer-events-none absolute left-[30%] top-[15%] aspect-square w-[44vw] rounded-full bg-[radial-gradient(closest-side,color-mix(in_srgb,var(--sx-accent)_36%,transparent),transparent)]" />
       <style>{PD_CSS}</style>
       <div className="grid grid-cols-1 gap-[clamp(40px,5vw,96px)] md:grid-cols-12">

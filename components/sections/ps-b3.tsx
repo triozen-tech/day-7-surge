@@ -91,7 +91,7 @@ const pick = (f: Preset) => {
   return list.slice(0, 6);
 };
 const inr = (n: number) => `₹${n.toLocaleString("en-IN")}`;
-const KB_CSS = `.pskb img{animation:pskb 4.8s ease-in-out infinite alternate}.pskb.alt img{animation-duration:6.4s;animation-direction:alternate-reverse}@keyframes pskb{from{transform:scale(1.04)}to{transform:scale(1.18) translate(2.5%,-2.5%)}}.is-static .pskb img{animation:none}@media (prefers-reduced-motion:reduce){.pskb img{animation:none}}`;
+const KB_CSS = `.pskb img{animation:pskb 4.8s ease-in-out infinite alternate}.pskb.alt img{animation-duration:6.4s;animation-direction:alternate-reverse}@keyframes pskb{from{transform:scale(1.04)}to{transform:scale(1.18) translate(2.5%,-2.5%)}}.is-static .pskb img{animation:none}html.is-static {.pskb img{animation:none}}`;
 
 /** PS15 · Sticky filter sidebar (3/12) beside a toolbar of removable chips + sort and a 3-column grid that re-flows. */
 function PS15() {

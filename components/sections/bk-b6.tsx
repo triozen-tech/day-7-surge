@@ -1,8 +1,7 @@
 "use client";
 
 // BK · Booking & enquiry layouts (docs/SECTION-MENU.md), batch 6. The enquiry opens its second row of fields by itself
-// once on screen and the destination picker steps through the lodges; loops stop in ?static=1 and under
-// prefers-reduced-motion (the form then shows fully open).
+// once on screen and the destination picker steps through the lodges; loops stop in ?static=1 (the form then shows fully open).
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -12,7 +11,7 @@ import type { SectionDef } from "./types";
 const BK_CSS = `.bk6-glow{background:radial-gradient(closest-side,color-mix(in srgb,var(--sx-accent) 42%,transparent),transparent);animation:bk6-glow 6s linear infinite alternate}@keyframes bk6-glow{from{translate:-22% -10%}to{translate:20% 12%}}
 .bk6-sheen{background:linear-gradient(100deg,transparent 30%,rgba(255,240,215,.32) 50%,transparent 70%) 0 0/260% 100%;animation:bk6-sheen 3.4s linear infinite}@keyframes bk6-sheen{from{background-position:140% 0}to{background-position:-40% 0}}
 .is-static .bk6-glow,.is-static .bk6-sheen{animation:none}.is-static .bk6-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.bk6-glow,.bk6-sheen{animation:none}.bk6-sheen{opacity:0}}`;
+html.is-static {.bk6-glow,.bk6-sheen{animation:none}.bk6-sheen{opacity:0}}`;
 
 const PLACES = [
   { d: "Masai Mara, Kenya", n: "12 – 16 Feb · 4 nights", g: "2 adults" },

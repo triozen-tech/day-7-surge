@@ -111,7 +111,7 @@ const TM06_CSS = `
 .tm06-glow2{animation:tm06-glow 3.3s ease-in-out infinite alternate-reverse}
 @keyframes tm06-glow{from{transform:translateX(-10%) scale(1)}to{transform:translateX(10%) scale(1.12)}}
 html.is-static .tm06-glow,html.is-static .tm06-glow2{animation:none}
-@media (prefers-reduced-motion: reduce){.tm06-glow,.tm06-glow2{animation:none}}
+html.is-static {.tm06-glow,.tm06-glow2{animation:none}}
 `;
 
 /** TM06 · A tall accent band holds the centred heading and intro; a 3-up grid of portrait cards starts inside the band

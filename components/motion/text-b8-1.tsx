@@ -21,7 +21,7 @@ const CSS = `
 @keyframes m357-blink{0%{opacity:1}100%{opacity:.15}}
 .m360-w,.m361-w{grid-area:1/1}
 html.is-static .b8g1-glow,html.is-static .m357-caret{animation:none}
-@media (prefers-reduced-motion: reduce){.b8g1-glow,.m357-caret{animation:none}}
+html.is-static {.b8g1-glow,.m357-caret{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

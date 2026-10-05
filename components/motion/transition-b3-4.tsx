@@ -24,7 +24,7 @@ const CSS = `
 .x40-mark{animation:x40-shim 4s linear infinite alternate}
 @keyframes x40-shim{0%{opacity:.55;letter-spacing:-.04em}100%{opacity:.9;letter-spacing:-.02em}}
 html.is-static .b3g4t-glow,html.is-static .x40-mark{animation:none}
-@media (prefers-reduced-motion: reduce){.b3g4t-glow,.x40-mark{animation:none}}
+html.is-static {.b3g4t-glow,.x40-mark{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

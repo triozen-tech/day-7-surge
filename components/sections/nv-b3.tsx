@@ -42,7 +42,7 @@ const SWAP_CSS = `
 .nvb3-in{animation:nvb3-in .7s cubic-bezier(.2,.8,.2,1) both}
 @keyframes nvb3-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 html.is-static .nvb3-in{animation:none}
-@media (prefers-reduced-motion: reduce){.nvb3-in{animation:none}}
+html.is-static {.nvb3-in{animation:none}}
 `;
 
 /* ───────────────────────── NV09 · Fixed vertical side rail nav ───────────────────────── */

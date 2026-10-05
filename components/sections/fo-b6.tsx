@@ -16,7 +16,7 @@ const CSS = `.fo6kb img{animation:fo6kbs 5.4s linear infinite alternate,fo6kbt 3
 .fo6spin{animation:fo6spin 9s linear infinite}@keyframes fo6spin{to{rotate:360deg}}
 .fo6pulse{animation:fo6pulse 1.6s ease-out infinite}@keyframes fo6pulse{from{box-shadow:0 0 0 0 color-mix(in srgb,var(--sx-accent) 70%,transparent)}to{box-shadow:0 0 0 12px transparent}}
 html.is-static .fo6kb img,html.is-static .fo6glow,html.is-static .fo6spin,html.is-static .fo6pulse{animation:none}
-@media (prefers-reduced-motion:reduce){.fo6kb img,.fo6glow,.fo6spin,.fo6pulse{animation:none}}`;
+html.is-static {.fo6kb img,.fo6glow,.fo6spin,.fo6pulse{animation:none}}`;
 
 /** Simple generic social glyphs (not any platform's logo). */
 const ICONS = [

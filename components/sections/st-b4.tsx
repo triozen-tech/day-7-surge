@@ -13,7 +13,7 @@ const CSS = `.st4orb{animation:st4orbm 7.5s ease-in-out infinite alternate,st4or
 @keyframes st4kbs{from{scale:1.06}to{scale:1.18}}@keyframes st4kbt{from{translate:-2.5% 1.5%}to{translate:2.5% -1.5%}}
 .st4sheen{animation:st4sheen 3.6s ease-in-out infinite}@keyframes st4sheen{from{translate:-120% 0}to{translate:120% 0}}
 html.is-static .st4orb,html.is-static .st4kb img,html.is-static .st4sheen{animation:none}
-@media (prefers-reduced-motion:reduce){.st4orb,.st4kb img,.st4sheen{animation:none}}`;
+html.is-static {.st4orb,.st4kb img,.st4sheen{animation:none}}`;
 
 /** ST11 · 2 columns: a big 2-line statement left; right a paragraph, a very large gap, then 3 ruled stats at the bottom. */
 function ST11() {

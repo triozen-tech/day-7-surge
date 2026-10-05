@@ -38,7 +38,7 @@ const HR29_CSS = `
 @keyframes hr29-sheen{from{transform:translateX(-140%) skewX(-14deg)}to{transform:translateX(360%) skewX(-14deg)}}
 html.is-static .hr29-kb,html.is-static .hr29-sheen{animation:none}
 html.is-static .hr29-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.hr29-kb,.hr29-sheen{animation:none}.hr29-sheen{opacity:0}}
+html.is-static {.hr29-kb,.hr29-sheen{animation:none}.hr29-sheen{opacity:0}}
 `;
 
 const HR29_CARDS = [
@@ -115,7 +115,7 @@ const HR30_CSS = `
 .hr30-glow{animation:hr30-glow 5.6s ease-in-out infinite alternate}
 @keyframes hr30-glow{from{transform:scale(1) rotate(0deg);opacity:.55}to{transform:scale(1.12) rotate(8deg);opacity:.85}}
 html.is-static .hr30-chip,html.is-static .hr30-glow{animation:none}
-@media (prefers-reduced-motion:reduce){.hr30-chip,.hr30-glow{animation:none}}
+html.is-static {.hr30-chip,.hr30-glow{animation:none}}
 `;
 
 const HR30_NOTES = [
@@ -187,7 +187,7 @@ const HR31_CSS = `
 .hr31-orb{animation:hr31-orb 5s ease-in-out infinite alternate}
 @keyframes hr31-orb{from{transform:translate(-14%,8%) scale(.9)}to{transform:translate(14%,-10%) scale(1.15)}}
 html.is-static .hr31-float,html.is-static .hr31-orb{animation:none}
-@media (prefers-reduced-motion:reduce){.hr31-float,.hr31-orb{animation:none}}
+html.is-static {.hr31-float,.hr31-orb{animation:none}}
 `;
 
 type HR31Card = { kind: "review" | "product" | "stat" | "ingredient" };
@@ -332,7 +332,7 @@ const HR32_CSS = `
 .hr32-b{animation:hr32-b 5.2s linear infinite alternate}
 @keyframes hr32-b{from{transform:translate(25%,10%) scale(1.1)}to{transform:translate(-30%,-12%) scale(.85)}}
 html.is-static .hr32-in,html.is-static .hr32-a,html.is-static .hr32-b{animation:none}
-@media (prefers-reduced-motion:reduce){.hr32-in,.hr32-a,.hr32-b{animation:none}}
+html.is-static {.hr32-in,.hr32-a,.hr32-b{animation:none}}
 `;
 
 const HR32_WORDS = ["slow mornings", "first dates", "late deadlines", "Sunday papers", "second cups"];
@@ -423,7 +423,7 @@ const HR33_CSS = `
 .hr33-sweep{animation:hr33-sweep 2.4s linear infinite}
 @keyframes hr33-sweep{from{transform:translateX(-50%) skewX(-18deg)}to{transform:translateX(420%) skewX(-18deg)}}
 html.is-static .hr33-flap,html.is-static .hr33-sweep{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.hr33-flap,.hr33-sweep{animation:none;opacity:0}}
+html.is-static {.hr33-flap,.hr33-sweep{animation:none;opacity:0}}
 `;
 
 /** One split-flap tile; `n` changes on every flip so the falling flap replays. */

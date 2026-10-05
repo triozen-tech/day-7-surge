@@ -96,7 +96,7 @@ const CSS = `
 @keyframes u78-run{to{offset-distance:100%}}
 
 html.is-static .b5g3u-glow,html.is-static .u67-track,html.is-static .u71-track,html.is-static .u75-t,html.is-static .u78-blob{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b5g3u-glow,.u67-track,.u71-track,.u75-t,.u78-blob{animation:none}
   .u67-lab,.u67-mq,.u68-bg,.u69-it,.u69-it::after,.u70-dup,.u70-u,.u75-t,.u75-fill{transition:none}
 }

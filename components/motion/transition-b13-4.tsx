@@ -22,7 +22,7 @@ const CSS = `
 @keyframes x65-pan{to{background-position:420px 300px}}
 html.is-static .b13g4x-glow,html.is-static .b13g4x-dot::after,html.is-static .x65-space{animation:none}
 html.is-static .b13g4x-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b13g4x-glow,.b13g4x-dot::after,.x65-space{animation:none}
   .b13g4x-dot{display:none}
 }

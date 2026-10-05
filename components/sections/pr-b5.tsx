@@ -124,7 +124,7 @@ function PR12() {
         .pr12-roll { animation: pr12-roll 16s linear infinite; }
         html.is-static .pr12-sweep, html.is-static .pr12-roll { animation: none; }
         html.is-static .pr12-sweep { opacity: 0; }
-        @media (prefers-reduced-motion: reduce) { .pr12-sweep, .pr12-roll { animation: none; } .pr12-sweep { opacity: 0; } }
+        html.is-static { .pr12-sweep, .pr12-roll { animation: none; } .pr12-sweep { opacity: 0; } }
       `}</style>
       <div className="mx-auto max-w-[860px] text-center">
         <H className="text-[clamp(44px,5.8vw,96px)]">One membership. Every leaf.</H>

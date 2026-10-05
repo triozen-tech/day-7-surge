@@ -354,7 +354,7 @@ background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.85) 48%,var(
 animation:bn08-sheen 4.8s linear infinite;animation-delay:var(--d,0s)}
 @keyframes bn08-sheen{0%{background-position:120% 0}60%,100%{background-position:-120% 0}}
 .is-static .bn08-cell::before{animation:none;background-position:50% 0}
-@media (prefers-reduced-motion:reduce){.bn08-cell::before{animation:none;background-position:50% 0}}
+html.is-static {.bn08-cell::before{animation:none;background-position:50% 0}}
 `;
 function BN08() {
   const cell = (d: number) => vars({ "--d": `${d}s` });

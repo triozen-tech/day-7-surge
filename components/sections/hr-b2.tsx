@@ -15,7 +15,7 @@ const HR19_CSS = `
 .hr19-cta{animation:hr19-cta 3.4s ease-in-out infinite}
 @keyframes hr19-cta{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--sx-accent) 45%,transparent)}50%{box-shadow:0 0 0 18px color-mix(in srgb,var(--sx-accent) 0%,transparent)}}
 html.is-static .hr19-cta{animation:none}
-@media (prefers-reduced-motion:reduce){.hr19-cta{animation:none}}
+html.is-static {.hr19-cta{animation:none}}
 `;
 
 /** HR19 · Full-bleed photo; a two-line title anchored to the bottom-left baseline with an "Est." tag above it, a round
@@ -90,7 +90,7 @@ const HR20_CSS = `
 .hr20-down{animation:hr20-up 30s linear infinite reverse}
 @keyframes hr20-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
 html.is-static .hr20-up,html.is-static .hr20-down{animation:none}
-@media (prefers-reduced-motion:reduce){.hr20-up,.hr20-down{animation:none}}
+html.is-static {.hr20-up,.hr20-down{animation:none}}
 `;
 
 /** HR20 · Four columns of photos on a plane rotated ~55° X / 45° Z (isometric), drifting up and down in alternation
@@ -148,7 +148,7 @@ const HR21_CSS = `
 @keyframes hr21-night{0%,12%{opacity:0}88%,100%{opacity:1}}
 .hr21-stars{background-image:radial-gradient(1.5px 1.5px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 26% 8%,#fff,transparent),radial-gradient(1.5px 1.5px at 44% 22%,#fff,transparent),radial-gradient(1px 1px at 61% 12%,#fff,transparent),radial-gradient(1.5px 1.5px at 78% 26%,#fff,transparent),radial-gradient(1px 1px at 88% 9%,#fff,transparent),radial-gradient(1px 1px at 35% 30%,#fff,transparent),radial-gradient(1.5px 1.5px at 70% 4%,#fff,transparent)}
 html.is-static .hr21-night{animation:none}
-@media (prefers-reduced-motion:reduce){.hr21-night{animation:none}}
+html.is-static {.hr21-night{animation:none}}
 `;
 
 /** HR21 · The same landscape by day and by night, the night copy fading in and out on a slow loop; a scrim, then a
@@ -270,7 +270,7 @@ const HR23_CSS = `
 .hr23-sway{animation:hr23-sway var(--d) ease-in-out infinite alternate}
 @keyframes hr23-sway{from{translate:-28px 0}to{translate:28px 0}}
 html.is-static .hr23-sway{animation:none}
-@media (prefers-reduced-motion:reduce){.hr23-sway{animation:none}}
+html.is-static {.hr23-sway{animation:none}}
 `;
 const HR23_ROWS = [
   [["Lattice Runner", "₹8,490"], ["Drift Low", "₹6,990"], ["Monsoon Trail", "₹9,290"], ["Court '84", "₹5,490"], ["Knit Slip-on", "₹4,990"]],

@@ -33,7 +33,7 @@ const TM_CSS = `
 .tmb7-glow2{animation:tmb7-glow2 3.6s linear infinite alternate}
 @keyframes tmb7-glow2{from{transform:translate(18%,8%) scale(1.1)}to{transform:translate(-16%,-10%) scale(.85)}}
 html.is-static .tmb7-glow,html.is-static .tmb7-glow2{animation:none}
-@media (prefers-reduced-motion: reduce){.tmb7-glow,.tmb7-glow2{animation:none}}
+html.is-static {.tmb7-glow,.tmb7-glow2{animation:none}}
 `;
 
 const GROWERS = [

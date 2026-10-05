@@ -31,7 +31,7 @@ const CP03_CSS = `
 .cp03-in{animation:cp03-in .8s cubic-bezier(.2,.8,.2,1) both}
 @keyframes cp03-in{from{opacity:0;transform:translateY(28px) rotate(-4deg)}to{opacity:1;transform:none}}
 html.is-static .cp03-in{animation:none}
-@media (prefers-reduced-motion: reduce){.cp03-in{animation:none}}
+html.is-static {.cp03-in{animation:none}}
 `;
 
 /* ───────────────────────── CP03 · Colour pairing suggestions ───────────────────────── */

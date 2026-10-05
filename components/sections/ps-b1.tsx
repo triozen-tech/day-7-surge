@@ -40,7 +40,7 @@ const QUIZ = [
   { q: "What would you change first?", opts: ["Dull tone", "Visible pores", "Fine lines", "Dark spots"], pick: 1 },
   { q: "How many steps do you have time for?", opts: ["Just one", "Two or three", "The full ritual"], pick: 1 },
 ];
-const PS09_CSS = `.ps09-glow{animation:ps09-glow 6s ease-in-out infinite alternate}@keyframes ps09-glow{from{transform:translate(-8%,-4%) scale(1)}to{transform:translate(8%,6%) scale(1.15)}}.ps09-in{animation:ps09-in .55s cubic-bezier(.22,1,.36,1)}@keyframes ps09-in{from{opacity:0;transform:translateY(16px)}}.is-static .ps09-glow,.is-static .ps09-in{animation:none}@media (prefers-reduced-motion:reduce){.ps09-glow,.ps09-in{animation:none}}`;
+const PS09_CSS = `.ps09-glow{animation:ps09-glow 6s ease-in-out infinite alternate}@keyframes ps09-glow{from{transform:translate(-8%,-4%) scale(1)}to{transform:translate(8%,6%) scale(1.15)}}.ps09-in{animation:ps09-in .55s cubic-bezier(.22,1,.36,1)}@keyframes ps09-in{from{opacity:0;transform:translateY(16px)}}.is-static .ps09-glow,.is-static .ps09-in{animation:none}html.is-static {.ps09-glow,.ps09-in{animation:none}}`;
 
 /** PS09 · Centred quiz card: progress dots, one question at a time with option tiles, ending on a result panel. */
 function PS09() {
@@ -129,7 +129,7 @@ const FLAVOURS = [
 // order the auto-builder adds cans in (24 picks); final counts 8 · 6 · 6 · 4
 const ORDER = [0, 1, 2, 0, 3, 1, 0, 2, 2, 0, 1, 3, 0, 2, 1, 0, 3, 2, 1, 0, 2, 1, 3, 0];
 const FINAL = ORDER.length;
-const PS10_CSS = `.ps10-case{position:relative;overflow:hidden}.ps10-case::after{content:"";position:absolute;inset:-40%;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.07) 50%,transparent 60%);animation:ps10-sheen 3.4s linear infinite;pointer-events:none}@keyframes ps10-sheen{from{transform:translateX(-45%)}to{transform:translateX(45%)}}.ps10-can{transition:transform .35s cubic-bezier(.34,1.4,.64,1),background-color .3s}.is-static .ps10-case::after{animation:none;opacity:0}@media (prefers-reduced-motion:reduce){.ps10-case::after{animation:none;opacity:0}}`;
+const PS10_CSS = `.ps10-case{position:relative;overflow:hidden}.ps10-case::after{content:"";position:absolute;inset:-40%;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.07) 50%,transparent 60%);animation:ps10-sheen 3.4s linear infinite;pointer-events:none}@keyframes ps10-sheen{from{transform:translateX(-45%)}to{transform:translateX(45%)}}.ps10-can{transition:transform .35s cubic-bezier(.34,1.4,.64,1),background-color .3s}.is-static .ps10-case::after{animation:none;opacity:0}html.is-static {.ps10-case::after{animation:none;opacity:0}}`;
 
 /** PS10 · A 24-slot case on the left fills as flavours are added on the right; Add to cart unlocks when it's full. */
 function PS10() {
@@ -230,7 +230,7 @@ const SCENTS = [
   { n: "Tuberose Noir", note: "Tuberose, black pepper, amber", price: "₹3,800" },
 ];
 const ROW = 66;
-const PS11_CSS = `.ps11-kb{animation:ps11-kb 6s ease-in-out infinite alternate}@keyframes ps11-kb{from{transform:scale(1.02) translate(-1.5%,0)}to{transform:scale(1.1) translate(1.5%,-1.5%)}}.is-static .ps11-kb{animation:none}@media (prefers-reduced-motion:reduce){.ps11-kb{animation:none}}`;
+const PS11_CSS = `.ps11-kb{animation:ps11-kb 6s ease-in-out infinite alternate}@keyframes ps11-kb{from{transform:scale(1.02) translate(-1.5%,0)}to{transform:scale(1.1) translate(1.5%,-1.5%)}}.is-static .ps11-kb{animation:none}html.is-static {.ps11-kb{animation:none}}`;
 
 /** PS11 · A curved wheel of names (4/12) turns on its own; the big image (8/12) crossfades to the selected scent. */
 function PS11() {

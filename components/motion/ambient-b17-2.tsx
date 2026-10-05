@@ -40,7 +40,7 @@ const CSS = `
 @keyframes m790-march{to{stroke-dashoffset:-30}}
 
 html.is-static .b17a2-glow,html.is-static .m788-shine,html.is-static .m790-route{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b17a2-glow,.m788-shine,.m790-route{animation:none}
 }
 `;

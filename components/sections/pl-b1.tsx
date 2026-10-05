@@ -12,7 +12,7 @@ const PL01_CSS = `
 .pl01-fill::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,color-mix(in srgb,var(--sx-surface) 55%,transparent) 50%,transparent 70%) 0 0/250% 100% no-repeat;animation:pl01-sheen 2.4s linear infinite}
 @keyframes pl01-sheen{from{background-position:130% 0}to{background-position:-130% 0}}
 html.is-static .pl01-fill::after{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.pl01-fill::after{animation:none;opacity:0}}
+html.is-static {.pl01-fill::after{animation:none;opacity:0}}
 `;
 
 const OPTIONS = [

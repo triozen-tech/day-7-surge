@@ -57,7 +57,7 @@ const CSS = `
 
 html.is-static .b16g4-glow,html.is-static .b16g4-top,html.is-static .m759-beam,html.is-static .m759-blip,html.is-static .m759-blip::after,html.is-static .m759-tag{animation:none}
 html.is-static .b16g4-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b16g4-glow,.b16g4-top,.m759-beam,.m759-blip,.m759-blip::after,.m759-tag{animation:none}
   .b16g4-dot{display:none}
 }

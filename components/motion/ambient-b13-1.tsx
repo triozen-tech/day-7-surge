@@ -61,7 +61,7 @@ const CSS = `
 @keyframes m661-shine{0%{background-position:0% 0%}50%{background-position:100% 100%}100%{background-position:0% 0%}}
 
 html.is-static .b13g1-glow,html.is-static .b13g1-run,html.is-static .m650-spin,html.is-static .m657-kb,html.is-static .m661-shine::before{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b13g1-glow,.b13g1-run,.m650-spin,.m657-kb,.m661-shine::before{animation:none}
 }
 `;

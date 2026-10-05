@@ -13,7 +13,7 @@ const CSS = `.ct6glow{animation:ct6gx 5.8s linear infinite alternate,ct6gs 3.6s 
 .ct6quad > :nth-child(2n) [data-m-img] img,.ct6quad > [data-m-img]:nth-child(2n) img{animation-duration:3.4s;animation-direction:alternate-reverse}
 @keyframes ct6kb{from{translate:-4% 2%}to{translate:4% -2%}}
 html.is-static .ct6glow,html.is-static .ct6quad [data-m-img] img{animation:none}
-@media (prefers-reduced-motion:reduce){.ct6glow,.ct6quad [data-m-img] img{animation:none}}`;
+html.is-static {.ct6glow,.ct6quad [data-m-img] img{animation:none}}`;
 
 const SHOTS = [
   { i: 1, label: "Sourdough" },

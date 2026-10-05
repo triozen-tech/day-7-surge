@@ -33,7 +33,7 @@ const CSS = `
 .m707-stars{position:absolute;inset:-10%;background-image:radial-gradient(1.5px 1.5px at 12% 18%,#fff8,transparent),radial-gradient(1.5px 1.5px at 72% 12%,#fff6,transparent),radial-gradient(1px 1px at 40% 30%,#fff7,transparent),radial-gradient(1.5px 1.5px at 86% 34%,#fff5,transparent),radial-gradient(1px 1px at 26% 44%,#fff6,transparent),radial-gradient(1px 1px at 58% 8%,#fff8,transparent);animation:m707-stars 9s linear infinite alternate;pointer-events:none}
 @keyframes m707-stars{0%{transform:translate3d(-2%,0,0)}100%{transform:translate3d(2%,-2%,0)}}
 html.is-static .b15s5-glow,html.is-static .m706-sheen,html.is-static .m707-stars{animation:none}
-@media (prefers-reduced-motion: reduce){.b15s5-glow,.m706-sheen,.m707-stars{animation:none}}
+html.is-static {.b15s5-glow,.m706-sheen,.m707-stars{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

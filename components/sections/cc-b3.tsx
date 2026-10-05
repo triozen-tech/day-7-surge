@@ -37,7 +37,7 @@ const CC05_CSS = `
 .cc05-caret{animation:cc05-caret .9s steps(1) infinite}
 @keyframes cc05-caret{50%{opacity:0}}
 html.is-static .cc05-blob,html.is-static .cc05-caret{animation:none}
-@media (prefers-reduced-motion:reduce){.cc05-blob,.cc05-caret{animation:none}}
+html.is-static {.cc05-blob,.cc05-caret{animation:none}}
 `;
 
 const CC05_TOPICS = [
@@ -134,7 +134,7 @@ const CC06_CSS = `
 @keyframes cc06-arrow{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
 html.is-static .cc06-sheen,html.is-static .cc06-orb,html.is-static .cc06-arrow{animation:none}
 html.is-static .cc06-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.cc06-sheen,.cc06-orb,.cc06-arrow{animation:none}.cc06-sheen{opacity:0}}
+html.is-static {.cc06-sheen,.cc06-orb,.cc06-arrow{animation:none}.cc06-sheen{opacity:0}}
 `;
 
 /** CC06 · Centred title, a centred form card (first/last name, email/phone, details, submit) and below it three link

@@ -27,7 +27,7 @@ ${glowSel}{position:absolute;inset:-25%;pointer-events:none;background:radial-gr
 .m130-bar{transform-origin:0 50%}
 html.is-static ${glowSel},html.is-static .m127-on .m127-ink,html.is-static .m134-caret{animation:none}
 html.is-static .m127-ink{opacity:1;background-position:0% 0}
-@media (prefers-reduced-motion: reduce){${glowSel},.m127-on .m127-ink,.m134-caret{animation:none}.m127-ink{opacity:1;background-position:0% 0}}
+html.is-static {${glowSel},.m127-on .m127-ink,.m134-caret{animation:none}.m127-ink{opacity:1;background-position:0% 0}}
 `;
 
 function Stage({ code, glow = "#2f8cff", children, refEl, className = "" }: { code: string; glow?: string; children: ReactNode; refEl?: RefObject<HTMLDivElement | null>; className?: string }) {

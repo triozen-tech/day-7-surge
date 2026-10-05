@@ -46,7 +46,7 @@ const CSS = `
 @keyframes m619-fall{0%{transform:rotate(140deg) translate3d(0,0,0);opacity:0}6%{opacity:1}72%{opacity:1}100%{transform:rotate(140deg) translate3d(900px,0,0);opacity:0}}
 
 html.is-static .b12g3-glow,html.is-static .m618-s,html.is-static .m619-m{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b12g3-glow,.m618-s,.m619-m{animation:none}
 }
 `;

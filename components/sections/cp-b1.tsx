@@ -115,7 +115,7 @@ function CP02() {
         .cp02-bob { animation: cp02-bob 2.6s ease-in-out infinite alternate; }
         @keyframes cp02-bob { from { translate: 0 0; } to { translate: 0 -12px; } }
         html.is-static .cp02-sweep, html.is-static .cp02-bob { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .cp02-sweep, .cp02-bob { animation: none; } }
+        html.is-static { .cp02-sweep, .cp02-bob { animation: none; } }
       `}</style>
       <div className="pointer-events-none absolute inset-x-0 top-[22%] h-[60%] overflow-hidden" aria-hidden>
         <div className="cp02-sweep absolute inset-y-0 left-[20%] w-[60%] bg-[radial-gradient(ellipse_50%_60%_at_50%_70%,color-mix(in_srgb,var(--sx-accent)_22%,transparent),transparent)]" />

@@ -23,7 +23,7 @@ const CSS = `
 @keyframes x95-kb{to{transform:scale(1.07) translate(1.5%,-1%)}}
 html.is-static .b14t2-glow,html.is-static .b14t2-dot::after,html.is-static .x94-kb,html.is-static .x95-kb{animation:none}
 html.is-static .b14t2-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b14t2-glow,.b14t2-dot::after,.x94-kb,.x95-kb{animation:none}
   .b14t2-dot{display:none}
 }

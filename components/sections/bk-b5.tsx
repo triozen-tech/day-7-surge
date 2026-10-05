@@ -1,7 +1,7 @@
 "use client";
 
 // BK · Booking layouts (docs/SECTION-MENU.md), batch 5. Both pickers choose by themselves while on screen (a click
-// takes over); loops stop in ?static=1 and under prefers-reduced-motion.
+// takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -33,7 +33,7 @@ const BK_CSS = `.bk5-rise{animation:bk5-rise .55s cubic-bezier(.2,.8,.2,1) both;
 .bk5-beam{animation:bk5-beam 3.2s linear infinite}@keyframes bk5-beam{from{translate:-70% 0}to{translate:170% 0}}
 .bk5-pop{animation:bk5-pop .45s cubic-bezier(.2,.9,.25,1.2) both}@keyframes bk5-pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
 .is-static .bk5-rise,.is-static .bk5-pop{animation:none}.is-static .bk5-scan,.is-static .bk5-beam{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.bk5-rise,.bk5-pop{animation:none}.bk5-scan,.bk5-beam{animation:none;opacity:0}}`;
+html.is-static {.bk5-rise,.bk5-pop{animation:none}.bk5-scan,.bk5-beam{animation:none;opacity:0}}`;
 
 /* ── BK06 ─────────────────────────────────────────────────────────────── */
 

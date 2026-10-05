@@ -84,7 +84,7 @@ const CSS = `
 .u90-tray .u90-th{width:30px;height:30px}
 
 html.is-static .b5g4-glow{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b5g4-glow,.b5g4-dot.tap>span{animation:none}
   .u80-img,.u80-spot,.u81-in,.u82-a,.u82-a::before,.u82-n,.u85-r,.u85-b,.u88-it{transition:none}
 }

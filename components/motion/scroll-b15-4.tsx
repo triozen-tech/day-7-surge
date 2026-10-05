@@ -37,7 +37,7 @@ const CSS = `
 .b15s4-top{mix-blend-mode:screen;opacity:.45;z-index:40}
 @keyframes b15s4-drift{0%{transform:translate3d(-8%,-5%,0) scale(1)}100%{transform:translate3d(8%,6%,0) scale(1.16)}}
 html.is-static .b15s4-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b15s4-glow{animation:none}}
+html.is-static {.b15s4-glow{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop. `top` adds a second glow over the content (covered stages). */

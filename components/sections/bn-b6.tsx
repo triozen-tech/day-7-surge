@@ -18,7 +18,7 @@ const CSS = `.bn6col{animation:bn6y var(--d) linear infinite alternate}
 .bn6dot{animation:bn6p 1.4s ease-out infinite}
 @keyframes bn6p{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--sx-accent) 60%,transparent)}100%{box-shadow:0 0 0 12px transparent}}
 html.is-static .bn6col,html.is-static .bn6glow,html.is-static .bn6bar,html.is-static .bn6dot{animation:none}
-@media (prefers-reduced-motion:reduce){.bn6col,.bn6glow,.bn6bar,.bn6dot{animation:none}}`;
+html.is-static {.bn6col,.bn6glow,.bn6bar,.bn6dot{animation:none}}`;
 
 type Card =
   | { k: "review"; q: string; who: string; n?: number }

@@ -20,7 +20,7 @@ const CSS = `
 .m383-btn{transition:background-color .35s ease,color .35s ease}
 .m383-btn.is-done{background:#eaf5ff;color:#0a0f1c}
 html.is-static .b8g3-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b8g3-glow{animation:none}}
+html.is-static {.b8g3-glow{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

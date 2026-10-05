@@ -13,7 +13,7 @@ const CSS = `.sy7kb img{animation:sy7kbs 5.4s linear infinite alternate,sy7kbt 3
 .sy7glow{animation:sy7gx 6.8s linear infinite alternate,sy7gs 4.1s ease-in-out infinite alternate}
 @keyframes sy7gx{from{translate:-24% 0}to{translate:30% -10%}}@keyframes sy7gs{from{scale:.8}to{scale:1.25}}
 html.is-static .sy7kb img,html.is-static .sy7glow{animation:none}
-@media (prefers-reduced-motion:reduce){.sy7kb img,.sy7glow{animation:none}}`;
+html.is-static {.sy7kb img,.sy7glow{animation:none}}`;
 
 /** SY17 · Full-width 16:9 image first; under it headline left (max-w-md), two paragraphs + button right. */
 function SY17() {

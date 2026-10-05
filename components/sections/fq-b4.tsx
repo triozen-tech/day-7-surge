@@ -161,7 +161,7 @@ function FQ09() {
         @keyframes fq09-sweep { from { transform: translateX(-100%) } to { transform: translateX(400%) } }
         .fq09-sweep { animation: fq09-sweep 1.8s linear infinite; }
         html.is-static .fq09-sweep { display: none; }
-        @media (prefers-reduced-motion: reduce) { .fq09-sweep { display: none; } }
+        html.is-static { .fq09-sweep { display: none; } }
       `}</style>
       <div className="flex flex-wrap items-end justify-between gap-6">
         <H className="max-w-[14ch] text-[clamp(44px,5.4vw,88px)]">Before you arrive at the Haveli.</H>

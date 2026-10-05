@@ -18,7 +18,7 @@ const CSS = `
 .b14g1-hide{visibility:hidden}
 .b14g1-face{backface-visibility:hidden;-webkit-backface-visibility:hidden}
 html.is-static .b14g1-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b14g1-glow{animation:none}}
+html.is-static {.b14g1-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

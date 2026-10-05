@@ -31,7 +31,7 @@ const JR_CSS = `
 .jrb7-glow{animation:jrb7-glow 4.6s linear infinite alternate}
 @keyframes jrb7-glow{from{transform:translate(-26%,-6%) scale(.92)}to{transform:translate(26%,12%) scale(1.2)}}
 html.is-static .jrb7-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.jrb7-glow{animation:none}}
+html.is-static {.jrb7-glow{animation:none}}
 `;
 
 const POSTS = [

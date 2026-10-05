@@ -118,7 +118,7 @@ function SP10() {
         @keyframes sp10-bob { 0%,100% { transform: translateY(0) rotate(0deg) } 50% { transform: translateY(-14px) rotate(-1.2deg) } }
         .sp10-bob { animation: sp10-bob 3.1s ease-in-out infinite; }
         html.is-static .sp10-bob { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp10-bob { animation: none; } }
+        html.is-static { .sp10-bob { animation: none; } }
       `}</style>
       <div className="grid grid-cols-1 items-center gap-[clamp(40px,5vw,88px)] md:grid-cols-12">
         <div className="md:col-span-5">

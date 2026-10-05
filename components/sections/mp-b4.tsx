@@ -1,7 +1,7 @@
 "use client";
 
 // MP · Map layouts (docs/SECTION-MENU.md), batch 4. Drawn here (SVG arcs, numbers), never tiles or an embedded map.
-// Loops stop in ?static=1 and under prefers-reduced-motion.
+// Loops stop in ?static=1.
 import { useEffect, useRef } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -15,7 +15,7 @@ const MP_CSS = `.mp4-comet{stroke-dasharray:.07 1.1;animation:mp4-fly var(--d,2.
 .mp4-dot{animation:mp4-dot 1.6s ease-out infinite}@keyframes mp4-dot{from{box-shadow:0 0 0 0 color-mix(in srgb,#3c8a4e 60%,transparent)}to{box-shadow:0 0 0 12px transparent}}
 .is-static .mp4-comet,.is-static .mp4-pulse{animation:none;opacity:0}
 .is-static .mp4-sky,.is-static .mp4-stripes,.is-static .mp4-dot{animation:none}
-@media (prefers-reduced-motion:reduce){.mp4-comet,.mp4-pulse{animation:none;opacity:0}.mp4-sky,.mp4-stripes,.mp4-dot{animation:none}}`;
+html.is-static {.mp4-comet,.mp4-pulse{animation:none;opacity:0}.mp4-sky,.mp4-stripes,.mp4-dot{animation:none}}`;
 
 // ── MP07 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 const ARC = "M90 330 Q600 -40 1110 290";

@@ -51,7 +51,7 @@ function Counter({ k, n, sub }: { k: string; n: number; sub: string }) {
   );
 }
 
-const BK01_CSS = `.bk01-tick{display:inline-block;animation:bk01-tick .5s cubic-bezier(.2,.8,.2,1)}@keyframes bk01-tick{from{transform:translateY(-60%);opacity:0}to{transform:none;opacity:1}}.bk01-cta{animation:bk01-pull 3.2s ease-in-out infinite}@keyframes bk01-pull{0%,100%{translate:0 0}50%{translate:4px -2px}}.is-static .bk01-tick,.is-static .bk01-cta{animation:none}@media (prefers-reduced-motion:reduce){.bk01-tick,.bk01-cta{animation:none}}`;
+const BK01_CSS = `.bk01-tick{display:inline-block;animation:bk01-tick .5s cubic-bezier(.2,.8,.2,1)}@keyframes bk01-tick{from{transform:translateY(-60%);opacity:0}to{transform:none;opacity:1}}.bk01-cta{animation:bk01-pull 3.2s ease-in-out infinite}@keyframes bk01-pull{0%,100%{translate:0 0}50%{translate:4px -2px}}.is-static .bk01-tick,.is-static .bk01-cta{animation:none}html.is-static {.bk01-tick,.bk01-cta{animation:none}}`;
 
 /** BK01 · Hero-docked availability bar: full-bleed hotel hero; one white bar across its bottom edge with dates, guests and Check rates. */
 function BK01() {

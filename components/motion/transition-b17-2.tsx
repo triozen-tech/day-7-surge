@@ -26,7 +26,7 @@ const CSS = `
 @keyframes x96-float{0%{transform:translate3d(0,-6px,0)}100%{transform:translate3d(0,6px,0)}}
 html.is-static .b17t2-glow,html.is-static .b17t2-dot::after,html.is-static .b17t2-kb,html.is-static .x96-float{animation:none}
 html.is-static .b17t2-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b17t2-glow,.b17t2-dot::after,.b17t2-kb,.x96-float{animation:none}
   .b17t2-dot{display:none}
 }

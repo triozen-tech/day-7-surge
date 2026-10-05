@@ -19,7 +19,7 @@ const VD_CSS = `
 @keyframes vdb7-art{from{transform:scale(1.05) translate(-3%,-2%)}to{transform:scale(1.18) translate(3%,2%)}}
 html.is-static .vdb7-glow,html.is-static .vdb7-bar,html.is-static .vdb7-art{animation:none}
 html.is-static .vdb7-prog{animation:none;transform:scaleX(.42)}
-@media (prefers-reduced-motion: reduce){.vdb7-glow,.vdb7-bar,.vdb7-art{animation:none}.vdb7-prog{animation:none;transform:scaleX(.42)}}
+html.is-static {.vdb7-glow,.vdb7-bar,.vdb7-art{animation:none}.vdb7-prog{animation:none;transform:scaleX(.42)}}
 `;
 
 const BARS = 40;

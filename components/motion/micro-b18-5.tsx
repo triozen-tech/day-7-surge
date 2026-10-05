@@ -81,7 +81,7 @@ const CSS = `
 .u225-post{fill:#e9ecf5}
 
 html.is-static .b18g5-glow,html.is-static .u217-body,html.is-static .u222-r1,html.is-static .u222-r2,html.is-static .u222-mote{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b18g5-glow,.u217-body,.u222-r1,.u222-r2,.u222-mote{animation:none}
   .u221-day,.u221-ink,.u221-sub,.u221-cone,.u222-rays,.u222-knob,.u222-trk{transition:none}
 }

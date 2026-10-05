@@ -109,7 +109,7 @@ const CSS = `
 @keyframes u201-pulse{from{box-shadow:0 0 0 0 rgba(124,224,195,.55)}to{box-shadow:0 0 0 10px rgba(124,224,195,0)}}
 
 html.is-static .b18g3-glow,html.is-static .u190-str,html.is-static .u190-lab,html.is-static .u194-str,html.is-static .u194-scan,html.is-static .u195-p,html.is-static .u197-st,html.is-static .u197-roll,html.is-static .u197-eyes,html.is-static .u197-look,html.is-static .u197-t,html.is-static .u198-floor,html.is-static .u198-sun,html.is-static .u198-star,html.is-static .u200-tile,html.is-static .u201-head{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b18g3-glow,.u190-str,.u190-lab,.u194-str,.u194-scan,.u195-p,.u197-st,.u197-roll,.u197-eyes,.u197-look,.u197-t,.u198-floor,.u198-sun,.u198-star,.u200-tile,.u201-head{animation:none}
   .u194-b,.u195-pw,.u195-pk,.u197-c,.u197-pu{transition:none}
 }

@@ -1,7 +1,7 @@
 "use client";
 
 // MP · Map & location layouts (docs/SECTION-MENU.md), batch 5. The hours grid spotlights one service after another by
-// itself while on screen (a hover takes over); loops stop in ?static=1 and under prefers-reduced-motion.
+// itself while on screen (a hover takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -31,7 +31,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 const MP_CSS = `.mp5-sheen{background:linear-gradient(100deg,transparent 25%,color-mix(in srgb,var(--sx-accent) 42%,transparent) 50%,transparent 75%) 0 0/250% 100%;animation:mp5-sheen 2.6s linear infinite}@keyframes mp5-sheen{from{background-position:130% 0}to{background-position:-30% 0}}
 .mp5-ping{animation:mp5-ping 1.4s cubic-bezier(0,0,.2,1) infinite}@keyframes mp5-ping{from{transform:scale(1);opacity:.7}to{transform:scale(3.2);opacity:0}}
 .is-static .mp5-sheen,.is-static .mp5-ping{animation:none;opacity:0}
-@media (prefers-reduced-motion:reduce){.mp5-sheen,.mp5-ping{animation:none;opacity:0}}`;
+html.is-static {.mp5-sheen,.mp5-ping{animation:none;opacity:0}}`;
 
 const SERVICES = ["Dining", "Bar", "Breakfast", "Happy hour", "Takeaway", "Delivery"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];

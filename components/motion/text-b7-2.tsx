@@ -20,7 +20,7 @@ const CSS = `
 .m309-tick{animation:m309-blink 1.6s linear infinite alternate}
 @keyframes m309-blink{0%{opacity:.25}100%{opacity:1}}
 html.is-static .b7g2-glow,html.is-static .m309-tick{animation:none}
-@media (prefers-reduced-motion: reduce){.b7g2-glow,.m309-tick{animation:none}}
+html.is-static {.b7g2-glow,.m309-tick{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). */

@@ -33,7 +33,7 @@ const CSS = `.ps7glow{animation:ps7gx 6.5s linear infinite alternate,ps7gs 3.9s 
 @keyframes ps7gx{from{translate:-22% 10%}to{translate:20% -12%}}@keyframes ps7gs{from{scale:.8}to{scale:1.22}}
 .ps7in{animation:ps7in .6s cubic-bezier(.2,.7,.2,1) both}@keyframes ps7in{from{opacity:0;translate:0 14px}to{opacity:1;translate:0 0}}
 html.is-static .ps7glow,html.is-static .ps7in{animation:none}
-@media (prefers-reduced-motion:reduce){.ps7glow,.ps7in{animation:none}}`;
+html.is-static {.ps7glow,.ps7in{animation:none}}`;
 
 const CATS = [
   { t: "First flush", n: 18, read: "The week Darjeeling wakes up", min: 6 },

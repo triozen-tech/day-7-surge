@@ -1,7 +1,7 @@
 "use client";
 
 // AP · App layouts (docs/SECTION-MENU.md), batch 5. Store badges are generic (simple device glyphs and plain words,
-// never a store's real logo). Loops stop in ?static=1 and under prefers-reduced-motion.
+// never a store's real logo). Loops stop in ?static=1.
 import { useRef } from "react";
 import { ShimmerButton } from "../fx/more";
 import { H, Kicker, Sec } from "./kit";
@@ -11,7 +11,7 @@ import type { SectionDef } from "./types";
 const AP_CSS = `.ap5-band{background:repeating-linear-gradient(115deg,color-mix(in srgb,var(--sx-accent) 0%,transparent) 0 46px,color-mix(in srgb,var(--sx-accent) 40%,transparent) 46px 50px);animation:ap5-band 6s linear infinite}@keyframes ap5-band{from{background-position:0 0}to{background-position:-551.7px 0}}
 .ap5-glow{animation:ap5-glow 4.6s linear infinite}@keyframes ap5-glow{from{translate:-60% 0}to{translate:160% 0}}
 .is-static .ap5-band,.is-static .ap5-glow{animation:none}
-@media (prefers-reduced-motion:reduce){.ap5-band,.ap5-glow{animation:none}}`;
+html.is-static {.ap5-band,.ap5-glow{animation:none}}`;
 
 function Badge({ phone, top, name }: { phone?: boolean; top: string; name: string }) {
   return (

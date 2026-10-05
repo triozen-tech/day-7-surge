@@ -24,7 +24,7 @@ const CSS = `
 .m181-off .m181-band,.m181-off .b2g4a-glow{animation-play-state:paused}
 .m182-fb{position:absolute;inset:0;background:radial-gradient(14% 70% at 22% 0%,rgba(80,255,190,.45),transparent 70%),radial-gradient(12% 80% at 47% 0%,rgba(60,200,255,.4),transparent 70%),radial-gradient(14% 70% at 70% 0%,rgba(160,110,255,.4),transparent 70%);filter:blur(18px)}
 html.is-static .b2g4a-glow,html.is-static .m181-band{animation:none}
-@media (prefers-reduced-motion: reduce){.b2g4a-glow,.m181-band{animation:none}}
+html.is-static {.b2g4a-glow,.m181-band{animation:none}}
 `;
 
 /** Demo frame: rounded dark panel + the CSS-only glow loop (never frozen). */

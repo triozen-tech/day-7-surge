@@ -85,7 +85,7 @@ const CSS = `
 .u122-h.on::before{transform:scaleX(1)}
 
 html.is-static .b14g3-glow,html.is-static .u115-caret{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b14g3-glow,.u115-caret{animation:none}
   .u118-m,.u118-s,.u119-bg,.u119-fg,.u121-ar,.u121-lab,.u122-h,.u122-h::before,.u116-i{transition:none}
 }

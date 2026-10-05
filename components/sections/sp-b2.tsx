@@ -83,7 +83,7 @@ function SP07() {
         .sp07-up { animation: sp07-up 34s linear infinite; }
         .sp07-down { animation: sp07-down 38s linear infinite; }
         html.is-static .sp07-up, html.is-static .sp07-down { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp07-up, .sp07-down { animation: none; } }
+        html.is-static { .sp07-up, .sp07-down { animation: none; } }
       `}</style>
       <div className="flex flex-wrap items-end justify-between gap-6">
         <H className="max-w-[13ch] text-[clamp(44px,5.6vw,96px)]">Skin, seen up close.</H>
@@ -161,7 +161,7 @@ function SP08() {
         .sp08-up { animation: sp08-up var(--d) linear infinite; }
         .sp08-down { animation: sp08-down var(--d) linear infinite; }
         html.is-static .sp08-up, html.is-static .sp08-down { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp08-up, .sp08-down { animation: none; } }
+        html.is-static { .sp08-up, .sp08-down { animation: none; } }
       `}</style>
       <div className="mx-auto max-w-[820px] text-center">
         <H className="text-[clamp(44px,5.6vw,96px)]">Twelve thousand crunchy opinions.</H>
@@ -260,7 +260,7 @@ function SP09() {
         @keyframes sp09-pop { from { opacity: 0; transform: translateY(var(--dy)) scale(.92) } to { opacity: 1; transform: none } }
         .sp09-card { animation: sp09-pop .5s cubic-bezier(.2,.8,.2,1) both; }
         html.is-static .sp09-card { animation: none; }
-        @media (prefers-reduced-motion: reduce) { .sp09-card { animation: none; } }
+        html.is-static { .sp09-card { animation: none; } }
       `}</style>
       <div className="pointer-events-none absolute inset-0 fx-pan" aria-hidden>
         <div className="fx-drift absolute left-[52%] top-[18%] aspect-square w-[46vw] rounded-full bg-[radial-gradient(closest-side,color-mix(in_srgb,var(--sx-accent)_16%,transparent),transparent)]" />

@@ -33,7 +33,7 @@ const CSS = `
 .x51-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
 html.is-static .b13g2x-glow,html.is-static .b13g2x-dot::after{animation:none}
 html.is-static .b13g2x-dot{display:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b13g2x-glow,.b13g2x-dot::after{animation:none}
   .b13g2x-dot{display:none}
 }

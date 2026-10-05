@@ -44,7 +44,7 @@ const CSS = `.ps6kb img{animation:ps6s 4.6s linear infinite alternate,ps6t 3.3s 
 .ps6pop{animation:ps6in .35s cubic-bezier(.22,1,.36,1) both}
 @keyframes ps6in{from{opacity:0;translate:0 -8px}to{opacity:1;translate:0 0}}
 html.is-static .ps6kb img,html.is-static .ps6glow{animation:none}
-@media (prefers-reduced-motion:reduce){.ps6kb img,.ps6glow,.ps6pop{animation:none}}`;
+html.is-static {.ps6kb img,.ps6glow,.ps6pop{animation:none}}`;
 
 /* ───────────────────────────── PS21 · Filter dropdown bar + product grid ───────────────────────────── */
 

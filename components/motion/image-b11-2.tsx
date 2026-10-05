@@ -49,7 +49,7 @@ const CSS = `
 @keyframes m552-float{from{transform:translate3d(0,-7px,0)}to{transform:translate3d(0,7px,0)}}
 .m553-tile.is-open{grid-row:1 / span 2!important;grid-column:1 / span 2!important;z-index:5}
 html.is-static .b11g2i-glow,html.is-static .m549-col,html.is-static .m552-float{animation:none}
-@media (prefers-reduced-motion: reduce){.b11g2i-glow,.m549-col,.m552-float{animation:none}}
+html.is-static {.b11g2i-glow,.m549-col,.m552-float{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

@@ -11,7 +11,7 @@ import type { SectionDef } from "./types";
 /* ───────────────────────────── BN09 · Pillar bento with staggered seams ───────────────────────────── */
 
 // two loops with different periods (LESSONS: one alternate loop has still turning points)
-const BN09_CSS = `.bn09-kb img{animation:bn09-kb 5.2s ease-in-out infinite alternate}.bn09-kb:nth-child(odd) img{animation-duration:6.6s;animation-direction:alternate-reverse}@keyframes bn09-kb{from{transform:scale(1.04)}to{transform:scale(1.15) translate(-2%,-1.5%)}}.is-static .bn09-kb img{animation:none}@media (prefers-reduced-motion:reduce){.bn09-kb img{animation:none}}`;
+const BN09_CSS = `.bn09-kb img{animation:bn09-kb 5.2s ease-in-out infinite alternate}.bn09-kb:nth-child(odd) img{animation-duration:6.6s;animation-direction:alternate-reverse}@keyframes bn09-kb{from{transform:scale(1.04)}to{transform:scale(1.15) translate(-2%,-1.5%)}}.is-static .bn09-kb img{animation:none}html.is-static {.bn09-kb img{animation:none}}`;
 
 type Tile = { t: string; d: string; link: string; i: number; place: string; side: "l" | "c" | "r" };
 const BN09_TILES: Tile[] = [

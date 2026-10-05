@@ -1,7 +1,7 @@
 "use client";
 
 // LS · Listing & rates layouts (docs/SECTION-MENU.md), batch 6. Rates count up on entry, then the table spotlights one
-// row after another by itself while on screen (a hover takes over); loops stop in ?static=1 and prefers-reduced-motion.
+// row after another by itself while on screen (a hover takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -31,7 +31,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 const LS_CSS = `.ls6-glow{background:radial-gradient(closest-side,color-mix(in srgb,var(--sx-accent) 40%,transparent),transparent);animation:ls6-glow 5.5s linear infinite alternate}@keyframes ls6-glow{from{translate:-30% -12%}to{translate:24% 16%}}
 .ls6-sheen{background:linear-gradient(100deg,transparent 25%,color-mix(in srgb,var(--sx-accent) 30%,transparent) 50%,transparent 75%) 0 0/250% 100%;animation:ls6-sheen 2.4s linear infinite}@keyframes ls6-sheen{from{background-position:130% 0}to{background-position:-30% 0}}
 .is-static .ls6-glow,.is-static .ls6-sheen{animation:none}.is-static .ls6-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.ls6-glow,.ls6-sheen{animation:none}.ls6-sheen{opacity:0}}`;
+html.is-static {.ls6-glow,.ls6-sheen{animation:none}.ls6-sheen{opacity:0}}`;
 
 const RATES = [
   { k: "High season", d: "1 Jul – 31 Oct", sub: "Migration river crossings", rate: "₹68,500" },

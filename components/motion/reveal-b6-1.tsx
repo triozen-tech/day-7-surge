@@ -27,7 +27,7 @@ const CSS = `
 .m238-head::after{content:"";position:absolute;inset:8px;border-radius:50%;background:#0d0f17}
 html.is-static .b6r1-glow,html.is-static .m238-ring{animation:none}
 html.is-static .m238-ring{opacity:0}
-@media (prefers-reduced-motion: reduce){.b6r1-glow,.m238-ring{animation:none}.m238-ring{opacity:0}}
+html.is-static {.b6r1-glow,.m238-ring{animation:none}.m238-ring{opacity:0}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

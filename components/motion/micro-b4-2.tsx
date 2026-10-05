@@ -42,7 +42,7 @@ const CSS = `
 .u19-item{transition:color .3s,transform .4s cubic-bezier(.2,.7,.2,1)}
 .u19-item.on{color:#b0532b;transform:translateX(14px)}
 html.is-static .b4g2u-glow{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b4g2u-glow{animation:none}
   .u16-btn,.u16-btn .u16-arr,.u20-pill .u20-dot,.u20-pill .u20-a,.u20-pill .u20-b,.u23-link,.u25-tab,.u19-item{transition:none}
 }

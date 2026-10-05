@@ -38,7 +38,7 @@ const HR34_CSS = `
 .hr34-door{animation:hr34-door 2.6s ease-in-out infinite alternate}
 @keyframes hr34-door{from{opacity:.55;scale:.9}to{opacity:1;scale:1.12}}
 html.is-static .hr34-run,html.is-static .hr34-runy,html.is-static .hr34-door{animation:none}
-@media (prefers-reduced-motion:reduce){.hr34-run,.hr34-runy,.hr34-door{animation:none}}
+html.is-static {.hr34-run,.hr34-runy,.hr34-door{animation:none}}
 `;
 
 const DEPTH = 2600;
@@ -137,7 +137,7 @@ const HR35_CSS = `
 .hr35-kb{animation:hr35-kb 4.4s ease-in-out infinite alternate}
 @keyframes hr35-kb{from{scale:1.02;translate:-2% 1%}to{scale:1.14;translate:2% -2%}}
 html.is-static .hr35-caret,html.is-static .hr35-kb{animation:none}
-@media (prefers-reduced-motion:reduce){.hr35-caret,.hr35-kb{animation:none}}
+html.is-static {.hr35-caret,.hr35-kb{animation:none}}
 `;
 
 const HR35_LINES = ["I cook coastal", "Konkan food for"];
@@ -259,7 +259,7 @@ const HR36_CSS = `
 .hr36-pan{animation:hr36-pan 5.3s ease-in-out infinite alternate}
 @keyframes hr36-pan{from{translate:-2.5% 1%}to{translate:2.5% -1.5%}}
 html.is-static .hr36-pan{animation:none}
-@media (prefers-reduced-motion:reduce){.hr36-pan{animation:none}}
+html.is-static {.hr36-pan{animation:none}}
 `;
 
 const HR36_CARDS = [
@@ -355,7 +355,7 @@ const HR37_CSS = `
 @keyframes hr37-sheen{from{transform:translateX(-120%) skewX(-14deg)}to{transform:translateX(320%) skewX(-14deg)}}
 html.is-static .hr37-kb,html.is-static .hr37-sheen{animation:none}
 html.is-static .hr37-sheen{opacity:0}
-@media (prefers-reduced-motion:reduce){.hr37-kb,.hr37-sheen{animation:none}.hr37-sheen{opacity:0}}
+html.is-static {.hr37-kb,.hr37-sheen{animation:none}.hr37-sheen{opacity:0}}
 `;
 
 const HR37_ACTIVES = [
@@ -435,7 +435,7 @@ const HR38_CSS = `
 .hr38-float{animation:hr38-float 4.2s ease-in-out infinite alternate}
 @keyframes hr38-float{from{translate:0 -10px}to{translate:0 12px}}
 html.is-static .hr38-eq,html.is-static .hr38-prog,html.is-static .hr38-float{animation:none}
-@media (prefers-reduced-motion:reduce){.hr38-eq,.hr38-prog,.hr38-float{animation:none}}
+html.is-static {.hr38-eq,.hr38-prog,.hr38-float{animation:none}}
 `;
 
 const HR38_TRACKS = [

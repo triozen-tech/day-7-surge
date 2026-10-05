@@ -27,7 +27,7 @@ const CSS = `
 .m106-word span{background:inherit;-webkit-background-clip:text;background-clip:text}
 @keyframes m106-shine{from{background-position:0% 50%}to{background-position:300% 50%}}
 html.is-static .tb13-glow,html.is-static .m103-ring,html.is-static .m106-word{animation:none}
-@media (prefers-reduced-motion:reduce){.tb13-glow,.m103-ring,.m106-word{animation:none}}
+html.is-static {.tb13-glow,.m103-ring,.m106-word{animation:none}}
 `;
 
 /** The demo frame: a dark rounded stage with a drifting CSS glow (never frozen) and centred content. */

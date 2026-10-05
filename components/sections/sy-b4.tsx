@@ -13,7 +13,7 @@ const CSS = `.sy4kb img{animation:sy4kbs 4.6s ease-in-out infinite alternate,sy4
 @keyframes sy4kbs{from{scale:1.06}to{scale:1.2}}@keyframes sy4kbt{from{translate:-3% 2%}to{translate:3% -2%}}
 .sy4pulse{animation:sy4pulse 2.2s ease-out infinite}@keyframes sy4pulse{from{box-shadow:0 0 0 0 color-mix(in srgb,var(--sx-accent) 60%,transparent)}to{box-shadow:0 0 0 18px transparent}}
 html.is-static .sy4kb img,html.is-static .sy4pulse{animation:none}
-@media (prefers-reduced-motion:reduce){.sy4kb img,.sy4pulse{animation:none}}`;
+html.is-static {.sy4kb img,.sy4pulse{animation:none}}`;
 
 /* ───────────────────────────── SY11 · Alternating centre-spine timeline ───────────────────────────── */
 

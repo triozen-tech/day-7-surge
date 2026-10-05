@@ -1,7 +1,7 @@
 "use client";
 
 // MN · Menu / service layouts (docs/SECTION-MENU.md), batch 4. The highlight steps through the rows by itself while
-// on screen (hover takes over); loops stop in ?static=1 and under prefers-reduced-motion.
+// on screen (hover takes over); loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Sec } from "./kit";
@@ -30,7 +30,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 
 const MN_CSS = `.mn4-sheen{background:linear-gradient(90deg,color-mix(in srgb,var(--sx-accent) 7%,transparent) 0%,color-mix(in srgb,var(--sx-accent) 20%,transparent) 50%,color-mix(in srgb,var(--sx-accent) 7%,transparent) 100%) 0 0/200% 100%;animation:mn4-sheen 2.2s linear infinite}@keyframes mn4-sheen{from{background-position:200% 0}to{background-position:0 0}}
 .is-static .mn4-sheen{animation:none}
-@media (prefers-reduced-motion:reduce){.mn4-sheen{animation:none}}`;
+html.is-static {.mn4-sheen{animation:none}}`;
 
 const SERVICES = [
   { t: "Cut & finish", d: ["Consultation", "Precision cut", "Blow-dry"], p: "₹1,800" },

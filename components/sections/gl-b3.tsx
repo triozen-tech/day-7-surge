@@ -13,7 +13,7 @@ import type { SectionDef } from "./types";
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 const easeInOut = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
-const KB_CSS = `.glkb{animation:glkb 5.2s ease-in-out infinite alternate}.glkb.alt{animation-duration:6.9s;animation-direction:alternate-reverse}@keyframes glkb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-2.5%,-2%)}}.is-static .glkb{animation:none}@media (prefers-reduced-motion:reduce){.glkb{animation:none}}`;
+const KB_CSS = `.glkb{animation:glkb 5.2s ease-in-out infinite alternate}.glkb.alt{animation-duration:6.9s;animation-direction:alternate-reverse}@keyframes glkb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-2.5%,-2%)}}.is-static .glkb{animation:none}html.is-static {.glkb{animation:none}}`;
 
 /* ───────────────────────────── GL15 · Grid tiles that expand in place ───────────────────────────── */
 

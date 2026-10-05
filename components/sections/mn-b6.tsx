@@ -14,7 +14,7 @@ const MN_CSS = `
 .mnb6-sway{animation:mnb6-sway 3.2s ease-in-out infinite alternate}
 @keyframes mnb6-sway{from{rotate:-1.6deg}to{rotate:1.4deg}}
 html.is-static .mnb6-glow,html.is-static .mnb6-sway{animation:none}
-@media (prefers-reduced-motion: reduce){.mnb6-glow,.mnb6-sway{animation:none}}
+html.is-static {.mnb6-glow,.mnb6-sway{animation:none}}
 `;
 
 /* ───────────────────────── MN07 · Weekly specials + cook's note ───────────────────────── */

@@ -36,7 +36,7 @@ const LG_CSS = `
 .lg5-band{animation:lg5-band 2.8s linear infinite}
 @keyframes lg5-band{from{translate:-60% 0}to{translate:360% 0}}
 html.is-static .lg5-sheen,html.is-static .lg5-band{animation:none;opacity:0}
-@media (prefers-reduced-motion: reduce){.lg5-sheen,.lg5-band{animation:none;opacity:0}}
+html.is-static {.lg5-sheen,.lg5-band{animation:none;opacity:0}}
 `;
 
 /** Small invented marks for the wordmarks (simple shapes, never a real logo). */

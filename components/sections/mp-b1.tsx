@@ -55,7 +55,7 @@ const CITIES = [
 
 const MP01_CSS = `.mp01-ring{transform-box:fill-box;transform-origin:center;animation:mp01-ring 1.6s cubic-bezier(.2,.7,.3,1) infinite}@keyframes mp01-ring{from{transform:scale(.6);opacity:.9}to{transform:scale(5);opacity:0}}
 .mp01-sheen{background:linear-gradient(105deg,transparent 35%,color-mix(in srgb,var(--sx-accent) 22%,transparent) 50%,transparent 65%) 0 0/250% 100%;animation:mp01-sheen 4.5s linear infinite;mix-blend-mode:normal}@keyframes mp01-sheen{from{background-position:120% 0}to{background-position:-20% 0}}
-.is-static .mp01-ring,.is-static .mp01-sheen{animation:none}.is-static .mp01-sheen{opacity:0}@media (prefers-reduced-motion:reduce){.mp01-ring,.mp01-sheen{animation:none;opacity:0}}`;
+.is-static .mp01-ring,.is-static .mp01-sheen{animation:none}.is-static .mp01-sheen{opacity:0}html.is-static {.mp01-ring,.mp01-sheen{animation:none;opacity:0}}`;
 
 /** MP01 · City list synced with a pin map: left 4 cols city rows, right 8 cols dotted map; the active row's pin pulses and grows. */
 function MP01() {

@@ -1,7 +1,7 @@
 "use client";
 
 // JR · Journal layouts (docs/SECTION-MENU.md), batch 3. Each is a full designed section; motion via useSectionMotion.
-// Every auto-play stops off screen, in ?static=1 and under prefers-reduced-motion.
+// Every auto-play stops off screen, in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { Avatar, Btn, H, P, Pic, Price, Product, Sec } from "./kit";
@@ -34,7 +34,7 @@ const JR_CSS = `.jr3-sweep{background:linear-gradient(105deg,transparent 30%,rgb
 .jr3-float{animation:jr3-float 2.8s ease-in-out infinite alternate}@keyframes jr3-float{from{translate:0 6%;rotate:-4deg}to{translate:0 -6%;rotate:4deg}}
 .jr3-track{animation:jr3-marq 32s linear infinite}@keyframes jr3-marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .is-static .jr3-sweep,.is-static .jr3-push img,.is-static .jr3-pan,.is-static .jr3-float,.is-static .jr3-track{animation:none}
-@media (prefers-reduced-motion:reduce){.jr3-sweep,.jr3-push img,.jr3-pan,.jr3-float,.jr3-track{animation:none}}`;
+html.is-static {.jr3-sweep,.jr3-push img,.jr3-pan,.jr3-float,.jr3-track{animation:none}}`;
 
 // ── JR05 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 const SPREADS = [

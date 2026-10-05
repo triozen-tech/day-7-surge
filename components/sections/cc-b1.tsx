@@ -54,7 +54,7 @@ function CC01() {
         .cc01-caret{animation:cc01-caret 1s steps(1) infinite}
         @keyframes cc01-caret{50%{opacity:0}}
         html.is-static .cc01-sheen,html.is-static .cc01-caret{animation:none}
-        @media (prefers-reduced-motion: reduce){.cc01-sheen,.cc01-caret{animation:none}}
+        html.is-static {.cc01-sheen,.cc01-caret{animation:none}}
       `}</style>
       <div className="max-w-[760px]">
         <H className="text-[clamp(44px,5.4vw,92px)]">Let&apos;s make a room together.</H>

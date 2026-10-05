@@ -14,7 +14,7 @@ const VD_CSS = `.vd3-play{animation:vd3-push var(--p,6s) ease-in-out infinite al
 .vd3-sweep{background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.2) 48%,transparent 66%) 0 0/260% 100%;animation:vd3-sweep 2.8s linear infinite}@keyframes vd3-sweep{from{background-position:130% 0}to{background-position:-30% 0}}
 .vd3-bar{transform-origin:left;animation:vd3-bar var(--d,5s) linear infinite}@keyframes vd3-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .is-static .vd3-play,.is-static .vd3-sweep,.is-static .vd3-bar{animation:none}
-@media (prefers-reduced-motion:reduce){.vd3-play,.vd3-sweep,.vd3-bar{animation:none}}`;
+html.is-static {.vd3-play,.vd3-sweep,.vd3-bar{animation:none}}`;
 
 /** A placeholder "muted autoplay loop": a scene that pushes in, a light sweep across it and a running progress bar. */
 function Loop({ i, d = 5, bar = true, className = "" }: { i: number; d?: number; bar?: boolean; className?: string }) {

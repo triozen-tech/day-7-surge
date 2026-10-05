@@ -1,7 +1,7 @@
 "use client";
 
 // LS · Listing layouts (docs/SECTION-MENU.md), batch 4. Pictures push in slowly (each at its own pace) and one card at a
-// time is highlighted by itself; loops stop in ?static=1 and under prefers-reduced-motion.
+// time is highlighted by itself; loops stop in ?static=1.
 import { useEffect, useRef, useState } from "react";
 import { prefersReducedMotion } from "@/lib/gsap";
 import { Btn, H, P, Pic, Sec } from "./kit";
@@ -30,7 +30,7 @@ function useAutoCycle(ref: React.RefObject<HTMLElement | null>, n: number, ms = 
 
 const LS_CSS = `.ls4-pic img{animation:ls4-push var(--p,6s) ease-in-out infinite alternate;animation-delay:var(--dl,0s)}@keyframes ls4-push{from{scale:1.02;translate:-2.5% 0}to{scale:1.14;translate:2.5% -2%}}
 .is-static .ls4-pic img{animation:none}
-@media (prefers-reduced-motion:reduce){.ls4-pic img{animation:none}}`;
+html.is-static {.ls4-pic img{animation:none}}`;
 
 const TRIPS = [
   { s: "Jun – Sep", t: "Spiti, the cold desert", p: "₹2,40,000", d: "Eleven nights between monasteries at 4,000 m, by jeep and on foot, with a mountain doctor along.", i: 3, wide: true },

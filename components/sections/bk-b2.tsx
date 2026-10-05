@@ -32,7 +32,7 @@ function useReplay(ref: React.RefObject<HTMLElement | null>, n: number, ms: numb
 
 const BK03_CSS = `.bk03-pop{animation:bk03-pop .45s cubic-bezier(.2,.9,.25,1.2)}@keyframes bk03-pop{from{transform:scale(.55);opacity:.2}to{transform:none;opacity:1}}
 .bk03-tick{display:inline-block;animation:bk03-tick .4s cubic-bezier(.2,.8,.2,1)}@keyframes bk03-tick{from{transform:translateY(-55%);opacity:0}to{transform:none;opacity:1}}
-.is-static .bk03-pop,.is-static .bk03-tick{animation:none}@media (prefers-reduced-motion:reduce){.bk03-pop,.bk03-tick{animation:none}}`;
+.is-static .bk03-pop,.is-static .bk03-tick{animation:none}html.is-static {.bk03-pop,.bk03-tick{animation:none}}`;
 
 // December 2026 + January 2027. Day index: Dec d = d, Jan d = 31 + d.
 const MONTHS = [

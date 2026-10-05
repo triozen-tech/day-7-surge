@@ -14,7 +14,7 @@ const CSS = `.ft7kb img{animation:ft7kbs 5.2s linear infinite alternate,ft7kbt 3
 .ft7glow{animation:ft7gx 7s linear infinite alternate,ft7gs 4.3s ease-in-out infinite alternate}
 @keyframes ft7gx{from{translate:-20% -6%}to{translate:24% 12%}}@keyframes ft7gs{from{scale:.8}to{scale:1.25}}
 html.is-static .ft7kb img,html.is-static .ft7glow{animation:none}
-@media (prefers-reduced-motion:reduce){.ft7kb img,.ft7glow{animation:none}}`;
+html.is-static {.ft7kb img,.ft7glow{animation:none}}`;
 
 const SERVICES = [
   {

@@ -31,7 +31,7 @@ const CSS = `
 .m667-spec{position:absolute;inset:0;background:radial-gradient(circle at var(--sx,30%) var(--sy,30%),rgba(255,255,255,.55),rgba(255,255,255,0) 38%);mix-blend-mode:screen;opacity:var(--so,.5)}
 
 html.is-static .b15r1-glow,html.is-static .m666-band{animation:none}
-@media (prefers-reduced-motion: reduce){.b15r1-glow,.m666-band{animation:none}}
+html.is-static {.b15r1-glow,.m666-band{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

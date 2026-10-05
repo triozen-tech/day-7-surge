@@ -14,7 +14,7 @@ const VD_CSS = `.vd4-play{animation:vd4-push var(--p,6s) ease-in-out infinite al
 .vd4-bar{transform-origin:left;animation:vd4-bar var(--d,5s) linear infinite}@keyframes vd4-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .vd4-ring{animation:vd4-ring 1.8s ease-out infinite}@keyframes vd4-ring{from{transform:scale(1);opacity:.7}to{transform:scale(1.7);opacity:0}}
 .is-static .vd4-play,.is-static .vd4-sweep,.is-static .vd4-bar,.is-static .vd4-ring{animation:none}.is-static .vd4-ring{opacity:0}
-@media (prefers-reduced-motion:reduce){.vd4-play,.vd4-sweep,.vd4-bar,.vd4-ring{animation:none}.vd4-ring{opacity:0}}`;
+html.is-static {.vd4-play,.vd4-sweep,.vd4-bar,.vd4-ring{animation:none}.vd4-ring{opacity:0}}`;
 
 /** A placeholder "muted autoplay loop": a scene that pushes in, a light sweep across it and an optional progress bar. */
 function Loop({ i, p = 6, s = 2.8, dl = 0, bar = false, w = 1800, h = 1100 }: { i: number; p?: number; s?: number; dl?: number; bar?: boolean; w?: number; h?: number }) {

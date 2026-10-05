@@ -16,7 +16,7 @@ const CSS = `
 .b14t1-glow{position:absolute;inset:-25%;pointer-events:none;background:radial-gradient(38% 42% at 34% 40%,var(--g1,rgba(159,216,255,.5)),transparent 70%),radial-gradient(32% 38% at 68% 64%,var(--g2,rgba(255,143,122,.22)),transparent 70%);animation:b14t1-drift 5.4s linear infinite alternate;will-change:transform}
 @keyframes b14t1-drift{0%{transform:translate3d(-8%,-5%,0) scale(1)}100%{transform:translate3d(8%,6%,0) scale(1.16)}}
 html.is-static .b14t1-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b14t1-glow{animation:none}}
+html.is-static {.b14t1-glow{animation:none}}
 `;
 
 /* ---------- shared helpers (local copies) ---------- */

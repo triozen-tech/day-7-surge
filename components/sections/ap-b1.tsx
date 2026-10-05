@@ -64,7 +64,7 @@ function AP01() {
         .ap01-feed{animation:ap01-feed 14s linear infinite}
         @keyframes ap01-feed{to{transform:translateY(-50%)}}
         html.is-static .ap01-feed{animation:none}
-        @media (prefers-reduced-motion: reduce){.ap01-feed{animation:none}}
+        html.is-static {.ap01-feed{animation:none}}
       `}</style>
       <div className="mx-auto max-w-[820px] text-center">
         <H className="text-[clamp(44px,5.6vw,96px)]">Your coffee, in your pocket.</H>
@@ -133,7 +133,7 @@ function AP02() {
         .ap02-ring{animation:ap02-ring 3.6s linear infinite}
         @keyframes ap02-ring{to{stroke-dashoffset:-226}}
         html.is-static .ap02-bob,html.is-static .ap02-ring{animation:none}
-        @media (prefers-reduced-motion: reduce){.ap02-bob,.ap02-ring{animation:none}}
+        html.is-static {.ap02-bob,.ap02-ring{animation:none}}
       `}</style>
       <div className="grid grid-cols-1 items-center gap-[clamp(40px,5vw,80px)] md:grid-cols-12">
         <div className="md:col-span-5">

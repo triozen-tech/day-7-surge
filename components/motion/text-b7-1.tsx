@@ -42,7 +42,7 @@ const CSS = `
 @keyframes m300-angle{to{--m300-a:480deg}}
 @keyframes m300-pos{0%{background-position:0% 30%}50%{background-position:70% 100%}100%{background-position:100% 0%}}
 html.is-static .b7g1-glow,html.is-static .b7g1-css,html.is-static .m292-w,html.is-static .m292-in,html.is-static .m292-out,html.is-static .m295-pill,html.is-static .m297-spin,html.is-static .m299-g,html.is-static .m299-btn,html.is-static .m300-g{animation:none}
-@media (prefers-reduced-motion: reduce){.b7g1-glow,.b7g1-css,.m292-w,.m292-in,.m292-out,.m295-pill,.m297-spin,.m299-g,.m299-btn,.m300-g{animation:none}.m290-bg,.m290-t{transition:none}}
+html.is-static {.b7g1-glow,.b7g1-css,.m292-w,.m292-in,.m292-out,.m295-pill,.m297-spin,.m299-g,.m299-btn,.m300-g{animation:none}.m290-bg,.m290-t{transition:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow above the content. */

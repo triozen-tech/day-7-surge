@@ -159,7 +159,7 @@ const FT13_CSS = `
 .ft13-bob{animation:ft13-bob var(--d) ease-in-out infinite alternate}
 @keyframes ft13-bob{from{translate:0 -9px;rotate:-1.2deg}to{translate:0 9px;rotate:1.2deg}}
 html.is-static .ft13-bob{animation:none}
-@media (prefers-reduced-motion:reduce){.ft13-bob{animation:none}}
+html.is-static {.ft13-bob{animation:none}}
 `;
 const FT13_CARDS = [
   { v: "160 mg", l: "natural caffeine, from green coffee", pos: "md:left-0 md:top-[4%]", bar: 0.8 },

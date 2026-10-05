@@ -33,7 +33,7 @@ const CSS = `
 .b15t4-top{mix-blend-mode:screen;opacity:.45;z-index:30}
 @keyframes b15t4-drift{0%{transform:translate3d(-8%,-5%,0) scale(1)}100%{transform:translate3d(8%,6%,0) scale(1.16)}}
 html.is-static .b15t4-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b15t4-glow{animation:none}}
+html.is-static {.b15t4-glow{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop. `top` adds a second glow over the content (covered stages). */
@@ -53,7 +53,7 @@ function Stage({ r, children, bg = "#090b14", g1, g2, top = false }: { r?: RefOb
 
 /** Scoped keyframes for one demo; `stop` lists its animated selectors so they stop in ?static=1 / reduced motion. */
 function Css({ css, stop }: { css: string; stop: string }) {
-  return <style>{`${css}\nhtml.is-static ${stop.split(",").join(",html.is-static ")}{animation:none!important}\n@media (prefers-reduced-motion: reduce){${stop}{animation:none!important}}`}</style>;
+  return <style>{`${css}\nhtml.is-static ${stop.split(",").join(",html.is-static ")}{animation:none!important}\nhtml.is-static {${stop}{animation:none!important}}`}</style>;
 }
 
 /** "play" helper: builds the looping timeline the first time the stage is on screen (after fonts), pauses it off screen. */

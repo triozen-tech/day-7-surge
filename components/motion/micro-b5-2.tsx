@@ -59,7 +59,7 @@ const CSS = `
 .u66-card>*{transform-style:preserve-3d}
 
 html.is-static .b5g2u-glow{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b5g2u-glow{animation:none}
   .u62-l,.u62-ul,.u62-ar,.u64-l,.u64-ul,.u64-ar,.u65-btn,.u65-badge{transition:none}
 }

@@ -31,7 +31,7 @@ const CSS = `
 .m371-top .m371-g{top:0}
 .m371-bot .m371-g{top:-100%}
 html.is-static .b8g2-glow{animation:none}
-@media (prefers-reduced-motion: reduce){.b8g2-glow{animation:none}}
+html.is-static {.b8g2-glow{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). `top` adds a second glow over the content. */

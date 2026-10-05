@@ -32,7 +32,7 @@ const CSS = `
 .u264-p{display:inline-block;will-change:transform;touch-action:none}
 
 html.is-static .b19g4-glow{animation:none}
-@media (prefers-reduced-motion: reduce){
+html.is-static {
   .b19g4-glow{animation:none}
   .u263-in{transition:none}
 }

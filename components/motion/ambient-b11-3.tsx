@@ -38,7 +38,7 @@ ${kf}
 .m565-pulse{animation:m565-pulse 2.6s ease-in-out infinite alternate}
 @keyframes m565-pulse{0%{transform:scale(.97)}100%{transform:scale(1.04)}}
 html.is-static .m565-wrap,html.is-static .m565-pulse{animation:none}
-@media (prefers-reduced-motion: reduce){.m565-wrap,.m565-pulse{animation:none}}`;
+html.is-static {.m565-wrap,.m565-pulse{animation:none}}`;
 })();
 
 const CSS = `
@@ -49,7 +49,7 @@ const CSS = `
 .m563-breathe{animation:m563-breathe 3.6s ease-in-out infinite alternate}
 @keyframes m563-breathe{0%{opacity:.78}100%{opacity:.96}}
 html.is-static .b11a3-glow,html.is-static .m563-breathe{animation:none}
-@media (prefers-reduced-motion: reduce){.b11a3-glow,.m563-breathe{animation:none}}
+html.is-static {.b11a3-glow,.m563-breathe{animation:none}}
 ${M565_CSS}
 `;
 

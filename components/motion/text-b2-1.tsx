@@ -23,7 +23,7 @@ const CSS = `
 @keyframes m137-spin{to{transform:rotate(360deg)}}
 .m141-c{position:absolute;width:18px;height:18px;border-color:${ACC};border-style:solid;border-width:0}
 html.is-static .b2g1-glow,html.is-static .m137-ring{animation:none}
-@media (prefers-reduced-motion: reduce){.b2g1-glow,.m137-ring{animation:none}}
+html.is-static {.b2g1-glow,.m137-ring{animation:none}}
 `;
 
 /** Demo frame: dark rounded panel + the CSS-only glow loop (never frozen). */

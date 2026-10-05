@@ -61,7 +61,7 @@ const COURSES: { t: string; dishes: Dish[] }[] = [
   },
 ];
 
-const MN_GLOW = `.mn-glow{position:absolute;z-index:-1;inset:-10%;pointer-events:none;background:radial-gradient(38% 30% at 25% 35%,color-mix(in srgb,var(--sx-accent) 13%,transparent),transparent 70%),radial-gradient(34% 28% at 75% 70%,color-mix(in srgb,var(--sx-accent) 10%,transparent),transparent 70%);animation:mn-glow 5s linear infinite alternate}@keyframes mn-glow{from{transform:translate(-7%,-3%) rotate(-4deg)}to{transform:translate(7%,3%) rotate(4deg)}}.is-static .mn-glow{animation:none}@media (prefers-reduced-motion:reduce){.mn-glow{animation:none}}`;
+const MN_GLOW = `.mn-glow{position:absolute;z-index:-1;inset:-10%;pointer-events:none;background:radial-gradient(38% 30% at 25% 35%,color-mix(in srgb,var(--sx-accent) 13%,transparent),transparent 70%),radial-gradient(34% 28% at 75% 70%,color-mix(in srgb,var(--sx-accent) 10%,transparent),transparent 70%);animation:mn-glow 5s linear infinite alternate}@keyframes mn-glow{from{transform:translate(-7%,-3%) rotate(-4deg)}to{transform:translate(7%,3%) rotate(4deg)}}.is-static .mn-glow{animation:none}html.is-static {.mn-glow{animation:none}}`;
 const MN01_CSS = `.mn01-row{position:relative;transition:background-color .6s ease,padding .6s ease}.mn01-row.is-on{background:color-mix(in srgb,var(--sx-accent) 12%,transparent)}.mn01-lead{transform-origin:0 50%;background-image:radial-gradient(circle,var(--sx-muted) 1px,transparent 1.4px);background-size:7px 3px;background-repeat:repeat-x;background-position:0 50%;height:4px;opacity:.7}`;
 
 /** MN01 · Two-column course menu: centred title; two columns of courses, each dish with dotted leader to its price. */
